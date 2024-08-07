@@ -25,7 +25,7 @@ body#initIndex {
     display: block;
     width: 30vw; /* Ajusta según tus necesidades */
     height: 30vw; /* Ajusta según tus necesidades */
-    background-image: url("./resources/pruebaventana2.png");
+    background-image: url("../resources/pruebaventana2.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
