@@ -60,7 +60,7 @@ function simulateProgress() {
                 element.style.opacity = opacity;
             } else {
                 clearInterval(fadeEffect);
-                body.style.backgroundImage = 'url("../resources/wallpaper_draw_maffhu2.jpg")';
+                body.style.backgroundImage = 'url("./resources/wallpaper_draw_maffhu2.jpg")';
                 
                 // After hide the Init Session, Fade in for Desktop elements
                 fadeIn(icon_file_learning, 1000);

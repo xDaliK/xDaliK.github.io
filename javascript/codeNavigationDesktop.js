@@ -20,73 +20,73 @@ var text_contact= document.querySelector("h3#text_contact");
 
 if (icon_file_learning) {
     icon_file_learning.addEventListener("click", function () {
-        goTo('/static/learning.html');
+        goTo('./static/learning.html');
     });
 }
 
 if (text_learning) {
     text_learning.addEventListener("click", function () {
-        goTo('/static/learning.html');
+        goTo('./static/learning.html');
     });
 }
 
 if (icon_file_project) {
     icon_file_project.addEventListener("click", function () {
-        goTo('/static/projects.html');
+        goTo('./static/projects.html');
     });
 }
 
 if (text_project) {
     text_project.addEventListener("click", function () {
-        goTo('/static/projects.html');
+        goTo('./static/projects.html');
     });
 }
 
 if (icon_file_experience) {
     icon_file_experience.addEventListener("click", function () {
-        goTo('/static/experience.html');
+        goTo('./static/experience.html');
     });
 }
 
 if (text_experience) {
     text_experience.addEventListener("click", function () {
-        goTo('/static/experience.html');
+        goTo('./static/experience.html');
     });
 }
 
 if (icon_file_resume) {
     icon_file_resume.addEventListener("click", function () {
-        goTo('/static/resume.html');
+        goTo('./static/resume.html');
     });
 }
 
 if (text_resume) {
     text_resume.addEventListener("click", function () {
-        goTo('/static/resume.html');
+        goTo('./static/resume.html');
     });
 }
 
 if (icon_file_aboutme) {
     icon_file_aboutme.addEventListener("click", function () {
-        goTo('/static/aboutme.html');
+        goTo('./static/aboutme.html');
     });
 }
 
 if (text_aboutme) {
     text_aboutme.addEventListener("click", function () {
-        goTo('/static/aboutme.html');
+        goTo('./static/aboutme.html');
     });
 }
 
 if (icon_file_contact) {
     icon_file_contact.addEventListener("click", function () {
-        goTo('/static/contact.html');
+        goTo('./static/contact.html');
     });
 }
 
 if (text_contact) {
     text_contact.addEventListener("click", function () {
-        goTo('/static/contact.html');
+        goTo('./static/contact.html');
     });
 }
 
