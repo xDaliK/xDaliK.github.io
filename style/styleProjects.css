@@ -1,0 +1,2982 @@
+/* CSS  By Daniel Lizarte Cáceres */
+
+/* General Structure */
+body, html {
+    height: 100%;
+    margin: 0;
+    
+}
+
+h1{
+    color:yellow;
+}
+
+/* Body projects */
+body#initprojects {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:url("../resources/wallpaper_draw_maffhu2.jpg"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden; 
+    
+}
+
+div#container_window_info{
+    display: block;
+    width: 65vw; /* Ajusta según tus necesidades */
+    height: 65vw; /* Ajusta según tus necesidades */
+    background-image: url("../resources/window_info.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    z-index:1;
+
+}
+
+
+/* Icons Desktop Row 4 */
+#iconContainer4 {
+    display: flex;
+    
+}
+
+/* Search Bar */
+
+#barSearch {
+    width: 25vw;
+    height: 2.3vw;
+    font-size: 1.1vw;
+    font-style: italic;
+    color: black;
+    margin-top: -4.6%;
+    margin-left: 15%;
+    display: none;
+}
+
+#searchInput {
+    width: 20vw;
+    height: 2.3vw;
+    border: 0.2vw solid black;
+    background-image: url(../resources/projects.png);
+    background-repeat: no-repeat;
+    background-size: 1.7vw;
+    background-position: 0.5vw center;
+    padding-left: 3.8vw;
+    margin-left: -45%;
+}
+
+
+#icon_file_search {
+    width: 4em;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    margin-right:99%;
+    margin-left:2100em;
+}
+
+
+
+#container_bar_projects {
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    width: 80vw; /* Ajusta según tus necesidades */
+    height: 4vw; /* Ajusta según tus necesidades */
+    
+    margin-top:15.8%;
+}
+
+#title_projects {
+    width: 27vw; /* O ajusta según tus necesidades */
+    height: 2vw;
+    font-size: 2vw; /* Ajusta según tus necesidades */
+    font-style: italic;
+    color: white;
+    margin-top: 0.8%;
+    margin-left:5%
+}
+
+#button_exit_pdf{
+    width: 8vw;
+    height: 2.5vw;
+    font-size: 1.2vw;
+    font-style: italic;
+    color: rgb(251, 67, 67);
+    margin-top: 0.8%;
+    margin-left: -5%;
+    visibility: hidden;
+    border: 0.2vw solid black;
+    padding: 0.1vw;
+}
+
+#button_back {
+    width: 7vw;
+    height: 2.5vw;
+    font-size: 1.5vw;
+    font-style: italic;
+    color: black;
+    margin-top: 0.8%;
+    margin-left: -19%;
+    display: none;
+    border: 0.2vw solid black;
+    padding: 0.1vw;
+}
+
+
+
+#info_content_container_1 {
+    
+    width: 62.8vw;
+    height: 38.3vw;
+    margin-left: 1.6%;
+    margin-right: 2%;
+    overflow-y: auto; 
+    background-color:rgb(255, 255, 255);
+    margin-top:1.66%;
+    z-index:2;
+     
+}
+
+.text_info_content{
+    color:black;
+    font-size:2vw;
+
+}
+
+#bar_menu_info{
+    display:block;
+    height:100%;
+    width:30%;
+    background-color: #c7ffff;
+    overflow-y: scroll;
+    scrollbar-color: rgba(150, 150, 150, 0.551)  #a2fafa; 
+   
+
+}
+
+#bar_menu_explorer{
+    height: 0.1vw;
+    margin-left:5%;
+    font-family:'Gill Sans' ;
+    
+}
+
+
+details {
+    
+   
+    padding-left: 0.2vw;
+    margin-bottom: 0.5em;
+    font-size:2vw;
+
+}
+
+details > summary {
+    display: block;
+    cursor: pointer;
+    color: blue;
+    padding-top:5%;
+    border-left: 0.3vw solid #000;
+    font-size:1.5vw;
+    padding-left: 1vw;
+    height:1%;
+    font-style: italic;
+    font-weight: bold ;
+    
+}
+
+details > ul {
+    display:block;
+    margin-left: 0.7vw;
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    list-style-type: none;
+    font-size: 1.25vw;
+    
+    
+}
+
+details ul li {
+    font-size:1.2vw;
+    padding-top:3%;
+}
+
+details ul li span{
+    cursor: pointer;
+}
+
+
+details > ul > li::before {
+    content: '📄 ';
+}
+
+details[open] > ul > li::before {
+    content: '📄 ';
+}
+
+details > summary::before {
+    content: '📁 ';
+}
+
+
+#div_content{
+    background-color: #e2fdfd;
+    margin-left:30%;
+    width: 70%;
+    height: 101.7%;
+    margin-top:-62%;
+
+}
+
+#init_projects {
+    position: absolute;
+    /* padding-top: 50%; */
+    margin-left: 17%;
+    margin-top: 11%;
+    z-index: 1;
+}
+
+
+#title_projects_area{
+    text-align: center; 
+    font-size:5vw; 
+    margin-left:10%;
+    /*font-family: 'MS Sans Serif', system-ui, 'Courier New', sans-serif;*/
+    font-family: 'Times New Roman', Times, serif;
+    color:#b2ba42;
+    font-weight: bolder;
+}
+
+
+
+/*Subjects*/
+
+/*Calculo I*/
+#div_calculo_i{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#calculo_i_title{
+    font-size:3.5vw; 
+    color: rgb(83, 144, 242);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 25vw;
+    margin-left:22%;
+}
+
+#calculo_i_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_calculo_i_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_calculo_i_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+/*Matemática Discreta*/
+#div_mat_discreta{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#mat_discreta_title{
+    font-size:3.5vw; 
+    color: rgb(83, 144, 242);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 35vw;
+    margin-left:10%;
+}
+
+#mat_discreta_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_mat_discreta_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_mat_discreta_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Introducción Programación*/
+#div_intro_prog{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#intro_prog_title{
+    font-size:3.5vw; 
+    color: rgb(220, 213, 12);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 60vw;
+   
+}
+
+#intro_prog_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_intro_prog_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_intro_prog_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Introducción TIC*/
+#div_intro_tic{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#intro_tic_title{
+    font-size:3.5vw; 
+    color: rgb(110, 31, 200);;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 60vw;
+   
+}
+
+#intro_tic_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_intro_tic_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_intro_tic_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+/*Calculo II*/
+#div_calculo_ii{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#calculo_ii_title{
+    font-size:3.5vw; 
+    color: rgb(83, 144, 242);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 25vw;
+    margin-left:22%;
+}
+
+#calculo_ii_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_calculo_ii_tareas{
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_calculo_ii_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Álgebra Lineal*/
+#div_alg_lineal{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#alg_lineal_title{
+    font-size:3.5vw; 
+    color: rgb(83, 144, 242);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 25vw;
+    margin-left:22%;
+}
+
+#alg_lineal_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_alg_lineal_tareas{
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_alg_lineal_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+/*EDA I*/
+#div_eda_i{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#eda_i_title{
+    font-size:2.8vw; 
+    color: rgb(220, 213, 12);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    height:4vw;
+    width: 60vw;
+   
+}
+
+#eda_i_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_eda_i_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_eda_i_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Organización de Computadores*/
+#div_org_comp{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#org_comp_title{
+    font-size:2.8vw; 
+    color: rgb(0, 176, 196);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#org_comp_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_org_comp_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_org_comp_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Redes*/
+#div_redes{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#redes_title{
+    font-size:3.4vw; 
+    color: rgb(255, 52, 52);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#redes_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_redes_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_redes_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Métodos Numéricos*/
+#div_met_num{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#met_num_title{
+    font-size:3.5vw; 
+    color: rgb(83, 144, 242);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 30vw;
+    margin-left:16%;
+}
+
+#met_num_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_met_num_tareas{
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_met_num_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+/*EDA II*/
+#div_eda_ii{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#eda_ii_title{
+    font-size:2.7vw; 
+    color: rgb(220, 213, 12);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    height:4vw;
+    width: 60vw;
+   
+}
+
+#eda_ii_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_eda_ii_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_eda_ii_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+/*Física*/
+#div_fisica{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#fisica_title{
+    font-size:3.5vw; 
+    color: rgb(83, 144, 242);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 30vw;
+    margin-left:16%;
+}
+
+#fisica_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_fisica_tareas{
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_fisica_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Probabilidad*/
+#div_prob{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#prob_title{
+    font-size:3.5vw; 
+    color: rgb(83, 144, 242);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 30vw;
+    margin-left:16%;
+}
+
+#prob_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_prob_tareas{
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_prob_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+/*Programación Orientada a Objetos*/
+#div_prog_obj{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#prog_obj_title{
+    font-size:2.8vw; 
+    color: rgb(220, 213, 12);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 60vw;
+   
+}
+
+#prog_obj_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_prog_obj_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_prog_obj_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+
+/*Señales y Sistemas I*/
+#div_sys_i{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#sys_i_title{
+    font-size:2.8vw; 
+    color: rgb(0, 176, 196);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#sys_i_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_sys_i_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_sys_i_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+/*Diseño Funcional de Programas*/
+#div_dis_fun_prog{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#dis_fun_prog_title{
+    font-size:2.8vw; 
+    color: rgb(220, 213, 12);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 60vw;
+   
+}
+
+#dis_fun_prog_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_dis_fun_prog_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_dis_fun_prog_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Estadística*/
+#div_est{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#est_title{
+    font-size:3.5vw; 
+    color: rgb(83, 144, 242);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 30vw;
+    margin-left:16%;
+}
+
+#est_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_est_tareas{
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_est_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Sistemas Operativos*/
+#div_so{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#so_title{
+    font-size:2.8vw; 
+    color: rgb(0, 176, 196);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#so_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_so_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_so_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+/*Gráficos por Ordenador*/
+#div_graf_ord{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#graf_ord_title{
+    font-size:3.5vw; 
+    color: rgb(209, 76, 191);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 45vw;
+    margin-left:1%;
+}
+
+#graf_ord_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(209, 76, 191); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_graf_ord_tareas{
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_graf_ord_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+
+/*Diseño de Algoritmos*/
+#div_dis_alg{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#dis_alg_title{
+    font-size:2.7vw; 
+    color: rgb(220, 213, 12);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    height:4vw;
+    width: 60vw;
+   
+}
+
+#dis_alg_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_dis_alg_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_dis_alg_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Aprendizaje Automático*/
+#apr_auto{
+    font-size: 1.16vw;
+}
+#div_apr_auto{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#apr_auto_title{
+    font-size:2.7vw; 
+    color: rgb(55, 170, 1);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    height:4vw;
+    width: 60vw;
+   
+}
+
+#apr_auto_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_apr_auto_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_apr_auto_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Ingeniería de Interacción*/
+#div_ing_inter{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#ing_inter_title{
+    font-size:3.5vw; 
+    color: rgb(209, 76, 191);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 45vw;
+    margin-left:1%;
+}
+
+#ing_inter_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(209, 76, 191); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_ing_inter_tareas{
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_ing_inter_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+
+/*Introducción a la Programación Paralela y Distribuida*/
+#prog_paral{
+    font-size: 1.16vw;
+}
+#div_prog_paral{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#prog_paral_title{
+    font-size:2.7vw; 
+    color: rgb(220, 213, 12);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    height:7vw;
+    width: 60vw;
+   
+}
+
+#prog_paral_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_prog_paral_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_prog_paral_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+/*Ingeniería de Software*/
+#div_ing_soft{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#ing_soft_title{
+    font-size:2.8vw; 
+    color: rgb(0, 176, 196);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#ing_soft_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_ing_soft_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_ing_soft_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+
+/*Bases de Datos*/
+#div_bases_datos{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#bases_datos_title{
+    font-size:2.8vw; 
+    color: rgb(55, 170, 1);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#bases_datos_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_bases_datos_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_bases_datos_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Inteligencia Artificial*/
+#div_intel_art{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#intel_art_title{
+    font-size:2.8vw; 
+    color: rgb(55, 170, 1);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#intel_art_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_intel_art_tareas{
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_intel_art_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+
+/*Teoría de la Computación*/
+#div_teoria_comp{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#teoria_comp_title{
+    font-size:2.8vw; 
+    color: rgb(0, 176, 196);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#teoria_comp_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_teoria_comp_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_teoria_comp_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Comunicación Técnica en Inglés*/
+#div_com_ingles{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#com_ingles_title{
+    font-size:3vw; 
+    color: rgb(110, 31, 200);;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 60vw;
+   
+}
+
+#com_ingles_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_com_ingles_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_com_ingles_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+/*Sistemas Distribuidos de Gran Escala*/
+#div_sis_dist{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#sis_dist_title{
+    font-size:2.65vw; 
+    color: rgb(0, 176, 196);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#sis_dist_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_sis_dist_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_sis_dist_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+
+/*Criptografía y Seguridad*/
+#cripto{
+    font-size: 1.16vw;
+}
+
+#div_cripto{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#cripto_title{
+    font-size:3.4vw; 
+    color: rgb(255, 52, 52);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#cripto_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_cripto_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_cripto_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+
+/*Compiladores*/
+#div_compila{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#compila_title{
+    font-size:3.4vw; 
+    color: rgb(0, 176, 196);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#compila_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_compila_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_compila_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+/* Ingeniería de Software para Aplicaciones Web*/
+#ing_soft_web{
+    font-size: 1.2vw;
+}
+#div_ing_soft_web{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#ing_soft_web_title{
+    font-size:2.6vw; 
+    color: rgb(220, 213, 12);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    height:7vw;
+    width: 60vw;
+   
+}
+
+#ing_soft_web_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_ing_soft_web_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_ing_soft_web_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Redes de Sensores Inalámbricos*/
+#div_redes_in{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#redes_in_title{
+    font-size:3vw; 
+    color: rgb(255, 52, 52);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#redes_in_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_redes_in_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_redes_in_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Redes de Sensores Inalámbricos*/
+#div_redes_in{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#redes_in_title{
+    font-size:3vw; 
+    color: rgb(255, 52, 52);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#redes_in_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_redes_in_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_redes_in_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Internet of Things*/
+#div_iot{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#iot_title{
+    font-size:3vw; 
+    color: rgb(255, 52, 52);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin-left:20%;
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#iot_contrato_title{
+    font-size:1.5vw; 
+    color: #dbb039;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_iot_tareas{
+    padding-top:1.25%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_iot_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+/*Gestión de Proyectos*/
+#div_gest_proy{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#gest_proy_title{
+    font-size:3vw; 
+    color: rgb(110, 31, 200);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 60vw;
+   
+}
+
+#gest_proy_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_gest_proy_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_gest_proy_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+/*Aplicaciones Inteligentes para la Web*/
+#div_aiw{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#aiw_title{
+    font-size:2.7vw; 
+    color: rgb(55, 170, 1);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#aiw_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_aiw_tareas{
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_aiw_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+
+/*Análisis de Gestos y Caras*/
+#div_gest_cares{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#gest_cares_title{
+    font-size:2.7vw; 
+    color: rgb(55, 170, 1);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#gest_cares_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_gest_cares_tareas{
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_gest_cares_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+/*Narrativa y Videojuegos*/
+#div_videojuegos{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#videojuegos_title{
+    font-size:3.5vw; 
+    color: rgb(209, 76, 191);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 45vw;
+    margin-left:1%;
+}
+
+#videojuegos_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(209, 76, 191); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_videojuegos_tareas{
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_videojuegos_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Entornos de Comunicación Virtual*/
+#div_ent_com_virt{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#ent_com_virt_title{
+    font-size:3vw; 
+    color: rgb(209, 76, 191);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 45vw;
+    margin-left:15%;
+}
+
+#ent_com_virt_contrato_title{
+    font-size:1.5vw; 
+    color: #dbb039;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    
+
+    height: 5%; 
+    margin:0; 
+    text-align: center;
+
+}
+
+#p_ent_com_virt_tareas{
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_ent_com_virt_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Sistemas Interactivos*/
+#div_sist_int{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#sist_int_title{
+    font-size:3vw; 
+    color: rgb(209, 76, 191);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 45vw;
+    margin-left:1%;
+}
+
+#sist_int_contrato_title{
+    font-size:1.5vw; 
+    color: #dbb039;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    
+
+    height: 5%; 
+    margin:0; 
+    text-align: center;
+
+}
+
+#p_sist_int_tareas{
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_sist_int_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+
+/*Seguridad en Computadores*/
+#div_cybersec{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#cybersec_title{
+    font-size:3vw; 
+    color: rgb(255, 52, 52);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    /*margin-left:20%;*/
+    /* height:4vw; */
+    width: 60vw;
+   
+}
+
+#cybersec_contrato_title{
+    font-size:1.5vw; 
+    color: #dbb039;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_cybersec_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_cybersec_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Taller de Tecnología Musical*/
+#div_tall_tec_music{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#tall_tec_music_title{
+    font-size:3vw; 
+    color: rgb(110, 31, 200);;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    
+    width: 60vw;
+   
+}
+
+#tall_tec_music_contrato_title{
+    font-size:1.5vw; 
+    color: rgb(129, 189, 107); 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_tall_tec_music_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_tall_tec_music_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Certificaciones*/
+#div_google_cybersecurity {
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+#div_google_cybersecurity::after {
+    content: "";
+    background: url("../resources/google_cyber_i.png");
+    opacity: 10; /* Ajusta la opacidad aquí */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+#google_cybersecurity_title{
+    font-size:3.5vw; 
+    color: #00cccc;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin-top:0%; 
+    
+    width: 45vw;
+    margin-left:3%;
+}
+
+#google_cybersecurity_contrato_title{
+    font-size:1.25vw; 
+    color: #dbb039;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    
+    margin-right:1.5%;
+    margin-top:0.5%; 
+    height: 5%; 
+    
+    text-align: center;
+
+}
+
+#p_google_cybersecurity_tareas{
+    
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    margin:0;
+    
+}
+
+#p_google_cybersecurity_habs{
+
+    padding-top:1%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
+/*Máquinas Ciberseguridad*/
+.maquinas_cyber {
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+.maquinas_cyber::after {
+    content: "";
+    opacity: 10; /* Ajusta la opacidad aquí */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+
+
+/* For Vertical Tablet */
+@media only screen and (max-width: 900px) and (max-height: 900px), 
+       only screen and (max-width: 900px) {
+
+
+        div#container_window_info{
+            display: block;
+            width: 65vw; /* Ajusta según tus necesidades */
+            height: 45vw; /* Ajusta según tus necesidades */
+            
+            background-image: url("../resources/window_info.png");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            
+            left: 50%;
+            transform: translateY(-12%) translateX(-50%) scale(1.5);
+            overflow: hidden;
+            z-index:1;
+        
+        }
+
+        #container_bar_projects{
+            margin-top:0.5%;
+           
+        }
+
+        
+
+}
+
+
