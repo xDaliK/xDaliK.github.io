@@ -78,6 +78,7 @@ function simulateProgress() {
                 fadeIn(text_aboutme, 1000);
                 fadeIn(text_contact, 1000);
                 
+                divProgressBar.style.display = 'none';
 
             }
         }, 16);
