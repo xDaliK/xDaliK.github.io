@@ -428,16 +428,17 @@ h3#text_contact {
         box-shadow: none; /* Quita la sombra */
         overflow: visible;
         cursor: pointer;
+        margin-left:2%;
 
         
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-    border-radius: 15px; /* Bordes circulares */
-    padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
-    padding-bottom: .0vh;
-    padding-top: 0px;
-    box-shadow: 0 4px 8px #000;
-    overflow: hidden;
-    cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+        border-radius: 15px; /* Bordes circulares */
+        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        padding-bottom: .0vh;
+        padding-top: 0px;
+        box-shadow: 0 4px 8px #000;
+        overflow: hidden;
+        cursor: pointer;
     }
 
     
@@ -461,7 +462,7 @@ h3#text_contact {
     
     h3#text_experience {
         display: none;
-        width: 150%;
+        width: 144%;
         height: 10%;
         position: relative;
         font-size: 170%; 
@@ -487,7 +488,7 @@ h3#text_contact {
     /* Icon Resume Desktop */
     #resume_file {
         position:absolute;
-        margin-left: 57%;
+        margin-left: 55%;
         margin-right:60%;
         margin-top: 2%;
         
@@ -552,7 +553,7 @@ h3#text_contact {
         position: relative;
         font-size: 170%; 
         
-        margin-left:34%;
+        margin-left:30%;
         background-color: transparent; /* Quita el fondo */
         box-shadow: none; /* Quita la sombra */
         overflow: visible;
