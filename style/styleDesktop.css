@@ -324,10 +324,10 @@ h3#text_contact {
         
     /* Init Sesion TODO */
 
-    /* #centeredContainerSesion {
+    #centeredContainerSesion {
         display: block;
-        width: 45vw; 
-        height: 45vw; 
+        width: 90vw; 
+        height: 90vw; 
         background-image: url("../resources/pruebaventana2.png");
         background-size: contain;
         background-position: center;
@@ -345,8 +345,8 @@ h3#text_contact {
         height: 50px;
         
         margin-top:40%;
-        margin-left: 15%;
-        font-size: 3vw; 
+        margin-left: 21%;
+        font-size: 5vw; 
         color: black;
         font-weight: bold;
     
@@ -354,11 +354,11 @@ h3#text_contact {
 
     #progressBlockBarContent {
 
-        width: 110px;
+        width: 160px;
         height: 15px;
-        margin-top:-%;
-        margin-left: 20%;
-    } */
+        margin-top:-20%;
+        margin-left: 22%;
+    } 
     
     
     /* Icon Learning Desktop */
