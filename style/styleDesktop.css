@@ -391,6 +391,15 @@ h3#text_contact {
         overflow: visible;
         word-break:normal;
         cursor: pointer;
+        
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+        border-radius: 15px; /* Bordes circulares */
+        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        padding-bottom: 5.0vh;
+        padding-top: 0px;
+        box-shadow: 0 4px 8px #000;
+        overflow: hidden;
+        cursor: pointer;
     }
     
     /* Icon Projects Desktop */
@@ -419,6 +428,16 @@ h3#text_contact {
         box-shadow: none; /* Quita la sombra */
         overflow: visible;
         cursor: pointer;
+
+        
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    border-radius: 15px; /* Bordes circulares */
+    padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+    padding-bottom: .0vh;
+    padding-top: 0px;
+    box-shadow: 0 4px 8px #000;
+    overflow: hidden;
+    cursor: pointer;
     }
 
     
@@ -437,12 +456,12 @@ h3#text_contact {
         height: auto;
         display: none;
         cursor: pointer;
-        margin-left:40%;
+        margin-left:55%;
     }
     
     h3#text_experience {
         display: none;
-        width: 100%;
+        width: 150%;
         height: 10%;
         position: relative;
         font-size: 170%; 
@@ -452,13 +471,23 @@ h3#text_contact {
         box-shadow: none; /* Quita la sombra */
         overflow: visible;
         cursor: pointer;
+
+            
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+        border-radius: 15px; /* Bordes circulares */
+        padding: 0.9vw; /* Espacio interno para que el texto no toque los bordes */
+        padding-bottom: 5.0vh;
+        padding-top: 0px;
+        box-shadow: 0 4px 8px #000;
+        overflow: hidden;
+        cursor: pointer;
     }
     
     
     /* Icon Resume Desktop */
     #resume_file {
         position:absolute;
-        margin-left: 60%;
+        margin-left: 57%;
         margin-right:60%;
         margin-top: 2%;
         
@@ -471,6 +500,7 @@ h3#text_contact {
         height: auto;
         display: none;
         cursor: pointer;
+
     }
     
     h3#text_resume {
@@ -482,6 +512,16 @@ h3#text_contact {
         background-color: transparent; /* Quita el fondo */
         box-shadow: none; /* Quita la sombra */
         overflow: visible;
+        cursor: pointer;
+
+        
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+        border-radius: 15px; /* Bordes circulares */
+        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        padding-bottom: .0vh;
+        padding-top: 0px;
+        box-shadow: 0 4px 8px #000;
+        overflow: hidden;
         cursor: pointer;
     }
     
@@ -502,7 +542,7 @@ h3#text_contact {
         height: auto;
         display: none;
         cursor: pointer;
-        margin-left:40%;
+        margin-left:46%;
     }
     
     h3#text_aboutme {
@@ -512,17 +552,27 @@ h3#text_contact {
         position: relative;
         font-size: 170%; 
         
-        margin-left:35%;
+        margin-left:32%;
         background-color: transparent; /* Quita el fondo */
         box-shadow: none; /* Quita la sombra */
         overflow: visible;
+        cursor: pointer;
+
+            
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+        border-radius: 15px; /* Bordes circulares */
+        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        padding-bottom: 5.0vh;
+        padding-top: 0px;
+        box-shadow: 0 4px 8px #000;
+        overflow: hidden;
         cursor: pointer;
     }
     
     /* Icon Contact Desktop */
     #contact_file {
         position: absolute;
-        margin-left: 60%;
+        margin-left: 62%;
         margin-right:60%;
         margin-top: 2.5%;
     }
@@ -543,6 +593,16 @@ h3#text_contact {
         background-color: transparent; /* Quita el fondo */
         box-shadow: none; /* Quita la sombra */
         overflow: visible;
+        cursor: pointer;
+
+        
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+        border-radius: 15px; /* Bordes circulares */
+        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        padding-bottom: .0vh;
+        padding-top: 0px;
+        box-shadow: 0 4px 8px #000;
+        overflow: hidden;
         cursor: pointer;
        
     }
