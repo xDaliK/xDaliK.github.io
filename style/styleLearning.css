@@ -3066,8 +3066,8 @@ details > summary::before {
         #google_cybersecurity_title {
             margin-left: 0%;
             text-align: center;
-            width: 100vw;
-            font-size:2.7vw; 
+            width: 200vw;
+            font-size:2vw; 
         }
         
         
@@ -3103,8 +3103,8 @@ details > summary::before {
     #google_cybersecurity_title {
         margin-left: 0%;
         text-align: center;
-        width: 70vw;
-        font-size:2.7vw; 
+        width: 200vw;
+        font-size:2vw; 
     }
     
 
