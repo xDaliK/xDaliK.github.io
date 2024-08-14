@@ -3067,6 +3067,7 @@ details > summary::before {
             margin-left: 0%;
             text-align: center;
             width: 70vw;
+            font-size:2.7vw; 
         }
         
         
@@ -3103,6 +3104,7 @@ details > summary::before {
         margin-left: 0%;
         text-align: center;
         width: 70vw;
+        font-size:2.7vw; 
     }
     
 
