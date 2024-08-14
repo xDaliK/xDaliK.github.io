@@ -3135,6 +3135,12 @@ details > summary::before {
         margin-bottom: 1%;
     }
 
+    #eda_i_title, 
+    #eda_ii_title{
+        margin-bottom: -2%;
+
+    }
+
     #iot_contrato_title{
         font-size: 1vw;
         margin-bottom: 1%;
