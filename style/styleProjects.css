@@ -2982,16 +2982,17 @@ details > summary::before {
         }
 
         #ing_soft_web {
-            font-size: 1.15vw;
+            font-size: 1.1vw;
         }
         
         #redes_in_title,
         #gest_proy_title,
         #iot_title,
         #aiw_title,
-        #ecv_title,
+        #ent_com_virt_title,
         #cybersec_title{
             width:200vw;
+            font-size:2.5vw;
         }
 
         
@@ -3010,17 +3011,17 @@ details > summary::before {
     }
 
     #ing_soft_web {
-        font-size: 1vw;
+        font-size: 1.1vw;
     }
 
     #redes_in_title,
     #gest_proy_title,
     #iot_title,
     #aiw_title,
-    #ecv_title,
+    #ent_com_virt_title,
     #cybersec_title{
             width:200vw;
-            font-size:2vw;
+            font-size:2.5vw;
     }
 
     
