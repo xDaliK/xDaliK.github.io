@@ -2920,7 +2920,7 @@ details > summary::before {
 #div_google_cybersecurity::after {
     content: "";
     background: url("../resources/google_cyber_i.png");
-    opacity: 10; /* Ajusta la opacidad aquí */
+    opacity: 10;
     top: 0;
     left: 0;
     bottom: 0;
@@ -3045,6 +3045,28 @@ details > summary::before {
             margin-left: 15%;
             display: none;
         }
+
+        #mat_discreta_title, 
+        #alg_lineal_title, 
+        #met_num_title, 
+        #intro_prog_title, 
+        #prog_obj_title, 
+        #dis_fun_prog_title, 
+        #eda_i_title, 
+        #eda_ii_title, 
+        #org_comp_title, 
+        #sis_dist_title, 
+        #aiw_title, 
+        #ing_inter_title, 
+        #ent_com_virt_title, 
+        #redes_in_title, 
+        #iot_title, 
+        #cybersec_title, 
+        #com_ingles_title, 
+        #google_cybersecurity_title {
+          width: 66vw;
+        }
+        
         
 
 }
@@ -3057,6 +3079,28 @@ details > summary::before {
         height: 7.5px;
         margin-left:-35%;
     }
+
+    #mat_discreta_title, 
+    #alg_lineal_title, 
+    #met_num_title, 
+    #intro_prog_title, 
+    #prog_obj_title, 
+    #dis_fun_prog_title, 
+    #eda_i_title, 
+    #eda_ii_title, 
+    #org_comp_title, 
+    #sis_dist_title, 
+    #aiw_title, 
+    #ing_inter_title, 
+    #ent_com_virt_title, 
+    #redes_in_title, 
+    #iot_title, 
+    #cybersec_title, 
+    #com_ingles_title, 
+    #google_cybersecurity_title {
+      width: 66vw;
+    }
+    
 
 }
 
