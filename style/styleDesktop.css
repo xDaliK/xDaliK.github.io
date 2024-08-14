@@ -11,7 +11,7 @@ body#initIndex {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background:url("./resources/wallpaper_draw_maffhu2.jpg"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
+    background:url("../resources/wallpaper_draw_maffhu2.jpg"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -488,7 +488,7 @@ h3#text_contact {
     /* Icon Resume Desktop */
     #resume_file {
         position:absolute;
-        margin-left: 53%;
+        margin-left: 51%;
         margin-right:60%;
         margin-top: 2%;
         
@@ -534,7 +534,7 @@ h3#text_contact {
       
         position: relative;
         margin-top: 2.5%;
-        margin-left:20%;
+        margin-left:18.5%;
         
     }
     
@@ -553,7 +553,7 @@ h3#text_contact {
         position: relative;
         font-size: 170%; 
         
-        margin-left:30%;
+        margin-left:35%;
         background-color: transparent; /* Quita el fondo */
         box-shadow: none; /* Quita la sombra */
         overflow: visible;
@@ -573,7 +573,7 @@ h3#text_contact {
     /* Icon Contact Desktop */
     #contact_file {
         position: absolute;
-        margin-left: 61%;
+        margin-left: 59%;
         margin-right:60%;
         margin-top: 2.5%;
     }
@@ -796,7 +796,7 @@ h3#text_contact {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background:url("./resources/wallpaper_draw_maffhu2.jpg"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
+        background:url("../resources/wallpaper_draw_maffhu2.jpg"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -841,7 +841,7 @@ h3#text_contact {
 
     #resume_file {
         position:absolute;
-        margin-left: 58%;
+        margin-left: 56%;
         margin-right:200%;
         margin-top: -5.5%; 
         transform: scale(0.6); 
@@ -862,7 +862,7 @@ h3#text_contact {
 
     #contact_file {
         position: absolute;
-        margin-left: 62%;
+        margin-left: 60%;
         margin-right:200%;
         margin-top: -6.7%;
         transform: scale(0.6);
