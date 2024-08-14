@@ -2979,4 +2979,15 @@ details > summary::before {
 
 }
 
+/* For Vertical Mobile */
+@media only screen and (max-width: 500px){
+
+    #searchInput {
+        width: 100%;
+        height: 7.5px;
+        margin-left:-64%;
+    }
+
+}
+
 

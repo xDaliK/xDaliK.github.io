@@ -3035,8 +3035,28 @@ details > summary::before {
         }
 
         
-
+        #barSearch {
+            width: 25vw;
+            height: 1vw;
+            font-size: 1.1vw;
+            font-style: italic;
+            color: black;
+            margin-top: -4.6%;
+            margin-left: 15%;
+            display: none;
+        }
         
+
+}
+
+/* For Vertical Mobile */
+@media only screen and (max-width: 500px){
+
+    #searchInput {
+        width: 100%;
+        height: 7.5px;
+        margin-left:-35%;
+    }
 
 }
 
