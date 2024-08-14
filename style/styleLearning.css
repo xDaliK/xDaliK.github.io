@@ -3064,7 +3064,9 @@ details > summary::before {
         #cybersec_title, 
         #com_ingles_title, 
         #google_cybersecurity_title {
-          width: 66vw;
+            margin-left: 0%;
+            text-align: center;
+            width: 70vw;
         }
         
         
@@ -3098,7 +3100,9 @@ details > summary::before {
     #cybersec_title, 
     #com_ingles_title, 
     #google_cybersecurity_title {
-      width: 66vw;
+        margin-left: 0%;
+        text-align: center;
+        width: 70vw;
     }
     
 
