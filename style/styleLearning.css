@@ -3076,6 +3076,17 @@ details > summary::before {
         text-align: center;
         width: 200vw;
         font-size:2vw; 
+        margin-bottom: 1%;
+    }
+
+    #iot_contrato_title{
+        font-size: 1vw;
+        margin-bottom: 1%;
+    }
+
+    #google_cybersecurity_contrato_title{
+        font-size: 1vw;
+        margin-bottom: 1%;
     }
         
         
@@ -3121,6 +3132,17 @@ details > summary::before {
         text-align: center;
         width: 200vw;
         font-size:2vw; 
+        margin-bottom: 1%;
+    }
+
+    #iot_contrato_title{
+        font-size: 1vw;
+        margin-bottom: 1%;
+    }
+
+    #google_cybersecurity_contrato_title{
+        font-size: 1vw;
+        margin-bottom: 1%;
     }
     
 
