@@ -3034,8 +3034,13 @@ details > summary::before {
         font-size: 1.1vw;
     }
 
+    #iot_title{
+        margin:1%;
+    }
+
     #iot_contrato_title{
         font-size:1.25vw;
+        
     }
 
     #cybersec_title{
@@ -3043,7 +3048,7 @@ details > summary::before {
     }
 
     #aiw_title{
-        width: 2.25vw;
+        font-size: 2.25vw;
     }
 
     
