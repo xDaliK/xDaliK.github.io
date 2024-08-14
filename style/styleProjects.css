@@ -2970,10 +2970,31 @@ details > summary::before {
         
         }
 
+        #searchInput {
+            width: 80%;
+            height: 7.5px;
+            margin-left: -45%;
+        }
+
         #container_bar_projects{
             margin-top:0.5%;
            
         }
+
+        #ing_soft_web {
+            font-size: 1.15vw;
+        }
+        
+        #redes_in_title,
+        #gest_proy_title,
+        #iot_title,
+        #aiw_title,
+        #ecv_title,
+        #cybersec_title{
+            width:66vw;
+        }
+
+        
 
         
 
@@ -2983,11 +3004,26 @@ details > summary::before {
 @media only screen and (max-width: 500px){
 
     #searchInput {
-        width: 100%;
+        width: 80%;
         height: 7.5px;
-        margin-left:-64%;
+        margin-left: -45%;
     }
 
+    #ing_soft_web {
+        font-size: 1.15vw;
+    }
+
+    #redes_in_title,
+    #gest_proy_title,
+    #iot_title,
+    #aiw_title,
+    #ecv_title,
+    #cybersec_title{
+            width:66vw;
+    }
+
+    
 }
+    
 
 
