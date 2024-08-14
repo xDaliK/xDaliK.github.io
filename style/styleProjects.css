@@ -3010,7 +3010,7 @@ details > summary::before {
     }
 
     #ing_soft_web {
-        font-size: 1.15vw;
+        font-size: 1vw;
     }
 
     #redes_in_title,
@@ -3020,6 +3020,7 @@ details > summary::before {
     #ecv_title,
     #cybersec_title{
             width:200vw;
+            font-size:2vw;
     }
 
     
