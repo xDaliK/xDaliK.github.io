@@ -543,7 +543,7 @@ h3#text_contact {
 
 
 
-/* For Vertical Mobile OK*/
+/* For Vertical Mobile OK */
 @media only screen and (max-width: 500px) and (orientation: portrait){
 
     /* Body Desktop */
@@ -563,7 +563,7 @@ h3#text_contact {
 
     #learning_file {
         position: relative;
-        margin-top: -2%;
+        margin-top: -7%;
         margin-left:3%;
         margin-right:90%;
         float: left;
@@ -575,7 +575,7 @@ h3#text_contact {
         position:absolute;
         margin-left: 60%;
         margin-right:200%;
-        margin-top: 1%; 
+        margin-top: -4%; 
         transform: scale(0.6); 
         float: right;
         
@@ -585,7 +585,7 @@ h3#text_contact {
 
     #experience_file {
         position: relative;
-        margin-top: -8%;
+        margin-top: -25%;
         margin-left:2.5%;
         width:6.7em;
         /*transform: translateX(-80%) translateY(-90%) scale(0.6);*/
@@ -598,7 +598,7 @@ h3#text_contact {
         position:absolute;
         margin-left: 56%;
         margin-right:200%;
-        margin-top: -5.5%; 
+        margin-top: -23%; 
         transform: scale(0.6); 
         float: right;
         
@@ -608,7 +608,7 @@ h3#text_contact {
     #aboutme_file {
       
         position: relative;
-        margin-top: -8%;
+        margin-top: -25%;
         margin-left:2.5%;
         transform: scale(0.6);
         float: left;
@@ -619,7 +619,7 @@ h3#text_contact {
         position: absolute;
         margin-left: 60%;
         margin-right:200%;
-        margin-top: -6.7%;
+        margin-top: -23.7%;
         transform: scale(0.6);
         float: right;
     }
@@ -651,6 +651,7 @@ h3#text_contact {
     .popup-content {
         min-height: 90%;
     }
+    
     
 
 }
