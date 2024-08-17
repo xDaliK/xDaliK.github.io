@@ -3156,8 +3156,58 @@ details > summary::before {
 @media only screen and (min-width: 600px) and (max-width: 950px) and (orientation: landscape) {
     
     div#container_window_info{
-        transform: translate(-50%, -45%) scale(0.8);
+        transform: translate(-50%, -55%) scale(0.83);
     }
+
+    #mat_discreta_title, 
+    #alg_lineal_title, 
+    #met_num_title, 
+    #intro_prog_title, 
+    #dis_fun_prog_title,
+    #org_comp_title, 
+    #ing_inter_title, 
+    #ent_com_virt_title, 
+    #redes_in_title, 
+    #com_ingles_title, 
+    #google_cybersecurity_title {
+        margin-left: 0%;
+        text-align: center;
+        width: 200vw;
+        font-size:2.5vw; 
+    }
+    
+   
+    #prog_obj_title,  
+    #eda_i_title, 
+    #eda_ii_title,
+    #sis_dist_title, 
+    #aiw_title, 
+    #iot_title, 
+    #cybersec_title{
+        margin-left: 0%;
+        text-align: center;
+        width: 200vw;
+        font-size:2vw; 
+        margin-bottom: 1%;
+    }
+
+    #eda_i_title, 
+    #eda_ii_title{
+        margin-bottom: -2%;
+
+    }
+
+    #iot_contrato_title{
+        font-size: 1vw;
+        margin-bottom: 1%;
+    }
+
+    #google_cybersecurity_contrato_title{
+        font-size: 1vw;
+        margin-bottom: 1%;
+    }
+
+    
 }
 
 
