@@ -3007,8 +3007,8 @@ details > summary::before {
 
 
 /* For Vertical Tablet */
-@media only screen and (max-width: 900px) and (max-height: 900px) and (orientation: portrait), 
-       only screen and (max-width: 900px) and  (orientation: portrait) {
+@media only screen and (min-width: 501px) and (max-width: 900px) and (orientation: portrait) , 
+       only screen and (min-width: 501px) and (orientation: portrait) {
 
 
         div#container_window_info{
@@ -3093,7 +3093,7 @@ details > summary::before {
 }
 
 /* For Vertical Mobile */
-@media only screen and (max-width: 500px) and (orientation: portrait) {
+@media only screen and (max-width: 500px) and (orientation: portrait){
 
     #searchInput {
         width: 100%;

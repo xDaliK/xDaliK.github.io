@@ -239,9 +239,9 @@ h3#text_contact {
     cursor: pointer;
 }
    
-/* For Vertical Tablet */
-@media only screen and (max-width: 900px) and (max-height: 900px) and (orientation: portrait), 
-       only screen and (max-width: 900px) and (orientation: portrait) {
+/* For Vertical Tablet OK */
+@media only screen and (min-width: 501px) and (max-width: 900px) and (orientation: portrait) , 
+       only screen and (min-width: 501px) and (orientation: portrait) {
 
     /* #resume_file,
     #aboutme_file,
@@ -543,7 +543,7 @@ h3#text_contact {
 
 
 
-/* For Vertical Mobile */
+/* For Vertical Mobile OK*/
 @media only screen and (max-width: 500px) and (orientation: portrait){
 
     /* Body Desktop */
@@ -656,7 +656,7 @@ h3#text_contact {
 }
 
 
-/*For Horizontal Mobile*/
+/*For Horizontal Mobile OK*/
 @media only screen and (min-width: 600px) and (max-width: 950px) and (orientation: landscape) {
 
     /* Body Desktop */
