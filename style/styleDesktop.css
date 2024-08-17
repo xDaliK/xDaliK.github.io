@@ -11,7 +11,7 @@ body#initIndex {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background:url("../resources/wallpaper_draw_maffhu2.jpg"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
+    background:url("../resources/wallpaper_draw_maffhu3.png"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body#initIndex {
     display: block;
     width: 30vw; /* Ajusta según tus necesidades */
     height: 30vw; /* Ajusta según tus necesidades */
-    background-image: url("../resources/pruebaventana2.png");
+    background-image: url("../resources/pruebaventana3.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -326,7 +326,7 @@ h3#text_contact {
         display: block;
         width: 90vw; 
         height: 90vw; 
-        background-image: url("../resources/pruebaventana2.png");
+        background-image: url("../resources/pruebaventana3.png");
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -618,7 +618,7 @@ h3#text_contact {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background:url("../resources/wallpaper_draw_maffhu2.jpg"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
+        background:url("../resources/wallpaper_draw_maffhu3.png"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -733,7 +733,7 @@ h3#text_contact {
         display: block;
         width: 60vw; 
         height: 60vw; 
-        background-image: url("../resources/pruebaventana2.png");
+        background-image: url("../resources/pruebaventana3.png");
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -770,7 +770,7 @@ h3#text_contact {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background:url("../resources/wallpaper_draw_maffhu2.jpg"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
+        background:url("../resources/wallpaper_draw_maffhu3.png"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
