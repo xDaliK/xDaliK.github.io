@@ -3156,7 +3156,7 @@ details > summary::before {
 @media only screen and (min-width: 600px) and (max-width: 950px) and (orientation: landscape) {
     
     div#container_window_info{
-        transform: translate(-50%, -52%) scale(0.83);
+        transform: translate(-50%, -51%) scale(0.83);
     }
 
     #mat_discreta_title, 
