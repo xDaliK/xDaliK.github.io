@@ -240,8 +240,8 @@ h3#text_contact {
 }
    
 /* For Vertical Tablet */
-@media only screen and (max-width: 900px) and (max-height: 900px), 
-       only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) and (max-height: 900px) and (orientation: portrait), 
+       only screen and (max-width: 900px) and (orientation: portrait) {
 
     /* #resume_file,
     #aboutme_file,
@@ -541,183 +541,10 @@ h3#text_contact {
 }
 
 
-/* For Vertical Tablet 
-@media only screen and (max-width: 900px) and (max-height: 900px), 
-       only screen and (max-width: 900px) {
-
-    /* #resume_file,
-    #aboutme_file,
-    #contact_file {
-        display: block;
-    } 
-
-
-
-    
-    
-    /* Icon Learning Desktop 
-    #learning_file {
-        position: relative;
-        margin-top: 2%;
-        margin-left:20%;
-        margin-right:90%;
-        float: left;
-    }
-    
-    #icon_file_learning {
-        width: 6em;
-        height: auto;
-        display: block;
-        cursor: pointer;
-        margin-left: 40%
-    }
-    
-    h3#text_learning {
-        width: 100%;
-        height: 10%;
-        position: relative;
-        font-size: 170%; 
-        display: block;
-        margin-left: 35%
-    }
-    
-    /* Icon Projects Desktop 
-    #project_file {
-        position: absolute;
-        margin-left:60%;
-        margin-right: 25%;
-        margin-top: 2%;
-        
-    }
-    
-    #icon_file_project {
-        width: 6em;
-        height: auto;
-        display: block;
-        cursor: pointer;
-    }
-    
-    h3#text_project {
-        width: 100%;
-        height: 10%;
-        position: relative;
-        font-size: 170%;
-        display: block;
-    }
-
-    
-    
-    /* Icon Experience Desktop 
-    #experience_file {
-        position: relative;
-        margin-top: 2%;
-        margin-left:20%;
-        width:6.7em;
-        
-    }
-    
-    #icon_file_experience {
-        width: 6em;
-        height: auto;
-        display: block;
-        cursor: pointer;
-        margin-left:40%;
-    }
-    
-    h3#text_experience {
-        width: 100%;
-        height: 10%;
-        position: relative;
-        font-size: 170%; 
-        display: block;
-        margin-left:30%;
-    }
-    
-    
-    /* Icon Resume Desktop 
-    #resume_file {
-        position:absolute;
-        margin-left: 60%;
-        margin-right:60%;
-        margin-top: 2%;  
-    
-    }
-    
-    #icon_file_resume {
-        width: 6em;
-        height: auto;
-        display: block;
-        cursor: pointer;
-    }
-    
-    h3#text_resume {
-        width: 100%;
-        height: 10%;
-        position: relative;
-        font-size: 170%;
-        display: block;
-       
-    }
-    
-    
-  
-    
-    /* Icon AboutMe Desktop
-    #aboutme_file {
-      
-        position: relative;
-        margin-top: 2.5%;
-        margin-left:20%;
-        
-    }
-    
-    #icon_file_aboutme {
-        width: 6em;
-        height: auto;
-        display: block;
-        cursor: pointer;
-        margin-left:40%;
-    }
-    
-    h3#text_aboutme {
-        width: 100%;
-        height: 10%;
-        position: relative;
-        font-size: 170%; 
-        display: block;
-        margin-left:35%;
-    }
-    
-    /* Icon Contact Desktop 
-    #contact_file {
-        position: absolute;
-        margin-left: 60%;
-        margin-right:60%;
-        margin-top: 2.5%;
-    }
-    
-    #icon_file_contact {
-        width: 6em;
-        height: auto;
-        display: block;
-        cursor: pointer;
-    }
-    
-    h3#text_contact {
-        width: 100%;
-        height: 10%;
-        position: relative;
-        font-size: 170%;
-        display: block;
-       
-    }
-
-}*/
-
 
 
 /* For Vertical Mobile */
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) and (orientation: portrait){
 
     /* Body Desktop */
     body#initIndex {
@@ -825,6 +652,128 @@ h3#text_contact {
         min-height: 90%;
     }
     
+
+}
+
+
+/*For Horizontal Mobile*/
+@media only screen and (min-width: 600px) and (max-width: 950px) and (orientation: landscape) {
+
+    /* Body Desktop */
+    body#initIndex {
+       font-family: Arial, sans-serif;
+       margin: 0;
+       padding: 0;
+       background:url("../resources/wallpaper_draw_maffhu2.jpg"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       height: 200vh;
+       overflow: hidden; 
+   }
+
+   
+
+   #learning_file {
+       position: relative;
+       margin-top: -2%;
+       margin-left:3%;
+       margin-right:90%;
+       float: left;
+       transform: scale(0.6);
+       
+   }
+
+   #project_file {
+       position:absolute;
+       margin-left: 75%;
+       margin-right:200%;
+       margin-top: -1%; 
+       transform: scale(0.6); 
+       float: right;
+       
+   }
+
+   #icon_file_project{
+       margin-left:4%;
+   }
+
+   h3#text_project {
+      
+       margin-left:0%;
+       padding-bottom: 0.0vh;
+       
+   }
+
+   #experience_file {
+       position: relative;
+       margin-top: -8%;
+       margin-left:2.5%;
+       width:6.7em;
+       /*transform: translateX(-80%) translateY(-90%) scale(0.6);*/
+       transform: scale(0.6);
+       float: left;
+       
+   }
+
+   h3#text_experience {
+       
+       width: 139%;
+       margin-left:30%
+   }
+
+   #resume_file {
+       position:absolute;
+       margin-left: 73%;
+       margin-right:200%;
+       margin-top: -7%; 
+       transform: scale(0.6); 
+       float: right;
+       
+   }
+
+   h3#text_resume {
+      
+       padding-bottom: 0.0vh;
+       
+   }
+
+   #aboutme_file {
+     
+       position: relative;
+       margin-top: -8%;
+       margin-left:2.5%;
+       transform: scale(0.6);
+       float: left;
+       
+   }
+
+   #contact_file {
+       position: absolute;
+       margin-left: 76%;
+       margin-right:200%;
+       margin-top: -8%;
+       transform: scale(0.6);
+       float: right;
+   }
+
+   h3#text_contact {
+      margin-left:0%;
+       padding-bottom: 0.0vh;
+       
+   }
+   
+   #search_file{
+       
+       position: fixed;
+       margin-left:3%;
+       transform: scale(0.7);
+       bottom:5%;
+       float: left;
+   
+   }
+
+   
 
 }
 
