@@ -765,7 +765,11 @@ h3#text_contact {
         transform: scale(0.6); 
         float: right;
         
+    }
 
+    h3#text_project {
+       
+        padding-bottom: 0.0vh;
         
     }
 
@@ -780,15 +784,25 @@ h3#text_contact {
         
     }
 
+    h3#text_experience {
+        
+        width: 139%;
+    }
+
     #resume_file {
         position:absolute;
         margin-left: 73%;
         margin-right:200%;
-        margin-top: -5.5%; 
+        margin-top: -7%; 
         transform: scale(0.6); 
         float: right;
         
-    
+    }
+
+    h3#text_resume {
+       
+        padding-bottom: 0.0vh;
+        
     }
 
     #aboutme_file {
@@ -805,9 +819,15 @@ h3#text_contact {
         position: absolute;
         margin-left: 76%;
         margin-right:200%;
-        margin-top: -6.7%;
+        margin-top: -8%;
         transform: scale(0.6);
         float: right;
+    }
+
+    h3#text_contact {
+       
+        padding-bottom: 0.0vh;
+        
     }
     
     #search_file{
