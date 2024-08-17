@@ -240,7 +240,7 @@ div#container_window_info{
 
         #text_info_content{
             color:black;
-            font-size:1.15vw;
+            font-size:1.3vw;
             margin-top:2%;
             margin-bottom:20%;
             text-align: justify;
@@ -259,6 +259,22 @@ div#container_window_info{
     div#container_window_info{
         transform: translate(-50%, -50%) scale(0.83);
     }
+
+    #foto_aboutme {
+        
+        margin-left: 0%;
+        
+    }
+    
+    img {
+
+
+    #text_info_content{
+        
+        font-size:1vw;
+       
+    }
+
 
 }
 
