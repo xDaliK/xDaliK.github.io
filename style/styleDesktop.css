@@ -769,6 +769,7 @@ h3#text_contact {
 
     h3#text_project {
        
+        margin-left:0%;
         padding-bottom: 0.0vh;
         
     }
@@ -787,6 +788,7 @@ h3#text_contact {
     h3#text_experience {
         
         width: 139%;
+        margin-left:29%
     }
 
     #resume_file {
@@ -825,7 +827,7 @@ h3#text_contact {
     }
 
     h3#text_contact {
-       
+       margin-left:0%;
         padding-bottom: 0.0vh;
         
     }
