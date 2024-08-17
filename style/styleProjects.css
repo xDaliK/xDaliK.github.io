@@ -3062,6 +3062,12 @@ details > summary::before {
         transform: translate(-50%, -51%) scale(0.83);
     }
 
+    #searchInput{
+        width: 80%;
+        margin-left: -45%;
+        height:16.7px;
+    }
+
     #redes_in_title,
     #gest_proy_title,
     #iot_title,
