@@ -482,6 +482,18 @@ var dl_maquina_secretjenkins = document.getElementById("dl_maquina_secretjenkins
 var div_dl_maquina_aguademayo = document.getElementById("div_dl_maquina_aguademayo");
 var dl_maquina_aguademayo = document.getElementById("dl_maquina_aguademayo");
 
+var div_dl_maquina_buscalove = document.getElementById("div_dl_maquina_buscalove");
+var dl_maquina_buscalove = document.getElementById("dl_maquina_buscalove");
+
+var div_dl_maquina_consolelog = document.getElementById("div_dl_maquina_consolelog");
+var dl_maquina_consolelog = document.getElementById("dl_maquina_consolelog");
+
+var div_dl_maquina_escolares = document.getElementById("div_dl_maquina_escolares");
+var dl_maquina_escolares = document.getElementById("dl_maquina_escolares");
+
+var div_dl_maquina_los40ladrones = document.getElementById("div_dl_maquina_los40ladrones");
+var dl_maquina_los40ladrones = document.getElementById("dl_maquina_los40ladrones");
+
 
 //Event Listeners
 
@@ -841,6 +853,78 @@ if(dl_maquina_aguademayo){
 }
 
 
+if(dl_maquina_buscalove){
+    dl_maquina_buscalove.addEventListener("click", function () {
+        if (div_dl_maquina_buscalove.style.display === 'none' || div_dl_maquina_buscalove.style.display === '') {
+            hideAllDivsExcept(div_dl_maquina_buscalove);
+            div_dl_maquina_buscalove.style.display = 'block'; // Muestra el div
+            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
+            div_dl_maquina_buscalove.style.zIndex = zIndexUpdate++;
+            div_content.style.marginLeft = "0%";
+        } else {
+            div_dl_maquina_buscalove.style.display = 'none'; // Oculta el div
+            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
+            div_content.style.marginLeft = "30%";
+        }
+    });
+    
+}
+
+
+if(dl_maquina_consolelog){
+    dl_maquina_consolelog.addEventListener("click", function () {
+        if (div_dl_maquina_consolelog.style.display === 'none' || div_dl_maquina_consolelog.style.display === '') {
+            hideAllDivsExcept(div_dl_maquina_consolelog);
+            div_dl_maquina_consolelog.style.display = 'block'; // Muestra el div
+            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
+            div_dl_maquina_consolelog.style.zIndex = zIndexUpdate++;
+            div_content.style.marginLeft = "0%";
+        } else {
+            div_dl_maquina_consolelog.style.display = 'none'; // Oculta el div
+            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
+            div_content.style.marginLeft = "30%";
+        }
+    });
+    
+}
+
+
+if(dl_maquina_escolares){
+    dl_maquina_escolares.addEventListener("click", function () {
+        if (div_dl_maquina_escolares.style.display === 'none' || div_dl_maquina_escolares.style.display === '') {
+            hideAllDivsExcept(div_dl_maquina_escolares);
+            div_dl_maquina_escolares.style.display = 'block'; // Muestra el div
+            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
+            div_dl_maquina_escolares.style.zIndex = zIndexUpdate++;
+            div_content.style.marginLeft = "0%";
+        } else {
+            div_dl_maquina_escolares.style.display = 'none'; // Oculta el div
+            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
+            div_content.style.marginLeft = "30%";
+        }
+    });
+    
+}
+
+
+if(dl_maquina_los40ladrones){
+    dl_maquina_los40ladrones.addEventListener("click", function () {
+        if (div_dl_maquina_los40ladrones.style.display === 'none' || div_dl_maquina_los40ladrones.style.display === '') {
+            hideAllDivsExcept(div_dl_maquina_los40ladrones);
+            div_dl_maquina_los40ladrones.style.display = 'block'; // Muestra el div
+            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
+            div_dl_maquina_los40ladrones.style.zIndex = zIndexUpdate++;
+            div_content.style.marginLeft = "0%";
+        } else {
+            div_dl_maquina_los40ladrones.style.display = 'none'; // Oculta el div
+            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
+            div_content.style.marginLeft = "30%";
+        }
+    });
+    
+}
+
+
 if(button_exit_pdf){
     button_exit_pdf.addEventListener("click", function()  {
         div_dl_maquina_trust.style.display = 'none'; // Oculta el div 
@@ -863,6 +947,12 @@ if(button_exit_pdf){
         div_dl_maquina_chocolatelovers.style.display = 'none'; // Oculta el div
         div_dl_maquina_secretjenkins.style.display = 'none'; // Oculta el div
         div_dl_maquina_aguademayo.style.display = 'none'; // Oculta el div
+        div_dl_maquina_buscalove.style.display = 'none'; // Oculta el div
+        div_dl_maquina_consolelog.style.display = 'none'; // Oculta el div
+        div_dl_maquina_escolares.style.display = 'none'; // Oculta el div
+        div_dl_maquina_los40ladrones.style.display = 'none'; // Oculta el div
+        
+        
         button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
         div_content.style.marginLeft = "30%";
     });
