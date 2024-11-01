@@ -3200,13 +3200,8 @@ details > summary::before {
         margin-bottom: 1%;
     }
 
-    #iot_contrato_title{
-        font-size: 1vw;
-        margin-bottom: 1%;
-    }
-
-    #upf_info_img_i{
-        margin-top:-2%;
+    #upf_info_title{
+        font-size: 2vw;
     }
 
     #google_cybersecurity_contrato_title{
@@ -3270,8 +3265,8 @@ details > summary::before {
         margin-bottom: 1%;
     }
 
-    #upf_info_img_i{
-        margin-top:-2%;
+    #upf_info_title{
+        font-size: 2vw;
     }
 
     #google_cybersecurity_contrato_title{
@@ -3335,8 +3330,8 @@ details > summary::before {
         margin-bottom: 1%;
     }
 
-    #upf_info_img_i{
-        margin-top:-2%;
+    #upf_info_title{
+        font-size: 2vw;
     }
 
     #google_cybersecurity_contrato_title{
