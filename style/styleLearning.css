@@ -175,9 +175,10 @@ div#container_window_info{
 details {
     
    
-    padding-left: 0.2vw;
+    padding-left: 0.4vw;
     margin-bottom: 0.5em;
     font-size:2vw;
+   
 
 }
 
@@ -207,7 +208,7 @@ details > ul {
 }
 
 details ul li {
-    font-size:1.2vw;
+    font-size:1.1vw;
     padding-top:3%;
 }
 
@@ -3199,6 +3200,15 @@ details > summary::before {
         margin-bottom: 1%;
     }
 
+    #iot_contrato_title{
+        font-size: 1vw;
+        margin-bottom: 1%;
+    }
+
+    #upf_info_img_i{
+        margin-top:-2%;
+    }
+
     #google_cybersecurity_contrato_title{
         font-size: 1vw;
         margin-bottom: 1%;
@@ -3260,6 +3270,10 @@ details > summary::before {
         margin-bottom: 1%;
     }
 
+    #upf_info_img_i{
+        margin-top:-2%;
+    }
+
     #google_cybersecurity_contrato_title{
         font-size: 1vw;
         margin-bottom: 1%;
@@ -3319,6 +3333,10 @@ details > summary::before {
     #iot_contrato_title{
         font-size: 1vw;
         margin-bottom: 1%;
+    }
+
+    #upf_info_img_i{
+        margin-top:-2%;
     }
 
     #google_cybersecurity_contrato_title{
