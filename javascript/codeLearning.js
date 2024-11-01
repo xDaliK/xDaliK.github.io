@@ -9,6 +9,10 @@ var button_learning= document.querySelector("button#button_back");
 var button_exit_pdf = document.querySelector("button#button_exit_pdf");
 var div_content = document.querySelector("div#div_content");
 
+// Grados
+var bachillerato = document.getElementById("bachillerato");
+var upf_info = document.getElementById("upf_info");
+
 //Asignaturas
 var calculo_i = document.getElementById("calculo_i");
 var mat_discreta = document.getElementById("mat_discreta");
@@ -58,7 +62,9 @@ var tnlp = document.getElementById("tnlp");
 var google_cybersecurity = document.getElementById("google_cybersecurity");
 
 
-
+// Grados
+var div_bachillerato = document.getElementById("div_bachillerato");
+var div_upf_info = document.getElementById("div_upf_info");
 
 //Asignaturas
 var div_calculo_i = document.getElementById("div_calculo_i");
@@ -113,13 +119,13 @@ var maquinas = document.getElementsByClassName('maquinas_cyber');
 
 var zIndexUpdate = 1;
 
-var divs = [div_calculo_i, div_mat_discreta, div_intro_prog, div_intro_tic, div_calculo_ii, div_alg_lineal, div_eda_i, div_org_comp, 
+var divs = [div_bachillerato, div_upf_info, div_calculo_i, div_mat_discreta, div_intro_prog, div_intro_tic, div_calculo_ii, div_alg_lineal, div_eda_i, div_org_comp, 
     div_redes, div_met_num, div_eda_ii, div_fisica, div_prob, div_prog_obj, div_sys_i, div_dis_fun_prog, div_est, div_so, div_graf_ord, 
     div_dis_alg, div_apr_auto, div_ing_inter, div_prog_paral, div_ing_soft, div_bases_datos, div_intel_art, div_teoria_comp, div_com_ingles, 
     div_sis_dist, div_cripto, div_compila, div_ing_soft_web, div_redes_in, div_iot, div_gest_proy, div_aiw, div_gest_cares, div_videojuegos,
     div_ent_com_virt, div_sist_int, div_cybersec, div_google_cybersecurity, div_tall_tec_music, div_tnlp]; // Añade todos tus divs a esta lista
 
-var divs_text = ["div_calculo_i", "div_mat_discreta", "div_intro_prog", "div_intro_tic", "div_calculo_ii", "div_alg_lineal", "div_eda_i", "div_org_comp", 
+var divs_text = ["div_bachillerato", "div_upf_info", "div_calculo_i", "div_mat_discreta", "div_intro_prog", "div_intro_tic", "div_calculo_ii", "div_alg_lineal", "div_eda_i", "div_org_comp", 
     "div_redes", "div_met_num", "div_eda_ii", "div_fisica", "div_prob", "div_prog_obj", "div_sys_i", "div_dis_fun_prog", "div_est", "div_so", "div_graf_ord", 
     "div_dis_alg", "div_apr_auto", "div_ing_inter", "div_prog_paral", "div_ing_soft", "div_bases_datos", "div_intel_art", "div_teoria_comp", "div_com_ingles", 
     "div_sis_dist", "div_cripto", "div_compila", "div_ing_soft_web", "div_redes_in", "div_iot", "div_gest_proy", "div_aiw", "div_gest_cares", "div_videojuegos",
@@ -310,6 +316,34 @@ function searchFunction(searchValue) {
         document.getElementById(r.item.id).style.display = 'block';
     });
 }
+
+//Grados
+
+if (bachillerato) {
+    bachillerato.addEventListener("click", function () {
+        if (div_bachillerato.style.display === 'none' || div_bachillerato.style.display === '') {
+            hideAllDivsExcept(div_bachillerato);
+            div_bachillerato.style.display = 'block'; // Muestra el div
+            div_bachillerato.style.zIndex = zIndexUpdate++;
+        } else {
+            div_bachillerato.style.display = 'none'; // Oculta el div
+        }
+    });
+}
+
+
+if (upf_info) {
+    upf_info.addEventListener("click", function () {
+        if (div_upf_info.style.display === 'none' || div_upf_info.style.display === '') {
+            hideAllDivsExcept(div_upf_info);
+            div_upf_info.style.display = 'block'; // Muestra el div
+            div_upf_info.style.zIndex = zIndexUpdate++;
+        } else {
+            div_upf_info.style.display = 'none'; // Oculta el div
+        }
+    });
+}
+
 
 
 //Asginaturas
