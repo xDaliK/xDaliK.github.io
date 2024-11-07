@@ -105,43 +105,56 @@ div#container_window_info{
   
 #button_send {
     position:absolute;
-    width: 10vw; /* O ajusta según tus necesidades */
+    width: 10vw; 
     height: 5vw;
-    font-size: 1.5vw; /* Ajusta según tus necesidades */
+    font-size: 1.5vw; 
     font-style: italic;
-    color: black;
-    top: 3%; /* Ajusta según tus necesidades */
-    left: 20%; /* Ajusta según tus necesidades */
+    top: 3%; 
+    left: 20%; 
     margin-top:90%;
-    margin-left:70%;
-    display:none;
-    border: 0.2vw solid black;
+    margin-left:75%;
+    
     padding:0.1vw;
+    background-color: #5ca1a1;
+    border-radius: 5%;
+    border: 0.1vw solid black;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
+
+#button_send:hover {
+    background-color: #417575;
+    
+}
 
 #input_email{
-    position: absolute;
-    width: 10vw; /* O ajusta según tus necesidades */
+    
+    width: 15vw;
     height: 1vw;
-    font-size: 1.5vw; /* Ajusta según tus necesidades */
+    font-size: 1.5vw; 
     font-style: italic;
     color: black;
 
 }
+
 
 #input_email input{
     width: 20vw;
     height: 2vw;
-    border:0.1vw solid black; 
+
+    border-radius: 2%;
+    border:0.1vw solid rgb(142, 142, 142); 
     padding:0.1vw;
 }
 
 #input_msg{
     
-    width: 15vw; /* O ajusta según tus necesidades */
+    width: 15vw;
     height: 1vw;
-    font-size: 1.5vw; /* Ajusta según tus necesidades */
+    font-size: 1.5vw; 
     font-style: italic;
     color: black;
     margin-left: 27%;
@@ -151,9 +164,20 @@ div#container_window_info{
 #input_msg textarea {
     width: 30vw;
     height: 10vw;
-    border:0.1vw solid black; 
     padding:0.1vw;
+
+    border:0.1vw solid rgb(142, 142, 142); 
+    border-radius: 2%;
+    background-color: #fff;
+    transition: border-color 0.3s;
 }
+
+
+/* #input_email input:focus,
+#input_msg textarea:focus {
+   
+    
+} */
 
 
 /* For Vertical Mobile/Tablet */

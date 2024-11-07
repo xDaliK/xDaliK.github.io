@@ -83,7 +83,8 @@ div#container_window_info{
     margin-left: 1.6%;
     margin-right: 2%;
     overflow-y: auto; 
-    background: url("../resources/final_aboutme.png");
+    /* background: url("../resources/final_aboutme.png"); */
+    background-color: #d2fffd;
     margin-top:1.66%;
     z-index:2;
     background-size: cover;
@@ -109,16 +110,31 @@ div#container_window_info{
     font-family: 'Times New Roman';
 }
 
-#foto_aboutme{
-  
-    width:15vw;
-    height:14vw;
-    margin-top:6.8%; 
-    margin-left:-29%; 
-    background: rgb(0, 176, 196); 
-    padding: 0.25vw;
 
+  
+#foto_aboutme {
+    width: 15vw;
+    height: 15vw;
+    margin-top: 5.4%;
+    margin-left: -27.5%;
+    padding: 0.25vw;
+    background: rgb(0 0 0);
+    padding: 0.15vw;
+    border-radius: 5%;
 }
+
+#online_now {
+    width: 10vw;
+    height: 2.5vw;
+    margin-top: 30%;
+    margin-left: -20.5%;
+    padding: 0.25vw;
+    
+    padding: 0.15vw;
+    border-radius: 5%;
+}
+
+
 
 #title_name{
 
@@ -132,6 +148,7 @@ div#container_window_info{
     white-space: nowrap; 
     text-align: center;
     margin-bottom: 0;
+    border-radius:2%;
 }
 
 #rectangle_resources{
@@ -142,6 +159,7 @@ div#container_window_info{
     margin-top:2%;
     margin-left:2%;
     font-size:2vw;
+    border-radius:1%;
 }
 
 #list_resources{
@@ -186,8 +204,9 @@ div#container_window_info{
     width: 32%;
     height:40%;
     font-size:2vw;
-    margin-left:-26%;
+    margin-left:-23%;
     padding:1%;
+    border-radius:2%;
 }
 
 /* For Vertical Mobile/Tablet */
