@@ -2944,7 +2944,7 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif; 
     /*margin-left:20%;*/
-    /* height:3vh;  */
+    /* height:3vw;  */
     width: 60vw;
    
 }
@@ -3114,6 +3114,11 @@ details > summary::before {
         font-size: 2.25vw;
     }
 
+    #dockerlabs_title{
+        font-size:2.25vw; 
+        
+       
+    }
     
 }
 
