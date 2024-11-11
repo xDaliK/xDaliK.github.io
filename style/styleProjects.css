@@ -2919,7 +2919,70 @@ details > summary::before {
 }
 
 
+
 /*Máquinas Ciberseguridad*/
+
+
+/*Seguridad en Computadores*/
+#div_dockerlabs{
+    position: absolute;
+    margin-top:0.9%;
+    display: none;
+    
+    background-color: #e2fdfd;
+    /*background-color: #104b4b;*/
+    width: 44.15vw;
+    height:38.55vw;
+    z-index: 1;
+}
+
+
+
+#dockerlabs_title{
+    font-size:3vw; 
+    color: rgb(255, 52, 52);
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    /*margin-left:20%;*/
+    height:3vw; 
+    width: 60vw;
+   
+}
+
+#dockerlabs_contrato_title{
+    font-size:1.5vw; 
+    color: #dbb039;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+
+    /* height: 5%;  */
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_dockerlabs_tareas{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1.1vw; 
+    margin:0;
+    
+}
+
+#p_dockerlabs_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
 .maquinas_cyber {
     position: absolute;
     margin-top:0.9%;
