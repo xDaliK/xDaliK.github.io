@@ -49,15 +49,19 @@ var div_iot =  document.getElementById("div_iot");
 var div_google_cybersecurity= document.getElementById("div_google_cybersecurity");
 
 //Maquinas
+var dockerlabs = document.getElementById("dockerlabs");
+var div_dockerlabs=  document.getElementById("div_dockerlabs");
+
 var maquinas = document.getElementsByClassName('maquinas_cyber');
+
 
 var zIndexUpdate = 1;
 
 var divs = [ div_ent_com_virt, div_google_cybersecurity, div_tall_tec_music, div_sist_int, div_gest_cares, 
-    div_cybersec, div_aiw, div_redes_in, div_ing_soft_web, div_gest_proy, div_intel_art, div_iot]; // Añade todos tus divs a esta lista
+    div_cybersec, div_aiw, div_redes_in, div_ing_soft_web, div_gest_proy, div_intel_art, div_iot, div_dockerlabs]; // Añade todos tus divs a esta lista
 
 var divs_text = ["div_ent_com_virt", "div_tall_tec_music", "div_google_cybersecurity", "div_sist_int", "div_gest_cares", 
-    "div_cybersec", "div_aiw", "div_redes_in", "div_ing_soft_web", "div_gest_proy", "div_intel_art", "div_iot"]; // Añade todos tus divs a esta lista
+    "div_cybersec", "div_aiw", "div_redes_in", "div_ing_soft_web", "div_gest_proy", "div_intel_art", "div_iot", "div_dockerlabs"]; // Añade todos tus divs a esta lista
 
 function hideAllDivsExcept(div) {
     // Itera sobre los elementos con la clase 'maquinas_cyber'
@@ -494,8 +498,33 @@ var dl_maquina_escolares = document.getElementById("dl_maquina_escolares");
 var div_dl_maquina_los40ladrones = document.getElementById("div_dl_maquina_los40ladrones");
 var dl_maquina_los40ladrones = document.getElementById("dl_maquina_los40ladrones");
 
+var div_dl_maquina_move = document.getElementById("div_dl_maquina_move");
+var dl_maquina_move = document.getElementById("dl_maquina_move");
+
+var div_dl_maquina_nodeclimb= document.getElementById("div_dl_maquina_nodeclimb");
+var dl_maquina_nodeclimb = document.getElementById("dl_maquina_nodeclimb");
+
+var div_dl_maquina_picadilly= document.getElementById("div_dl_maquina_picadilly");
+var dl_maquina_picadilly = document.getElementById("dl_maquina_picadilly");
+
+var div_dl_maquina_pinguinazo= document.getElementById("div_dl_maquina_pinguinazo");
+var dl_maquina_pinguinazo= document.getElementById("dl_maquina_pinguinazo");
+
 
 //Event Listeners
+
+if(dockerlabs){
+    dockerlabs.addEventListener("click", function () {
+        if (div_dockerlabs.style.display === 'none' || div_dockerlabs.style.display === '') {
+            hideAllDivsExcept(div_dockerlabs);
+            div_dockerlabs.style.display = 'block'; // Muestra el div
+            div_dockerlabs.style.zIndex = zIndexUpdate++;
+        } else {
+            div_dockerlabs.style.display = 'none'; // Oculta el div
+        }
+    });
+
+}
 
 if(dl_maquina_trust){
     dl_maquina_trust.addEventListener("click", function () {
@@ -925,6 +954,78 @@ if(dl_maquina_los40ladrones){
 }
 
 
+if(dl_maquina_move){
+    dl_maquina_move.addEventListener("click", function () {
+        if (div_dl_maquina_move.style.display === 'none' || div_dl_maquina_move.style.display === '') {
+            hideAllDivsExcept(div_dl_maquina_move);
+            div_dl_maquina_move.style.display = 'block'; // Muestra el div
+            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
+            div_dl_maquina_move.style.zIndex = zIndexUpdate++;
+            div_content.style.marginLeft = "0%";
+        } else {
+            div_dl_maquina_move.style.display = 'none'; // Oculta el div
+            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
+            div_content.style.marginLeft = "30%";
+        }
+    });
+    
+}
+
+
+if(dl_maquina_nodeclimb){
+    dl_maquina_nodeclimb.addEventListener("click", function () {
+        if (div_dl_maquina_nodeclimb.style.display === 'none' || div_dl_maquina_nodeclimb.style.display === '') {
+            hideAllDivsExcept(div_dl_maquina_nodeclimb);
+            div_dl_maquina_nodeclimb.style.display = 'block'; // Muestra el div
+            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
+            div_dl_maquina_nodeclimb.style.zIndex = zIndexUpdate++;
+            div_content.style.marginLeft = "0%";
+        } else {
+            div_dl_maquina_nodeclimb.style.display = 'none'; // Oculta el div
+            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
+            div_content.style.marginLeft = "30%";
+        }
+    });
+    
+}
+
+
+if(dl_maquina_picadilly){
+    dl_maquina_picadilly.addEventListener("click", function () {
+        if (div_dl_maquina_picadilly.style.display === 'none' || div_dl_maquina_picadilly.style.display === '') {
+            hideAllDivsExcept(div_dl_maquina_picadilly);
+            div_dl_maquina_picadilly.style.display = 'block'; // Muestra el div
+            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
+            div_dl_maquina_picadilly.style.zIndex = zIndexUpdate++;
+            div_content.style.marginLeft = "0%";
+        } else {
+            div_dl_maquina_picadilly.style.display = 'none'; // Oculta el div
+            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
+            div_content.style.marginLeft = "30%";
+        }
+    });
+    
+}
+
+
+if(dl_maquina_pinguinazo){
+    dl_maquina_pinguinazo.addEventListener("click", function () {
+        if (div_dl_maquina_pinguinazo.style.display === 'none' || div_dl_maquina_pinguinazo.style.display === '') {
+            hideAllDivsExcept(div_dl_maquina_pinguinazo);
+            div_dl_maquina_pinguinazo.style.display = 'block'; // Muestra el div
+            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
+            div_dl_maquina_pinguinazo.style.zIndex = zIndexUpdate++;
+            div_content.style.marginLeft = "0%";
+        } else {
+            div_dl_maquina_pinguinazo.style.display = 'none'; // Oculta el div
+            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
+            div_content.style.marginLeft = "30%";
+        }
+    });
+    
+}
+
+
 if(button_exit_pdf){
     button_exit_pdf.addEventListener("click", function()  {
         div_dl_maquina_trust.style.display = 'none'; // Oculta el div 
@@ -951,6 +1052,10 @@ if(button_exit_pdf){
         div_dl_maquina_consolelog.style.display = 'none'; // Oculta el div
         div_dl_maquina_escolares.style.display = 'none'; // Oculta el div
         div_dl_maquina_los40ladrones.style.display = 'none'; // Oculta el div
+        div_dl_maquina_move.style.display = 'none'; // Oculta el div
+        div_dl_maquina_nodeclimb.style.display = 'none'; // Oculta el div
+        div_dl_maquina_picadilly.style.display = 'none'; // Oculta el div
+        div_dl_maquina_pinguinazo.style.display = 'none'; // Oculta el div
         
         
         button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
