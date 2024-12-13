@@ -2963,7 +2963,7 @@ details > summary::before {
 }
 
 #p_dockerlabs_tareas{
-    padding-top:2%; 
+    padding-top:0%; 
     padding-left:2%; 
     padding-right:2%; 
     text-align: justify; 
