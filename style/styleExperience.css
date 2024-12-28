@@ -433,6 +433,16 @@ details > summary::before {
            
         }
 
+        #button_fisco{
+            font-size: 1.75vw; 
+            
+        }
+
+        #prodat_contrato_title{
+            font-size:1.25vw;
+            
+        }
+
 
      
 
@@ -444,6 +454,16 @@ details > summary::before {
     
     div#container_window_info{
         transform: translate(-50%, -50%) scale(0.83);
+    }
+
+    #button_fisco{
+        font-size: 1.75vw; 
+        
+    }
+
+    #prodat_contrato_title{
+        font-size:1.25vw;
+        
     }
 
 }
