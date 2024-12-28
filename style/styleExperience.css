@@ -352,6 +352,18 @@ details > summary::before {
     margin-top:30%;
 }
 
+#button_fisco_text{
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+    color:blue; 
+    font-style: italic; 
+    padding:2%; 
+    font-size: 2vw; 
+    margin-top:30%;
+    cursor: pointer; 
+    margin-left:20%;
+}
+
 #fisco_title{
     font-size:3.5vw; 
     color: rgb(36, 91, 193); 
@@ -373,10 +385,7 @@ details > summary::before {
     margin:0; 
     text-align: right;
 
-   
 
- 
- 
 }
 
 #p_fisco_tareas{
@@ -433,9 +442,18 @@ details > summary::before {
            
         }
 
-        #button_fisco{
+        #button_fisco_text{
+
+            font-family: 'Times New Roman', Times, serif; 
+            font-weight: bold; 
+            color:blue; 
+            font-style: italic; 
+            padding:2%; 
+            margin-top:30%;
             font-size: 1.75vw; 
-            margin-left:18%
+            margin-left:18%;
+            cursor: pointer; 
+
             
         }
 
@@ -457,9 +475,18 @@ details > summary::before {
         transform: translate(-50%, -50%) scale(0.83);
     }
 
-    #button_fisco{
+    #button_fisco_text{
+
+        font-family: 'Times New Roman', Times, serif; 
+        font-weight: bold; 
+        color:blue; 
+        font-style: italic; 
+        padding:2%; 
+        margin-top:30%;
         font-size: 1.75vw; 
-        margin-left:18%
+        margin-left:18%;
+        cursor: pointer; 
+
         
     }
 
