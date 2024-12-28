@@ -357,7 +357,6 @@ details > summary::before {
     font-weight: bold; 
     color:blue; 
     font-style: italic; 
-    padding:2%; 
     font-size: 2vw; 
     cursor: pointer; 
     margin-left:20%;
@@ -447,7 +446,6 @@ details > summary::before {
             font-weight: bold; 
             color:blue; 
             font-style: italic; 
-            padding:2%; 
             font-size: 1.75vw; 
             margin-left:18%;
             cursor: pointer; 
@@ -479,7 +477,6 @@ details > summary::before {
         font-weight: bold; 
         color:blue; 
         font-style: italic; 
-        padding:2%; 
         font-size: 1.75vw; 
         margin-left:18%;
         cursor: pointer; 
