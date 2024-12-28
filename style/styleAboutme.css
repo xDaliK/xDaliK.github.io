@@ -82,7 +82,7 @@ div#container_window_info{
     height: 38.3vw;
     margin-left: 1.6%;
     margin-right: 2%;
-    overflow-y: auto; 
+    overflow-y: none; 
     /* background: url("../resources/final_aboutme.png"); */
     background-color: #d2fffd;
     margin-top:1.66%;
@@ -244,7 +244,7 @@ div#container_window_info{
             height: 38.3vw;
             margin-left: 1.6%;
             margin-right: 2%;
-            overflow-y: auto; 
+            overflow-y: none; 
             background: url(" ");
             background-color:#dbf6fe;
             margin-top:1.66%;

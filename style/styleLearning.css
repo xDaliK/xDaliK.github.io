@@ -140,7 +140,7 @@ div#container_window_info{
     height: 38.3vw;
     margin-left: 1.6%;
     margin-right: 2%;
-    overflow-y: auto; 
+    overflow-y: none; 
     background-color:rgb(255, 255, 255);
     margin-top:1.66%;
     z-index:2;
@@ -234,8 +234,8 @@ details > summary::before {
     background-color: #e2fdfd;
     margin-left:30%;
     width: 70%;
-    height: 101.7%;
-    margin-top:-62%;
+    height: 100%;
+    margin-top:-61%;
 
 }
 
@@ -264,13 +264,13 @@ details > summary::before {
 /*Bachillerato*/
 #div_bachillerato{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -321,13 +321,13 @@ details > summary::before {
 /*UPF Informática*/
 #div_upf_info{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -380,13 +380,13 @@ details > summary::before {
 /*Calculo I*/
 #div_calculo_i{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -437,13 +437,13 @@ details > summary::before {
 /*Matemática Discreta*/
 #div_mat_discreta{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -495,13 +495,13 @@ details > summary::before {
 /*Introducción Programación*/
 #div_intro_prog{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -555,13 +555,13 @@ details > summary::before {
 /*Introducción TIC*/
 #div_intro_tic{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -612,13 +612,13 @@ details > summary::before {
 /*Calculo II*/
 #div_calculo_ii{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -670,13 +670,13 @@ details > summary::before {
 /*Álgebra Lineal*/
 #div_alg_lineal{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -729,13 +729,13 @@ details > summary::before {
 /*EDA I*/
 #div_eda_i{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -789,13 +789,13 @@ details > summary::before {
 /*Organización de Computadores*/
 #div_org_comp{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -849,13 +849,13 @@ details > summary::before {
 /*Redes*/
 #div_redes{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -909,13 +909,13 @@ details > summary::before {
 /*Métodos Numéricos*/
 #div_met_num{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -968,13 +968,13 @@ details > summary::before {
 /*EDA II*/
 #div_eda_ii{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1027,13 +1027,13 @@ details > summary::before {
 /*Física*/
 #div_fisica{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1085,13 +1085,13 @@ details > summary::before {
 /*Probabilidad*/
 #div_prob{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1144,13 +1144,13 @@ details > summary::before {
 /*Programación Orientada a Objetos*/
 #div_prog_obj{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1206,13 +1206,13 @@ details > summary::before {
 /*Señales y Sistemas I*/
 #div_sys_i{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1267,13 +1267,13 @@ details > summary::before {
 /*Diseño Funcional de Programas*/
 #div_dis_fun_prog{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1327,13 +1327,13 @@ details > summary::before {
 /*Estadística*/
 #div_est{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1385,13 +1385,13 @@ details > summary::before {
 /*Sistemas Operativos*/
 #div_so{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1446,13 +1446,13 @@ details > summary::before {
 /*Gráficos por Ordenador*/
 #div_graf_ord{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1506,13 +1506,13 @@ details > summary::before {
 /*Diseño de Algoritmos*/
 #div_dis_alg{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1569,13 +1569,13 @@ details > summary::before {
 }
 #div_apr_auto{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1629,13 +1629,13 @@ details > summary::before {
 /*Ingeniería de Interacción*/
 #div_ing_inter{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1692,13 +1692,13 @@ details > summary::before {
 }
 #div_prog_paral{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1753,13 +1753,13 @@ details > summary::before {
 /*Ingeniería de Software*/
 #div_ing_soft{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1815,13 +1815,13 @@ details > summary::before {
 /*Bases de Datos*/
 #div_bases_datos{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1875,13 +1875,13 @@ details > summary::before {
 /*Inteligencia Artificial*/
 #div_intel_art{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1937,13 +1937,13 @@ details > summary::before {
 /*Teoría de la Computación*/
 #div_teoria_comp{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -1997,13 +1997,13 @@ details > summary::before {
 /*Comunicación Técnica en Inglés*/
 #div_com_ingles{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2056,13 +2056,13 @@ details > summary::before {
 /*Sistemas Distribuidos de Gran Escala*/
 #div_sis_dist{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2122,13 +2122,13 @@ details > summary::before {
 
 #div_cripto{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2184,13 +2184,13 @@ details > summary::before {
 /*Compiladores*/
 #div_compila{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2248,13 +2248,13 @@ details > summary::before {
 }
 #div_ing_soft_web{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2308,13 +2308,13 @@ details > summary::before {
 /*Redes de Sensores Inalámbricos*/
 #div_redes_in{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2368,13 +2368,13 @@ details > summary::before {
 /*Redes de Sensores Inalámbricos*/
 #div_redes_in{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2428,13 +2428,13 @@ details > summary::before {
 /*Internet of Things*/
 #div_iot{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2489,13 +2489,13 @@ details > summary::before {
 /*Gestión de Proyectos*/
 #div_gest_proy{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2548,13 +2548,13 @@ details > summary::before {
 /*Aplicaciones Inteligentes para la Web*/
 #div_aiw{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2610,13 +2610,13 @@ details > summary::before {
 /*Análisis de Gestos y Caras*/
 #div_gest_cares{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2671,13 +2671,13 @@ details > summary::before {
 /*Narrativa y Videojuegos*/
 #div_videojuegos{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2729,13 +2729,13 @@ details > summary::before {
 /*Entornos de Comunicación Virtual*/
 #div_ent_com_virt{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2787,13 +2787,13 @@ details > summary::before {
 /*Sistemas Interactivos*/
 #div_sist_int{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2846,13 +2846,13 @@ details > summary::before {
 /*Seguridad en Computadores*/
 #div_cybersec{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2906,13 +2906,13 @@ details > summary::before {
 /*Taller de Tecnología Musical*/
 #div_tall_tec_music{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -2964,13 +2964,13 @@ details > summary::before {
 /*Técnicas de Procesamiento de Lenguaje Natural*/
 #div_tnlp{
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -3024,13 +3024,13 @@ details > summary::before {
 /*Certificaciones*/
 #div_google_cybersecurity {
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
@@ -3098,13 +3098,13 @@ details > summary::before {
 /*Máquinas Ciberseguridad*/
 .maquinas_cyber {
     position: absolute;
-    margin-top:0.9%;
+    margin-top:0%;
     display: none;
     
     background-color: #e2fdfd;
     /*background-color: #104b4b;*/
     width: 44.15vw;
-    height:38.55vw;
+    height:38.3vw;
     z-index: 1;
 }
 
