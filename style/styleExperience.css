@@ -440,13 +440,18 @@ details > summary::before {
            
         }
 
+        #button_fisco{
+            font-size: 1.65vw; 
+            
+        }
+
         #button_fisco_text{
 
             font-family: 'Times New Roman', Times, serif; 
             font-weight: bold; 
             color:blue; 
             font-style: italic; 
-            font-size: 1.75vw; 
+            font-size: 1.65vw; 
             margin-left:18%;
             cursor: pointer; 
 
@@ -471,13 +476,18 @@ details > summary::before {
         transform: translate(-50%, -50%) scale(0.83);
     }
 
+    #button_fisco{
+        font-size: 1.65vw; 
+        
+    }
+
     #button_fisco_text{
 
         font-family: 'Times New Roman', Times, serif; 
         font-weight: bold; 
         color:blue; 
         font-style: italic; 
-        font-size: 1.75vw; 
+        font-size: 1.65vw; 
         margin-left:18%;
         cursor: pointer; 
 
