@@ -694,7 +694,7 @@ h3#text_contact:hover {
 
     #project_file {
         position:absolute;
-        margin-left: 75%;
+        margin-left: 85%;
         margin-right:200%;
         margin-top: -1%; 
         transform: scale(0.6); 
@@ -758,7 +758,7 @@ h3#text_contact:hover {
 
     #contact_file {
         position: absolute;
-        margin-left: 72%;
+        margin-left: 87%;
         margin-right:200%;
         margin-top: -8%;
         transform: scale(0.6);
