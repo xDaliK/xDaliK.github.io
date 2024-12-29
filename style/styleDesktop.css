@@ -647,9 +647,9 @@ h3#text_contact:hover {
 
     #progressBlockBarContent {
 
-        width: 300px;
+        width: 325px;
         height: 15px;
-        margin-top:-60%;
+        margin-top:60%;
         margin-left: 26%;
     } 
 
