@@ -274,11 +274,57 @@ h3#text_contact:hover {
     
 }
    
-/* For Vertical Tablet OK */
+
+
+/* For Vertical Mobile/Tablet */
 @media only screen and (max-width: 900px) and (max-height: 900px) and (orientation: portrait), 
        only screen and (max-width: 900px) and  (orientation: portrait) {
 
+    /* #resume_file,
+    #aboutme_file,
+    #contact_file {
+        display: none;
+    } */
 
+        
+    /* Init Sesion */
+
+    #centeredContainerSesion {
+        display: block;
+        width: 90vw; 
+        height: 90vw; 
+        background-image: url("../resources/pruebaventana3.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        z-index:1;
+    }
+
+    #centeredContainerSesionTitle {
+        width: 1000px;
+        height: 50px;
+        
+        margin-top:40%;
+        margin-left: 23%;
+        font-size: 5vw; 
+        color: black;
+        font-weight: bold;
+    
+    }
+
+    #progressBlockBarContent {
+
+        width: 160px;
+        height: 15px;
+        margin-top:-20%;
+        margin-left: 26%;
+    } 
+    
     
     /* Icon Learning Desktop */
     #learning_file {
@@ -292,29 +338,29 @@ h3#text_contact:hover {
     #icon_file_learning {
         width: 6em;
         height: auto;
-        display: block;
+        display: none;
         cursor: pointer;
-        
+        margin-left: 40%
     }
     
     h3#text_learning {
-        display: block;
+        display: none;
         width: 100%;
-        height: 5%;
+        height: 10%;
         position: relative;
         font-size: 170%; 
         
-        
-        background-color: transparent; 
-        box-shadow: none; 
+        margin-left: 35%;
+        background-color: transparent; /* Quita el fondo */
+        box-shadow: none; /* Quita la sombra */
         overflow: visible;
         word-break:normal;
         cursor: pointer;
         
-        background-color: rgba(255, 255, 255, 0.8); 
-        border-radius: 15px; 
-        padding: 0.6vw; 
-        padding-bottom: 3.5vh;
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+        border-radius: 15px; /* Bordes circulares */
+        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        padding-bottom: 5.0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
         overflow: hidden;
@@ -326,33 +372,33 @@ h3#text_contact:hover {
         position: absolute;
         margin-left:60%;
         margin-right: 26%;
-        margin-top: 2%;
+        margin-top: 1%;
         
     }
     
     #icon_file_project {
         width: 6em;
         height: auto;
-        display: block;
+        display: none;
         cursor: pointer;
     }
     
     h3#text_project {
-        display: block;
+        display: none;
         width: 100%;
         height: 10%;
         position: relative;
         font-size: 170%;
-        background-color: transparent; 
-        box-shadow: none; 
+        background-color: transparent; /* Quita el fondo */
+        box-shadow: none; /* Quita la sombra */
         overflow: visible;
         cursor: pointer;
         margin-left:1%;
 
         
-        background-color: rgba(255, 255, 255, 0.8);
-        border-radius: 15px; 
-        padding: 0.6vw; 
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+        border-radius: 15px; /* Bordes circulares */
+        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
         padding-bottom: .0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -366,39 +412,37 @@ h3#text_contact:hover {
     #experience_file {
         position: relative;
         margin-top: 2%;
-        margin-left:21.5%;
+        margin-left:19%;
         width:6.7em;
         
     }
     
     #icon_file_experience {
-        
         width: 6em;
         height: auto;
-        display: block;
+        display: none;
         cursor: pointer;
-        margin-left: 5%;
-        
+        margin-left:55%;
     }
     
     h3#text_experience {
-        display: block;
-        width: 152.5%;
+        display: none;
+        width: 141%;
         height: 10%;
         position: relative;
         font-size: 170%; 
         
-        margin-left:-25%;
-        background-color: transparent; 
-        box-shadow: none; 
+        margin-left:30%;
+        background-color: transparent; /* Quita el fondo */
+        box-shadow: none; /* Quita la sombra */
         overflow: visible;
         cursor: pointer;
 
             
-        background-color: rgba(255, 255, 255, 0.8); 
-        border-radius: 15px; 
-        padding: 0.9vw;
-        padding-bottom: 3.5vh;
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+        border-radius: 15px; /* Bordes circulares */
+        padding: 0.9vw; /* Espacio interno para que el texto no toque los bordes */
+        padding-bottom: 5.0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
         overflow: hidden;
@@ -408,36 +452,38 @@ h3#text_contact:hover {
     
     /* Icon Resume Desktop */
     #resume_file {
-        position: absolute;
-        margin-left:62%;
-        margin-right: 26%;
+        position:absolute;
+        margin-left: 51%;
+        margin-right:60%;
         margin-top: 2%;
         
+        
+    
     }
     
     #icon_file_resume {
         width: 6em;
         height: auto;
-        display: block;
+        display: none;
         cursor: pointer;
 
     }
     
     h3#text_resume {
-        display: block;
+        display: none;
         width: 100%;
         height: 10%;
         position: relative;
         font-size: 170%;
-        background-color: transparent; 
-        box-shadow: none; 
+        background-color: transparent; /* Quita el fondo */
+        box-shadow: none; /* Quita la sombra */
         overflow: visible;
         cursor: pointer;
 
         
-        background-color: rgba(255, 255, 255, 0.8); 
-        border-radius: 15px; 
-        padding: 0.6vw; 
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+        border-radius: 15px; /* Bordes circulares */
+        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
         padding-bottom: .0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -450,39 +496,39 @@ h3#text_contact:hover {
     
     /* Icon AboutMe Desktop */
     #aboutme_file {
+      
         position: relative;
-        margin-top: 2%;
-        margin-left:20%;
-        margin-right:90%;
-        float: left;
+        margin-top: 2.5%;
+        margin-left:18.5%;
+        
     }
     
     #icon_file_aboutme {
         width: 6em;
         height: auto;
-        display: block;
+        display: none;
         cursor: pointer;
-        margin-left:20%;
+        margin-left:45%;
     }
     
     h3#text_aboutme {
-        display: block;
-        width: 137%;
+        display: none;
+        width: 100%;
         height: 10%;
         position: relative;
         font-size: 170%; 
         
-        
-        background-color: transparent; 
-        box-shadow: none; 
+        margin-left:35%;
+        background-color: transparent; /* Quita el fondo */
+        box-shadow: none; /* Quita la sombra */
         overflow: visible;
         cursor: pointer;
 
             
-        background-color: rgba(255, 255, 255, 0.8); 
-        border-radius: 15px; 
-        padding: 0.6vw; 
-        padding-bottom: 3.5vh;
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+        border-radius: 15px; /* Bordes circulares */
+        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        padding-bottom: 5.0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
         overflow: hidden;
@@ -492,36 +538,35 @@ h3#text_contact:hover {
     /* Icon Contact Desktop */
     #contact_file {
         position: absolute;
-        margin-left:61%;
-        margin-right: 26%;
-        margin-top: 2%;
-        
+        margin-left: 59%;
+        margin-right:60%;
+        margin-top: 2.5%;
     }
     
     #icon_file_contact {
         width: 6em;
         height: auto;
-        display: block;
+        display: none;
         cursor: pointer;
 
     }
     
     h3#text_contact {
-        display: block;
+        display: none;
         width: 100%;
         height: 10%;
         position: relative;
         font-size: 170%;
-        background-color: transparent; 
-        box-shadow: none; 
+        background-color: transparent; /* Quita el fondo */
+        box-shadow: none; /* Quita la sombra */
         overflow: visible;
         cursor: pointer;
         margin-left:1%;
 
         
-        background-color: rgba(255, 255, 255, 0.8); 
-        border-radius: 15px; 
-        padding: 0.6vw; 
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+        border-radius: 15px; /* Bordes circulares */
+        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
         padding-bottom: .0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -531,9 +576,6 @@ h3#text_contact:hover {
     }
 
 }
-
-
-
 
 /* For Vertical Mobile */
 @media only screen and (max-width: 500px) and (orientation: portrait){
@@ -563,13 +605,6 @@ h3#text_contact:hover {
         
     }
 
-    h3#text_learning {
-        margin-left:12.5%; 
-        padding-bottom: 4vh;    
-    }
-
-
-
     #project_file {
         position:absolute;
         margin-left: 60%;
@@ -584,23 +619,12 @@ h3#text_contact:hover {
 
     #experience_file {
         position: relative;
-        margin-top: -15%;
-        margin-left:20%;
+        margin-top: -25%;
+        margin-left:2.5%;
         width:6.7em;
         /*transform: translateX(-80%) translateY(-90%) scale(0.6);*/
         transform: scale(0.6);
         float: left;
-        
-    }
-
-    
-    #icon_file_experience {
-        margin-left:15%;
-    }
-    
-    h3#text_experience {
-        width: 90%;
-        padding-bottom: 4vh;
         
     }
 
@@ -625,15 +649,6 @@ h3#text_contact:hover {
         
     }
 
-    
-    h3#text_aboutme {
-        width: 97%;
-        margin-left: 6%;
-        padding-bottom: 4vh;
-        
-    }
-    
-
     #contact_file {
         position: absolute;
         margin-left: 60%;
@@ -643,134 +658,195 @@ h3#text_contact:hover {
         float: right;
     }
     
+    #search_file{
+        
+        position: fixed;
+        margin-left:3%;
+        transform: scale(0.7);
+        bottom:5%;
+        float: left;
+    
+    }
+
+    .popup {
+        display: none;
+        position: fixed;
+        bottom: calc(3% + 60px);
+        left: 95px;
+        width: 60%;
+        height: 60%;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        z-index: 1000;
+    }
+    
+    .popup-content {
+        min-height: 90%;
+    }
     
    
 
 }
 
 
-/*For Horizontal Mobile OK*/
+/*For Horizontal Mobile*/
 @media only screen and (min-width: 600px) and (max-width: 950px) and (orientation: landscape) {
 
-    /* Body Desktop */
-    body#initIndex {
-       font-family: Arial, sans-serif;
-       margin: 0;
-       padding: 0;
-       background:url("../resources/wallpaper_draw_maffhu3.png"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
-       background-size: cover;
-       background-position: center;
-       background-repeat: no-repeat;
-       height: 200vh;
-       overflow: hidden; 
-   }
+    /* Init Sesion */
 
-   
-
-   #learning_file {
-       position: relative;
-       margin-top: -2%;
-       margin-left:3%;
-       margin-right:90%;
-       float: left;
-       transform: scale(0.6);
-       
-   }
-
-   #project_file {
-       position:absolute;
-       margin-left: 75%;
-       margin-right:200%;
-       margin-top: -1%; 
-       transform: scale(0.6); 
-       float: right;
-       
-   }
-
-   #icon_file_project{
-       margin-left:4%;
-   }
-
-   h3#text_project {
-      
-       margin-left:2.5%;
-       padding-bottom: 0.0vh;
-       
-   }
-
-   #experience_file {
-       position: relative;
-       margin-top: -8%;
-       margin-left:2.5%;
-       width:6.7em;
-       /*transform: translateX(-80%) translateY(-90%) scale(0.6);*/
-       transform: scale(0.6);
-       float: left;
-       
-   }
-
-   h3#text_experience {
-        width: 150%;
+    #centeredContainerSesion {
+        display: block;
+        width: 60vw; 
+        height: 60vw; 
+        background-image: url("../resources/pruebaventana3.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        z-index:1;
     }
 
-   h3#text_experience {
-       
-       width: 139%;
-       margin-left:30%
-   }
+    #centeredContainerSesionTitle {
+        width: 1000px;
+        height: 50px;
+        
+        margin-top:40%;
+        margin-left: 20%;
+        font-size: 4vw; 
+        color: black;
+        font-weight: bold;
+    
+    }
 
-   #resume_file {
-       position:absolute;
-       margin-left: 85%;
-       margin-right:200%;
-       margin-top: -7%; 
-       transform: scale(0.6); 
-       float: right;
-       
-   }
+    #progressBlockBarContent {
 
-   h3#text_resume {
+        width: 265px;
+        height: 17px;
+        margin-top:10%;
+        margin-left: 20%;
+    } 
+
+     /* Body Desktop */
+     body#initIndex {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background:url("../resources/wallpaper_draw_maffhu3.png"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 200vh;
+        overflow: hidden; 
+    }
+
+    
+
+    #learning_file {
+        position: relative;
+        margin-top: -2%;
+        margin-left:3%;
+        margin-right:90%;
+        float: left;
+        transform: scale(0.6);
+        
+    }
+
+    #project_file {
+        position:absolute;
+        margin-left: 75%;
+        margin-right:200%;
+        margin-top: -1%; 
+        transform: scale(0.6); 
+        float: right;
+        
+    }
+
+    #icon_file_project{
+        margin-left:4%;
+    }
+
+    h3#text_project {
+       
+        margin-left:0%;
+        padding-bottom: 0.0vh;
+        
+    }
+
+    #experience_file {
+        position: relative;
+        margin-top: -8%;
+        margin-left:2.5%;
+        width:6.7em;
+        /*transform: translateX(-80%) translateY(-90%) scale(0.6);*/
+        transform: scale(0.6);
+        float: left;
+        
+    }
+
+    h3#text_experience {
+        
+        width: 139%;
+        margin-left:30%
+    }
+
+    #resume_file {
+        position:absolute;
+        margin-left: 73%;
+        margin-right:200%;
+        margin-top: -7%; 
+        transform: scale(0.6); 
+        float: right;
+        
+    }
+
+    h3#text_resume {
+       
+        padding-bottom: 0.0vh;
+        
+    }
+
+    #aboutme_file {
       
-       padding-bottom: 0.0vh;
-       
-   }
+        position: relative;
+        margin-top: -8%;
+        margin-left:2.5%;
+        transform: scale(0.6);
+        float: left;
+        
+    }
 
-   #aboutme_file {
-     
-       position: relative;
-       margin-top: -8%;
-       margin-left:1%;
-       transform: scale(0.6);
-       float: left;
-       
-   }
+    #contact_file {
+        position: absolute;
+        margin-left: 76%;
+        margin-right:200%;
+        margin-top: -8%;
+        transform: scale(0.6);
+        float: right;
+    }
 
-   #contact_file {
-       position: absolute;
-       margin-left: 78%;
-       margin-right:200%;
-       margin-top: -8%;
-       transform: scale(0.6);
-       float: right;
-   }
+    h3#text_contact {
+       margin-left:0%;
+        padding-bottom: 0.0vh;
+        
+    }
+    
+    #search_file{
+        
+        position: fixed;
+        margin-left:3%;
+        transform: scale(0.7);
+        bottom:5%;
+        float: left;
+    
+    }
 
-   h3#text_contact {
-      margin-left:2.5%;
-       padding-bottom: 0.0vh;
-       
-   }
-   
-   #search_file{
-       
-       position: fixed;
-       margin-left:3%;
-       transform: scale(0.7);
-       bottom:5%;
-       float: left;
-   
-   }
-
-   
+    
 
 }
 
