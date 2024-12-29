@@ -582,7 +582,7 @@ h3#text_contact:hover {
 
     #resume_file {
         position:absolute;
-        margin-left: 60%;
+        margin-left: 61%;
         margin-right:200%;
         margin-top: -23%; 
         transform: scale(0.6); 
@@ -603,7 +603,7 @@ h3#text_contact:hover {
 
     #contact_file {
         position: absolute;
-        margin-left: 60%;
+        margin-left: 61%;
         margin-right:200%;
         margin-top: -23.7%;
         transform: scale(0.6);
