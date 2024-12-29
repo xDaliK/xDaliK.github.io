@@ -567,7 +567,7 @@ h3#text_contact:hover {
     #experience_file {
         position: relative;
         margin-top: -25%;
-        margin-left:1%;
+        margin-left:2.75%;
         width:6.7em;
         /*transform: translateX(-80%) translateY(-90%) scale(0.6);*/
         transform: scale(0.6);
@@ -582,7 +582,7 @@ h3#text_contact:hover {
 
     #resume_file {
         position:absolute;
-        margin-left: 63%;
+        margin-left: 60%;
         margin-right:200%;
         margin-top: -23%; 
         transform: scale(0.6); 
