@@ -645,6 +645,14 @@ h3#text_contact:hover {
 /* For Vertical Tablet */
 @media only screen and (min-width: 601px) and (max-width: 900px) and (orientation: portrait) {
 
+    #progressBlockBarContent {
+
+        width: 160px;
+        height: 15px;
+        margin-top:-20%;
+        margin-left: 26%;
+    } 
+
     /* Icon Learning Desktop */
     #learning_file {
         position: relative;
