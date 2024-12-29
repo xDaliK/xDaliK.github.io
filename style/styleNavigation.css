@@ -724,6 +724,11 @@ h3#text_contact:hover {
         
     }
 
+    #icon_file_experience {
+        margin-left:30%;
+    }
+
+
     h3#text_experience {
         
         width: 139%;
@@ -754,6 +759,10 @@ h3#text_contact:hover {
         transform: scale(0.6);
         float: left;
         
+    }
+
+    h3#text_aboutme {
+        margin-top:0%;
     }
 
     #contact_file {
