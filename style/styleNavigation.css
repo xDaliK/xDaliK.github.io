@@ -587,7 +587,7 @@ h3#text_contact:hover {
         box-shadow: none; /* Quita la sombra */
         overflow: visible;
         cursor: pointer;
-        margin-left:1%;
+        margin-left:3%;
 
         
         background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
@@ -697,7 +697,7 @@ h3#text_contact:hover {
         width: 6em;
         height: auto;
         cursor: pointer;
-        margin-left:45%;
+        margin-left:46%;
     }
     
     h3#text_aboutme {
@@ -725,7 +725,6 @@ h3#text_contact:hover {
     
     /* Icon Contact Desktop */
     #contact_file {
-        background-color: blue;
         position: absolute;
         margin-left: 61%;
         margin-right:60%;
@@ -748,7 +747,7 @@ h3#text_contact:hover {
         box-shadow: none; /* Quita la sombra */
         overflow: visible;
         cursor: pointer;
-        margin-left:1%;
+        margin-left:3%;
 
         
         background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
