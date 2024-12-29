@@ -70,31 +70,30 @@ body#initIndex {
 #learning_file {
     position: relative;
     margin-top: 2%;
-    
+    margin-left:2.5%
 }
 
 #icon_file_learning {
+    display: none;
     width: 6em;
     height: auto;
-    display: none;
+    margin-left: 12.5%;
     cursor: pointer;
-    margin-left: 40%
 }
 
 h3#text_learning {
     display: none;
-    width: 100%;
-    height: 20%;
+    width: 102%;
+    height: 21%;
     position: relative;
     font-size: 170%;
-    margin-left: 31%;
     font-family: consolas;
     font-weight: bolder;
     color: black;
 
-    background-color: rgba(255, 255, 255, 0.8);  /*Fondo blanco con transparencia */
-    border-radius: 15px; /* Bordes circulares */
-    padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 1.75vw; 
+    padding: 0.6vw; 
     padding-bottom: 3.0vh; 
     padding-top: 0px;
     box-shadow: 0 4px 8px #000;
@@ -102,20 +101,28 @@ h3#text_learning {
     word-wrap: break-word;
     word-break: normal;
     cursor: pointer;
+    transition: background-color 0.3s;
    
 }
+
+h3#text_learning:hover {
+    background-color: rgba(255, 255, 255, 1); 
+    
+}
+
 
 /* Icon Projects Desktop */
 #project_file {
     position: relative;
-    margin-left: 8%;
-    margin-top: 2%;
+    margin-left: 5%;
+    margin-top: 2.25%;
 }
 
 #icon_file_project {
-    width: 6em;
-    height: auto;
     display: none;
+    width: 5.75em;
+    height: auto;
+    margin-left: 12.5%;
     cursor: pointer;
    
 }
@@ -123,24 +130,29 @@ h3#text_learning {
 h3#text_project {
     display: none;
     width: 100%;
-    height: 20%;
+    height: 21%;
     position: relative;
     font-size: 170%;
     font-family: consolas;
     font-weight: bolder;
     color: black;
-    margin-left: -13%;
+    
 
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-    border-radius: 15px; /* Bordes circulares */
-    padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 1.75vw; 
+    padding: 0.6vw; 
     padding-bottom: 3.0vh;
     padding-top: 0px;
     box-shadow: 0 4px 8px #000;
     overflow: hidden;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
+h3#text_project:hover {
+    background-color: rgba(255, 255, 255, 1); 
+    
+}
 
 
 /* Icons Desktop Row 2 */
@@ -153,33 +165,34 @@ h3#text_project {
 #experience_file {
     position: relative;
     margin-top: 2%;
-    width:6.7em;
+    margin-left: 2%;
 
 }
 
 #icon_file_experience {
+    display: none;
     width: 6em;
     height: auto;
-    display: none;
+    
     cursor: pointer;
-    margin-left:60%;
+    margin-left:17.5%;
 }
 
 h3#text_experience {
     display: none;
-    width: 160%;
-    height: 20%;
+    width: 100%;
+    height: 21%;
     position: relative;
     font-size: 170%; 
+    margin-left:-1%;
     
-    margin-left:26.5%;
     font-family: consolas;
     font-weight: bolder;
     color: black;
 
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-    border-radius: 15px; /* Bordes circulares */
-    padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 1.75vw; 
+    padding: 0.6vw; 
     padding-bottom: 3.0vh;
     padding-top: 0px;
     box-shadow: 0 4px 8px #000;
@@ -187,21 +200,26 @@ h3#text_experience {
 
     margin-top:5%;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+h3#text_experience:hover {
+    background-color: rgba(255, 255, 255, 1); 
+    
 }
 
 /* Icon Resume Desktop */
-#resume_file {
+#resume_file { 
     position:relative;
-    margin-left: 8%;
-    margin-top: 2%;
+    margin-left: 4.5%;
+    margin-top: 2.25%;
 }
 
 #icon_file_resume {
+    display: none;
     width: 6em;
     height: auto;
-    margin-left: 25%;
     cursor: pointer;
-    display: none;
 }
 
 h3#text_resume {
@@ -213,19 +231,23 @@ h3#text_resume {
     font-family: consolas;
     font-weight: bolder;
     color: black;
-    margin-left:26%;
 
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-    border-radius: 15px; /* Bordes circulares */
-    padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 1.75vw; 
+    padding: 0.6vw; 
     padding-bottom: 3.0vh;
     padding-top: 0px;
     box-shadow: 0 4px 8px #000;
     overflow: hidden;
     margin-top:5%;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
+h3#text_resume:hover {
+    background-color: rgba(255, 255, 255, 1); 
+    
+}
 
 
 /* Icons Desktop Row 3 */
@@ -237,17 +259,18 @@ h3#text_resume {
 /* Icon AboutMe Desktop */
 #aboutme_file {
     position: relative;
-    margin-top: 2.5%;
-    margin-left: 0.7;
+    margin-top: 2%;
+    margin-left: 2.5%;
     
 }
 
 #icon_file_aboutme {
+    display: none;
     width: 6em;
     height: auto;
-    display: none;
+    
     cursor: pointer;
-    margin-left:45%;
+    margin-left:17.5%;
 }
 
 h3#text_aboutme {
@@ -256,33 +279,41 @@ h3#text_aboutme {
     height: 20%;
     position: relative;
     font-size: 170%; 
-    
-    margin-left:32.5%;
+    margin-left: 4%;
+    margin-top:5%;
     font-family: consolas;
     font-weight: bolder;
     color: black;
 
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-    border-radius: 15px; /* Bordes circulares */
-    padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 1.75vw; 
+    padding: 0.6vw; 
     padding-bottom: 3.0vh;
     padding-top: 0px;
     box-shadow: 0 4px 8px #000;
     overflow: hidden;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+h3#text_aboutme:hover {
+    background-color: rgba(255, 255, 255, 1); 
+    
 }
 
 /* Icon Contact Desktop */
 #contact_file {
+    
     position: relative;
-    margin-left: 9%;
-    margin-top: 2.5%;
+    margin-left: 5.5%;
+    margin-top: 2.25%;
 }
 
 #icon_file_contact {
+    display: none;
     width: 6em;
     height: auto;
-    display: none;
+    margin-left: 15%;
     cursor: pointer;
 }
 
@@ -295,16 +326,23 @@ h3#text_contact {
     font-family: consolas;
     font-weight: bolder;
     color: black;
-    margin-left: -14%;
+    margin-left:4%;
     
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-    border-radius: 15px; /* Bordes circulares */
-    padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+    
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 1.75vw;
+    padding: 0.6vw; 
     padding-bottom: 3.0vh;
     padding-top: 0px;
     box-shadow: 0 4px 8px #000;
     overflow: hidden;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+h3#text_contact:hover {
+    background-color: rgba(255, 255, 255, 1); 
+    
 }
    
 
