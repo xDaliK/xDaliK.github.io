@@ -542,7 +542,7 @@ h3#text_contact:hover {
     #learning_file {
         position: relative;
         margin-top: -7%;
-        margin-left:3%;
+        margin-left:4%;
         margin-right:90%;
         float: left;
         transform: scale(0.6);
@@ -556,9 +556,12 @@ h3#text_contact:hover {
         margin-top: -4%; 
         transform: scale(0.6); 
         float: right;
-        
 
         
+    }
+
+    h3#text_project {
+        margin-left:3%;
     }
 
     #experience_file {
@@ -572,9 +575,14 @@ h3#text_contact:hover {
         
     }
 
+    h3#text_experience {
+        width: 147%;
+        
+    }
+
     #resume_file {
         position:absolute;
-        margin-left: 56%;
+        margin-left: 63%;
         margin-right:200%;
         margin-top: -23%; 
         transform: scale(0.6); 
@@ -601,33 +609,12 @@ h3#text_contact:hover {
         transform: scale(0.6);
         float: right;
     }
-    
-    #search_file{
-        
-        position: fixed;
-        margin-left:3%;
-        transform: scale(0.7);
-        bottom:5%;
-        float: left;
-    
-    }
 
-    .popup {
-        position: fixed;
-        bottom: calc(3% + 60px);
-        left: 95px;
-        width: 60%;
-        height: 60%;
-        background-color: #f9f9f9;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 10px;
-        z-index: 1000;
+    h3#text_contact {
+        margin-left:3%;
     }
     
-    .popup-content {
-        min-height: 90%;
-    }
+    
     
    
 
