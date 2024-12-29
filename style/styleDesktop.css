@@ -814,6 +814,10 @@ h3#text_contact:hover {
         
     }
 
+    h3#text_learning {
+        margin-left:6%;
+    }
+
     #project_file {
         position:absolute;
         margin-left: 75%;

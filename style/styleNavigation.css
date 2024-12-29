@@ -688,6 +688,10 @@ h3#text_contact:hover {
         
     }
 
+    h3#text_learning {
+        margin-left:4%;
+    }
+
     #project_file {
         position:absolute;
         margin-left: 75%;
@@ -704,7 +708,7 @@ h3#text_contact:hover {
 
     h3#text_project {
        
-        margin-left:0%;
+        margin-left:-2%;
         padding-bottom: 0.0vh;
         
     }
@@ -723,12 +727,12 @@ h3#text_contact:hover {
     h3#text_experience {
         
         width: 139%;
-        margin-left:30%
+        margin-left:1%
     }
 
     #resume_file {
         position:absolute;
-        margin-left: 73%;
+        margin-left: 80%;
         margin-right:200%;
         margin-top: -7%; 
         transform: scale(0.6); 
@@ -754,7 +758,7 @@ h3#text_contact:hover {
 
     #contact_file {
         position: absolute;
-        margin-left: 76%;
+        margin-left: 72%;
         margin-right:200%;
         margin-top: -8%;
         transform: scale(0.6);
@@ -762,20 +766,11 @@ h3#text_contact:hover {
     }
 
     h3#text_contact {
-       margin-left:0%;
-        padding-bottom: 0.0vh;
+       margin-left:5%;
+       padding-bottom: 0.0vh;
         
     }
-    
-    #search_file{
-        
-        position: fixed;
-        margin-left:3%;
-        transform: scale(0.7);
-        bottom:5%;
-        float: left;
-    
-    }
+
 
     
 
