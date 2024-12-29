@@ -561,13 +561,13 @@ h3#text_contact:hover {
     }
 
     h3#text_project {
-        margin-left:5%;
+        margin-left:6%;
     }
 
     #experience_file {
         position: relative;
         margin-top: -25%;
-        margin-left:4%;
+        margin-left:1%;
         width:6.7em;
         /*transform: translateX(-80%) translateY(-90%) scale(0.6);*/
         transform: scale(0.6);
@@ -576,13 +576,13 @@ h3#text_contact:hover {
     }
 
     h3#text_experience {
-        width: 140%;
+        width: 137%;
         
     }
 
     #resume_file {
         position:absolute;
-        margin-left: 58%;
+        margin-left: 63%;
         margin-right:200%;
         margin-top: -23%; 
         transform: scale(0.6); 
