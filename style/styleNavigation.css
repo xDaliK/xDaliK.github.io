@@ -568,7 +568,7 @@ h3#text_contact:hover {
         position: absolute;
         margin-left:60%;
         margin-right: 26%;
-        margin-top: 1%;
+        margin-top: 2%;
         
     }
     
@@ -634,7 +634,7 @@ h3#text_contact:hover {
         background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
         border-radius: 15px; /* Bordes circulares */
         padding: 0.9vw; /* Espacio interno para que el texto no toque los bordes */
-        padding-bottom: 5.0vh;
+        padding-bottom: 3.0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
         overflow: hidden;
@@ -645,7 +645,7 @@ h3#text_contact:hover {
     /* Icon Resume Desktop */
     #resume_file {
         position:absolute;
-        margin-left: 51%;
+        margin-left: 61%;
         margin-right:60%;
         margin-top: 2%;
         
@@ -716,7 +716,7 @@ h3#text_contact:hover {
         background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
         border-radius: 15px; /* Bordes circulares */
         padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
-        padding-bottom: 5.0vh;
+        padding-bottom: 3.0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
         overflow: hidden;
@@ -727,7 +727,7 @@ h3#text_contact:hover {
     #contact_file {
         background-color: blue;
         position: absolute;
-        margin-left: 59%;
+        margin-left: 61%;
         margin-right:60%;
         margin-top: 2.5%;
     }
