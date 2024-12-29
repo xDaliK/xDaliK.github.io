@@ -314,7 +314,7 @@ h3#text_contact:hover {
         background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
         border-radius: 15px; /* Bordes circulares */
         padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
-        padding-bottom: 3.0vh;
+        padding-bottom: 5.0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
         overflow: hidden;
