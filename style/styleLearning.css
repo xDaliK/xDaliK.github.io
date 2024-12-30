@@ -3356,11 +3356,18 @@ details > summary::before {
     #com_ingles_title, 
     #tall_tec_music_title,
     #google_cybersecurity_title {
-        background-color:blue;
         margin-left: 0%;
         text-align: center;
         width: 200vw;
         font-size:2.5vw; 
+    }
+
+    #tall_tec_music_title{
+        margin-left: 0%;
+        text-align: center;
+        width: 200vw;
+        font-size:2.25vw; 
+
     }
     
    
