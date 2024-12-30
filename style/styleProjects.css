@@ -3193,6 +3193,11 @@ details > summary::before {
             font-size:2.5vw;
     }
 
+    #tall_tec_music_title{
+        font-size:2.25vw;
+
+    }
+    
     #ing_soft_web {
         font-size: 1.1vw;
     }
