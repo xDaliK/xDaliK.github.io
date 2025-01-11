@@ -2981,6 +2981,7 @@ details > summary::before {
     #searchInput {
         width: 100%;
         height: 7.5px;
+        margin-left:-25%;
     }
 
     #mat_discreta_title, 
