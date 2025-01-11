@@ -71,7 +71,6 @@ div#container_window_info{
     background-size: 1.7vw;
     background-position: 0.5vw center;
     padding-left: 3.8vw;
-    margin-left: -15%;
 }
 
 
@@ -113,7 +112,7 @@ div#container_window_info{
     font-style: italic;
     color: black;
     margin-top: 0.8%;
-    margin-left: -10%;
+    margin-left: -5%;
     display: none;
     border: 0.2vw solid black;
     padding: 0.1vw;
