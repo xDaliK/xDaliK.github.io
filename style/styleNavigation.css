@@ -305,15 +305,15 @@ h3#text_contact:hover {
         font-size: 170%; 
         
         margin-left: 35%;
-        background-color: transparent; /* Quita el fondo */
-        box-shadow: none; /* Quita la sombra */
+        background-color: transparent; 
+        box-shadow: none; 
         overflow: visible;
         word-break:normal;
         cursor: pointer;
         
-        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-        border-radius: 15px; /* Bordes circulares */
-        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px; 
+        padding: 0.6vw; 
         padding-bottom: 5.0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -341,16 +341,16 @@ h3#text_contact:hover {
         height: 10%;
         position: relative;
         font-size: 170%;
-        background-color: transparent; /* Quita el fondo */
-        box-shadow: none; /* Quita la sombra */
+        background-color: transparent; 
+        box-shadow: none; 
         overflow: visible;
         cursor: pointer;
         margin-left:1%;
 
         
-        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-        border-radius: 15px; /* Bordes circulares */
-        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px; 
+        padding: 0.6vw; 
         padding-bottom: .0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -383,15 +383,15 @@ h3#text_contact:hover {
         font-size: 170%; 
         
         margin-left:30%;
-        background-color: transparent; /* Quita el fondo */
-        box-shadow: none; /* Quita la sombra */
+        background-color: transparent; 
+        box-shadow: none; 
         overflow: visible;
         cursor: pointer;
 
             
-        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-        border-radius: 15px; /* Bordes circulares */
-        padding: 0.9vw; /* Espacio interno para que el texto no toque los bordes */
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px; 
+        padding: 0.9vw; 
         padding-bottom: 5.0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -423,15 +423,15 @@ h3#text_contact:hover {
         height: 10%;
         position: relative;
         font-size: 170%;
-        background-color: transparent; /* Quita el fondo */
-        box-shadow: none; /* Quita la sombra */
+        background-color: transparent; 
+        box-shadow: none; 
         overflow: visible;
         cursor: pointer;
 
         
-        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-        border-radius: 15px; /* Bordes circulares */
-        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px; 
+        padding: 0.6vw; 
         padding-bottom: .0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -465,15 +465,15 @@ h3#text_contact:hover {
         font-size: 170%; 
         
         margin-left:35%;
-        background-color: transparent; /* Quita el fondo */
-        box-shadow: none; /* Quita la sombra */
+        background-color: transparent; 
+        box-shadow: none; 
         overflow: visible;
         cursor: pointer;
 
             
-        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-        border-radius: 15px; /* Bordes circulares */
-        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px; 
+        padding: 0.6vw; 
         padding-bottom: 5.0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -501,16 +501,16 @@ h3#text_contact:hover {
         height: 10%;
         position: relative;
         font-size: 170%;
-        background-color: transparent; /* Quita el fondo */
-        box-shadow: none; /* Quita la sombra */
+        background-color: transparent; 
+        box-shadow: none; 
         overflow: visible;
         cursor: pointer;
         margin-left:1%;
 
         
-        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-        border-radius: 15px; /* Bordes circulares */
-        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px; 
+        padding: 0.6vw; 
         padding-bottom: .0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -547,15 +547,15 @@ h3#text_contact:hover {
         font-size: 170%; 
         
         margin-left: 35%;
-        background-color: transparent; /* Quita el fondo */
-        box-shadow: none; /* Quita la sombra */
+        background-color: transparent; 
+        box-shadow: none; 
         overflow: visible;
         word-break:normal;
         cursor: pointer;
         
-        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-        border-radius: 15px; /* Bordes circulares */
-        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px; 
+        padding: 0.6vw; 
         padding-bottom: 3.0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -583,16 +583,16 @@ h3#text_contact:hover {
         height: 10%;
         position: relative;
         font-size: 170%;
-        background-color: transparent; /* Quita el fondo */
-        box-shadow: none; /* Quita la sombra */
+        background-color: transparent; 
+        box-shadow: none; 
         overflow: visible;
         cursor: pointer;
         margin-left:4%;
 
         
-        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-        border-radius: 15px; /* Bordes circulares */
-        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px; 
+        padding: 0.6vw; 
         padding-bottom: .0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -625,15 +625,15 @@ h3#text_contact:hover {
         font-size: 170%; 
         
         margin-left:30%;
-        background-color: transparent; /* Quita el fondo */
-        box-shadow: none; /* Quita la sombra */
+        background-color: transparent; 
+        box-shadow: none; 
         overflow: visible;
         cursor: pointer;
 
             
-        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-        border-radius: 15px; /* Bordes circulares */
-        padding: 0.9vw; /* Espacio interno para que el texto no toque los bordes */
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px; 
+        padding: 0.9vw; 
         padding-bottom: 3.0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -665,15 +665,15 @@ h3#text_contact:hover {
         height: 10%;
         position: relative;
         font-size: 170%;
-        background-color: transparent; /* Quita el fondo */
-        box-shadow: none; /* Quita la sombra */
+        background-color: transparent; 
+        box-shadow: none; 
         overflow: visible;
         cursor: pointer;
 
         
-        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-        border-radius: 15px; /* Bordes circulares */
-        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px; 
+        padding: 0.6vw; 
         padding-bottom: .0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -707,15 +707,15 @@ h3#text_contact:hover {
         font-size: 170%; 
         
         margin-left:35%;
-        background-color: transparent; /* Quita el fondo */
-        box-shadow: none; /* Quita la sombra */
+        background-color: transparent; 
+        box-shadow: none; 
         overflow: visible;
         cursor: pointer;
 
             
-        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-        border-radius: 15px; /* Bordes circulares */
-        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px; 
+        padding: 0.6vw; 
         padding-bottom: 3.0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -743,16 +743,16 @@ h3#text_contact:hover {
         height: 10%;
         position: relative;
         font-size: 170%;
-        background-color: transparent; /* Quita el fondo */
-        box-shadow: none; /* Quita la sombra */
+        background-color: transparent; 
+        box-shadow: none; 
         overflow: visible;
         cursor: pointer;
         margin-left:4%;
 
         
-        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
-        border-radius: 15px; /* Bordes circulares */
-        padding: 0.6vw; /* Espacio interno para que el texto no toque los bordes */
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px; 
+        padding: 0.6vw; 
         padding-bottom: .0vh;
         padding-top: 0px;
         box-shadow: 0 4px 8px #000;
@@ -812,7 +812,6 @@ h3#text_contact:hover {
         margin-top: -25%;
         margin-left:2.75%;
         width:6.7em;
-        /*transform: translateX(-80%) translateY(-90%) scale(0.6);*/
         transform: scale(0.6);
         float: left;
         
@@ -924,7 +923,6 @@ h3#text_contact:hover {
         margin-top: -8%;
         margin-left:2.5%;
         width:6.7em;
-        /*transform: translateX(-80%) translateY(-90%) scale(0.6);*/
         transform: scale(0.6);
         float: left;
         

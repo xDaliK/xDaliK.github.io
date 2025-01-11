@@ -27,8 +27,8 @@ body#initExperience {
 
 div#container_window_info{
     display: block;
-    width: 65vw; /* Ajusta según tus necesidades */
-    height: 65vw; /* Ajusta según tus necesidades */
+    width: 65vw; 
+    height: 65vw; 
     background-image: url("../resources/window_info.png");
     background-size: contain;
     background-position: center;
@@ -44,18 +44,17 @@ div#container_window_info{
 
 #container_bar_learning {
     display: flex;
-    /*justify-content: space-between;*/
-    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
-    width: 80vw; /* Ajusta según tus necesidades */
-    height: 4vw; /* Ajusta según tus necesidades */
+    align-items: flex-start;
+    width: 80vw; 
+    height: 4vw; 
     
     margin-top:15.8%;
 }
 
 #title_learning {
-    width: 20vw; /* O ajusta según tus necesidades */
+    width: 20vw; 
     height: 2vw;
-    font-size: 2vw; /* Ajusta según tus necesidades */
+    font-size: 2vw; 
     font-style: italic;
     color: white;
     margin-top: 0.8%;
@@ -63,13 +62,13 @@ div#container_window_info{
 }
 
 #button_back {
-    width: 7vw; /* O ajusta según tus necesidades */
+    width: 7vw; 
     height: 2.5vw;
-    font-size: 1.5vw; /* Ajusta según tus necesidades */
+    font-size: 1.5vw; 
     font-style: italic;
     color: black;
-    margin-top: 0.8%; /* Ajusta según tus necesidades */
-    margin-left: 41%; /* Ajusta según tus necesidades */
+    margin-top: 0.8%; 
+    margin-left: 41%; 
     display:none;
     border: 0.2vw solid black;
     padding:0.1vw;
@@ -190,7 +189,6 @@ details > summary::before {
     text-align: center; 
     font-size:5vw; 
     margin:0;
-    /*font-family: 'MS Sans Serif', system-ui, 'Courier New', sans-serif;*/
     font-family: 'Times New Roman', Times, serif;
     color:#b2ba42;
     font-weight: bolder;
@@ -207,7 +205,6 @@ details > summary::before {
     margin-top:0%;
     display: none;
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -271,7 +268,6 @@ details > summary::before {
     margin-top:0%;
     display: none;
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -335,7 +331,6 @@ details > summary::before {
     margin-top:0%;
     display: none;
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -378,7 +373,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman',  Times, serif; 
     padding-right:2%; 
-   
     height: 5%; 
     margin:0; 
     text-align: right;
@@ -406,7 +400,6 @@ details > summary::before {
     margin:0; 
     line-height: 2.3vw;
 }
-
 
 
  

@@ -43,7 +43,6 @@ div#container_window_info{
 
 #container_bar_contact {
     display: flex;
-    /*justify-content: space-between;*/
     align-items: flex-start; 
     width: 80vw; 
     height: 4vw; 
@@ -173,13 +172,6 @@ div#container_window_info{
 }
 
 
-/* #input_email input:focus,
-#input_msg textarea:focus {
-   
-    
-} */
-
-
 /* For Vertical Mobile/Tablet */
 @media only screen and (max-width: 900px) and (max-height: 900px) and (orientation: portrait), 
        only screen and (max-width: 900px) and  (orientation: portrait) {
@@ -187,8 +179,8 @@ div#container_window_info{
 
         div#container_window_info{
             display: block;
-            width: 65vw; /* Ajusta según tus necesidades */
-            height: 45vw; /* Ajusta según tus necesidades */
+            width: 65vw;
+            height: 45vw;
             
             background-image: url("../resources/window_info.png");
             background-size: contain;

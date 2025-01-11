@@ -27,8 +27,8 @@ body#initprojects {
 
 div#container_window_info{
     display: block;
-    width: 65vw; /* Ajusta según tus necesidades */
-    height: 65vw; /* Ajusta según tus necesidades */
+    width: 65vw; 
+    height: 65vw; 
     background-image: url("../resources/window_info.png");
     background-size: contain;
     background-position: center;
@@ -88,18 +88,17 @@ div#container_window_info{
 
 #container_bar_projects {
     display: flex;
-    /*justify-content: space-between;*/
-    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
-    width: 80vw; /* Ajusta según tus necesidades */
-    height: 4vw; /* Ajusta según tus necesidades */
+    align-items: flex-start; 
+    width: 80vw; 
+    height: 4vw; 
     
     margin-top:15.8%;
 }
 
 #title_projects {
-    width: 27vw; /* O ajusta según tus necesidades */
+    width: 27vw; 
     height: 2vw;
-    font-size: 2vw; /* Ajusta según tus necesidades */
+    font-size: 2vw; 
     font-style: italic;
     color: white;
     margin-top: 0.8%;
@@ -240,7 +239,6 @@ details > summary::before {
 
 #init_projects {
     position: absolute;
-    /* padding-top: 50%; */
     margin-left: 17%;
     margin-top: 11%;
     z-index: 1;
@@ -251,7 +249,6 @@ details > summary::before {
     text-align: center; 
     font-size:5vw; 
     margin-left:10%;
-    /*font-family: 'MS Sans Serif', system-ui, 'Courier New', sans-serif;*/
     font-family: 'Times New Roman', Times, serif;
     color:#b2ba42;
     font-weight: bolder;
@@ -259,1511 +256,14 @@ details > summary::before {
 
 
 
-/*Subjects*/
-
-/*Calculo I*/
-#div_calculo_i{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-#calculo_i_title{
-    font-size:3.5vw; 
-    color: rgb(83, 144, 242);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 25vw;
-    margin-left:22%;
-}
-
-#calculo_i_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_calculo_i_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_calculo_i_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-/*Matemática Discreta*/
-#div_mat_discreta{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-#mat_discreta_title{
-    font-size:3.5vw; 
-    color: rgb(83, 144, 242);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 35vw;
-    margin-left:10%;
-}
-
-#mat_discreta_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_mat_discreta_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_mat_discreta_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-/*Introducción Programación*/
-#div_intro_prog{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#intro_prog_title{
-    font-size:3.5vw; 
-    color: rgb(220, 213, 12);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 60vw;
-   
-}
-
-#intro_prog_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_intro_prog_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_intro_prog_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-/*Introducción TIC*/
-#div_intro_tic{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-#intro_tic_title{
-    font-size:3.5vw; 
-    color: rgb(110, 31, 200);;
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 60vw;
-   
-}
-
-#intro_tic_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_intro_tic_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_intro_tic_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-/*Calculo II*/
-#div_calculo_ii{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-#calculo_ii_title{
-    font-size:3.5vw; 
-    color: rgb(83, 144, 242);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 25vw;
-    margin-left:22%;
-}
-
-#calculo_ii_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_calculo_ii_tareas{
-    padding-top:1%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_calculo_ii_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-/*Álgebra Lineal*/
-#div_alg_lineal{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-#alg_lineal_title{
-    font-size:3.5vw; 
-    color: rgb(83, 144, 242);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 25vw;
-    margin-left:22%;
-}
-
-#alg_lineal_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_alg_lineal_tareas{
-    padding-top:1%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_alg_lineal_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-
-/*EDA I*/
-#div_eda_i{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#eda_i_title{
-    font-size:2.8vw; 
-    color: rgb(220, 213, 12);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    height:4vw;
-    width: 60vw;
-   
-}
-
-#eda_i_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_eda_i_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_eda_i_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-/*Organización de Computadores*/
-#div_org_comp{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#org_comp_title{
-    font-size:2.8vw; 
-    color: rgb(0, 176, 196);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    /* height:4vw; */
-    width: 60vw;
-   
-}
-
-#org_comp_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_org_comp_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_org_comp_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-/*Redes*/
-#div_redes{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#redes_title{
-    font-size:3.4vw; 
-    color: rgb(255, 52, 52);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    /* height:4vw; */
-    width: 60vw;
-   
-}
-
-#redes_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_redes_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_redes_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-/*Métodos Numéricos*/
-#div_met_num{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-#met_num_title{
-    font-size:3.5vw; 
-    color: rgb(83, 144, 242);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 30vw;
-    margin-left:16%;
-}
-
-#met_num_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_met_num_tareas{
-    padding-top:1%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_met_num_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-
-/*EDA II*/
-#div_eda_ii{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#eda_ii_title{
-    font-size:2.7vw; 
-    color: rgb(220, 213, 12);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    height:4vw;
-    width: 60vw;
-   
-}
-
-#eda_ii_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_eda_ii_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_eda_ii_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-/*Física*/
-#div_fisica{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-#fisica_title{
-    font-size:3.5vw; 
-    color: rgb(83, 144, 242);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 30vw;
-    margin-left:16%;
-}
-
-#fisica_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_fisica_tareas{
-    padding-top:1%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_fisica_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-/*Probabilidad*/
-#div_prob{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-#prob_title{
-    font-size:3.5vw; 
-    color: rgb(83, 144, 242);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 30vw;
-    margin-left:16%;
-}
-
-#prob_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_prob_tareas{
-    padding-top:1%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_prob_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-
-/*Programación Orientada a Objetos*/
-#div_prog_obj{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#prog_obj_title{
-    font-size:2.8vw; 
-    color: rgb(220, 213, 12);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 60vw;
-   
-}
-
-#prog_obj_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_prog_obj_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_prog_obj_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-
-
-/*Señales y Sistemas I*/
-#div_sys_i{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#sys_i_title{
-    font-size:2.8vw; 
-    color: rgb(0, 176, 196);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    /* height:4vw; */
-    width: 60vw;
-   
-}
-
-#sys_i_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_sys_i_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_sys_i_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-
-/*Diseño Funcional de Programas*/
-#div_dis_fun_prog{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#dis_fun_prog_title{
-    font-size:2.8vw; 
-    color: rgb(220, 213, 12);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 60vw;
-   
-}
-
-#dis_fun_prog_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_dis_fun_prog_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_dis_fun_prog_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-/*Estadística*/
-#div_est{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-#est_title{
-    font-size:3.5vw; 
-    color: rgb(83, 144, 242);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 30vw;
-    margin-left:16%;
-}
-
-#est_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_est_tareas{
-    padding-top:1%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_est_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-/*Sistemas Operativos*/
-#div_so{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#so_title{
-    font-size:2.8vw; 
-    color: rgb(0, 176, 196);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    /* height:4vw; */
-    width: 60vw;
-   
-}
-
-#so_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_so_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_so_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-
-/*Gráficos por Ordenador*/
-#div_graf_ord{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-#graf_ord_title{
-    font-size:3.5vw; 
-    color: rgb(209, 76, 191);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 45vw;
-    margin-left:1%;
-}
-
-#graf_ord_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(209, 76, 191); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_graf_ord_tareas{
-    padding-top:1%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_graf_ord_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-
-
-/*Diseño de Algoritmos*/
-#div_dis_alg{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#dis_alg_title{
-    font-size:2.7vw; 
-    color: rgb(220, 213, 12);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    height:4vw;
-    width: 60vw;
-   
-}
-
-#dis_alg_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_dis_alg_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_dis_alg_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-/*Aprendizaje Automático*/
-#apr_auto{
-    font-size: 1.16vw;
-}
-#div_apr_auto{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#apr_auto_title{
-    font-size:2.7vw; 
-    color: rgb(55, 170, 1);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    height:4vw;
-    width: 60vw;
-   
-}
-
-#apr_auto_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_apr_auto_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_apr_auto_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-/*Ingeniería de Interacción*/
-#div_ing_inter{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-#ing_inter_title{
-    font-size:3.5vw; 
-    color: rgb(209, 76, 191);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 45vw;
-    margin-left:1%;
-}
-
-#ing_inter_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(209, 76, 191); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_ing_inter_tareas{
-    padding-top:1%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_ing_inter_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-
-
-/*Introducción a la Programación Paralela y Distribuida*/
-#prog_paral{
-    font-size: 1.16vw;
-}
-#div_prog_paral{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#prog_paral_title{
-    font-size:2.7vw; 
-    color: rgb(220, 213, 12);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    height:7vw;
-    width: 60vw;
-   
-}
-
-#prog_paral_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_prog_paral_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_prog_paral_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-
-/*Ingeniería de Software*/
-#div_ing_soft{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#ing_soft_title{
-    font-size:2.8vw; 
-    color: rgb(0, 176, 196);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    /* height:4vw; */
-    width: 60vw;
-   
-}
-
-#ing_soft_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_ing_soft_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_ing_soft_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-
-
-/*Bases de Datos*/
-#div_bases_datos{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#bases_datos_title{
-    font-size:2.8vw; 
-    color: rgb(55, 170, 1);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    /* height:4vw; */
-    width: 60vw;
-   
-}
-
-#bases_datos_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_bases_datos_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_bases_datos_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
+/*Subject Projects*/
 
 /*Inteligencia Artificial*/
 #div_intel_art{
     position: absolute;
     margin-top:0%;
     display: none;
-    
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -1777,7 +277,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif; 
     margin:0; 
-    /* height:4vw; */
     width: 60vw;
    
 }
@@ -1788,7 +287,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif;  
     padding-right:2%; 
-
     height: 5%; 
     margin:0; 
     text-align: right;
@@ -1815,328 +313,17 @@ details > summary::before {
     margin:0; 
 }
 
-
-
-
-/*Teoría de la Computación*/
-#div_teoria_comp{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#teoria_comp_title{
-    font-size:2.8vw; 
-    color: rgb(0, 176, 196);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    /* height:4vw; */
-    width: 60vw;
-   
-}
-
-#teoria_comp_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_teoria_comp_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_teoria_comp_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-/*Comunicación Técnica en Inglés*/
-#div_com_ingles{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-#com_ingles_title{
-    font-size:3vw; 
-    color: rgb(110, 31, 200);;
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 60vw;
-   
-}
-
-#com_ingles_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_com_ingles_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_com_ingles_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-
-/*Sistemas Distribuidos de Gran Escala*/
-#div_sis_dist{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#sis_dist_title{
-    font-size:2.65vw; 
-    color: rgb(0, 176, 196);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    /* height:4vw; */
-    width: 60vw;
-   
-}
-
-#sis_dist_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_sis_dist_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_sis_dist_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-
-
-/*Criptografía y Seguridad*/
-#cripto{
-    font-size: 1.16vw;
-}
-
-#div_cripto{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#cripto_title{
-    font-size:3.4vw; 
-    color: rgb(255, 52, 52);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    /* height:4vw; */
-    width: 60vw;
-   
-}
-
-#cripto_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_cripto_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_cripto_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-
-
-/*Compiladores*/
-#div_compila{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#compila_title{
-    font-size:3.4vw; 
-    color: rgb(0, 176, 196);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    /* height:4vw; */
-    width: 60vw;
-   
-}
-
-#compila_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_compila_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_compila_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
-
 /* Ingeniería de Software para Aplicaciones Web*/
 #ing_soft_web{
     font-size: 1.2vw;
 }
+
+
 #div_ing_soft_web{
     position: absolute;
     margin-top:0%;
     display: none;
-    
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -2161,7 +348,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif;  
     padding-right:2%; 
-
     height: 5%; 
     margin:0; 
     text-align: right;
@@ -2194,9 +380,7 @@ details > summary::before {
     position: absolute;
     margin-top:0%;
     display: none;
-    
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -2210,7 +394,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif; 
     margin:0; 
-    /* height:4vw; */
     width: 60vw;
    
 }
@@ -2221,7 +404,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif;  
     padding-right:2%; 
-
     height: 5%; 
     margin:0; 
     text-align: right;
@@ -2247,76 +429,13 @@ details > summary::before {
     line-height: 1.7vw; 
     margin:0; 
 }
-
-
-/*Redes de Sensores Inalámbricos*/
-#div_redes_in{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#redes_in_title{
-    font-size:3vw; 
-    color: rgb(255, 52, 52);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    /* height:4vw; */
-    width: 60vw;
-   
-}
-
-#redes_in_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_redes_in_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_redes_in_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
 
 /*Internet of Things*/
 #div_iot{
     position: absolute;
     margin-top:0%;
     display: none;
-    
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -2330,7 +449,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif; 
     margin-left:20%;
-    /* height:4vw; */
     width: 60vw;
    
 }
@@ -2341,7 +459,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif;  
     padding-right:2%; 
-
     height: 5%; 
     margin:0; 
     text-align: right;
@@ -2375,9 +492,7 @@ details > summary::before {
     position: absolute;
     margin-top:0%;
     display: none;
-    
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -2389,7 +504,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif; 
     margin:0; 
-    
     width: 60vw;
    
 }
@@ -2400,7 +514,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif;  
     padding-right:2%; 
-
     height: 5%; 
     margin:0; 
     text-align: right;
@@ -2434,9 +547,7 @@ details > summary::before {
     position: absolute;
     margin-top:0%;
     display: none;
-    
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -2450,7 +561,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif; 
     margin:0; 
-    /* height:4vw; */
     width: 60vw;
    
 }
@@ -2461,7 +571,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif;  
     padding-right:2%; 
-
     height: 5%; 
     margin:0; 
     text-align: right;
@@ -2496,9 +605,7 @@ details > summary::before {
     position: absolute;
     margin-top:0%;
     display: none;
-    
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -2512,7 +619,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif; 
     margin:0; 
-    /* height:4vw; */
     width: 60vw;
    
 }
@@ -2523,7 +629,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif;  
     padding-right:2%; 
-
     height: 5%; 
     margin:0; 
     text-align: right;
@@ -2551,73 +656,12 @@ details > summary::before {
 }
 
 
-
-/*Narrativa y Videojuegos*/
-#div_videojuegos{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    
-    background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-#videojuegos_title{
-    font-size:3.5vw; 
-    color: rgb(209, 76, 191);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    
-    width: 45vw;
-    margin-left:1%;
-}
-
-#videojuegos_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(209, 76, 191); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-
-    height: 5%; 
-    margin:0; 
-    text-align: right;
-
-}
-
-#p_videojuegos_tareas{
-    padding-top:1%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_videojuegos_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
-}
-
-
 /*Entornos de Comunicación Virtual*/
 #div_ent_com_virt{
     position: absolute;
     margin-top:0%;
     display: none;
-    
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -2629,7 +673,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif; 
     margin:0; 
-    
     width: 45vw;
     margin-left:15%;
 }
@@ -2639,8 +682,6 @@ details > summary::before {
     color: #dbb039;
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif;  
-    
-
     height: 5%; 
     margin:0; 
     text-align: center;
@@ -2673,9 +714,7 @@ details > summary::before {
     position: absolute;
     margin-top:0%;
     display: none;
-    
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -2687,7 +726,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif; 
     margin:0; 
-    
     width: 45vw;
     margin-left:1%;
 }
@@ -2697,8 +735,6 @@ details > summary::before {
     color: #dbb039;
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif;  
-    
-
     height: 5%; 
     margin:0; 
     text-align: center;
@@ -2732,9 +768,7 @@ details > summary::before {
     position: absolute;
     margin-top:0%;
     display: none;
-    
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -2747,8 +781,6 @@ details > summary::before {
     color: rgb(255, 52, 52);
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif; 
-    /*margin-left:20%;*/
-    /* height:4vw; */
     width: 60vw;
    
 }
@@ -2759,7 +791,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif;  
     padding-right:2%; 
-
     height: 5%; 
     margin:0; 
     text-align: right;
@@ -2792,9 +823,7 @@ details > summary::before {
     position: absolute;
     margin-top:0%;
     display: none;
-    
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -2806,7 +835,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif; 
     margin:0; 
-    
     width: 60vw;
    
 }
@@ -2817,7 +845,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif;  
     padding-right:2%; 
-
     height: 5%; 
     margin:0; 
     text-align: right;
@@ -2850,9 +877,7 @@ details > summary::before {
     position: absolute;
     margin-top:0%;
     display: none;
-    
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -2861,7 +886,7 @@ details > summary::before {
 #div_google_cybersecurity::after {
     content: "";
     background: url("../resources/google_cyber_i.png");
-    opacity: 10; /* Ajusta la opacidad aquí */
+    opacity: 10; 
     top: 0;
     left: 0;
     bottom: 0;
@@ -2922,15 +947,11 @@ details > summary::before {
 
 /*Máquinas Ciberseguridad*/
 
-
-/*Seguridad en Computadores*/
 #div_dockerlabs{
     position: absolute;
     margin-top:0%;
     display: none;
-    
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -2943,8 +964,6 @@ details > summary::before {
     color: rgb(255, 52, 52);
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif; 
-    /*margin-left:20%;*/
-    /* height:3vw;  */
     width: 60vw;
    
 }
@@ -2955,8 +974,6 @@ details > summary::before {
     font-weight: bold; 
     font-family: 'Times New Roman', Times, serif;  
     padding-right:2%; 
-
-    /* height: 5%;  */
     margin:0; 
     text-align: right;
 
@@ -2987,9 +1004,7 @@ details > summary::before {
     position: absolute;
     margin-top:0%;
     display: none;
-    
     background-color: #e2fdfd;
-    /*background-color: #104b4b;*/
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
@@ -2997,7 +1012,7 @@ details > summary::before {
 
 .maquinas_cyber::after {
     content: "";
-    opacity: 10; /* Ajusta la opacidad aquí */
+    opacity: 10; 
     top: 0;
     left: 0;
     bottom: 0;
@@ -3017,15 +1032,13 @@ details > summary::before {
 
         div#container_window_info{
             display: block;
-            width: 65vw; /* Ajusta según tus necesidades */
-            height: 45vw; /* Ajusta según tus necesidades */
-            
+            width: 65vw; 
+            height: 45vw; 
             background-image: url("../resources/window_info.png");
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
             position: absolute;
-            
             left: 50%;
             transform: translateY(-12%) translateX(-50%) scale(1.5);
             overflow: hidden;
