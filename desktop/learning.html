@@ -1,0 +1,2260 @@
+<!-- HTML By Daniel Lizarte Cáceres -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="refresh" content="" />
+    <link rel="icon" href="../resources/favicon.ico" type="image/x-icon">
+
+    <title>DaliK Web</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/styleLearning.css">
+    
+    <link rel="stylesheet" href="../style/styleNavigation.css">
+    
+
+</head>
+<body>
+
+<body id="initLearning">
+   
+
+    <div id="iconContainer1">
+        <div id="learning_file">
+            <img  id="icon_file_learning" src="../resources/learning.png">
+            <h3 id="text_learning">Learning</h3>
+        </div>
+
+         <div id="project_file">
+            <img id="icon_file_project" src="../resources/projects.png">
+            <h3 id="text_project">Projects</h3>
+        </div>
+    </div>
+
+    <div id="iconContainer2">
+
+        <div id="experience_file">
+            <img  id="icon_file_experience" src="../resources/experience.png">
+            <h3 id="text_experience">Experience</h3>
+        </div>
+
+        <div id="resume_file">
+            <img id="icon_file_resume" src="../resources/resume.png">
+            <h3 id="text_resume">Resume</h3>
+        </div>
+
+    </div>
+
+    <div id="iconContainer3">
+        <div id="aboutme_file">
+            <img  id="icon_file_aboutme" src="../resources/aboutme.png">
+            <h3 id="text_aboutme">About Me</h3>
+        </div>
+
+        <div id="contact_file">
+            <img id="icon_file_contact" src="../resources/contact.png">
+            <h3 id="text_contact">Contact</h3>
+        </div>
+    </div>
+
+
+    
+
+
+    <div id="container_window_info">
+        <div id="container_bar_learning">
+            <h1 id="title_learning"><b>/Learning</b></h1>
+            <button id="button_exit_pdf" style="background-color: #e8e8e8; font-weight: bold; font-family: 'MS Sans Serif', Tahoma, sans-serif;">Close PDF</button>
+            <div id="barSearch">
+                <img  id="icon_file_search" src="../resources/projects.png">        
+                <input type="text" id="searchInput" onkeydown="checkForEnter(event)"  placeholder="Escribe aquí para buscar...">
+                
+            </div>
+            
+            <button id="button_back" style="background-color: #e8e8e8; color: #000000; font-weight: bold; font-family: 'MS Sans Serif', Tahoma, sans-serif;">X</button>
+        </div>
+        <div id="info_content_container_1">
+            
+            <div id="bar_menu_info">
+                <div id="bar_menu_explorer">
+                        <details>
+                            <summary style="width:10vw;">Estudios</summary>
+                            <ul style="margin:0;">
+                                <li><span id="bachillerato" style="font-size:1.2vw;">Bachillerato</span></li>
+                                <li><span id="upf_info" style="font-size:1.2vw;">Grado Universitario</span></li>
+                                <details>
+                                    <summary style="width:16vw; font-size:1.3vw;">Asignaturas Grado</summary>
+
+                                    <details>
+                                        
+                                        <summary style="width:10vw;  color: rgb(42, 88, 244); font-size:1.2vw;"> Matemáticas</summary>
+                                        <ul>
+                                            <li><span id="calculo_i">Cálculo I</span></li>
+                                            <li><span id="calculo_ii">Cálculo II</span></li>
+                                            <li><span id="mat_discreta">Matemática Discreta</span></li>
+                                            <li><span id="alg_lineal">Álgebra Lineal</span></li>
+                                            <li><span id="met_num">Métodos Numéricos</span></li>
+                                            <li><span id="fisica">Física</span></li>
+                                            <li><span id="prob">Probabilidad</span></li>
+                                            <li><span id="est">Estadística</span></li>
+                                        </ul>
+                                    </details>
+                                    <details>
+                                        <summary style="color: rgb(193, 187, 12); font-size:1.2vw;"> Programación y Algoritmos</summary>
+                                        <ul>
+                                            <li><span id="intro_prog">Introducción a la Programación</span></li>
+                                            <li><span id="eda_i">Estructuras de Datos y Algoritmos I</span></li>
+                                            <li><span id="eda_ii">Estructuras de Datos y Algoritmos II</span></li>
+                                            <li><span id="prog_obj">Programación Orientada a Objetos</span></li>
+                                            <li><span id="dis_fun_prog">Diseño Funcional de Programas</span></li>
+                                            <li><span id="dis_alg">Diseño de Algoritmos</span></li>
+                                            <li><span id="prog_paral">Introducción a la Programación Paralela y Distribuida</span></li>
+                                            <li><span id="ing_soft_web"><b style="color: rgb(65, 205, 0);">(O)</b> Ingeniería de Software para Aplicaciones Web</span></li>
+                                        </ul>
+                                    </details>
+                                    <details>
+                                        <summary style="color: rgb(0, 147, 196); font-size:1.2vw;"> Sistemas y Teoría</summary>
+                                        <ul>
+                                            <li><span id="org_comp">Organización de Computadores</span></li>
+                                            <li><span id="sys_i">Señales y Sistemas I</span></li>
+                                            <li><span id="so">Sistemas Operativos</span></li>
+                                            <li><span id="ing_soft">Ingeniería de Software</span></li>
+                                            <li><span id="teoria_comp">Teoría de la Computación</span></li>
+                                            <li><span id="sis_dist">Sistemas Distribuidos de Gran Escala</span></li>
+                                            <li><span id="compila">Compiladores</span></li>
+                                        </ul>
+                                    </details>
+                                    <details>
+                                        <summary style="color: rgb(55, 170, 1); font-size:1.2vw;"> Ciencia de Datos</summary>
+                                        <ul>
+                                            <li><span id="apr_auto">Aprendizaje Automático</span></li>
+                                            <li><span id="bases_datos">Bases de Datos</span></li>
+                                            <li><span id="intel_art">Inteligencia Artificial</span></li>
+                                            <li><span id="aiw"><b style="color: rgb(65, 205, 0);">(O)</b> Aplicaciones Inteligentes para la Web</span></li>
+                                            <li><span id="gest_cares"><b style="color: rgb(65, 205, 0);">(O)</b> Análisis de Gestos y Caras</span></li>
+                                            <li><span id="tnlp"><b style="color: rgb(65, 205, 0);">(O)</b>Técnicas de Procesamiento de Lenguaje Natural</span></li>
+                                        </ul>
+                                    </details>
+                                    <details>
+                                        <summary style="color: rgb(209, 76, 191); font-size:1.2vw;"> Visualización, Interfaces y Entornos</summary>
+                                        <ul>
+                                            <li><span id="graf_ord">Gráficos por Ordenador</span></li>
+                                            <li><span id="ing_inter">Ingeniería de Interacción</span></li>
+                                            <li><span id="videojuegos"><b style="color: rgb(65, 205, 0);">(O)</b> Narrativa y Videojuegos</span></li>
+                                            <li><span id="ent_com_virt"><b style="color: rgb(65, 205, 0);">(O)</b> <b style="color: #deb239;">(MH)</b> Entornos de Comunicación Virtual</span></li>
+                                            <li><span id="sist_int"><b style="color: rgb(65, 205, 0);">(O)</b> Sistemas Interactivos</span></li>
+                                        </ul>
+                                    </details>
+                                    <details>
+                                        <summary style="color: rgb(223, 47, 47); font-size:1.2vw;"> Redes y Seguridad</summary>
+                                        <ul>
+                                            <li><span id="redes">Redes</span></li>
+                                            <li><span id="cripto">Criptografía y Seguridad</span></li>
+                                            <li><span id="redes_in"><b style="color: rgb(65, 205, 0);">(O)</b> Redes de Sensores Inalámbricos</span></li>
+                                            <li><span id="iot"><b style="color: rgb(65, 205, 0);">(O)</b> <b style="color: #deb239;">(MH)</b> Internet of Things</span></li>
+                                            <li><span id="cybersec"><b style="color: rgb(65, 205, 0);">(O)</b> Seguridad en Computadores</span></li>
+                                        </ul>
+                                    </details>
+                                    <details>
+                                        <summary style="color: rgb(110, 31, 200); font-size:1.2vw;"> Comunicación, Ética y Gestión</summary>
+                                        <ul>
+                                            <li><span id="intro_tic">Introducción a las TIC</span></li>
+                                            <li><span id="com_ingles">Comunicación Técnica en Inglés</span></li>
+                                            <li><span id="gest_proy"><b style="color: rgb(65, 205, 0);">(O)</b> Gestión de Proyectos</span></li>
+                                            <li><span id="tall_tec_music"><b style="color: rgb(65, 205, 0);">(O)</b> Taller de Tecnología Músical</span></li>
+                                        </ul>
+                                </details>
+                            </details>
+                            </ul>
+                        </details>
+                        
+                            <details>
+                                <summary style="width:14vw;">Certificaciones</summary>
+                                <ul>
+                                    <li><span id="google_cybersecurity" style="font-size:1.2vw;"> Google Cybersecurity</span></li>
+                                    
+                                </ul>
+                            </details >
+                </div>
+             </div>
+
+             <div id="div_content">
+
+                
+
+                <div id = "init_learning">
+
+                    <div id="title_learning_area">
+                        <h2 style="text-align: center; font-size:5vw; margin:0;">/Learning</h2>
+                        <h2 style="text-align: center; font-size:5vw; margin:0; ">Area</h2>
+                        <img style="width: 10vw; height: 10vw;"src="../resources/learning.png">    
+                        <h3 style="text-align: center; font-size:1.25vw; margin:0; color: rgb(72, 226, 1); font-style: italic;"><b>(O): Optativa</b></h2>
+                        <h3 style="text-align: center; font-size:1.25vw; margin:0; color: #d2a836; font-style: italic;"><b>(MH): Matrícula de Honor</b></h2>
+                    </div>
+
+                </div>
+
+                <div id="div_bachillerato">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="bachillerato_title" >Bachillerato Científico-Tecnológico <i>Monlau Centre d'Estudis (2018-2020)</i></h1>
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(42,162,91); margin:0;"></hr>
+
+                    <p id="p_bachillerato_tareas">
+                    
+                            Completé el Bachillerato en <b>Monlau Centre d'Estudis</b>, especializándome en la modalidad <b>científico-tecnológica</b> durante los años <b>2018-2020</b>.<br><br>
+                            Durante estos dos años, adquirí una sólida formación al cursar las asignaturas esenciales de bachillerato junto 
+                            con materias específicas en <b>ciencias</b> y <b>tecnología</b>, como <b>química</b>, <b>física</b> y <b>tecnología</b>. <br><br>
+                            Estas áreas, especialmente la <b>informática</b> y las <b>nuevas tecnologías</b>, siempre me han apasionado y me brindaron una base 
+                            valiosa para los estudios que siempre aspiré a realizar.
+                        
+    
+                        
+                    </p>
+                   
+                    <p id="p_bachillerato_habs">
+
+                        <img style="margin-left: 12%; margin-top:-1%; width: 11vw; height: 10vw; border-radius: 30%;" src="../resources/bachillerato_i.jpg"> 
+                        <img style="margin-left: 15%; margin-top:-1%; width: 16vw; height: 10vw; border-radius: 10%;" src="../resources/bachillerato_ii.png"> 
+
+
+                    </p>
+                    
+                </div>
+
+
+                <div id="div_upf_info">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="upf_info_title"> Grado en Ingeniería Informática <br><i>Universidad Pompeu Fabra <br>(2020-Actualidad)</i> </h1>
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(208,20,44); margin:0;"></hr>
+
+                    <p id="p_upf_info_tareas">
+                        
+                        Actualmente estoy cursando el <b>Grado en Ingeniería Informática</b> en la <b>Universidad Pompeu Fabra</b>, donde he podido adquirir 
+                        una sólida base en <b>matemáticas</b>, <b>programación</b> y <b>teoría de la computación</b>. 
+                        Este grado se centra en el desarrollo de <b>software</b> y <b>tecnologías de la información y la comunicación</b> (TIC), 
+                        con un enfoque especial en la integración de <b>sistemas inteligentes</b>, <b>interactividad</b> y <b>redes de telecomunicaciones</b>.
+    
+                        <br><br>Mis estudios también abarcan áreas más avanzadas de la computación como <b>Bases de Datos</b>, <b>Seguridad en Computadores</b>, <b>Inteligencia Artificial</b> y 
+                        <b>Procesamiento de Señales</b>, todas ellas aplicadas al desarrollo de <b>soluciones y aplicaciones</b> en el ámbito informático.
+                            
+                        <br><br>Estos aprendizajes me permiten adaptar mis conocimientos a un sector tecnológico en <b>constante evolución</b> y profundizar en el área de la informática que tanto
+                            me ha <b>apasionado</b> desde pequeño.
+
+                    </p>
+                   
+                    <p id="p_upf_info_habs">
+                    
+                        <img style="margin-left: 3.5%; margin-top:2%; width: 22vw; height: 3.5vw;" id="upf_info_img_i" src="../resources/upf_info_i.png">
+                        <img style="margin-left: 62.5%; margin-top:-13%; width: 15vw; height: 8vw;  border-radius: 10%;" src="../resources/upf_info_ii.png">
+
+
+
+                    </p>
+                    
+                </div>
+                
+                <div id="div_calculo_i">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="calculo_i_title" >Cálculo I</h1>
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(83, 144, 242); margin:0;"></hr>
+
+                    <p id="p_calculo_i_tareas">
+                        
+                        En la asignatura de Cálculo I, se abordan dos bloques principales: <b>el cálculo diferencial y el cálculo integral.</b><br><br>
+
+                        <b style="text-decoration: underline; font-style: italic;">1. Cálculo Diferencial:</b><br> 
+                        • Estudio de la derivada y las funciones de variable real.<br>
+                        • Uso de la regla de la cadena para la derivación de funciones.<br> 
+                        • Aplicaciones de la derivada, incluyendo la optimización y el estudio gráfico de funciones.<br> 
+                        • Límite de una función y su continuidad.<br>
+                        • Teorema de l’Hôpital.<br>
+                        • Órdenes de infinitos e infinitesimales y las expresiones asintóticas.<br>
+                        • Estudio de polinomios y series de Taylor para la aproximación de funciones.<br><br>
+
+                        <b style="text-decoration: underline; font-style: italic;">2. Cálculo Integral:</b><br>
+                        • Estudio de las funciones primitivas y el teorema fundamental del cálculo.<br> 
+                        • Cálculo de integrales definidas y la función integral.<br> 
+                        • Aplicaciones de la integral, incluyendo operaciones en gráficos y cálculo de la media y la varianza.<br> 
+                        • Estudio de las series de Fourier para la aproximación de funciones.<br>
+
+                        
+                    </p>
+                   
+                    <p id="p_calculo_i_habs">
+                    
+                        <img style="margin-left: 72%; margin-top:-8%; width: 12vw; height: 8vw; " src="../resources/calculo_i.png">
+                   
+
+                    </p>
+                    
+                </div>
+                
+                <div id="div_mat_discreta">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="mat_discreta_title" >Matemática Discreta</h1>
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(83, 144, 242); margin:0;"></hr>
+
+                    <p id="p_mat_discreta_tareas">
+                        
+                        En el curso de Matemática Discreta, abordé temas esenciales para las <b>matemáticas y sus aplicaciones en ingeniería</b>,  proporcionando una base sólida en razonamiento matemático, estructuras discretas, y análisis combinatorio.<br><br> 
+
+                        <b style="text-decoration: underline; font-style: italic;">1. Razonamiento Matemático:</b><br> 
+                        • Lógica proposicional: sintaxis, equivalencia, deducción.<br>
+                        • Cuantificación.<br>
+                        • Métodos básicos de demostración: directa, contradicción, no constructiva, inducción.<br>
+                        • Definiciones recursivas.<br><br> 
+                        
+
+
+                        <b style="text-decoration: underline; font-style: italic;">2. Estructuras Discretas:</b><br>
+                        • Conjuntos.<br>
+                        • Grafos: coloreado, conectividad.<br>
+                        • Árboles: no dirigidos, con raíz, recorridos en árboles.<br>
+                        • Relaciones: de equivalencia, conjuntos parcialmente ordenados.<br><br> 
+
+                        <b style="text-decoration: underline; font-style: italic;">3. Análisis Combinatorio:</b><br>
+                        • Permutaciones y combinaciones: con y sin repetición.<br>
+                        • Números binomiales y multinomiales.<br>
+                        • Principio de las cajas.<br>
+                        • Principio de inclusión-exclusión.<br>
+
+
+
+                        
+                    </p>
+                   
+                    <p id="p_mat_discreta_habs">
+                    
+                    
+                        <img style="margin-left: 70%; margin-top:-30%; width: 11vw; height: 10vw; " src="../resources/mat_discreta.png">
+                   
+
+                    </p>
+                    
+                </div>
+
+                <div id="div_intro_prog">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="intro_prog_title" >Introducción Programación</h1>
+                      
+
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(220, 213, 12); margin:0;"></hr>
+
+                    <p id="p_intro_prog_tareas">
+                        
+                        La asignatura de Introducción a la Programación establece las <b>bases de la algoritmia y la programación</b>, 
+                        permitiendo aprender a programar en cualquier lenguaje. Se abordan los siguientes temas:<br><br>
+
+                        <b style="text-decoration: underline; font-style: italic;">1. Introducción. Conceptos básicos:</b> Se abordan los conceptos fundamentales de la programación.<br><br>
+
+                        <b style="text-decoration: underline; font-style: italic;">2. Tipo de datos básicos. Variables, expresiones, asignaciones:</b> Se estudian los tipos de datos básicos en Python, cómo declarar variables, y cómo realizar asignaciones y expresiones.<br><br>
+                        <b style="text-decoration: underline; font-style: italic;">3. Control de flujo de ejecución:</b> Se enseña cómo controlar el flujo de ejecución en un programa, incluyendo estructuras de control como bucles y condicionales.<br><br>
+
+                        <b style="text-decoration: underline; font-style: italic;">4. Funciones. Diseño descendente:</b> Se introduce el concepto de funciones en Python y cómo se utiliza el diseño descendente para estructurar un programa.<br><br>
+                        <b style="text-decoration: underline; font-style: italic;">5. Tipo de datos compuestos. Listas y tuplas: </b> Se estudian los tipos de datos compuestos en Python, incluyendo listas y tuplas.<br><br>
+
+                        
+                    </p>
+                   
+                    <p id="p_intro_prog_habs">
+                     
+                        <img style="margin-left: 67%; margin-top:-8%; width: 13vw; height: 7vw; " src="../resources/intro_prog.png">
+                   
+                        
+                    </p>
+                    
+                </div>
+
+                <div id="div_intro_tic">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="intro_tic_title" >Introducción a las TIC</h1>
+                     
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(110, 31, 200);; margin:0;"></hr>
+
+                    <p id="p_intro_tic_tareas">
+                        
+                       La asignatura se divide en dos partes principales: <b>la Introducción a la Universidad y la Introducción al sector, empresa y mercado de las TIC:</b> <br><br>
+
+                        <b style="text-decoration: underline; font-style: italic;">1. Introducción a la Universidad:</b><br>
+                        
+                        • Conocimiento de los recursos y servicios principales del campus/UPF.<br>
+                        • Comprensión de las características generales de la universidad y los servicios a la comunidad universitaria.<br>
+                        • Entendimiento de la estructura de los estudios universitarios y la normativa académica.<br>
+                        • Familiaridad con las metodologías docentes y las competencias transversales.<br><br>
+
+                        <b style="text-decoration: underline; font-style: italic;">2. Introducción al sector, empresa y mercado TIC:</b> <br>
+                        
+                        • Participación en debates y trabajos.<br>
+                        • Conocimiento del perfil socio-profesional del/a ingeniero/a TIC.<br>
+                        • Comprensión de los actores y la estructura del sector TIC.<br>
+                        • Conocimiento de los mercados y servicios de infraestructuras y servicios.<br>
+                        • Conocimiento de los aspectos de género, ética y responsabilidad en la ingeniería TIC.<br>
+                        • Conocimiento de casos específicos en ciencias de datos y en el ámbito audiovisual.<br>
+                        • Desarrollo de métodos de aprendizaje, colaboración en equipo y comunicación oral / escrita.<br>
+                        • Conocimiento sobre el uso de los datos personales.<br>
+                        
+
+                        
+                    </p>
+                   
+                    <p id="p_intro_tic_habs">
+                                       
+                        <img style="margin-left: 30%; margin-top:-1.5%; width: 30vw; height: 4vw; " src="../resources/intro_tic.png">
+
+                        
+                    </p>
+                    
+                </div>
+
+                <div id="div_calculo_ii">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="calculo_ii_title" >Cálculo II</h1>
+                      
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(83, 144, 242); margin:0;"></hr>
+
+                    <p id="p_calculo_ii_tareas">
+                        
+                        La asignatura de Cálculo II se centra en el estudio de funciones en varias variables, derivadas parciales, optimización, integrales dobles, superficies cálculo vectorial y operadores.<br>
+
+                        <b style="text-decoration: underline; font-style: italic;">1. Espacio Euclideo n-dimensional y Funciones en Varias Variables:</b><br> 
+                        • Introducción al espacio Euclideo real n-dimensional.<br>
+                        • Funciones a valores vectoriales y operaciones entre ellas.<br> 
+                        • Concepto de funciones componentes de funciones a valores vectoriales.<br> <br> 
+
+                        <b style="text-decoration: underline; font-style: italic;">2. Curvas y Superficies:</b><br> 
+                        • Curvas suaves, rectas tangentes, longitud de una curva y la integral de línea.<br> 
+                        • Superficies, sus curvas de nivel, y ejemplos de cónicas y cuádricas. <br> <br> 
+                        
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Cálculo Diferencial en Varias Variables:</b><br> 
+                        • Derivadas parciales, derivadas direccionales y teorema del gradiente.<br> 
+                        • Derivadas de orden superior, regla de la cadena y Matriz Jacobiana y Hessiana. <br>  <br> 
+
+                        <b style="text-decoration: underline; font-style: italic;">4. Optimización en Varias Variables:</b><br> 
+                        •	Extremos libres, vinculados y  Técnica de los multiplicadores de Lagrange.<br> <br> 
+
+                        <b style="text-decoration: underline; font-style: italic;">5. Integrales Dobles y Cambio de Variables.</b><br> <br> 
+
+                        <b style="text-decoration: underline; font-style: italic;">6. Integral de Superficie y Operadores del Cálculo Vectorial:</b><br> 
+                        • Flujo de un campo vectorial y teorema de la divergencia.<br> 
+
+
+                        
+
+                        
+                    </p>
+                   
+                    <p id="p_calculo_ii_habs">
+                        
+                    
+                    
+                    
+                        <img style="margin-left: 76%; margin-top:-30%; width: 10vw; height: 8vw; " src="../resources/calculo_ii.png">
+                        
+                    
+
+                    </p>
+                    
+                </div>
+
+                <div id="div_alg_lineal">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="alg_lineal_title" >Álgebra Lineal</h1>
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(83, 144, 242); margin:0;"></hr>
+
+                    <p id="p_alg_lineal_tareas">
+                        
+                        La asignatura de Álgebra Lineal se centra en el estudio de <b>espacios vectoriales, aplicaciones lineales, ortogonalización, y matrices simétricas.</b><br>
+
+                        <b style="text-decoration: underline; font-style: italic;">1. Números Complejos:</b><br> 
+                        • Esta sección introduce el concepto de números complejos, que son fundamentales en muchas áreas de las matemáticas y la ingeniería.<br> 
+
+                        <b style="text-decoration: underline; font-style: italic;">2. Espacios Vectoriales:</b><br> 
+                        • Aquí se estudian los espacios y subespacios vectoriales, la independencia lineal, la dimensión y las bases. Estos conceptos son esenciales para entender cómo se pueden representar y manipular objetos matemáticos en un espacio.<br>
+
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Aplicaciones Lineales:</b><br> 
+                        • Parte se centra en las aplicaciones lineales, que son funciones entre espacios vectoriales que preservan las operaciones de adición de vectores y multiplicación por escalares.<br> 
+
+                        <b style="text-decoration: underline; font-style: italic;">4. Ortogonalización:</b><br> 
+                        • En esta sección se introduce el concepto de ortogonalización, que es un proceso para construir un conjunto de vectores que son ortogonales (perpendiculares) entre sí.<br> 
+
+                        <b style="text-decoration: underline; font-style: italic;">5. Vectores y Valores Propios:</b><br>
+                        • Aquí se estudian los vectores y valores propios,<br> donde tienen numerosas aplicaciones en ciencias e ingeniería.<br> 
+
+                        <b style="text-decoration: underline; font-style: italic;">6. Matrices Simétricas:</b><br> 
+                        • Se estudian las matrices simétricas, tipo especial de matrices <br>con propiedades únicas que las hacen útiles en muchas aplicaciones.<br>
+
+
+
+
+                        
+
+                        
+                    </p>
+                   
+                    <p id="p_alg_lineal_habs">
+                       
+                        <img style="margin-left: 74%; margin-top:-27%; width: 11vw; height: 10vw; " src="../resources/alg_lineal.png">
+                        
+                    </p>
+                    
+                </div>
+
+                <div id="div_eda_i">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="eda_i_title" >Estructuras de Datos y Algoritmos I</h1>
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(220, 213, 12); margin:0;"></hr>
+
+                    <p id="p_eda_i_tareas">
+                        
+                        La asignatura de Estructura de Datos y Algoritmos I se centra en varios aspectos clave:<br><br>
+
+                        <b style="text-decoration: underline; font-style: italic;">1. Programación en C: </b><br> 
+                        • Se enfoca en el desarrollo de habilidades en la programación en C, incluyendo la implementación de estructuras de datos y algoritmos.<br> 
+
+                        <b style="text-decoration: underline; font-style: italic;">2. Gestión de Memoria: </b><br> 
+                        • Se aborda el acceso de memoria directo e indirecto, el concepto de dirección de memoria y puntero, y la gestión de memoria dinámica en un programa.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Estructuras de Datos: </b><br> 
+                        • Se estudia cuándo y cómo implementar una estructura de datos en memoria estática o dinámica.<br>  
+
+                        <b style="text-decoration: underline; font-style: italic;">4. Recursividad: </b><br> 
+                        • Se introduce la recursividad y la anidación del retorno, y se enseña a pensar y diseñar algoritmos recursivos.<br> 
+
+                        <b style="text-decoration: underline; font-style: italic;">5. Depuración y Pruebas:</b><br>
+                        • Se enseña a usar el debugger y las trazas para verificar un código, <br>y a definir una prueba y un banco de pruebas para verificar código.<br>  
+
+                        <b style="text-decoration: underline; font-style: italic;">6. Lectura de Código: </b><br> 
+                        • Se fomenta la habilidad de entender código C escrito <br>por otros programadores a una velocidad razonable.<br>
+
+                        
+                    </p>
+                   
+                    <p id="p_eda_i_habs">
+                       
+                        <img style="margin-left: 76%; margin-top:-27%; width: 9vw; height: 9vw; " src="../resources/eda_i.png">
+                    </p>
+                    
+                </div>
+
+                <div id="div_org_comp">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="org_comp_title" >Organización de Computadores</h1>
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(0, 176, 196); margin:0;"></hr>
+
+                    <p id="p_org_comp_tareas">
+                        
+                        La asignatura de Organización de Computadores se centra en el estudio de la <b>estructura básica de un computador</b> y cómo es capaz de <b>ejecutar programas</b>:<br><br>
+
+                        <b style="text-decoration: underline; font-style: italic;">1. Introducción al lenguaje ensamblador MIPS y sus estructuras más básicas:</b><br> 
+                        • Se introduce la arquitectura básica Von Neuman y sus elementos principales.<br> 
+                        • Se estudia la aritmética binaria, el lenguaje máquina y el lenguaje ensamblador.<br> 
+                        • Se aborda la declaración de datos, datos en memoria, carga y almacenamiento de datos, operaciones aritméticas, lógicas y de desplazamiento, operaciones de salto condicional y de comparación, y estructuras de control condicional y de repetición.<br> <br> 
+
+                        <b style="text-decoration: underline; font-style: italic;">2. Traducción de códigos de alto nivel en MIPS y uso de memoria:</b><br> 
+                        • Se estudia la representación de registros, matrices y punteros.<br>
+                        • Se introduce el concepto de subrutinas y estructuras de datos: la Pila.<br>
+                        • Se aborda la jerarquía de la memoria, la organización y operaciones de la memoria principal, y la memoria de Cache.<br><br>
+
+                        Además, se <b>fomenta</b> el trabajo en equipo, el razonamiento crítico,<br> aprendizaje autónomo, y la creatividad y adaptación a nuevas situaciones. <br>
+                        Se utiliza el <b>simulador MARS</b> para analizar la ejecución <br> de los programas propuestos.
+                        
+
+                        
+                    </p>
+                   
+                    <p id="p_org_comp_habs">
+                    
+                        <img style="margin-left: 79%; margin-top:-20%; width: 9vw; height: 9vw; " src="../resources/org_comp.png">
+                    </p>
+                    
+
+                </div>
+
+                <div id="div_redes">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="redes_title" >Redes</h1>
+                      
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(255, 52, 52); margin:0;"></hr>
+
+                    <p id="p_redes_tareas">
+                        
+                        La asignatura de <b>Redes</b> se centra en el estudio de los <b>protocolos e interfaces de comunicación</b> en los diferentes niveles de una arquitectura de redes, con un enfoque especial en la familia de protocolos de Internet TCP/IP:<br>
+
+                        <b style="text-decoration: underline; font-style: italic;">1. Introducción:</b><br>
+                        • Se introduce el curso y se establecen los fundamentos de las redes de comunicación.<br>
+
+                        <b style="text-decoration: underline; font-style: italic;">2. Transmisión / Recepción de bits a través de canales físicos:</b><br>
+                        • Se estudia cómo se transmiten y reciben los bits a través de canales físicos en una red.<br>
+
+                        <b style="text-decoration: underline; font-style: italic;">3. Comunicación salto a salto:</b><br>
+                        • Se aborda el concepto de comunicación salto a salto, fundamental para entender cómo se transmiten los datos a través de una red.<br>
+
+                        <b style="text-decoration: underline; font-style: italic;">4. Direccionamiento IP:</b><br>
+                        • Se estudia el direccionamiento IP, que es esencial para la identificación de dispositivos en una red.<br>
+
+                        <b style="text-decoration: underline; font-style: italic;">5. Enrutamiento y reenvío:</b><br>
+                        • Se aborda el enrutamiento y reenvío, que son procesos clave para la entrega de paquetes de datos en una red.<br>
+
+                        <b style="text-decoration: underline; font-style: italic;">6. Comunicación de extremo a extremo:</b><br>
+                        • Se estudia la comunicación de extremo a extremo, <br>que es un principio fundamental de las redes de comunicación.<br>
+
+                        <b style="text-decoration: underline; font-style: italic;">7. Aplicaciones de Internet:</b><br>
+                        • Se exploran las diversas aplicaciones de Internet, proporcionando <br>una visión práctica de cómo se utilizan las redes en el mundo real.<br>
+                        
+
+                        
+                    </p>
+                   
+                    <p id="p_redes_habs">
+                    
+                        <img style="margin-left: 75%; margin-top:-32%; width: 9vw; height: 9vw; " src="../resources/redes.png">
+                    </p>
+
+                </div>
+
+                <div id="div_met_num">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="met_num_title" >Métodos Numéricos</h1>
+                      
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(83, 144, 242); margin:0;"></hr>
+
+                    <p id="p_met_num_tareas">
+
+                        La asignatura de <b>Métodos Numéricos</b> se centra en el estudio y aplicación de métodos numéricos para resolver problemas matemáticos que pueden surgir en la ingeniería:<br><br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">1. Introducción a los métodos numéricos y la solución numérica de ecuaciones diferenciales:</b><br>
+                        • Se introduce el concepto de métodos numéricos y se estudia el Método de Euler para la solución numérica de ecuaciones diferenciales.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Estados, simulación, visualización, Processing:</b><br>
+                        • Se abordan los conceptos de estados, simulación y visualización, y se utiliza Processing como herramienta.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. El muelle elástico y los métodos de un paso:</b><br>
+                        • Se estudia el muelle elástico y se introducen los métodos de un paso para su análisis.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Métodos avanzados, convergencia, estabilidad:</b><br>
+                        • Se exploran métodos avanzados y se estudian los conceptos de convergencia y estabilidad en el contexto de los métodos numéricos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. EDPs: Ecuaciones de ondas y Calor1D+t y Soluciones Numéricas:</b><br>
+                        • Se introducen las ecuaciones diferenciales parciales (EDPs), específicamente las ecuaciones de ondas y calor, y se estudian sus soluciones numéricas.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">6. EDPs 2D + t:</b><br>
+                        • Se profundiza en el estudio de las ecuaciones diferenciales <br>parciales en dos dimensiones y en función del tiempo.<br>
+                        </p>
+                   
+                    <p id="p_met_num_habs">
+                        
+                        <img style="margin-left: 68%; margin-top:-17%; width: 14vw; height: 8vw; " src="../resources/met_num.png">
+
+
+                    </p>
+
+                </div>
+
+                <div id="div_eda_ii">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="eda_ii_title" >Estructuras de Datos y Algoritmos II</h1>
+                      
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(220, 213, 12); margin:0;"></hr>
+
+                    <p id="p_eda_ii_tareas">
+                        La asignatura de <b>Estructuras de Datos y Algoritmos II</b> se centra en el estudio y aplicación de <b>estructuras de datos complejas y algoritmos</b> para su manipulación:<br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Concepto de algoritmo, estructura de datos, estructuras de datos simples:</b><br>
+                        • Se repasan los conceptos de algoritmo y estructura de datos, y se estudian las estructuras de datos simples: lista, pila, cola.<br>
+                        
+                        <b style="text-decoration: underline;  font-style: italic;">2. Complejidad y Algoritmos de Ordenación</b><br>
+                        • Se introduce el concepto de complejidad y se estudian los algoritmos de ordenación: burbuja e inserción, y se analiza su complejidad.<br>
+                        
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4.  Técnicas de Programación y Árboles:</b><br>
+                        • Se introduce la técnica de programación “dividir para conquistar”, se estudian QuickSort y MergeSort, y se abordan los árboles, árboles binarios y de búsqueda, y los algoritmos sobre árboles.<br>
+                        
+                        
+                        <b style="text-decoration: underline; font-style: italic;">6. Heap y Heapsort:</b><br>
+                        • Se introduce el concepto de Heap y se estudia el algoritmo de ordenación Heapsort.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">7. Técnica de programación dinámica:</b><br>
+                        • Se introduce la técnica de programación dinámica (edit distance, etc.).<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">8. Grafos y algoritmos en grafos:</b><br>
+                        • Se estudian los grafos y los algoritmos en grafos (Dijktra, Prim).<br>
+                    </p>
+                   
+                    <p id="p_eda_ii_habs">
+                     
+                    
+                        <img style="margin-left: 74%; margin-top:-14%; width: 11vw; height: 9vw; " src="../resources/eda_ii.png">
+                    </p>
+
+                    
+                    
+                </div>
+
+                <div id="div_fisica">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="fisica_title" >Física</h1>
+                      
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(83, 144, 242); margin:0;"></hr>
+
+                    <p id="p_fisica_tareas">
+                        La asignatura de <b>Fundamentos de Física</b> se centra en los <b>conceptos básicos de la física y su aplicación en la ingeniería</b>:<br><br>
+                        
+                              
+                        <b style="text-decoration: underline; font-style: italic;">1. Dinámica, Trabajo y Energía:</b><br>
+                        • Se estudian conceptos básicos de dinámica, trabajo y energía, enfocados hacia el movimiento armónico simple.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Oscilaciones:</b><br>
+                        • Se estudia el oscilador masa-muelle y el péndulo simple.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Ondas:</b><br>
+                        • Se introducen conceptos básicos sobre las ondas y se estudia la propagación de ondas y la energía.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Electrostática:</b><br>
+                        • Se empieza con los conceptos de la electrostática y luego se pasa a la explicación de los conductores.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. Corriente eléctrica:</b><br>
+                        • Se introduce la corriente eléctrica, introduciendo algunos elementos que pueden encontrarse en los circuitos más simples.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">6. Magnetostática, Inducción electromagnética y Circuitos:</b><br>
+                        • Se introducen varios conceptos de magnetostática <br>para facilitar la comprensión de la inducción electromagnética. <br>También se introducirán circuitos más complejos.<br>
+                    </p>
+                    
+                   
+                    <p id="p_fisica_habs">
+                      
+                    
+                        <img style="margin-left: 80%; margin-top:-16%; width: 9vw; height: 7vw; " src="../resources/fisica_1.png">
+                        <img style="margin-left: 67%; margin-top:-40%; width: 7vw; height: 5vw; " src="../resources/fisica_2.png">
+
+                       
+                        
+                    </p>
+                    
+                </div>
+
+                <div id="div_prob">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="prob_title" >Probabilidad</h1>
+                     
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(83, 144, 242); margin:0;"></hr>
+
+                    <p id="p_prob_tareas">
+                        La asignatura de <b>Probabilidad</b> se centra en los <b>conceptos básicos de la probabilidad y su aplicación en la ingeniería</b>:<br><br>
+                                                
+                        <b style="text-decoration: underline; font-style: italic;">1. Modelos probabilísticos y Probabilidad Condicionada:</b><br>
+                        • Se estudian los modelos probabilísticos, los conceptos básicos de la probabilidad y la probabilidad condicionada y los teoremas de las probabilidades totales y de Bayes.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Variables aleatorias y Esperanza y varianza:</b><br>
+                        • Se estudian las variables aleatorias, la esperanza y la varianza, sus propiedades, la desigualdad de Chebyshev, y los conceptos de independencia, covarianza y correlación.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Familias de distribuciones discretas:</b><br>
+                        • Se estudian las familias de distribuciones discretas, incluyendo la Bernoulli, Binomial, Geométrica, Binomial Negativa, Multinomial, hipergeométrica y Poisson.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Familias de distribuciones Continuas:</b><br>
+                        • Se estudian las familias de distribuciones continuas, incluyendo la Uniforme, Normal, Exponencial, Gamma, Beta, Gaussiana 2D y Dirichlet.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. Teorema Central del Límite:</b><br>
+                        • Se introduce el Teorema Central del Límite y la aproximación Normal a la Distribución Binomial.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">6. Simulación computacional de Variables Aleatorias:</b><br>
+                        • Se estudia la simulación computacional de variables aleatorias <br>y los métodos de Monte Carlo.<br>
+                    </p>
+                    
+                    
+                    
+                   
+                    <p id="p_prob_habs">
+                     
+                    
+                        <img style="margin-left: 75%; margin-top:-19%; width: 8vw; height: 7vw; " src="../resources/prob.png">
+                        
+                      
+                       
+                        
+                    </p>
+                    
+                </div>
+
+                <div id="div_prog_obj">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="prog_obj_title" >Programación Orientada a Objetos</h1>
+                      
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(220, 213, 12); margin:0;"></hr>
+
+                    <p id="p_prog_obj_tareas">
+                        La asignatura de <b>Programación Orientada a Objetos</b> se centra en los <b>conceptos básicos de la programación orientada a objetos y su aplicación en la ingeniería</b>:<br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Introducción: el concepto de objeto:</b><br>
+                        • Se introduce la definición intuitiva de un objeto y cómo se utilizan en la programación.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. El paradigma de la programación orientada a objetos:</b><br>
+                        • Se estudian los conceptos clave del paradigma de la programación orientada a objetos, como la clase, la instancia, la jerarquía de clases, la abstracción y la encapsulación.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Modelado de objetos y relaciones entre objetos:</b><br>
+                        • Se introduce el diseño de clases, técnicas de modelado de objetos y relaciones entre objetos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Técnicas fundamentales: herencia y polimorfismo:</b><br>
+                        • Se estudian las técnicas fundamentales de la programación orientada a objetos, como la herencia, el polimorfismo, la sobrecarga y la reescritura.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. Conceptos avanzados: interfaces y clases abstractas:</b><br>
+                        • Se introducen conceptos avanzados, como los métodos abstractos, las clases abstractas, las interfaces y la conexión de objetos mediante interfaces.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">6. Reutilización y estudio de problemas resueltos con objetos:</b><br>
+                        • Se introduce el concepto de reutilización y se estudian <br>casos particulares de problemas resueltos con objetos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">7. Implementación de interfaces:</b><br>
+                        • Se estudia la implementación de interfaces y <br>la definición de un API concreto.<br>
+                    </p>
+                    
+                   
+                    <p id="p_prog_obj_habs">
+                       
+                        <img style="margin-left: 75%; margin-top:-32%; width: 6vw; height: 10vw; " src="../resources/prog_obj.png">
+                   
+                    </p>
+                    
+                </div>
+
+                <div id="div_sys_i">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="sys_i_title" >Señales y Sistemas I</h1>
+                      
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(0, 176, 196); margin:0;"></hr>
+
+                    <p id="p_sys_i_tareas">
+
+                        La asignatura de <b>Señales y Sistemas I</b> se centra en los <b>conceptos básicos de las señales y sistemas y su aplicación en la ingeniería</b>:<br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Introducción a las Señales y Sistemas:</b><br>
+                        • Se introduce la definición de señales, sistemas en ingeniería y su representación matemática.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Sinusoides:</b><br>
+                        • Se estudian las funciones seno y coseno, las señales sinusoidales, las sinusoides complejas y los fasores.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Representación espectral de señales temporales:</b><br>
+                        • Se introduce la representación espectral de señales temporales, incluyendo el espectro de suma de sinusoides y la modulación de amplitud.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Muestreo y Aliasing:</b><br>
+                        • Se estudia el muestreo, el teorema de muestreo, el aliasing y la conversión de señales discretas a continuos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. Filtros de respuesta impulsional Finita, FIR:</b><br>
+                        • Se introduce el concepto de filtros FIR y se estudia la respuesta impulsional de los filtros FIR.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">6. Transformada Z:</b><br>
+                        • Se estudian las propiedades de la transformada Z y <br>su relación con los sistemas lineales.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">7. Filtros de respuesta impulsional Infinita, IIR:</b><br>
+                        • Se introduce el concepto de filtros IIR y se estudia la respuesta <br>en el dominio temporal y la respuesta frecuencial de un filtro IIR.<br>
+
+                    </p>
+                    
+                   
+                    <p id="p_sys_i_habs">
+                     
+                        <img style="margin-left: 68%; margin-top:-28%; width: 13vw; height: 9vw; " src="../resources/sys_i.png">
+                    </p>
+
+                </div>
+
+                <div id="div_dis_fun_prog">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="dis_fun_prog_title" >Diseño Funcional de Programas</h1>
+                      
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(220, 213, 12); margin:0;"></hr>
+
+                    <p id="p_dis_fun_prog_tareas">
+                        La asignatura de <b>Diseño Funcional de Programas</b> se centra en los <b>conceptos básicos de los lenguajes funcionales:</b><br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Elementos de Lenguajes Funcionales:</b><br>
+                        • Se estudian las funciones como entidades de primera clase, la programación libre de efectos, la inmutabilidad, la búsqueda de patrones y las operaciones de orden superior.<br><br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Conceptos de Diseño Funcional:</b><br>
+                        • Se introducen las clausuras de funciones, la inferencia de tipos y el polimorfismo, y la evaluación perezosa.<br>
+                        • Se estudian la memoization, los objetos infinitos y las mónadas.<br><br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Tópicos en Desarrollo Funcional de Software:</b><br>
+                        • Se introduce el procesamiento de datos estructurados y el test de programas funcionales.<br>
+                        • Se introduce la introducción a los algoritmos paralelos.<br><br>
+                    </p>
+                    
+                    
+                    
+                   
+                    <p id="p_dis_fun_prog_habs">
+                       
+                        <img style="margin-left: 65%;margin-top: -8%;width: 12vw;height: 12vw;" src="../resources/dis_fun_prog_i.png">
+                   
+                    </p>
+                    
+                </div>
+
+                <div id="div_est">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="est_title" >Estadística</h1>
+                     
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(83, 144, 242); margin:0;"></hr>
+
+                    <p id="p_est_tareas">
+                        La asignatura de <b>Estadística</b> se centra en los <b>conceptos básicos de la estadística y su aplicación en la ingeniería</b>:<br><br>
+                        
+                        
+                        <b style="text-decoration: underline; font-style: italic;">1. Estadística descriptiva:</b><br>
+                        • Se introduce la estadística descriptiva, que se utiliza para resumir y describir los datos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Estimación de parámetros e Intervalos de confianza:</b><br>
+                        • Se estudia la estimación de parámetros y los intervalos de confianza, que se utilizan para estimar los parámetros de una población a partir de una muestra.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Tests de hipótesis (Test Z, Test T, valor P):</b><br>
+                        • Se introducen los tests de hipótesis, que se utilizan para tomar decisiones sobre las características de una población basándose en una muestra.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Regresión lineal (ANOVA, Intervalos y Tests) y multilineal :</b><br>
+                        • Se estudia la regresión lineal y multilineal, que se utilizan para modelar la relación entre una variable dependiente y una o más variables independientes.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. Métodos no paramétricos (Bootstrapping, y Tests del signo y del Rango):</b><br>
+                        • Se introducen los métodos no paramétricos, que se utilizan cuando los datos no cumplen con los supuestos de los métodos paramétricos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">6. Inferencia bayesiana:</b><br>
+                        • Se introduce la inferencia bayesiana, que es un enfoque de la <br> estadística en el que se actualizan las probabilidades de las hipótesis <br>a medida que se disponen de más evidencias.<br>
+                    </p>
+                    
+                    
+                    
+                    
+                   
+                    <p id="p_est_habs">
+                     
+                        <img style="margin-left: 72%;margin-top: -22%;width: 13vw;height: 8vw;" src="../resources/est.png">
+                      
+                       
+                        
+                    </p>
+                    
+                </div>
+
+                <div id="div_so">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="so_title" >Sistemas Operativos</h1>
+                      
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(0, 176, 196); margin:0;"></hr>
+
+                    <p id="p_so_tareas">
+                        La asignatura de <b>Sistemas Operativos</b> explica la utilidad del sistema operativo como un enlace entre las aplicaciones informáticas (software) y el nivel físico (hardware):<br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Componentes de un sistema operativo:</b><br>
+                        • Estudia los elementos que integran un ordenador, los tipos de sistemas operativos, y los componentes de un sistema operativo.<br>
+
+                        <b style="text-decoration: underline;  font-style: italic;">2. Gestión de Procesos:</b><br>
+                        • Analiza los elementos necesarios para crear un programa concurrente, el bloque de control de procesos (PCB), y las estrategias de planificación de CPU.<br>
+
+                        <b style="text-decoration: underline; font-style: italic;">3. Gestión de Memoria:</b><br>
+                        • Analiza el espacio de memoria de procesos, los tipos de gestión de memoria, y la segmentación y paginación de memoria.<br>
+
+                        <b style="text-decoration: underline; font-style: italic;">4. Dispositivos de entrada/salida:</b><br>
+                        • Analiza las características de dispositivos de entrada y salida, el concepto de "buffer", y la comunicación entre procesos mediante tubos (pipes).<br>
+
+                        <b style="text-decoration: underline; font-style: italic;">5. Sistema de ficheros:</b><br>
+                        • Describe los tipos de ficheros existentes, las operaciones posibles <br>aplicables a ficheros, y los mecanismos disponibles <br>para protección de ficheros.<br>
+
+                    </p>
+                    
+                    <p id="p_so_habs">
+                    
+                        <img style="margin-left: 71%;margin-top: -18.5%;width: 12vw;height: 11.5vw;" src="../resources/so.png">
+                    </p>
+                    
+
+                </div>
+
+                <div id="div_graf_ord">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="graf_ord_title" >Gráficos por Ordenador</h1>
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(209, 76, 191); margin:0;"></hr>
+
+                    <p id=p_graf_ord_tareas> La asignatura de <b>Gráficos por Ordenador</b> se centra en el estudio y aplicación de técnicas de visualización y modelado en 3D:<br><br>
+
+                        <b style="text-decoration: underline;font-style: italic;">1. Introducción:</b><br>
+                        • Presenta una visión general de la asignatura y sus objetivos.<br>
+                        
+                        <b style="text-decoration: underline;  font-style: italic;">2. Rasterización-Muestreo-Antialiasing:</b><br>
+                        • Estudia las técnicas de rasterización, muestreo y antialiasing en gráficos por ordenador.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Conceptos básicos de luz y color:</b><br>
+                        • Introduce los conceptos fundamentales de luz y color en la visualización gráfica.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Modelos y sistemas de coordenadas:</b><br>
+                        • Examina los diferentes modelos y sistemas de coordenadas en gráficos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. Iluminación básica:</b><br>
+                        • Explora los conceptos y técnicas de iluminación básica en gráficos por ordenador.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">6. Texturizado:</b><br>
+                        • Estudia las técnicas de texturizado en gráficos por ordenador.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">7. Modelos y representación:</b><br>
+                        • Analiza los diferentes modelos y técnicas de representación en gráficos por ordenador.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">8. Animación:</b><br>
+                        • Introduce las técnicas de animación en gráficos por ordenador.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">9. Aspectos avanzados:</b><br>
+                        • Cubre temas avanzados como la ecuación del transporte de luz y <br>la realidad virtual.<br>
+                        
+                    </p>
+                    <p id="p_graf_ord_habs">
+                     
+                        <img style="margin-left: 71%;margin-top: -26%;width: 12.5vw;height: 7.5vw;" src="../resources/graf_ord.png">
+                    </p>
+                    
+
+                </div>
+
+                <div id="div_dis_alg">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="dis_alg_title" >Diseño de Algoritmos</h1>
+                     
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(220, 213, 12); margin:0;"></hr>
+
+                    <p id="p_dis_alg_tareas">
+                        La asignatura de <b>Diseño de Algoritmos</b> se centra en el estudio y aplicación de diferentes técnicas de diseño de algoritmos y teoría de la complejidad:<br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Algoritmos Divide & Conquer:</b><br>
+                        • Estudia el algoritmo Mergesort, un algoritmo de ordenación que utiliza la técnica Divide & Conquer, y el cálculo de inversiones, una técnica para contar las inversiones en una secuencia.<br><br>
+                        
+                        <b style="text-decoration: underline;  font-style: italic;">2. Algoritmos voraces:</b><br>
+                        • Analiza la programación de intervalos, un problema que se resuelve con una estrategia voraz, y el algoritmo de Kruskal para encontrar el árbol de expansión mínima en un grafo.<br><br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Programación dinámica:</b><br>
+                        • Estudia la programación de intervalos ponderados, un problema de optimización que se resuelve con programación dinámica, y el problema de la mochila, un problema clásico de optimización combinatoria.<br><br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Teoría de la complejidad:</b><br>
+                        • Introduce las clases de complejidad P y NP, que agrupan <br>los problemas según su dificultad, y la NP-completitud, <br>una propiedad de ciertos problemas en NP para los <br>que no se conoce un algoritmo eficiente.<br><br>
+                    </p>
+                    
+                    
+                    
+                   
+                    <p id="p_dis_alg_habs">
+                    
+                        <img style="margin-left: 60%;margin-top: -38%;width: 10vw;height: 9vw;" src="../resources/dis_alg_i.png">  
+                        <img style="margin-left: 81%;margin-top: -59%;width: 9vw;height: 5.5vw;" src="../resources/dis_alg_ii.png">
+                    </p>
+
+                    
+                    
+                </div>
+
+                <div id="div_apr_auto">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="apr_auto_title" >Aprendizaje Automático</h1>
+                      
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(55, 170, 1); margin:0;"></hr>
+
+                    <p id="p_apr_auto_tareas">
+                        La asignatura de <b>Aprendizaje Automático</b> se centra en los <b>conceptos básicos del Machine Learning y su aplicación en la ingeniería</b>:<br><br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">1. Introducción:</b><br>
+                        • Se introduce el aprendizaje automático, un campo de la inteligencia artificial que se centra en el desarrollo de algoritmos y modelo.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Métodos no Supervisados: clustering:</b><br>
+                        • Técnicas  que agrupa los datos en clusters o grupos basándose en su similitud.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Modelos Generativos: la Gausiana y Mixtura de Gausianas:</b><br>
+                        • Modelos generativos, que estiman la distribución de probabilidad de los datos como la Gausiana y la mixtura de Gausianas.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Análisis de Componentes Principales y Métodos de Conjunto para Clasificación:</b><br>
+                        • Análisis de componentes principales (PCA), una técnica de reducción de dimensionalidad.<br>
+                        • Técnicas que combinan las predicciones para mejorar la precisión de la clasificación.<br>
+                        
+                        
+                        <b style="text-decoration: underline; font-style: italic;">6. Teoría de decisión Bayesiana y Support Vector Machine:</b><br>
+                        • Se estudia la teoría de decisión Bayesiana y Support Vector Machines son un tipo de modelo de aprendizaje supervisado que se utiliza para la clasificación y la regresión.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">7. Modelos lineales para la regresión y la clasificación:</b><br>
+                        • Técnicas que asume una relación lineal entre las variables de entrada y de salida.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">8. Aprendizaje profundo:</b><br>
+                        • Se introduce el aprendizaje profundo, un subcampo del <br>aprendizaje automático que se centra en las redes neuronales artificiales.<br>
+                    </p>
+                    
+                    
+                    
+                    
+                   
+                    <p id="p_apr_auto_habs">
+                     
+                        <img style="margin-left: 75%;margin-top: -20%;width: 12vw;height: 6vw;" src="../resources/apr_auto.png">
+
+                    </p>
+
+                    
+                    
+                </div>
+
+                <div id="div_ing_inter">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="ing_inter_title" >Ingeniería de Interacción</h1>
+                      
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(209, 76, 191); margin:0;"></hr>
+
+                    <p id="p_ing_inter_tareas">
+                        La asignatura de <b>Ingeniería de Interacción</b> se centra en los <b>conceptos básicos del diseño, implementación y evaluación de interfaces gráficas de usuario (GUI)</b>:<br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Introducción:</b><br>
+                        • Se introduce la interacción humana con la computadora, la interfaz, la interfaz gráfica de usuario (GUI), el diseño contextual y la Ingeniería de Usabilidad.<br>
+                                                
+                        <b style="text-decoration: underline; font-style: italic;">2. Resultados del aprendizaje:</b><br>
+                        • Capaz de diseñar, desarrollar y evaluar sistemas interactivos considerando conceptos y métodos de ingeniería de interacción.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. ¿Qué es la interacción y qué es una interfaz?:</b><br>
+                        • Se define la interacción y la interfaz y se presentan los equipos de interacción y de interfaz.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Comprensión del usuario y el contexto:</b><br>
+                        • Se presenta una investigación contextual y se realiza una consulta de contextos para un caso de ejemplo.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. Diseño centrado en el uso:</b><br>
+                        • Se presentan los roles de usuario, los casos de uso, el contenido y el mapa de navegación.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">6. Prototipado y Evaluación de Usabilidad:</b><br>
+                        • Se introduce el prototipo, el modelo de nivel de pulsación <br>de tecla, las herramientas de prototipado y <br>se realiza una prueba de usabilidad.<br>
+                    </p>
+                    
+
+
+                    <p id="p_ing_inter_habs">
+                     
+                        <img style="margin-left: 58%;margin-top: -16%;width: 18vw;height: 8vw;" src="../resources/ing_inter.png">
+                    </p>
+                    
+
+                </div>
+
+                <div id="div_prog_paral">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="prog_paral_title" >Introducción a la Programación Paralela y Distribuida</h1>
+                      
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(220, 213, 12); margin:0;"></hr>
+
+                    <p id="p_prog_paral_tareas">
+                        La asignatura de <b>Introducción a la Programación Paralela y Distribuida</b> se centra en los <b>siguientes conceptos básicos de la programación paralela y distribuida:</b><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Introducción:</b><br>
+                        • Se introduce la historia de las máquinas paralelas, el paralelismo a nivel de instrucción, la jerarquía de memoria y caché, y la taxonomía de Flynn.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Análisis de rendimiento:</b><br>
+                        • Se estudia el análisis de rendimiento, la Ley de Amdahl, el speedup, la eficiencia, las métricas de rendimiento y el profiling de aplicaciones paralelas y distribuidas.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Memoria compartida:</b><br>
+                        • Se introduce la arquitectura multinúcleo, el hyperthreading, la API de OpenMP, los schedulers de OpenMP y los overheads de OpenMP.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Memoria distribuida:</b><br>
+                        • Se estudia la distribución del cómputo con el estándar MPI, la comunicación punto a punto, la comunicación one to all, la comunicación all to all, los tipos de datos derivados y el MPIO.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. Aceleradores:</b><br>
+                        • Se introduce la arquitectura GPU y el modelo SIMT, la programación de aceleradores con OpenACC y la programación de GPU de Nvidia con CUDA.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">6. Modelos híbridos:</b><br>
+                        • Se estudian los modelos híbridos <br>en la programación paralela y distribuida.<br>
+                    </p>
+                    
+                    
+                    
+                    
+                    
+                    
+                   
+                    <p id="p_prog_paral_habs">
+                      
+                        <img style="margin-left: 70%;margin-top: -22%;width: 10vw;height: 7vw;" src="../resources/prog_paral.png">
+
+                    </p>
+
+                    
+                    
+                </div>
+
+                <div id="div_ing_soft">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="ing_soft_title" >Ingeniería de Software</h1>
+                     
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(0, 176, 196); margin:0;"></hr>
+
+                    <p id="p_ing_soft_tareas">
+                        La asignatura de <b>Ingeniería de Software</b> se centra en los <b>conceptos básicos y ciclos de la ingeniería de software</b>:<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Introducción:</b><br>
+                        • Se introduce la noción de ingeniería de software, la relación de la ingeniería de software con los ámbitos profesionales de la informática y con otras profesiones, y el ciclo de vida de los productos de software y sus modelos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Ingeniería de requerimientos:</b><br>
+                        • Se estudia la definición y clasificación de tipos de requerimientos, los elementos de un documento de requerimientos y formalismos asociados, y el ciclo de vida de los productos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Metodologías:</b><br>
+                        • Se describen diferentes ejemplos de metodologías, como las metodologías Agile.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. El modelado con UML:</b><br>
+                        • Se introduce el modelado visual y el uso de lenguajes como UML, y se estudian los principales diagramas UML y los elementos incluidos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. Análisis y diseño orientado a objetos:</b><br>
+                        • Se estudian la definición y propiedades de los objetos, la definición y propiedades de las clases, las relaciones de herencia, composición, agregación, asociación y dependencia, y el polimorfismo y las jerarquías de herencia.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">6. Herramientas avanzadas de implementación:</b><br>
+                        • Se aprende a utilizar herramientas avanzadas de <br>implementación, como Qt y Figma para implementar interfaces <br>gráficas de usuario y templates para la programación genérica.<br>
+                    </p>
+                    
+                    
+                    <p id="p_ing_soft_habs">
+                      
+                        <img style="margin-left: 68%;margin-top: -23%;width: 14vw;height: 8vw;" src="../resources/ing_soft.png">
+                    </p>
+                    
+
+                </div>
+
+                <div id="div_bases_datos">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="bases_datos_title" >Bases de Datos</h1>
+                      
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(55, 170, 1); margin:0;"></hr>
+
+                    <p id="p_bases_datos_tareas">
+                        La asignatura de <b>Bases de Datos</b> introduce a los estudiantes en la gestión, manipulación y almacenamiento de grandes volúmenes de datos, con un enfoque en las bases de datos relacionales:<br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Presentación:</b><br>
+                        • Introducción a la asignatura y a los conceptos básicos de las bases de datos.<br>
+                        
+                        <b style="text-decoration: underline;  font-style: italic;">2. Fundamentos de bases de datos:</b><br>
+                        • Estudio de los principios básicos que rigen las bases de datos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. El modelo conceptual:</b><br>
+                        • Aprendizaje de cómo se estructuran y representan los datos en un ordenador.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. El modelo relacional:</b><br>
+                        • Enfoque en las bases de datos relacionales, las más utilizadas actualmente.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. SQL:</b><br>
+                        • Estudio de uno de los lenguajes más utilizados para manipular bases de datos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">6. Normalización:</b><br>
+                        • Proceso de organización de las bases de datos para reducir la redundancia y mejorar la integridad de los datos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">7. El Modelo físico:</b><br>
+                        • Análisis de cómo se implementan las bases de datos <br>en el hardware, proporcionando una comprensión completa <br>del ciclo de vida de los datos.<br>
+                    </p>
+                    
+                    
+                    
+                    <p id="p_bases_datos_habs">
+                    
+                        <img style="margin-left: 69%;margin-top: -18%;width: 14vw;height: 8vw;" src="../resources/bases_datos_i.png">
+                        <img style="margin-left: 60%;margin-top: -30%;width: 11vw;height: 7vw;" src="../resources/bases_datos_ii.png">
+                    </p>
+                    
+
+                </div>
+
+                <div id="div_intel_art">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="intel_art_title" >Inteligencia Artificial</h1>
+                     
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(55, 170, 1); margin:0;"></hr>
+
+                    <p id="p_intel_art_tareas">
+                        La asignatura de <b>Inteligencia Artificial</b> se centra en el estudio de la IA, sus técnicas de aprendizaje automático, y sus limitaciones:<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">1. Introducción a la Inteligencia Artificial:</b><br>
+                        • Se introduce la estructura de la asignatura y se explica qué es la IA.<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">2. Planificación y Búsqueda:</b><br>
+                        • Se estudian los agentes de planificación, la representación de problemas de planificación como problemas de búsqueda, y se introducen métodos básicos de búsqueda desinformada como BFS y DFS. Se profundiza en la búsqueda heurística y se presentan estrategias específicas de búsqueda como greedy, best-first, A*.<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">3. Búsqueda Adversarial:</b><br>
+                        • Se introduce la idea de búsqueda adversarial, se describen formalmente los juegos, y se estudian algoritmos de juegos como Minimax, Alpha-Beta, Expectimax. Se profundiza en la búsqueda adversarial en juegos con árboles masivos.<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">4. Procesos de Decisión Markov y Aprendizaje por Refuerzo:</b><br>
+                        • Se introduce el modelado de entornos estocásticos a través de Procesos de Decisión Markov (MDPs) y se discuten las políticas y funciones de valor-estado. Se introduce el Aprendizaje por Refuerzo (RL) y se discuten técnicas como Q-learning y Epsilon-greedy.<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">5. Lógica:</b><br>
+                        • Estudia la lógica proposicional, de primera orden, y los problemas de satisfacibilidad (SAT).<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">6. Planificación Clásica:</b><br>
+                        • Se introduce la representación compacta de los problemas de planificación y se discuten representaciones como STRIPS y PDDL. Se profundiza en la planificación clásica, se discute la derivación automática de heurísticas y se introduce la planificación como SAT.<br>
+                    </p>
+                    
+                    
+                    
+                    
+                    <p id="p_intel_art_habs">
+                     
+                        <img style="margin-left: 78%;margin-top: -150%;width: 8vw;height: 6.5vw;" src="../resources/intel_art.png">
+                    </p>
+                    
+
+                </div>
+
+                <div id="div_teoria_comp">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="teoria_comp_title" >Teoría de la Computación</h1>
+                    
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(0, 176, 196); margin:0;"></hr>
+
+                    <p id="p_teoria_comp_tareas">
+                        La asignatura de <b>Teoría de la Computación</b> se centra en el estudio de los fundamentos teóricos de la computación:<br><br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">1. Lenguajes regulares:</b><br>
+                        • Se estudian los autómatas finitos deterministas (DFA) y no deterministas (NDFA), las expresiones regulares, y se demuestra la equivalencia entre DFAs y expresiones regulares (Teorema de Kleene).<br><br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">2. Lenguajes libres de contexto:</b><br>
+                        • Se estudian las gramáticas libres de contexto (GLC) y los lenguajes libres de contexto y sus propiedades básicas.<br><br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">3. Teoría de la decidibilidad:</b><br>
+                        • Se introducen las máquinas de Turing (MT), se demuestra la equivalencia entre MTs y programas, y se estudian los lenguajes recursivamente enumerables y recursivos.<br><br>
+                    </p>
+                    
+                    
+                    
+                    <p id="p_teoria_comp_habs">
+                       
+                        <img style="margin-left: 55%;margin-top: -4%;width: 19vw;height: 10vw;" src="../resources/teoria_comp_i.png">
+                        <img style="margin-left: 10%;margin-top: -28%;width: 15vw;height: 8vw;" src="../resources/teoria_comp_ii.png">
+                    </p>
+                    
+
+                </div>
+
+                <div id="div_com_ingles">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="com_ingles_title" >Comunicación Técnica en Inglés</h1>
+                     
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(110, 31, 200);; margin:0;"></hr>
+
+                    <p id="p_com_ingles_tareas">
+                        La asignatura de <b>Comunicación Técnica en Inglés</b> se centra en el desarrollo de habilidades de comunicación en inglés para contextos técnicos y académicos:<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">1. Introducción al curso:</b><br>
+                        • Se presenta la asignatura, sus objetivos y motivación, y los aspectos esenciales para una comunicación técnica exitosa.<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">2. Argumentación y resumen de textos y videos:</b><br>
+                        • Se introduce el concepto del 5P-essay y se practican técnicas de argumentación. Se aprende a escribir resúmenes de textos largos y a crear resúmenes de videos.<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">3. Escritura de correo electrónico formal y presentaciones orales:</b><br>
+                        • Se practican las habilidades de escritura de correo electrónico en un contexto profesional y se aprende a crear diapositivas efectivas y a presentar de manera efectiva, realizando varias presentaciones orales durante el curso.<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">4. Comprensión de los acentos en inglés y vocabulario:</b><br>
+                        • Se trabajan las habilidades de comprensión auditiva para entender una variedad de acentos en inglés y se repasan aspectos clave de la gramática y el vocabulario en inglés.<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">5. Escritura de documentos cortos y largos:</b><br>
+                        • Se aprende a escribir documentos cortos para revistas, con un uso adecuado de las referencias. Se aprende a escribir documentos largos, como informes técnicos o industriales, con un uso adecuado de las referencias.<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">6. Escritura de un TFG (Trabajo Final de Grado):</b><br>
+                        • Se discuten las habilidades y técnicas necesarias<br> para escribir un TFG exitoso.<br>
+                    </p>
+                    
+                   
+                    <p id="p_com_ingles_habs">
+                       
+                        <img style="margin-left: 67%;margin-top: -20%;width: 11vw;height: 5.5vw;" src="../resources/com_ingles.png">
+
+                        
+                    </p>
+                    
+                </div>
+
+                <div id="div_sis_dist">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="sis_dist_title" >Sistemas Distribuidos de Gran Escala</h1>
+                      
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(0, 176, 196); margin:0;"></hr>
+
+                    <p id="p_sis_dist_tareas">
+                        La asignatura de <b>Sistemas Distribuidos de Gran Escala</b> se centra en el estudio y aplicación de los principios y técnicas de programación paralela y distribuida:<br><br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">1. Introducción a los Sistemas de Distribución a Gran Escala:</b><br>
+                        • Necesidades y problemas asociados con los sistemas de distribución a gran escala.<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">2. Hadoop:</b><br>
+                        • Hadoop, marco de trabajo de código abierto para el procesamiento de datos distribuidos.<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">3. De MapReduce a Spark:</b><br>
+                        • Transición de MapReduce a Spark, dos marcos de trabajo para el procesamiento de datos distribuidos.<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">4. GraphX:</b><br>
+                        • GraphX, una biblioteca para la manipulación de grafos y la computación gráfica.<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">5. TensorFlow:</b><br>
+                        • TensorFlow, una plataforma de código abierto para el aprendizaje automático.<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">6. Seminarios y Laboratorios:</b><br>
+                        • Se realizan varios seminarios para revisar Java, Maven y otras herramientas necesarias para los laboratorios. Se discuten temas como Hadoop, el recuento de palabras, la transmisión de Big Data (Twitter) / Spark, el procesamiento de grafos, y el aprendizaje automático a gran escala con Apache Spark MLlib.<br>
+                        • Los laboratorios incluyen temas como Docker, <br>Spark/Twitter/Json/Joins, y Streaming de Spark/DynamoDB.<br>
+                    </p>
+                    
+                    
+                    <p id="p_sis_dist_habs">
+                       
+                        <img style="margin-left: 67%;margin-top: -12.5%;width: 13vw;height: 6.5vw; background: rgb(0, 176, 196); padding: 0.15vw;" src="../resources/sis_dist.png">
+                    </p>
+                    
+
+                </div>
+
+
+                <div id="div_cripto">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="cripto_title" >Criptografía y Seguridad</h1>
+                      
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(255, 52, 52); margin:0;"></hr>
+
+                    <p id="p_cripto_tareas">
+                        La asignatura de <b>Criptografía y Seguridad</b> se centra en la introducción a la criptografía y la protección de la privacidad de las comunicaciones:<br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">1. Introducción a la criptografía:</b><br>
+                        • Se discuten los objetivos de seguridad como el anonimato, la autenticidad, la no repudiación, la integridad o la trazabilidad. Se presentan las herramientas importantes para garantizarlas, tales como encriptación, códigos de autenticación de mensajes, protocolos de acuerdo clave, firmas digitales, etc.<br><br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">2. Criptografía simétrica:</b><br>
+                        • Se introduce la criptografía simétrica y sus principales primitivas. Los temas incluyen Perfect Secrecy, Block ciphers, Stream ciphers, Hash Functions.<br><br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">3. Criptografía asimétrica:</b><br>
+                        • Se introduce la criptografía asimétrica y sus principales primitivas, así como sus fundamentos matemáticos (aritmética modular, teoría básica de grupos y campos finitos). Los temas incluyen Public Key Encryption (PKE), RSA, ElGamal, Diffie-Hellman Key Exchange (DHKE), Digital Signatures.<br><br>
+                    
+                        <b style="text-decoration: underline;font-style: italic;">4. Aplicaciones (B3):</b><br>
+                        • Se discuten varias aplicaciones de la criptografía, <br>incluyendo Secret Sharing, Threshold Decryption.<br>
+                    </p>
+                    
+                   
+                    <p id="p_cripto_habs">
+                      
+                        <img style="margin-left: 63%;margin-top: -23%;width: 13vw;height: 8.5vw;" src="../resources/cripto_ii.png">
+                    </p>
+
+                </div>
+
+
+                <div id="div_compila">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="compila_title" >Compiladores</h1>
+                    
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(0, 176, 196); margin:0;"></hr>
+
+                    <p id="p_compila_tareas">
+                        La asignatura de <b>Compiladores</b> se centra en el estudio y aplicación de los componentes de un compilador:<br><br>
+
+                        <b style="text-decoration: underline;font-style: italic;">1. Análisis léxico (LEXER/SCANNER):</b><br>
+                        • Se introduce el análisis léxico, los tokens, las expresiones regulares/idiomas y los autómatas finitos.<br>
+
+                        <b style="text-decoration: underline;font-style: italic;">2. Análisis sintáctico (PARSER):</b><br>
+                        • Se discute el análisis sintáctico, el análisis descendente, las gramáticas libres de contexto (CFG), los árboles de sintaxis abstracta (AST), el análisis descendente recursivo y el análisis ascendente.<br>
+
+                        <b style="text-decoration: underline;font-style: italic;">3. Análisis semántico:</b><br>
+                        • Se introduce el análisis semántico, el alcance, las tablas de símbolos, la organización en tiempo de ejecución, la recuperación de errores, el registro y los árboles de activación, los globales y el heap.<br>
+
+                        <b style="text-decoration: underline;font-style: italic;">4. Generación de código:</b><br>
+                        • Se discute la generación de código, el código intermedio <br>y la optimización, las representaciones intermedias (IR), <br>los grafos de flujo de control (CFG), la asignación de registros, <br>el gráfico de interferencia de registros, la coloración de grafos y <br>la gestión automática de memoria: recolección de basura.<br>
+                    </p>
+                    
+                    
+                    
+                    
+                    <p id="p_compila_habs">
+                     
+                        <img style="margin-left: 65%;margin-top: -30%;width: 16vw;height: 12vw;" src="../resources/compila.png">
+                       
+                    </p>
+                    
+
+                </div>
+
+
+                <div id="div_ing_soft_web">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="ing_soft_web_title" >Ingeniería de Software para Aplicaciones Web</h1>
+                     
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(220, 213, 12); margin:0;"></hr>
+
+                    <p id="p_ing_soft_web_tareas">
+                        La asignatura de <b>Ingeniería de Software para Aplicaciones Web</b> se centra en el desarrollo de aplicaciones web, abarcando tanto lado de servidor (backend) como de cliente (frontend):<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Introducción a la tecnología Web:</b><br>
+                        • Se introduce el concepto de tecnología web, su importancia y aplicaciones.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">2. HTML y CSS básico:</b><br>
+                        • Se enseñan los fundamentos de HTML y CSS, esenciales para la creación de páginas web.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">3. Tecnologías en el servidor:</b><br>
+                        • Se aborda el concepto de "Backend" y se enseña cómo administrar el servidor web Apache Tomcat utilizando Servlets, JSP, JSTL y MySQL.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">4. Tecnologías en el cliente:</b><br>
+                        • Se introduce el concepto de "Frontend" y se enseñan tecnologías como DOM, JavaScript, JQuery y CSS Frameworks.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">5. Integración de tecnologías mediante MVC:</b><br>
+                        • Se enseña cómo integrar las tecnologías del servidor y del cliente utilizando el patrón de diseño Model-View-Controller.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">6. Nuevas tendencias:</b><br>
+                        • Se presentan las últimas tendencias en tecnología web, como Websockets, WebRTC, WebGL, Node.js y MongoDB (NOSQL).<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">7. Legislación para tener en cuenta al publicar una aplicación web:</b><br>
+                        • Se introducen las regulaciones GDPR y WCAG 2.0.<br>
+                    </p>
+
+                    
+                   
+                    <p id="p_ing_soft_web_habs">
+                     
+                        <img style="margin-left: 77%;margin-top: -19%;width: 9.5vw;height: 5vw;" src="../resources/ing_soft_web.png">
+
+                    </p>
+
+                    
+                    
+                </div>
+
+
+                <div id="div_redes_in">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="redes_in_title" >Redes de Sensores Inalámbricos</h1>
+                     
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(255, 52, 52); margin:0;"></hr>
+
+                    <p id="p_redes_in_tareas">
+                        La asignatura de <b>Redes de Sensores Inalámbricos (RSI)</b> ofrece una visión de las redes IoT.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Introducción a IoT:</b><br>
+                        • Se introduce el concepto de Internet de las Cosas (IoT).<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">2. Plataformas de Hardware:</b><br>
+                        • Se ofrece una visión general de los microcontroladores, SoCs y plataformas como ESP32-S2.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">3. Sensores y Actuadores:</b><br>
+                        • Se ofrece una visión general de los sensores y actuadores.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">4. Consumo de Energía en IoT:</b><br>
+                        • Se estudian los tipos de baterías y la recolección de energía en IoT.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">5. PHY y MAC para WSNs:</b><br>
+                        • Se estudian las capas física y de control de acceso al medio para las RSI.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">6. LoRa, NB-IoT:</b><br>
+                        • Se introducen las tecnologías LoRa y NB-IoT.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">7. RPL, 6LoWPAN, apps:</b><br>
+                        • Se estudian RPL, 6LoWPAN y las aplicaciones relacionadas.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">8. Aprendizaje automático en el borde, TPUs:</b><br>
+                        • Se ofrece una visión general del aprendizaje automático en el borde y las Unidades de Procesamiento Tensorial.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">9. Conectividad a Internet:</b><br>
+                        • Se estudia la conectividad a Internet utilizando MQTT y HTTP/CoAP. Se enseña cómo publicar datos de sensores directamente desde el nodo.<br>
+                        
+                        • Proyecto final sistema IoT completo: Sensores, actuadores, periféricos, conectividad.<br>
+                    </p>
+                    
+                    
+                   
+                    <p id="p_redes_in_habs">
+                     
+                        <img style="margin-left: 70%;margin-top: -69%;width: 11vw;height: 7vw; background: rgb(255, 52, 52); padding: 0.15vw;" src="../resources/redes_in_i.png">
+                        <img style="margin-left: 84%;margin-top: -116%;width: 5vw;height: 8vw;background: rgb(255, 52, 52);padding: 0.15vw;" src="../resources/redes_in_ii.png">
+                    </p>
+
+                </div>
+
+
+                <div id="div_iot">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="iot_title" >Internet of Things</h1>
+                       <div id="iot_contrato_title">
+                           
+                         <p style="margin:0; width:8vw;">Matrícula de Honor</p>
+                        </div>
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(255, 52, 52); margin:0;"></hr>
+
+                    <p id="p_iot_tareas">
+                        La asignatura de <b>Internet of Things (IoT)</b> se centra en el nuevo paradigma de objetos que interactúan con la gente, con los sistemas de información, y con otros objetos.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Conceptos de IoT:</b><br>
+                        • Se introducen los conceptos fundamentales de IoT.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">2. Tecnologías de IoT:</b><br>
+                        • Se exploran las diversas tecnologías que permiten la existencia y funcionamiento de IoT, incluyendo hardware, software y protocolos de red.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">3. Técnicas de pensamiento creativo:</b><br>
+                        • Se enseñan técnicas para fomentar el pensamiento creativo, lo que permite a los estudiantes generar ideas innovadoras para aplicaciones de IoT.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">4. Técnicas de co-creación:</b><br>
+                        • Se presentan técnicas de co-creación, fomentando el trabajo en equipo y la colaboración en el desarrollo de proyectos de IoT.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">5. Uso de ESP32-S2 y Conexión a la nube IoT:</b><br>
+                        • Familiarización con la placa ESP32-S2 y se establece la conexión del ESP32S2 a WiFi, se elige un servicio en la nube (como Arduino Cloud, Google Cloud IoT, etc.), se envían datos (telemetría) al servicio en la nube y se visualizan en dashboards.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">6. Proyecto Final:</b><br>
+                        • Se crea una solución a un caso de uso de IoT <br>utilizando todas las tecnologías estudiadas durante el curso<br>, y se usan servicios en la nube para mostrar los datos y <br>manipularlos para visualizarlos en forma de gráficos y dashboards.<br>
+                    </p>
+                    
+                    
+                    
+                    
+                   
+                    <p id="p_iot_habs">
+                     
+                        <img style="margin-left: 71%;margin-top: -31%;width: 12vw;height: 7vw;background: rgb(255, 52, 52);padding: 0.15vw;" src="../resources/iot_i.JPG">
+                        <img style="margin-left: 60%;margin-top: -147%;width: 16vw;height: 4vw;background: rgb(255, 52, 52);padding: 0.15vw;" src="../resources/iot_ii.JPG">
+                    </p>
+
+                </div>
+
+                <div id="div_gest_proy">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="gest_proy_title" >Gestión de Proyectos</h1>
+                     
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(110, 31, 200); margin:0;"></hr>
+
+                    <p id="p_gest_proy_tareas">
+                        La asignatura de <b>Gestión de Proyectos</b> se centra en el estudio y aplicación de la gestión de proyectos, con un enfoque práctico que permite aplicar directamente lo aprendido a nuestros propios proyectos.<br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Competencias trabajadas:</b><br>
+                        • Se trabajan competencias básicas y específicas, incluyendo la capacidad de aplicar conocimientos a nuestro trabajo o vocación de una forma profesional, la capacidad de reunir e interpretar datos relevantes, y la capacidad de transmitir información, ideas, problemas o soluciones a un público tanto especializado como no especializado.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">2. Contenidos del curso:</b><br>
+                        • Se abordan temas como la metodología de trabajo en la gestión de proyectos, las fases del proyecto (inicio, planificación, ejecución y cierre), el seguimiento y control, y la documentación en la gestión de proyectos.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">3. Metodología de trabajo:</b><br>
+                        • Se presenta de forma práctica la metodología de trabajo, de forma que se pueda aplicar directamente al proyecto desarrollado.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">4. Proyecto principal:</b><br>
+                        • El proyecto principal a desarrollar es un Chatbot asistente para los clientes de INCASÒL con el fin de reducir las llamadas recibidas por la compañía, aplicando todas <br>las pautas de una buena Gestión de Proyectos y documentación.<br>
+                    </p>
+                    
+                    
+                    
+                   
+                    <p id="p_gest_proy_habs">
+                     
+                        <img style="margin-left: 80%;margin-top: -9%;width: 6vw;height: 6vw;" src="../resources/gest_proy.png">
+
+                        
+                    </p>
+                    
+                </div>
+
+                <div id="div_aiw">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="aiw_title" >Aplicaciones Inteligentes para la Web</h1>
+                    
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(55, 170, 1); margin:0;"></hr>
+
+                    <p id="p_aiw_tareas">
+                        La asignatura de <b>Aplicaciones Inteligentes para la Web (AIW)</b> se centra en el estudio de problemas en el área de procesamiento del lenguaje natural (PLN), incluyendo extracción de información, minería de opiniones y resumen automático de texto.<br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Presentación:</b><br>
+                        • Se exploran los enfoques actuales de aprendizaje profundo (Deep learning) y se tratan temáticas actuales como los modelos masivos de lenguaje, el chatGPT, los sistemas de generación de contenidos como el Dall-E, la traducción automática, la generación a partir de “prompts”, etc.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">2. Competencias asociadas:</b><br>
+                        • Se trabajan competencias básicas y específicas, incluyendo la capacidad de resolver problemas matemáticos y estadística, dominar los conceptos de la programación y estructuras de datos, reconocer procedimientos algorítmicos básicos, aplicar técnicas básicas de inteligencia artificial, resolver problemas complejos utilizando técnicas de aprendizaje automático,y solucionar problemas complejos de computación utilizando los principios y técnicas de los sistemas inteligentes.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">4. Objetivos de Desarrollo Sostenible:</b><br>
+                        • Se dedican varias clases al estudio de los ODS <br>en tareas de clasificación de textos.<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">5. Metodología de trabajo:</b><br>
+                        • La metodología de trabajo se basa en la presentación <br>y discusión de artículos científicos recientes, el desarrollo <br>de proyectos en grupo y la participación en seminarios.<br>
+                    </p>
+                    
+                    
+                    
+                    
+                    
+                    <p id="p_aiw_habs">
+                     
+                        <img style="margin-left: 64%;margin-top: -37%;width: 14vw;height: 12vw;" src="../resources/aiw.png">
+                    </p>
+                    
+
+                </div>
+
+                <div id="div_gest_cares">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="gest_cares_title" >Análisis de Gestos y Caras</h1>
+                     
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(55, 170, 1); margin:0;"></hr>
+
+                    <p id="p_gest_cares_tareas">
+                        La asignatura de <b>Análisis de Gestos y Caras</b> se centra en el estudio y aplicación de <b>técnicas de análisis facial automático</b> para diversas aplicaciones:<br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Detección facial y Técnica de Viola Jones:</b><br>
+                        • Se enfoca en identificar y localizar caras en imágenes y videos usando técnicas conocidas como Viola Jones, que es un método de aprendizaje automático para la detección de objetos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Modelos flexibles de forma y apariencia y PCA:</b><br>
+                        • Estudia cómo representar y manipular la forma y apariencia de las caras, también haciendo enfásis en PCA (Principal Component Analysis).<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Reconocimiento facial:</b><br>
+                        • Trata sobre la identificación de individuos a partir de sus rasgos faciales.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Extracción de características de imágenes y video:</b><br>
+                        • Se centra en obtener información relevante de las imágenes y videos para el análisis facial.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. Expresiones faciales, emociones y Valence Arousal:</b><br>
+                        • Explora cómo las expresiones faciales pueden ser usadas para inferir emociones. Valence Arousal es un modelo que representa las emociones en dos dimensiones: valencia (positividad/negatividad) y arousal (excitación/calmado).<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">6. Equipamiento y modelos para análisis facial tridimensional:</b><br>
+                        • Introduce las herramientas y modelos utilizados <br>para el análisis facial en 3D.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">7. Aplicaciones biomédicas del análisis facial:</b><br>
+                        • Discute cómo el análisis facial puede ser aplicado <br>en el campo de la medicina.<br>
+                    </p>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <p id="p_gest_cares_habs">
+                       
+                        <img style="margin-left: 58%;margin-top: -37%;width: 24vw;height: 11vw;" src="../resources/gest_cares.png">
+                    </p>
+                    
+
+                </div>
+
+                <div id="div_videojuegos">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="videojuegos_title" >Narrativa y Videojuegos</h1>
+                     
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(209, 76, 191); margin:0;"></hr>
+
+                    <p id="p_videojuegos_tareas">
+                        La asignatura de <b>Narrativa y Videojuegos</b> es una exploración teórica y práctica de la creación de videojuegos y narrativas interactivas, que aborda los siguientes conceptos:<br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Narratología y videojuegos:</b><br>
+                        • Se estudian los fundamentos de narratología y lenguaje audiovisual. Se analiza la estructura narrativa en videojuegos y se exploran diferentes géneros y modelos de narrativa interactiva.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Ludología y retórica procedural:</b><br>
+                        • Se aborda la teoría del diseño de videojuegos, la retórica procedural y el 'value-based design'. Se discuten los 'indie games' desde una perspectiva teórica.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Tutorización sobre el planteamiento del proyecto:</b><br>
+                        • Se realiza una discusión sobre las propuestas iniciales y el documento de diseño a nivel teórico/conceptual.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Escritura del documento de diseño y plan de desarrollo:</b><br>
+                        • Se introduce la escritura del documento de diseño (GDD) y el plan de desarrollo para el proyecto de la asignatura.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. Introducción a herramientas de desarrollo/prototipaje de videojuegos:</b><br>
+                        • Se presentan las herramientas de desarrollo (Unity) <br>y prototipado de videojuegos para el proyecto final de la <br>asignatura abordando todos los conceptos aprendidos <br>a la hora de crear una narrativa para un videojuego.<br>
+                        
+
+                    </p>
+                    
+
+
+                    <p id="p_videojuegos_habs">
+                     
+                        <img style="margin-left: 60%;margin-top: -15.6%;width: 17.4vw;height: 8.8vw;background: rgb(209, 76, 191);padding: 0.15vw;" src="../resources/videojuegos.png">
+                    </p>
+                    
+
+                </div>
+
+                <div id="div_ent_com_virt">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="ent_com_virt_title">Entornos de <br> Comunicación Virtual</h1>
+
+                       <div id="ent_com_virt_contrato_title">
+                           
+                         <p style="margin:0; width:8vw;">Grupo Matrícula de Honor</p>
+                        </div>
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(209, 76, 191); margin:0;"></hr>
+
+                    <p id="p_ent_com_virt_tareas">
+                        La asignatura de <b>Entornos de Comunicación Virtual</b> se centra en el desarrollo de comunidades online mediante tecnologías web estándar:<br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Desarrollo Web y APIs modernas:</b><br>
+                        • Se aprende a desarrollar una web desde cero usando HTML, CSS y Javascript, y a emplear APIs modernas como WebSockets, Canvas2D o WebGL para crear interfaces interactivas.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Desarrollo de Servidores y Comunicación en Red:</b><br>
+                        • Se enseña a desarrollar un servidor propio en NodeJS y cómo comunicar cliente con servidor. Además, se profundiza en conceptos como comunicación en red, protocolos, seguridad y arquitectura cliente-servidor.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Usabilidad e Interacción:</b><br>
+                        • Se abordan conceptos como usabilidad, interacción, experiencia de usuario y comunidades virtuales, esenciales para el diseño de entornos de comunicación virtual efectivos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Proyectos:</b><br>
+                        • Los estudiantes desarrollan un <u>chat con salas</u> utilizando SillyServer, HTML, CSS y JavaScript, <br>un <u>chat virtual en dos dimensiones</u> con personajes e interacciones manejando bases de datos, y finalmente un <u>entorno virtual 3D completo</u><br> donde los usuarios pueden chatear e <br>interactuar con el entorno en tiempo real, <br>creando un servidor propio y un sistema <br>final de Bases de Datos completo.
+                    </p>
+                    
+                    
+                    
+                    
+                    
+                   
+                    <p id="p_ent_com_virt_habs">
+                      
+
+                        <img style="margin-left: 47%;margin-top: -25%;width: 15vw;height: 7.5vw;background: rgb(209, 76, 191);padding: 0.15vw;" src="../resources/ent_com_virt_i.png">
+                        <img style="margin-left: 86%;margin-top: -33.5%;width: 5vw;height: 8vw;background: rgb(209, 76, 191);padding: 0.15vw;" src="../resources/ent_com_virt_ii.png">
+                    </p>
+
+                </div>
+
+
+                <div id="div_sist_int">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="sist_int_title">Sistemas Interactivos</h1>
+
+                     
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(209, 76, 191); margin:0;"></hr>
+
+                    <p id="p_sist_int_tareas">
+                        La asignatura de <b>Sistemas Interactivos</b> se centra en el desarrollo de una experiencia interactiva Full-Body en tiempo real utilizando tecnologías de Mixed Reality (MR):<br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Introducción y Tecnologías de Interacción:</b><br>
+                        • Se introduce a los sistemas interactivos en tiempo real y a las tecnologías de interacción como Augmented Reality, Artificial Reality, Tangible Interaction y Extended Reality.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Desarrollo de Experiencias XR:</b><br>
+                        • Se presentan las consideraciones técnicas para el desarrollo de experiencias XR y se realizan actividades en Unity con C# Scripting, Física y Colliders.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Tecnología XR y Categorías:</b><br>
+                        • Se profundiza en la tecnología XR y sus categorías, y se trabaja con activos 3D, audios y lógicas.<br>
+
+                        <b style="text-decoration: underline; font-style: italic;">4. Análisis de una Aplicación XR:</b><br>
+                        • Analizar y presentación de análisis de una aplicación XR.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. Proyecto Final:</b><br>
+                        • Realización de un proyecto en Unity que incluye la verificación de comportamientos de activos, gestión de usuarios, interacción y la demostración en el laboratorio de FBIntExp en el sistema MR de FuBIntLab.<br>
+                        
+                        
+                    </p>
+                    
+
+                    <p id="p_sist_int_habs">
+                      
+
+                        <img style="margin-left: 3%;margin-top: -1%;width: 14vw;height: 5vw;" src="../resources/sist_int_i.png">
+                        <img style="margin-left: 42%;margin-top: -17%;width: 25vw;height: 8vw;background: rgb(209, 76, 191);padding: 0.15vw;" src="../resources/sist_int_ii.png">
+                    </p>
+
+                </div>
+
+
+
+                <div id="div_cybersec">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="cybersec_title" >Seguridad en Computadores</h1>
+                      
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(255, 52, 52); margin:0;"></hr>
+
+                    <p id="p_cybersec_tareas">
+                        La asignatura de <b>Seguridad en Computadores</b> se centra en la <b>protección de los sistemas informáticos y las redes</b> contra amenazas y vulnerabilidades:<br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Evaluación de la seguridad:</b><br>
+                        • Técnicas de Footprinting, escaneo y enumeración, y reconocimiento para evaluar la seguridad de un objetivo.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Protección de la red y los sistemas:</b><br>
+                        • Estrategias para proteger la infraestructura de la red y los sistemas contra amenazas y explotaciones.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Hacking y análisis de malware:</b><br>
+                        • Técnicas Hacking de sistemas Windows y Linux, Hacking de servidores web, y análisis de malware para entender cómo funcionan las amenazas y cómo se pueden prevenir.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Detección y prevención de amenazas:</b><br>
+                        • Uso de técnicas de sniffing y herramientas como SIEM y Honeypots para la detección y contención de amenazas.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">5. Investigación de la reputación de IP:</b><br>
+                        • Técnicas para identificar amenazas asociadas con direcciones IP específicas.<br>
+                    
+                        <b style="text-decoration: underline; font-style: italic;">6. Gestión de la ciberseguridad y cultura de seguridad:</b><br>
+                        • Estrategias para la continuidad del negocio, el plan <br>maestro de ciberseguridad, el papel del gobierno en <br>la ciberseguridad, y la importancia de la cultura de <br>seguridad y el cumplimiento legal en las organizaciones.<br>
+                    </p>
+
+                    
+                   
+                    <p id="p_cybersec_habs">
+                      
+                        <img style="margin-left: 65%;margin-top: -31%;width: 5vw;height: 6.4vw;" src="../resources/cybersec_i.png">
+                        <img style="margin-left: 78%;margin-top: -32%;width: 10vw;height: 5vw;" src="../resources/cybersec_ii.png">
+                    </p>
+
+                </div>
+
+                <div id="div_tall_tec_music">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="tall_tec_music_title" >Taller de Tecnología Musical</h1>
+                    
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(110, 31, 200); margin:0;"></hr>
+
+
+                    <p id="p_tall_tec_music_tareas">
+                    En el marco de la asignatura de <b>Taller de Tecnología Musical</b>, realizamos un proyecto en equipo utilizando varias herramientas y técnicas relacionadas con el procesamiento de Audio:<br><br>
+
+                    <b style="text-decoration: underline;font-style: italic;">1. Herramientas utilizadas:</b><br>
+                    • Hemos utilizado <b>Essentia</b> para el análisis de audio, <b>PyCharm</b> como nuestro entorno de desarrollo integrado (IDE) para la programación en Python, y <b>Streamlit</b> para crear rápidamente aplicaciones web para nuestros proyectos.<br>
+
+                    <b style="text-decoration: underline; font-style: italic;">2. Extracción de características de audio:</b><br>
+                    • Hemos aplicado técnicas de <b>extracción de features</b> en audios utilizando Essentia. Esto nos ha permitido obtener información relevante de los archivos de audio que luego se puede utilizar para diversas aplicaciones, como la clasificación de sonidos o la detección de eventos sonoros.<br>
+
+                    <b style="text-decoration: underline; font-style: italic;">3. Procesamiento a través de Machine Learning:</b><br>
+                    • Hemos utilizado técnicas de <b>Machine Learning (scikit)</b> para procesar las características extraídas de los audios. Esto nos ha permitido crear modelos que pueden aprender de los datos y hacer predicciones o decisiones sin ser explícitamente programados para realizar la tarea.<br>
+                    
+                    <b style="text-decoration: underline; font-style: italic;">4. Integración Backend-Frontend en tiempo real:</b><br>
+                    • Hemos logrado una <b>integración Backend-Frontend en tiempo real</b>. <br>Desde la aplicación web, podemos grabar sonidos y, a continuación,<br> a este sonido extraerle las features utilizando Essentia, para<br> posteriormente clasificarlo siguiendo los modelos de <br>Machine Learning que hemos entrenado.<br>
+                
+                
+                    </p>
+                                
+                    
+                    
+                   
+                    <p id="p_tall_tec_music_habs">
+                      
+                    
+                    
+                        <img style="margin-left: 77%;margin-top: -15%;width: 11vw;height: 6vw;" src="../resources/tall_tec_music_i.png">                       
+                        <img style="margin-left: 55%;margin-top: -23%;width: 10vw;height: 5vw;" src="../resources/tall_tec_music_ii.png">
+                        <img style="margin-left: 80%;margin-top: -55%;width: 5vw;height: 5vw;" src="../resources/tall_tec_music_iii.png">                   
+                    </p>
+                    
+                </div>
+
+                <div id="div_tnlp">
+                    
+                    <div style="display: flex; justify-content: space-between;  text-align:center;">
+                       <h1 id="tnlp_title" >Técnicas de Procesamiento de Lenguaje Natural</h1>
+                      
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.2vw solid rgb(55, 170, 1); margin:0;"></hr>
+
+                    <p id="p_tnlp_tareas">
+                        La asignatura de <b>Técnicas de Procesamiento de Lenguaje Natural</b> se centra en las técnicas de procesamiento del lenguaje natural (PLN) utilizadas en aplicaciones como correctores ortográficos y asistentes personales:<br><br>
+                        
+                        <b style="text-decoration: underline;font-style: italic;">1. Introducción:</b><br>
+                        • Se introduce el campo del Procesamiento del Lenguaje Natural y sus Aplicaciones Cotidianas.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">2. Representaciones y métricas en PNL:</b><br>
+                        • Se estudian las técnicas modernas de incrustación profunda y las métricas para medir la distribución, correlación, similitud, etc., de palabras, frases y textos.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">3. Instrumentos para la aplicación de las técnicas de PNL:</b><br>
+                        • Se exploran los modelos clásicos de aprendizaje automático y los modelos de redes neuronales profundas.<br>
+                        
+                        <b style="text-decoration: underline; font-style: italic;">4. Aplicaciones:</b><br>
+                        • Se estudian aplicaciones que se basan en <br>los bloques 2 y 3, incluyendo análisis de textos, <br>resumen del texto, análisis de sentimientos, <br>perfil del autor, clasificación de la incitación al odio,<br> y gestión del diálogo en las aplicaciones <br>de asistencia personal.
+                        </p>
+
+                    
+                    <p id="p_tnlp_habs">
+                     
+                    
+                    
+                        <img style="margin-left: 47%;margin-top: -32%;width: 27vw; height: 15vw;" src="../resources/tnlp.png">
+                    </p>
+                    
+
+                </div>
+
+
+
+                <div id="div_google_cybersecurity">
+                    
+                    <div style="display: flex; justify-content: space-between; margin:0;">
+                        <h1 id="google_cybersecurity_title">Google Cybersecurity</h1>
+                        <div id="google_cybersecurity_contrato_title">
+                           
+                            <p style="margin:0; width:9vw;">Coursera Noviembre 2023</p>
+                           </div>
+                       
+                    </div>
+                    
+                    
+                
+                    <hr style="border:0.15vw solid rgb(43, 114, 245); margin:0;"></hr>
+
+                    <p id= "p_google_cybersecurity_tareas">
+                        <b style="text-decoration: underline; font-style: italic;">Tareas Realizadas:</b><br>
+                        • Coordinación y resolución efectiva de <b>amenazas de seguridad</b>.<br>
+                        • Uso de <b>IDS</b>, <b>SIEM</b> y <b>Bash</b> para monitorización y respuesta.<br>
+                        • Aplicación de principios de <b>seguridad</b> en desarrollo, redes y operaciones.<br>
+                        • Resolución de incidentes mediante el uso de <b>playbooks</b> y principios fundamentales de <b>INFOSEC</b>.<br>
+                       
+                    </p>
+                    <hr style="border:0.1vw solid rgb(43, 114, 245); margin:0; margin-top:1.25%;">
+                    <p id="p_google_cybersecurity_habs">
+                        <b style="text-decoration: underline; font-style: italic;">Habilidades Adquiridas:</b><br>
+                        • Kali Linux y Bash.<br>
+                        • SIEM Tools e Intrusion Detection Systems (IDS).<br>
+                        • Arquitectura de redes.<br>
+                        • Security hardening y Criptografía.<br>
+                        • Escalation and Communication of Security Incidents.<br>
+                        • Information Security (INFOSEC) e Incident Response Playbooks.<br>
+                        • Security Domains.<br>
+                        • Programación Python.<br>
+                        • Gestión de amenazas y vulnerabilidades.<br>
+                    
+                    
+                    
+                    
+                    
+                        <img style="margin-left: 76%; margin-top:-65%; width: 12vw; height: 10vw; " src="../resources/google_cyber_ii.png">
+                        <img style="margin-left: 73%; margin-top:-34%; width: 7vw; height: 7vw;" src="../resources/google_cyber_iii.png">
+                   
+
+                    </p>
+
+
+                </div>
+
+
+             </div>
+            </div>
+             
+            </div>
+        </div>
+      
+        
+        </div>
+    </div>
+    
+
+</body>
+
+    <script src="../javascript/fuse.min.js"></script>
+    <script src="../javascript/codeLearning.js"></script>
+    <script src="../javascript/codeNavigation.js"></script>
+
+
+</html>
