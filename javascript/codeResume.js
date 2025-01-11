@@ -3,10 +3,7 @@
 console.log("Hello Console Resume!");
 
 //Take elements from document
-
-
 var button_resume= document.querySelector("button#button_back");
-
 
 window.onload = function() {
    

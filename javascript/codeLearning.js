@@ -3,10 +3,7 @@
 console.log("Hello Console Learning!");
 
 //Take elements from document
-
-
 var button_learning= document.querySelector("button#button_back");
-var button_exit_pdf = document.querySelector("button#button_exit_pdf");
 var div_content = document.querySelector("div#div_content");
 
 // Grados
@@ -61,12 +58,11 @@ var tnlp = document.getElementById("tnlp");
 //Certificaciones
 var google_cybersecurity = document.getElementById("google_cybersecurity");
 
-
-// Grados
+// Div Grados
 var div_bachillerato = document.getElementById("div_bachillerato");
 var div_upf_info = document.getElementById("div_upf_info");
 
-//Asignaturas
+// Div Asignaturas
 var div_calculo_i = document.getElementById("div_calculo_i");
 var div_mat_discreta = document.getElementById("div_mat_discreta");
 var div_intro_prog = document.getElementById("div_intro_prog");
@@ -114,33 +110,25 @@ var div_tnlp = document.getElementById("div_tnlp");
 //Certificaciones
 var div_google_cybersecurity= document.getElementById("div_google_cybersecurity");
 
-//Maquinas
-var maquinas = document.getElementsByClassName('maquinas_cyber');
 
 var zIndexUpdate = 1;
 
+// Añadir divs learnings a lista
 var divs = [div_bachillerato, div_upf_info, div_calculo_i, div_mat_discreta, div_intro_prog, div_intro_tic, div_calculo_ii, div_alg_lineal, div_eda_i, div_org_comp, 
     div_redes, div_met_num, div_eda_ii, div_fisica, div_prob, div_prog_obj, div_sys_i, div_dis_fun_prog, div_est, div_so, div_graf_ord, 
     div_dis_alg, div_apr_auto, div_ing_inter, div_prog_paral, div_ing_soft, div_bases_datos, div_intel_art, div_teoria_comp, div_com_ingles, 
     div_sis_dist, div_cripto, div_compila, div_ing_soft_web, div_redes_in, div_iot, div_gest_proy, div_aiw, div_gest_cares, div_videojuegos,
-    div_ent_com_virt, div_sist_int, div_cybersec, div_google_cybersecurity, div_tall_tec_music, div_tnlp]; // Añade todos tus divs a esta lista
+    div_ent_com_virt, div_sist_int, div_cybersec, div_google_cybersecurity, div_tall_tec_music, div_tnlp]; 
 
+    // Añadir divs learnings en string a lista
 var divs_text = ["div_bachillerato", "div_upf_info", "div_calculo_i", "div_mat_discreta", "div_intro_prog", "div_intro_tic", "div_calculo_ii", "div_alg_lineal", "div_eda_i", "div_org_comp", 
     "div_redes", "div_met_num", "div_eda_ii", "div_fisica", "div_prob", "div_prog_obj", "div_sys_i", "div_dis_fun_prog", "div_est", "div_so", "div_graf_ord", 
     "div_dis_alg", "div_apr_auto", "div_ing_inter", "div_prog_paral", "div_ing_soft", "div_bases_datos", "div_intel_art", "div_teoria_comp", "div_com_ingles", 
     "div_sis_dist", "div_cripto", "div_compila", "div_ing_soft_web", "div_redes_in", "div_iot", "div_gest_proy", "div_aiw", "div_gest_cares", "div_videojuegos",
-    "div_ent_com_virt", "div_sist_int", "div_cybersec", "div_tall_tec_music", "div_google_cybersecurity", "div_tnlp"]; // Añade todos tus divs a esta lista
+    "div_ent_com_virt", "div_sist_int", "div_cybersec", "div_tall_tec_music", "div_google_cybersecurity", "div_tnlp"]; 
 
 function hideAllDivsExcept(div) {
-    // Itera sobre los elementos con la clase 'maquinas_cyber'
-    for (var i = 0; i < maquinas.length; i++) {
-        var maquina = maquinas[i];
-
-        // Si el div actual no es el div que queremos mostrar, lo ocultamos
-        if (maquina !== div && maquina.style.display !== 'none') {
-            maquina.style.display = 'none';
-        }
-    }
+    
     divs.forEach(function(d) {
         if (d !== div && d.style.display !== 'none') {
             d.style.display = 'none';
@@ -166,7 +154,6 @@ if (button_learning) {
 }
 
 //Búsqueda
-
 var listaAsignaturas = [
     //Matemáticas
     { id: "div_calculo_i", title: "Cálculo I", keywords: ["derivada", "regla de la cadena", "optimización", "límite", "continuidad", "Teorema de l’Hôpital", "series de Taylor", "funciones primitivas", "integral definida", "series de Fourier"] },
@@ -198,7 +185,6 @@ var listaAsignaturas = [
     { id: "div_compila", title: "Compiladores", keywords: ["lenguaje C", "componentes de un compilador", "Análisis léxico (LEXER/SCANNER)", "tokens", "expresiones regulares", "autómatas finitos", "Análisis sintáctico (PARSER)", "gramáticas libres de contexto (CFG)", "árboles de sintaxis abstracta (AST)", "Análisis semántico", "Generación de código"] },
 
     //Ciencia de Datos
-
     { id: "div_apr_auto", title: "Aprendizaje Automático", keywords: ["Machine Learning",  "modelo aprendizaje automatico", "Métodos no Supervisados", "clustering", "Modelos Generativos", "Mixtura de Gausianas", "Análisis de Componentes Principales", "Principal Component Analysis"] },
     { id: "div_bases_datos", title: "Bases de Datos", keywords: ["gestión de datos", "manipulación de datos", "almacenamiento de datos", "bases de datos relacionales", "conceptos básicos de las bases de datos", "principios básicos que rigen las bases de datos", "estructura de bases datos", "modelo relacional", "SQL", "NOSQL", "Normalización"] },
     { id: "div_intel_art", title: "Inteligencia Artificial", keywords: ["IA", "Planificación y Búsqueda", "agentes de planificación", "problemas de búsqueda", "Búsqueda Adversarial", "Procesos de Decisión Markov", "Markov", "Aprendizaje por Refuerzo (RL)", "Artificial Intelligence"] },
@@ -210,7 +196,7 @@ var listaAsignaturas = [
 
     { id: "div_graf_ord", title: "Gráficos por Ordenador", keywords: ["C#","visualización y modelado en 3D", "modelado 3D", "rasterización", "muestreo", "antialiasing", "luz y color", "modelos y sistemas de coordenadas", "iluminación básica", "texturizado", "modelos y representación", "animación", "mesh"] },
     { id: "div_ing_inter", title: "Ingeniería de Interacción", keywords: ["justinmind", "diseño web", "implementación", "evaluación", "interfaces gráficas de usuario (GUI)", "interacción humana con la computadora", "interfaz", "diseño contextual", "Ingeniería de Usabilidad", "prototipo", "modelo de nivel de pulsación de tecla" ,"GUI"] },
-    { id: "div_videojuegos", title: "Narrativa y Videojuegos", keywords: ["creación de videojuegos", "narrativas interactivas", "narratología y lenguaje audiovisual", "estructura narrativa en videojuegos", "géneros y modelos de narrativa interactiva", "ludología y retórica procedural", "teoría del diseño de videojuegos", "retórica procedural", "value-based design", "indie games"] },
+    { id: "div_videojuegos", title: "Narrativa y Videojuegos", keywords: ["narrativa" ,"videjuego" ,"videjuegos" , "juego", "juego" , "creación de videojuegos", "narrativas interactivas", "narratología y lenguaje audiovisual", "estructura narrativa en videojuegos", "géneros y modelos de narrativa interactiva", "ludología y retórica procedural", "teoría del diseño de videojuegos", "retórica procedural", "value-based design", "indie games"] },
     { id: "div_ent_com_virt", title: "Entornos de Comunicación Virtual", keywords: ["desarrollo de comunidades online", "tecnologías web estándar", "Desarrollo Web", "APIs modernas", "HTML", "CSS", "Javascript", "WebSockets", "Canvas2D", "WebGL", "phpmyadmin"] },
     { id: "div_sist_int", title: "Sistemas Interactivos", keywords: ["experiencia interactiva Full-Body", "tecnologías de Mixed Reality (MR)", "Realidad mixta","Realidad aumentada", "sistemas interactivos en tiempo real", "tecnologías de interacción", "Augmented Reality", "Artificial Reality", "Tangible Interaction", "Extended Reality", "experiencias XR", "Unity"] },
 
@@ -253,7 +239,7 @@ function checkForEnter(event) {
       
       var searchValue = document.getElementById('searchInput').value;
   
-      // Si el campo de búsqueda no está vacío, llama a la función de búsqueda
+    
       if (searchValue.trim() !== '') {
         console.log(searchValue);
         searchFunction(searchValue);
@@ -261,72 +247,30 @@ function checkForEnter(event) {
     }
   }
 
-// var searchMap = {
-//     "google ciberseguridad": "div_google_cybersecurity",
-//     "google cybersecurity": "div_google_cybersecurity",
-//     "google seguridad": "div_google_cybersecurity",
-//     "google security": "div_google_cybersecurity",
-//     // "filas1": "iconContainer1",
-//     // "iconos2": "iconContainer2",
-//     // "filas2": "iconContainer2",
-//     // "iconos3": "iconContainer3",
-//     // "filas3": "iconContainer3",
-//     // "iconos4": "iconContainer4",
-//     // "filas4": "iconContainer4",
-//     // // Añade más términos e ids según sea necesario
-// };
-
-
-// function searchFunction(searchValue) {
-
-//     // Busca el valor en el objeto searchMap
-//     var divId = searchMap[searchValue];
-//     console.log("Dentro search");
-//     if (divId) {
-//         // Si el término de búsqueda existe en el objeto, obtén el div correspondiente
-//         var item = document.getElementById(divId);
-//         console.log("Dentro if search");
-//         // Muestra el div y oculta todos los demás
-//         var items = divs_text.map(id => document.getElementById(id));
-//         for (var i = 0; i < items.length; i++) {
-//         if (items[i] === item) {
-//             console.log("mostrado" , items[i]);
-//             items[i].style.display = "block";
-//             items[i].style.zIndex = zIndexUpdate++;
-//         } else {
-//             console.log(items[i]);
-//             items[i].style.display = "none";
-//         }
-//         }
-//     }
-// }
-
-
 function searchFunction(searchValue) {
-    // Realiza la búsqueda con Fuse.js
+    
     var resultados = fuse.search(searchValue);
 
-    // Oculta todos los divs
+    
     divs_text.forEach(function(d) {
         document.getElementById(d).style.display = 'none';
     });
 
-    // Muestra los divs que coinciden con la búsqueda
+    
     resultados.forEach(function(r) {
         document.getElementById(r.item.id).style.display = 'block';
     });
 }
 
 //Grados
-
 if (bachillerato) {
     bachillerato.addEventListener("click", function () {
         if (div_bachillerato.style.display === 'none' || div_bachillerato.style.display === '') {
             hideAllDivsExcept(div_bachillerato);
-            div_bachillerato.style.display = 'block'; // Muestra el div
+            div_bachillerato.style.display = 'block'; 
             div_bachillerato.style.zIndex = zIndexUpdate++;
         } else {
-            div_bachillerato.style.display = 'none'; // Oculta el div
+            div_bachillerato.style.display = 'none'; 
         }
     });
 }
@@ -336,10 +280,10 @@ if (upf_info) {
     upf_info.addEventListener("click", function () {
         if (div_upf_info.style.display === 'none' || div_upf_info.style.display === '') {
             hideAllDivsExcept(div_upf_info);
-            div_upf_info.style.display = 'block'; // Muestra el div
+            div_upf_info.style.display = 'block'; 
             div_upf_info.style.zIndex = zIndexUpdate++;
         } else {
-            div_upf_info.style.display = 'none'; // Oculta el div
+            div_upf_info.style.display = 'none'; 
         }
     });
 }
@@ -352,10 +296,10 @@ if (calculo_i) {
     calculo_i.addEventListener("click", function () {
         if (div_calculo_i.style.display === 'none' || div_calculo_i.style.display === '') {
             hideAllDivsExcept(div_calculo_i);
-            div_calculo_i.style.display = 'block'; // Muestra el div
+            div_calculo_i.style.display = 'block'; 
             div_calculo_i.style.zIndex = zIndexUpdate++;
         } else {
-            div_calculo_i.style.display = 'none'; // Oculta el div
+            div_calculo_i.style.display = 'none'; 
         }
     });
 }
@@ -364,10 +308,10 @@ if(mat_discreta){
     mat_discreta.addEventListener("click", function () {
         if (div_mat_discreta.style.display === 'none' || div_mat_discreta.style.display === '') {
             hideAllDivsExcept(div_mat_discreta);
-            div_mat_discreta.style.display = 'block'; // Muestra el div
+            div_mat_discreta.style.display = 'block'; 
             div_mat_discreta.style.zIndex = zIndexUpdate++;
         } else {
-            div_mat_discreta.style.display = 'none'; // Oculta el div
+            div_mat_discreta.style.display = 'none'; 
         }
     });
 
@@ -377,10 +321,10 @@ if(intro_prog){
     intro_prog.addEventListener("click", function () {
         if (div_intro_prog.style.display === 'none' || div_intro_prog.style.display === '') {
             hideAllDivsExcept(div_intro_prog);
-            div_intro_prog.style.display = 'block'; // Muestra el div
+            div_intro_prog.style.display = 'block'; 
             div_intro_prog.style.zIndex = zIndexUpdate++;
         } else {
-            div_intro_prog.style.display = 'none'; // Oculta el div
+            div_intro_prog.style.display = 'none'; 
         }
     });
 
@@ -390,10 +334,10 @@ if(intro_tic){
     intro_tic.addEventListener("click", function () {
         if (div_intro_tic.style.display === 'none' || div_intro_tic.style.display === '') {
             hideAllDivsExcept(div_intro_tic);
-            div_intro_tic.style.display = 'block'; // Muestra el div
+            div_intro_tic.style.display = 'block'; 
             div_intro_tic.style.zIndex = zIndexUpdate++;
         } else {
-            div_intro_tic.style.display = 'none'; // Oculta el div
+            div_intro_tic.style.display = 'none'; 
         }
     });
 
@@ -403,10 +347,10 @@ if(calculo_ii){
     calculo_ii.addEventListener("click", function () {
         if (div_calculo_ii.style.display === 'none' || div_calculo_ii.style.display === '') {
             hideAllDivsExcept(div_calculo_ii);
-            div_calculo_ii.style.display = 'block'; // Muestra el div
+            div_calculo_ii.style.display = 'block'; 
             div_calculo_ii.style.zIndex = zIndexUpdate++;
         } else {
-            div_calculo_ii.style.display = 'none'; // Oculta el div
+            div_calculo_ii.style.display = 'none'; 
         }
     });
 
@@ -417,10 +361,10 @@ if(alg_lineal){
     alg_lineal.addEventListener("click", function () {
         if (div_alg_lineal.style.display === 'none' || div_alg_lineal.style.display === '') {
             hideAllDivsExcept(div_alg_lineal);
-            div_alg_lineal.style.display = 'block'; // Muestra el div
+            div_alg_lineal.style.display = 'block'; 
             div_alg_lineal.style.zIndex = zIndexUpdate++;
         } else {
-            div_alg_lineal.style.display = 'none'; // Oculta el div
+            div_alg_lineal.style.display = 'none'; 
         }
     });
 
@@ -430,10 +374,10 @@ if(eda_i){
     eda_i.addEventListener("click", function () {
         if (div_eda_i.style.display === 'none' || div_eda_i.style.display === '') {
             hideAllDivsExcept(div_eda_i);
-            div_eda_i.style.display = 'block'; // Muestra el div
+            div_eda_i.style.display = 'block'; 
             div_eda_i.style.zIndex = zIndexUpdate++;
         } else {
-            div_eda_i.style.display = 'none'; // Oculta el div
+            div_eda_i.style.display = 'none'; 
         }
     });
 
@@ -444,10 +388,10 @@ if(org_comp){
     org_comp.addEventListener("click", function () {
         if (div_org_comp.style.display === 'none' || div_org_comp.style.display === '') {
             hideAllDivsExcept(div_org_comp);
-            div_org_comp.style.display = 'block'; // Muestra el div
+            div_org_comp.style.display = 'block'; 
             div_org_comp.style.zIndex = zIndexUpdate++;
         } else {
-            div_org_comp.style.display = 'none'; // Oculta el div
+            div_org_comp.style.display = 'none'; 
         }
     });
 
@@ -458,10 +402,10 @@ if(redes){
     redes.addEventListener("click", function () {
         if (div_redes.style.display === 'none' || div_redes.style.display === '') {
             hideAllDivsExcept(div_redes);
-            div_redes.style.display = 'block'; // Muestra el div
+            div_redes.style.display = 'block'; 
             div_redes.style.zIndex = zIndexUpdate++;
         } else {
-            div_redes.style.display = 'none'; // Oculta el div
+            div_redes.style.display = 'none'; 
         }
     });
 
@@ -471,10 +415,10 @@ if(met_num){
     met_num.addEventListener("click", function () {
         if (div_met_num.style.display === 'none' || div_met_num.style.display === '') {
             hideAllDivsExcept(div_met_num);
-            div_met_num.style.display = 'block'; // Muestra el div
+            div_met_num.style.display = 'block'; 
             div_met_num.style.zIndex = zIndexUpdate++;
         } else {
-            div_met_num.style.display = 'none'; // Oculta el div
+            div_met_num.style.display = 'none'; 
         }
     });
 
@@ -484,10 +428,10 @@ if(eda_ii){
     eda_ii.addEventListener("click", function () {
         if (div_eda_ii.style.display === 'none' || div_eda_ii.style.display === '') {
             hideAllDivsExcept(div_eda_ii);
-            div_eda_ii.style.display = 'block'; // Muestra el div
+            div_eda_ii.style.display = 'block'; 
             div_eda_ii.style.zIndex = zIndexUpdate++;
         } else {
-            div_eda_ii.style.display = 'none'; // Oculta el div
+            div_eda_ii.style.display = 'none'; 
         }
     });
 
@@ -497,10 +441,10 @@ if(fisica){
     fisica.addEventListener("click", function () {
         if (div_fisica.style.display === 'none' || div_fisica.style.display === '') {
             hideAllDivsExcept(div_fisica);
-            div_fisica.style.display = 'block'; // Muestra el div
+            div_fisica.style.display = 'block'; 
             div_fisica.style.zIndex = zIndexUpdate++;
         } else {
-            div_fisica.style.display = 'none'; // Oculta el div
+            div_fisica.style.display = 'none'; 
         }
     });
 
@@ -510,10 +454,10 @@ if(prob){
     prob.addEventListener("click", function () {
         if (div_prob.style.display === 'none' || div_prob.style.display === '') {
             hideAllDivsExcept(div_prob);
-            div_prob.style.display = 'block'; // Muestra el div
+            div_prob.style.display = 'block'; 
             div_prob.style.zIndex = zIndexUpdate++;
         } else {
-            div_prob.style.display = 'none'; // Oculta el div
+            div_prob.style.display = 'none'; 
         }
     });
 
@@ -523,10 +467,10 @@ if(prog_obj){
     prog_obj.addEventListener("click", function () {
         if (div_prog_obj.style.display === 'none' || div_prog_obj.style.display === '') {
             hideAllDivsExcept(div_prog_obj);
-            div_prog_obj.style.display = 'block'; // Muestra el div
+            div_prog_obj.style.display = 'block'; 
             div_prog_obj.style.zIndex = zIndexUpdate++;
         } else {
-            div_prog_obj.style.display = 'none'; // Oculta el div
+            div_prog_obj.style.display = 'none'; 
         }
     });
 
@@ -536,10 +480,10 @@ if(sys_i){
     sys_i.addEventListener("click", function () {
         if (div_sys_i.style.display === 'none' || div_sys_i.style.display === '') {
             hideAllDivsExcept(div_sys_i);
-            div_sys_i.style.display = 'block'; // Muestra el div
+            div_sys_i.style.display = 'block'; 
             div_sys_i.style.zIndex = zIndexUpdate++;
         } else {
-            div_sys_i.style.display = 'none'; // Oculta el div
+            div_sys_i.style.display = 'none'; 
         }
     });
 
@@ -550,10 +494,10 @@ if(dis_fun_prog){
     dis_fun_prog.addEventListener("click", function () {
         if (div_dis_fun_prog.style.display === 'none' || div_dis_fun_prog.style.display === '') {
             hideAllDivsExcept(div_dis_fun_prog);
-            div_dis_fun_prog.style.display = 'block'; // Muestra el div
+            div_dis_fun_prog.style.display = 'block'; 
             div_dis_fun_prog.style.zIndex = zIndexUpdate++;
         } else {
-            div_dis_fun_prog.style.display = 'none'; // Oculta el div
+            div_dis_fun_prog.style.display = 'none'; 
         }
     });
 
@@ -564,10 +508,10 @@ if(est){
     est.addEventListener("click", function () {
         if (div_est.style.display === 'none' || div_est.style.display === '') {
             hideAllDivsExcept(div_est);
-            div_est.style.display = 'block'; // Muestra el div
+            div_est.style.display = 'block'; 
             div_est.style.zIndex = zIndexUpdate++;
         } else {
-            div_est.style.display = 'none'; // Oculta el div
+            div_est.style.display = 'none'; 
         }
     });
 
@@ -577,10 +521,10 @@ if(so){
     so.addEventListener("click", function () {
         if (div_so.style.display === 'none' || div_so.style.display === '') {
             hideAllDivsExcept(div_so);
-            div_so.style.display = 'block'; // Muestra el div
+            div_so.style.display = 'block'; 
             div_so.style.zIndex = zIndexUpdate++;
         } else {
-            div_so.style.display = 'none'; // Oculta el div
+            div_so.style.display = 'none'; 
         }
     });
 
@@ -591,10 +535,10 @@ if(graf_ord){
     graf_ord.addEventListener("click", function () {
         if (div_graf_ord.style.display === 'none' || div_graf_ord.style.display === '') {
             hideAllDivsExcept(div_graf_ord);
-            div_graf_ord.style.display = 'block'; // Muestra el div
+            div_graf_ord.style.display = 'block'; 
             div_graf_ord.style.zIndex = zIndexUpdate++;
         } else {
-            div_graf_ord.style.display = 'none'; // Oculta el div
+            div_graf_ord.style.display = 'none'; 
         }
     });
 
@@ -605,10 +549,10 @@ if(dis_alg){
     dis_alg.addEventListener("click", function () {
         if (div_dis_alg.style.display === 'none' || div_dis_alg.style.display === '') {
             hideAllDivsExcept(div_dis_alg);
-            div_dis_alg.style.display = 'block'; // Muestra el div
+            div_dis_alg.style.display = 'block'; 
             div_dis_alg.style.zIndex = zIndexUpdate++;
         } else {
-            div_dis_alg.style.display = 'none'; // Oculta el div
+            div_dis_alg.style.display = 'none'; 
         }
     });
 
@@ -619,10 +563,10 @@ if(apr_auto){
     apr_auto.addEventListener("click", function () {
         if (div_apr_auto.style.display === 'none' || div_apr_auto.style.display === '') {
             hideAllDivsExcept(div_apr_auto);
-            div_apr_auto.style.display = 'block'; // Muestra el div
+            div_apr_auto.style.display = 'block'; 
             div_apr_auto.style.zIndex = zIndexUpdate++;
         } else {
-            div_apr_auto.style.display = 'none'; // Oculta el div
+            div_apr_auto.style.display = 'none'; 
         }
     });
 
@@ -633,10 +577,10 @@ if(ing_inter){
     ing_inter.addEventListener("click", function () {
         if (div_ing_inter.style.display === 'none' || div_ing_inter.style.display === '') {
             hideAllDivsExcept(div_ing_inter);
-            div_ing_inter.style.display = 'block'; // Muestra el div
+            div_ing_inter.style.display = 'block'; 
             div_ing_inter.style.zIndex = zIndexUpdate++;
         } else {
-            div_ing_inter.style.display = 'none'; // Oculta el div
+            div_ing_inter.style.display = 'none'; 
         }
     });
 
@@ -647,10 +591,10 @@ if(prog_paral){
     prog_paral.addEventListener("click", function () {
         if (div_prog_paral.style.display === 'none' || div_prog_paral.style.display === '') {
             hideAllDivsExcept(div_prog_paral);
-            div_prog_paral.style.display = 'block'; // Muestra el div
+            div_prog_paral.style.display = 'block'; 
             div_prog_paral.style.zIndex = zIndexUpdate++;
         } else {
-            div_prog_paral.style.display = 'none'; // Oculta el div
+            div_prog_paral.style.display = 'none'; 
         }
     });
 
@@ -662,10 +606,10 @@ if(ing_soft){
     ing_soft.addEventListener("click", function () {
         if (div_ing_soft.style.display === 'none' || div_ing_soft.style.display === '') {
             hideAllDivsExcept(div_ing_soft);
-            div_ing_soft.style.display = 'block'; // Muestra el div
+            div_ing_soft.style.display = 'block'; 
             div_ing_soft.style.zIndex = zIndexUpdate++;
         } else {
-            div_ing_soft.style.display = 'none'; // Oculta el div
+            div_ing_soft.style.display = 'none'; 
         }
     });
 
@@ -676,10 +620,10 @@ if(bases_datos){
     bases_datos.addEventListener("click", function () {
         if (div_bases_datos.style.display === 'none' || div_bases_datos.style.display === '') {
             hideAllDivsExcept(div_bases_datos);
-            div_bases_datos.style.display = 'block'; // Muestra el div
+            div_bases_datos.style.display = 'block'; 
             div_bases_datos.style.zIndex = zIndexUpdate++;
         } else {
-            div_bases_datos.style.display = 'none'; // Oculta el div
+            div_bases_datos.style.display = 'none'; 
         }
     });
 
@@ -690,10 +634,10 @@ if(intel_art){
     intel_art.addEventListener("click", function () {
         if (div_intel_art.style.display === 'none' || div_intel_art.style.display === '') {
             hideAllDivsExcept(div_intel_art);
-            div_intel_art.style.display = 'block'; // Muestra el div
+            div_intel_art.style.display = 'block'; 
             div_intel_art.style.zIndex = zIndexUpdate++;
         } else {
-            div_intel_art.style.display = 'none'; // Oculta el div
+            div_intel_art.style.display = 'none'; 
         }
     });
 
@@ -705,10 +649,10 @@ if(teoria_comp){
     teoria_comp.addEventListener("click", function () {
         if (div_teoria_comp.style.display === 'none' || div_teoria_comp.style.display === '') {
             hideAllDivsExcept(div_teoria_comp);
-            div_teoria_comp.style.display = 'block'; // Muestra el div
+            div_teoria_comp.style.display = 'block'; 
             div_teoria_comp.style.zIndex = zIndexUpdate++;
         } else {
-            div_teoria_comp.style.display = 'none'; // Oculta el div
+            div_teoria_comp.style.display = 'none'; 
         }
     });
 
@@ -720,10 +664,10 @@ if(com_ingles){
     com_ingles.addEventListener("click", function () {
         if (div_com_ingles.style.display === 'none' || div_com_ingles.style.display === '') {
             hideAllDivsExcept(div_com_ingles);
-            div_com_ingles.style.display = 'block'; // Muestra el div
+            div_com_ingles.style.display = 'block'; 
             div_com_ingles.style.zIndex = zIndexUpdate++;
         } else {
-            div_com_ingles.style.display = 'none'; // Oculta el div
+            div_com_ingles.style.display = 'none'; 
         }
     });
 
@@ -735,10 +679,10 @@ if(sis_dist){
     sis_dist.addEventListener("click", function () {
         if (div_sis_dist.style.display === 'none' || div_sis_dist.style.display === '') {
             hideAllDivsExcept(div_sis_dist);
-            div_sis_dist.style.display = 'block'; // Muestra el div
+            div_sis_dist.style.display = 'block'; 
             div_sis_dist.style.zIndex = zIndexUpdate++;
         } else {
-            div_sis_dist.style.display = 'none'; // Oculta el div
+            div_sis_dist.style.display = 'none'; 
         }
     });
 
@@ -749,10 +693,10 @@ if(cripto){
     cripto.addEventListener("click", function () {
         if (div_cripto.style.display === 'none' || div_cripto.style.display === '') {
             hideAllDivsExcept(div_cripto);
-            div_cripto.style.display = 'block'; // Muestra el div
+            div_cripto.style.display = 'block'; 
             div_cripto.style.zIndex = zIndexUpdate++;
         } else {
-            div_cripto.style.display = 'none'; // Oculta el div
+            div_cripto.style.display = 'none'; 
         }
     });
 
@@ -763,10 +707,10 @@ if(compila){
     compila.addEventListener("click", function () {
         if (div_compila.style.display === 'none' || div_compila.style.display === '') {
             hideAllDivsExcept(div_compila);
-            div_compila.style.display = 'block'; // Muestra el div
+            div_compila.style.display = 'block'; 
             div_compila.style.zIndex = zIndexUpdate++;
         } else {
-            div_compila.style.display = 'none'; // Oculta el div
+            div_compila.style.display = 'none'; 
         }
     });
 
@@ -777,10 +721,10 @@ if(ing_soft_web){
     ing_soft_web.addEventListener("click", function () {
         if (div_ing_soft_web.style.display === 'none' || div_ing_soft_web.style.display === '') {
             hideAllDivsExcept(div_ing_soft_web);
-            div_ing_soft_web.style.display = 'block'; // Muestra el div
+            div_ing_soft_web.style.display = 'block'; 
             div_ing_soft_web.style.zIndex = zIndexUpdate++;
         } else {
-            div_ing_soft_web.style.display = 'none'; // Oculta el div
+            div_ing_soft_web.style.display = 'none'; 
         }
     });
 
@@ -791,10 +735,10 @@ if(redes_in){
     redes_in.addEventListener("click", function () {
         if (div_redes_in.style.display === 'none' || div_redes_in.style.display === '') {
             hideAllDivsExcept(div_redes_in);
-            div_redes_in.style.display = 'block'; // Muestra el div
+            div_redes_in.style.display = 'block'; 
             div_redes_in.style.zIndex = zIndexUpdate++;
         } else {
-            div_redes_in.style.display = 'none'; // Oculta el div
+            div_redes_in.style.display = 'none'; 
         }
     });
 
@@ -806,10 +750,10 @@ if(iot){
     iot.addEventListener("click", function () {
         if (div_iot.style.display === 'none' || div_iot.style.display === '') {
             hideAllDivsExcept(div_iot);
-            div_iot.style.display = 'block'; // Muestra el div
+            div_iot.style.display = 'block'; 
             div_iot.style.zIndex = zIndexUpdate++;
         } else {
-            div_iot.style.display = 'none'; // Oculta el div
+            div_iot.style.display = 'none'; 
         }
     });
 
@@ -820,10 +764,10 @@ if(gest_proy){
     gest_proy.addEventListener("click", function () {
         if (div_gest_proy.style.display === 'none' || div_gest_proy.style.display === '') {
             hideAllDivsExcept(div_gest_proy);
-            div_gest_proy.style.display = 'block'; // Muestra el div
+            div_gest_proy.style.display = 'block'; 
             div_gest_proy.style.zIndex = zIndexUpdate++;
         } else {
-            div_gest_proy.style.display = 'none'; // Oculta el div
+            div_gest_proy.style.display = 'none'; 
         }
     });
 
@@ -833,10 +777,10 @@ if(aiw){
     aiw.addEventListener("click", function () {
         if (div_aiw.style.display === 'none' || div_aiw.style.display === '') {
             hideAllDivsExcept(div_aiw);
-            div_aiw.style.display = 'block'; // Muestra el div
+            div_aiw.style.display = 'block'; 
             div_aiw.style.zIndex = zIndexUpdate++;
         } else {
-            div_aiw.style.display = 'none'; // Oculta el div
+            div_aiw.style.display = 'none'; 
         }
     });
 
@@ -847,10 +791,10 @@ if(gest_cares){
     gest_cares.addEventListener("click", function () {
         if (div_gest_cares.style.display === 'none' || div_gest_cares.style.display === '') {
             hideAllDivsExcept(div_gest_cares);
-            div_gest_cares.style.display = 'block'; // Muestra el div
+            div_gest_cares.style.display = 'block'; 
             div_gest_cares.style.zIndex = zIndexUpdate++;
         } else {
-            div_gest_cares.style.display = 'none'; // Oculta el div
+            div_gest_cares.style.display = 'none'; 
         }
     });
 
@@ -861,10 +805,10 @@ if(videojuegos){
     videojuegos.addEventListener("click", function () {
         if (div_videojuegos.style.display === 'none' || div_videojuegos.style.display === '') {
             hideAllDivsExcept(div_videojuegos);
-            div_videojuegos.style.display = 'block'; // Muestra el div
+            div_videojuegos.style.display = 'block'; 
             div_videojuegos.style.zIndex = zIndexUpdate++;
         } else {
-            div_videojuegos.style.display = 'none'; // Oculta el div
+            div_videojuegos.style.display = 'none'; 
         }
     });
 
@@ -875,10 +819,10 @@ if(ent_com_virt){
     ent_com_virt.addEventListener("click", function () {
         if (div_ent_com_virt.style.display === 'none' || div_ent_com_virt.style.display === '') {
             hideAllDivsExcept(div_ent_com_virt);
-            div_ent_com_virt.style.display = 'block'; // Muestra el div
+            div_ent_com_virt.style.display = 'block'; 
             div_ent_com_virt.style.zIndex = zIndexUpdate++;
         } else {
-            div_ent_com_virt.style.display = 'none'; // Oculta el div
+            div_ent_com_virt.style.display = 'none'; 
         }
     });
 
@@ -889,10 +833,10 @@ if(sist_int){
     sist_int.addEventListener("click", function () {
         if (div_sist_int.style.display === 'none' || div_sist_int.style.display === '') {
             hideAllDivsExcept(div_sist_int);
-            div_sist_int.style.display = 'block'; // Muestra el div
+            div_sist_int.style.display = 'block'; 
             div_sist_int.style.zIndex = zIndexUpdate++;
         } else {
-            div_sist_int.style.display = 'none'; // Oculta el div
+            div_sist_int.style.display = 'none'; 
         }
     });
 
@@ -903,10 +847,10 @@ if(cybersec){
     cybersec.addEventListener("click", function () {
         if (div_cybersec.style.display === 'none' || div_cybersec.style.display === '') {
             hideAllDivsExcept(div_cybersec);
-            div_cybersec.style.display = 'block'; // Muestra el div
+            div_cybersec.style.display = 'block'; 
             div_cybersec.style.zIndex = zIndexUpdate++;
         } else {
-            div_cybersec.style.display = 'none'; // Oculta el div
+            div_cybersec.style.display = 'none'; 
         }
     });
 
@@ -917,10 +861,10 @@ if(tall_tec_music){
     tall_tec_music.addEventListener("click", function () {
         if (div_tall_tec_music.style.display === 'none' || div_tall_tec_music.style.display === '') {
             hideAllDivsExcept(div_tall_tec_music);
-            div_tall_tec_music.style.display = 'block'; // Muestra el div
+            div_tall_tec_music.style.display = 'block'; 
             div_tall_tec_music.style.zIndex = zIndexUpdate++;
         } else {
-            div_tall_tec_music.style.display = 'none'; // Oculta el div
+            div_tall_tec_music.style.display = 'none'; 
         }
     });
 
@@ -930,262 +874,29 @@ if(tnlp){
     tnlp.addEventListener("click", function () {
         if (div_tnlp.style.display === 'none' || div_tnlp.style.display === '') {
             hideAllDivsExcept(div_tnlp);
-            div_tnlp.style.display = 'block'; // Muestra el div
+            div_tnlp.style.display = 'block'; 
             div_tnlp.style.zIndex = zIndexUpdate++;
         } else {
-            div_tnlp.style.display = 'none'; // Oculta el div
+            div_tnlp.style.display = 'none'; 
         }
     });
 
 }
-
-
 
 
 
 //Certificacines
-
-
 if(google_cybersecurity){
     google_cybersecurity.addEventListener("click", function () {
         if (div_google_cybersecurity.style.display === 'none' || div_google_cybersecurity.style.display === '') {
             hideAllDivsExcept(div_google_cybersecurity);
-            div_google_cybersecurity.style.display = 'block'; // Muestra el div
+            div_google_cybersecurity.style.display = 'block'; 
             div_google_cybersecurity.style.zIndex = zIndexUpdate++;
         } else {
-            div_google_cybersecurity.style.display = 'none'; // Oculta el div
+            div_google_cybersecurity.style.display = 'none'; 
         }
     });
 
-}
-
-//Máquinas Ciberseguridad
-
-var div_dl_maquina_trust = document.getElementById("div_dl_maquina_trust");
-var dl_maquina_trust = document.getElementById("dl_maquina_trust");
-
-var div_dl_maquina_injection = document.getElementById("div_dl_maquina_injection");
-var dl_maquina_injection = document.getElementById("dl_maquina_injection");
-
-var div_dl_maquina_upload = document.getElementById("div_dl_maquina_upload");
-var dl_maquina_upload= document.getElementById("dl_maquina_upload");
-
-var div_dl_maquina_vacaciones= document.getElementById("div_dl_maquina_vacaciones");
-var dl_maquina_vacaciones= document.getElementById("dl_maquina_vacaciones");
-
-var div_dl_maquina_breakmyssh= document.getElementById("div_dl_maquina_breakmyssh");
-var dl_maquina_breakmyssh= document.getElementById("dl_maquina_breakmyssh");
-
-var div_dl_maquina_borazuwarahctf = document.getElementById("div_dl_maquina_borazuwarahctf");
-var dl_maquina_borazuwarahctf = document.getElementById("dl_maquina_borazuwarahctf");
-
-var div_dl_maquina_firsthacking = document.getElementById("div_dl_maquina_firsthacking");
-var dl_maquina_firsthacking = document.getElementById("dl_maquina_firsthacking");
-
-var div_dl_maquina_obsession = document.getElementById("div_dl_maquina_obsession");
-var dl_maquina_obsession = document.getElementById("dl_maquina_obsession");
-
-var div_dl_maquina_walkingcms = document.getElementById("div_dl_maquina_walkingcms");
-var dl_maquina_walkingcms = document.getElementById("dl_maquina_walkingcms");
-
-var div_dl_maquina_capypenguin = document.getElementById("div_dl_maquina_capypenguin");
-var dl_maquina_capypenguin = document.getElementById("dl_maquina_capypenguin");
-
-
-//Event Listeners
-
-if(dl_maquina_trust){
-    dl_maquina_trust.addEventListener("click", function () {
-        if (div_dl_maquina_trust.style.display === 'none' || div_dl_maquina_trust.style.display === '') {
-            hideAllDivsExcept(div_dl_maquina_trust);
-            div_dl_maquina_trust.style.display = 'block'; // Muestra el div
-            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
-            div_dl_maquina_trust.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
-        } else {
-            div_dl_maquina_trust.style.display = 'none'; // Oculta el div
-            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
-            div_content.style.marginLeft = "30%";
-        }
-    });
-    
-}
-
-if(dl_maquina_injection){
-    dl_maquina_injection.addEventListener("click", function () {
-        if (div_dl_maquina_injection.style.display === 'none' || div_dl_maquina_injection.style.display === '') {
-            hideAllDivsExcept(div_dl_maquina_injection);
-            div_dl_maquina_injection.style.display = 'block'; // Muestra el div
-            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
-            div_dl_maquina_injection.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
-        } else {
-            div_dl_maquina_injection.style.display = 'none'; // Oculta el div
-            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
-            div_content.style.marginLeft = "30%";
-        }
-    });
-    
-}
-
-if(dl_maquina_upload){
-    dl_maquina_upload.addEventListener("click", function () {
-        if (div_dl_maquina_upload.style.display === 'none' || div_dl_maquina_upload.style.display === '') {
-            hideAllDivsExcept(div_dl_maquina_upload);
-            div_dl_maquina_upload.style.display = 'block'; // Muestra el div
-            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
-            div_dl_maquina_upload.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
-        } else {
-            div_dl_maquina_upload.style.display = 'none'; // Oculta el div
-            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
-            div_content.style.marginLeft = "30%";
-        }
-    });
-    
-}
-
-
-if(dl_maquina_vacaciones){
-    dl_maquina_vacaciones.addEventListener("click", function () {
-        if (div_dl_maquina_vacaciones.style.display === 'none' || div_dl_maquina_vacaciones.style.display === '') {
-            hideAllDivsExcept(div_dl_maquina_vacaciones);
-            div_dl_maquina_vacaciones.style.display = 'block'; // Muestra el div
-            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
-            div_dl_maquina_vacaciones.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
-        } else {
-            div_dl_maquina_vacaciones.style.display = 'none'; // Oculta el div
-            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
-            div_content.style.marginLeft = "30%";
-        }
-    });
-    
-}
-
-
-if(dl_maquina_breakmyssh){
-    dl_maquina_breakmyssh.addEventListener("click", function () {
-        if (div_dl_maquina_breakmyssh.style.display === 'none' || div_dl_maquina_breakmyssh.style.display === '') {
-            hideAllDivsExcept(div_dl_maquina_breakmyssh);
-            div_dl_maquina_breakmyssh.style.display = 'block'; // Muestra el div
-            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
-            div_dl_maquina_breakmyssh.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
-        } else {
-            div_dl_maquina_breakmyssh.style.display = 'none'; // Oculta el div
-            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
-            div_content.style.marginLeft = "30%";
-        }
-    });
-    
-}
-
-if(dl_maquina_borazuwarahctf){
-    dl_maquina_borazuwarahctf.addEventListener("click", function () {
-        if (div_dl_maquina_borazuwarahctf.style.display === 'none' || div_dl_maquina_borazuwarahctf.style.display === '') {
-            hideAllDivsExcept(div_dl_maquina_borazuwarahctf);
-            div_dl_maquina_borazuwarahctf.style.display = 'block'; // Muestra el div
-            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
-            div_dl_maquina_borazuwarahctf.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
-        } else {
-            div_dl_maquina_borazuwarahctf.style.display = 'none'; // Oculta el div
-            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
-            div_content.style.marginLeft = "30%";
-        }
-    });
-    
-}
-
-if(dl_maquina_firsthacking){
-    dl_maquina_firsthacking.addEventListener("click", function () {
-        if (div_dl_maquina_firsthacking.style.display === 'none' || div_dl_maquina_firsthacking.style.display === '') {
-            hideAllDivsExcept(div_dl_maquina_firsthacking);
-            div_dl_maquina_firsthacking.style.display = 'block'; // Muestra el div
-            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
-            div_dl_maquina_firsthacking.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
-        } else {
-            div_dl_maquina_firsthacking.style.display = 'none'; // Oculta el div
-            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
-            div_content.style.marginLeft = "30%";
-        }
-    });
-    
-}
-
-
-if(dl_maquina_obsession){
-    dl_maquina_obsession.addEventListener("click", function () {
-        if (div_dl_maquina_obsession.style.display === 'none' || div_dl_maquina_obsession.style.display === '') {
-            hideAllDivsExcept(div_dl_maquina_obsession);
-            div_dl_maquina_obsession.style.display = 'block'; // Muestra el div
-            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
-            div_dl_maquina_obsession.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
-        } else {
-            div_dl_maquina_obsession.style.display = 'none'; // Oculta el div
-            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
-            div_content.style.marginLeft = "30%";
-        }
-    });
-    
-}
-
-
-if(dl_maquina_walkingcms){
-    dl_maquina_walkingcms.addEventListener("click", function () {
-        if (div_dl_maquina_walkingcms.style.display === 'none' || div_dl_maquina_walkingcms.style.display === '') {
-            hideAllDivsExcept(div_dl_maquina_walkingcms);
-            div_dl_maquina_walkingcms.style.display = 'block'; // Muestra el div
-            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
-            div_dl_maquina_walkingcms.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
-        } else {
-            div_dl_maquina_walkingcms.style.display = 'none'; // Oculta el div
-            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
-            div_content.style.marginLeft = "30%";
-        }
-    });
-    
-}
-
-
-if(dl_maquina_capypenguin){
-    dl_maquina_capypenguin.addEventListener("click", function () {
-        if (div_dl_maquina_capypenguin.style.display === 'none' || div_dl_maquina_capypenguin.style.display === '') {
-            hideAllDivsExcept(div_dl_maquina_capypenguin);
-            div_dl_maquina_capypenguin.style.display = 'block'; // Muestra el div
-            button_exit_pdf.style.visibility = 'visible'; // Muestra el boton para cerrar pdf
-            div_dl_maquina_capypenguin.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
-        } else {
-            div_dl_maquina_capypenguin.style.display = 'none'; // Oculta el div
-            button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
-            div_content.style.marginLeft = "30%";
-        }
-    });
-    
-}
-
-
-
-if(button_exit_pdf){
-    button_exit_pdf.addEventListener("click", function()  {
-        div_dl_maquina_trust.style.display = 'none'; // Oculta el div 
-        div_dl_maquina_injection.style.display = 'none'; // Oculta el div
-        div_dl_maquina_upload.style.display = 'none'; // Oculta el div
-        div_dl_maquina_vacaciones.style.display = 'none'; // Oculta el div
-        div_dl_maquina_breakmyssh.style.display = 'none'; // Oculta el div
-        div_dl_maquina_borazuwarahctf.style.display = 'none'; // Oculta el div
-        div_dl_maquina_firsthacking.style.display = 'none'; // Oculta el div
-        div_dl_maquina_obsession.style.display = 'none'; // Oculta el div
-        div_dl_maquina_walkingcms.style.display = 'none'; // Oculta el div
-        div_dl_maquina_capypenguin.style.display = 'none'; // Oculta el div
-        button_exit_pdf.style.visibility = 'hidden'; // Oculta boton para cerrar pdf
-        div_content.style.marginLeft = "30%";
-    });
 }
 
 

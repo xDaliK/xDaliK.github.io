@@ -2,6 +2,7 @@
 
 console.log("Hello Console Navigation!");
 
+//Take elements from document
 var icon_file_learning = document.querySelector("img#icon_file_learning");
 var text_learning = document.querySelector("h3#text_learning");
 var icon_file_project = document.querySelector("img#icon_file_project");
@@ -14,8 +15,6 @@ var icon_file_aboutme = document.querySelector("img#icon_file_aboutme");
 var text_aboutme = document.querySelector("h3#text_aboutme");
 var icon_file_contact = document.querySelector("img#icon_file_contact");
 var text_contact= document.querySelector("h3#text_contact");
-
-
 
 
 if (icon_file_learning) {

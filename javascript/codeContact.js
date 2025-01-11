@@ -4,7 +4,6 @@ console.log("Hello Console Contact!");
 
 //Take elements from document
 
-
 var button_contact= document.querySelector("button#button_back");
 var button_send = document.querySelector("button#button_send");
 var input_email = document.getElementById("email");

@@ -19,9 +19,6 @@ var text_aboutme = document.querySelector("h3#text_aboutme");
 var text_contact = document.querySelector("h3#text_contact");
 
 
-
-
-
 var progressBar = document.querySelector("progress#progressBlockBarContent");
 var divProgressBar = document.querySelector("div#centeredContainerSesion")
 var body = document.querySelector("body#initIndex")
@@ -60,9 +57,7 @@ function simulateProgress() {
                 element.style.opacity = opacity;
             } else {
                 clearInterval(fadeEffect);
-                //body.style.backgroundImage = 'url("./resources/wallpaper_draw_maffhu2.jpg")';
                 
-                // After hide the Init Session, Fade in for Desktop elements
                 fadeIn(icon_file_learning, 1000);
                 fadeIn(icon_file_project, 1000);
                 fadeIn(icon_file_experience, 1000);
@@ -118,7 +113,7 @@ function simulateProgress() {
                 element.style.opacity = opacity;
                 requestAnimationFrame(animate);
             } else {
-                element.style.opacity = 1; // Asegura que la opacidad sea 1 al finalizar
+                element.style.opacity = 1; 
             }
         }
 
