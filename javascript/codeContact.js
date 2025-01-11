@@ -26,7 +26,7 @@ function cleanInput(){
         input_email.value = "";
         input_msg.value = "";
         
-    }, 5000);
+    }, 2500);
 }
 
 if (button_contact) {
