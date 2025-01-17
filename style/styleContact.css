@@ -110,7 +110,7 @@ div#container_window_info{
     font-style: italic;
     top: 3%; 
     left: 20%; 
-    margin-top:90%;
+    margin-top:109%;
     margin-left:75%;
     
     padding:0.1vw;
@@ -162,9 +162,9 @@ div#container_window_info{
 
 #input_msg textarea {
     width: 30vw;
-    height: 10vw;
+    height: 12.5vw;
     padding:0.1vw;
-
+    resize:none;
     border:0.1vw solid rgb(142, 142, 142); 
     border-radius: 2%;
     background-color: #fff;
