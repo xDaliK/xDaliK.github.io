@@ -17,7 +17,7 @@ function goTo(destRoute) {
 
 if (button_resume) {
     button_resume.addEventListener("click", function () {
-        goTo('index_logged.html');
+        goTo('logged.html');
     });
 }
 

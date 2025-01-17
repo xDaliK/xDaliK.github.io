@@ -83,7 +83,7 @@ function goTo(destRoute) {
 
 if (button_projects) {
     button_projects.addEventListener("click", function () {
-        goTo('index_logged.html');
+        goTo('logged.html');
     });
 }
 

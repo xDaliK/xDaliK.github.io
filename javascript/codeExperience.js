@@ -38,7 +38,7 @@ function goTo(destRoute) {
 
 if (button_experience) {
     button_experience.addEventListener("click", function () {
-        goTo('index_logged.html');
+        goTo('logged.html');
     });
 }
 

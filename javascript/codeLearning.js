@@ -149,7 +149,7 @@ function goTo(destRoute) {
 
 if (button_learning) {
     button_learning.addEventListener("click", function () {
-        goTo('index_logged.html');
+        goTo('logged.html');
     });
 }
 

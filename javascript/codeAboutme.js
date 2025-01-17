@@ -24,7 +24,7 @@ function goTo(destRoute) {
 
 if (button_aboutme) {
     button_aboutme.addEventListener("click", function () {
-        goTo('index_logged.html');
+        goTo('logged.html');
     });
 }
 

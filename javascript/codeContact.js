@@ -31,7 +31,7 @@ function cleanInput(){
 
 if (button_contact) {
     button_contact.addEventListener("click", function () {
-        goTo('index_logged.html');
+        goTo('logged.html');
     });
 }
 
