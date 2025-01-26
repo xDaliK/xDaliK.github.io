@@ -256,23 +256,27 @@ div#container_window_info{
              
         }
 
-        div#text_info_content{
-            color:pink;
-            font-size:0.5vw !important; 
+        @supports (-webkit-touch-callout: none) {
+            div#text_info_content{
+                -webkit-text-size-adjust: none; 
+                text-size-adjust: none;    
+                color:pink;
+                font-size:0.1vw !important; 
+    
 
-            transform: scale(0.1); /* Escala el contenido */
-            transform-origin: top left;
-            
-            -webkit-text-size-adjust: none; 
-            text-size-adjust: none;       
-            /* margin-top:2%;
-            margin-bottom:20%;
-            text-align: justify;
-            padding:2%;
-            height: 70%;
-            overflow: hidden;
-            font-family: 'Arial'; */
+                
+                   
+                /* margin-top:2%;
+                margin-bottom:20%;
+                text-align: justify;
+                padding:2%;
+                height: 70%;
+                overflow: hidden;
+                font-family: 'Arial'; */
+            }
         }
+        
+        
 
         #foto_aboutme {
 
