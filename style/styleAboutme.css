@@ -254,13 +254,13 @@ div#container_window_info{
         div#text_info_content{
             color:blue;
             font-size:1vw; 
-            /* margin-top:2%;
+            margin-top:2%;
             margin-bottom:20%;
             text-align: justify;
             padding:2%;
             height: 70%;
             overflow: hidden;
-            font-family: 'Times New Roman'; */
+            font-family: 'Arial';
         }
 
         #foto_aboutme {
