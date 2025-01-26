@@ -263,6 +263,12 @@ div#container_window_info{
             font-family: 'Times New Roman'; */
         }
 
+        p#text_info_content_p {
+            color:pink;
+            font-size:0.01vw;
+
+        }
+
         #foto_aboutme {
         
             margin-left: -40%;
