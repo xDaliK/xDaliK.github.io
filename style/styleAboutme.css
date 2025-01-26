@@ -208,8 +208,8 @@ div#container_window_info{
        all and (max-width: 900px) and  (orientation: portrait) {
 
         html {
-            -webkit-text-size-adjust: none; /* Evita que el navegador ajuste automáticamente el tamaño del texto */
-            text-size-adjust: none;        /* Evita el ajuste en otros navegadores compatibles */
+            -webkit-text-size-adjust: none; 
+            text-size-adjust: none;       
         }
 
 
@@ -257,20 +257,20 @@ div#container_window_info{
         }
 
         div#text_info_content{
-            color:yellow;
-            font-size:0.5vw !important; 
-            margin-top:2%;
+            color:pink;
+            font-size:0.05vw !important; 
+            /* margin-top:2%;
             margin-bottom:20%;
             text-align: justify;
             padding:2%;
             height: 70%;
             overflow: hidden;
-            font-family: 'Arial';
+            font-family: 'Arial'; */
         }
 
         #foto_aboutme {
 
-            margin-left: -40%;
+            margin-left: -35%;
             
         } 
 
