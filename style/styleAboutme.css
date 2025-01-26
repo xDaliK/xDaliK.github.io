@@ -250,7 +250,7 @@ div#container_window_info{
             
              
         }
-
+/* 
         div#text_info_content{
             color:black;
             font-size:0.5vw;
@@ -262,7 +262,7 @@ div#container_window_info{
             overflow: hidden;
             font-family: 'Times New Roman';
         }
-/* 
+
         #foto_aboutme {
         
             margin-left: -30%;
