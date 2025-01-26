@@ -203,9 +203,12 @@ div#container_window_info{
     border-radius:2%;
 }
 
-/* For Vertical Mobile/Tablet
-@media (max-width: 900px) and (max-height: 900px) and (orientation: portrait), 
-       (max-width: 900px) and  (orientation: portrait) { */
+/* @media only screen and (max-width: 900px) and (max-height: 900px) and (orientation: portrait), 
+       only screen and (max-width: 900px) and  (orientation: portrait) {
+       
+       @media only screen and (min-width: 601px) and (max-width: 900px) and (orientation: portrait) {
+       
+       */
 
 /* For Vertical Mobile */
 @media only screen and (max-width: 500px) and (orientation: portrait){
@@ -274,7 +277,7 @@ div#container_window_info{
 
 }
 
-/*For Horizontal Mobile*/
+/*For Horizontal Mobile
 @media (min-width: 600px) and (max-width: 950px) and (orientation: landscape) {
     
     div#container_window_info{
@@ -297,12 +300,12 @@ div#container_window_info{
 
 }
 
-/* For Horizontal Tablet */
+/* For Horizontal Tablet 
 @media (min-width: 768px) and (max-width: 2100px) and (max-height: 1300px) and (orientation: landscape) {
     #foto_aboutme {
         
         margin-left: -28%;
         
     }
-}
+}*/
 
