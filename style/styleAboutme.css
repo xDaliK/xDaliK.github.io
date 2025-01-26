@@ -208,12 +208,14 @@ div#container_window_info{
        all and (max-width: 900px) and  (orientation: portrait) {
 
         html {
+            
             -webkit-text-size-adjust: none; 
             text-size-adjust: none;       
         }
 
 
         div#container_window_info{
+            -webkit-text-size-adjust: none;
             display: block;
             width: 65vw; 
             height: 45vw; 
@@ -232,11 +234,13 @@ div#container_window_info{
         }
 
         div#container_bar_aboutme{
+            -webkit-text-size-adjust: none;
             margin-top:0.5%;
            
         }
 
         div#info_content_container {
+            -webkit-text-size-adjust: none;
     
             display:flex;
             width: 62.8vw;
@@ -275,6 +279,7 @@ div#container_window_info{
                 font-family: 'Arial'; */
             }
         }
+        
         
         
 
