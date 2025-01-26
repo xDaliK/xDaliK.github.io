@@ -248,7 +248,6 @@ div#container_window_info{
 
         div#info_content_container {
             -webkit-text-size-adjust: none;
-            transform: translateY(-12%) translateX(-50%) scale(1.5);
             display:flex;
             width: 62.8vw;
             height: 38.3vw;
