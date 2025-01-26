@@ -207,6 +207,8 @@ div#container_window_info{
 @media all and (max-width: 900px) and (max-height: 900px) and (orientation: portrait), 
        all and (max-width: 900px) and  (orientation: portrait) {
 
+        body{ font-size:16px};
+
 
         div#container_window_info{
             display: block;
