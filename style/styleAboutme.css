@@ -211,37 +211,37 @@ div#container_window_info{
         div#container_window_info{
             display: block;
             width: 65vw; 
-            height: 95vw; 
+            height: 45vw; 
             
-            background-image: url("../resources/window_info_mobile.png");
+            background-image: url("../resources/window_info.png");
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
             position: absolute;
             
             left: 50%;
-            transform: translateY(-32%) translateX(-50%) scale(1.5); 
+            transform: translateY(-12%) translateX(-50%) scale(1.5);
             overflow: hidden;
             z-index:1;
         
         }
 
         #container_bar_aboutme{
-            margin-top:-0.3%;
+            margin-top:0.5%;
            
         }
 
         #info_content_container {
     
             display:flex;
-            width: 61.8vw;
-            height: 90.6vw;
-            margin-left: 2.25%;
+            width: 62.8vw;
+            height: 38.3vw;
+            margin-left: 1.6%;
             margin-right: 2%;
             overflow-y: none; 
-            background: url("");
+            background: url(" ");
             background-color:#dbf6fe;
-            margin-top:-0.34%;
+            margin-top:1.66%;
             z-index:2;
             background-size: cover;
             background-position: center;
