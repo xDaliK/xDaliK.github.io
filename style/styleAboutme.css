@@ -252,8 +252,8 @@ div#container_window_info{
         }
 
         div#text_info_content{
-            color:red;
-            font-size:0.01vw;
+            color:pink;
+            font-size:2px;
             /* margin-top:2%;
             margin-bottom:20%;
             text-align: justify;
@@ -263,14 +263,8 @@ div#container_window_info{
             font-family: 'Times New Roman'; */
         }
 
-        p#text_info_content_p {
-            color:pink;
-            font-size:0.01vw;
-
-        }
-
         #foto_aboutme {
-        
+
             margin-left: -40%;
             
         } 
