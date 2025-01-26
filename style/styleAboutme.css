@@ -207,8 +207,6 @@ div#container_window_info{
 @media all and (max-width: 900px) and (max-height: 900px) and (orientation: portrait), 
        all and (max-width: 900px) and  (orientation: portrait) {
 
-        body{ font-size:16px};
-
 
         div#container_window_info{
             display: block;
@@ -255,7 +253,7 @@ div#container_window_info{
 
         div#text_info_content{
             color:yellow;
-            font-size:0.5vw; 
+            font-size:0.5vw !important; 
             margin-top:2%;
             margin-bottom:20%;
             text-align: justify;
