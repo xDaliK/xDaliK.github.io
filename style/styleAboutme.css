@@ -210,7 +210,7 @@ div#container_window_info{
 
         div#container_window_info{
             display: block;
-            width: 75vw; 
+            width: 65vw; 
             height: 45vw; 
             
             background-image: url("../resources/window_info.png");
