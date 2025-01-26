@@ -135,7 +135,7 @@ div#container_window_info{
     padding:2%;
     width:100%;
     height: 15%; 
-    font-size:1.75vw; 
+    font-size:2vw; 
     color: rgb(1, 143, 143); 
     background-color: rgb(158, 240, 213);
     font-family: 'Times New Roman'; 
@@ -203,21 +203,6 @@ div#container_window_info{
     border-radius:2%;
 }
 
-a{
-    font-size:1.2vw;
-}
-
-#title_name_daniel{
-    font-family: 'Times New Roman'; 
-    color: black; 
-    white-space: nowrap; 
-    font-size:2vw; 
-    margin-left:5%; 
-    height: 10%; 
-    margin-top: 1%; 
-    text-align: center;
-}
-
 /* For Vertical Mobile/Tablet */
 @media only screen and (max-width: 900px) and (max-height: 900px) and (orientation: portrait), 
        only screen and (max-width: 900px) and  (orientation: portrait) {
@@ -226,51 +211,42 @@ a{
         div#container_window_info{
             display: block;
             width: 65vw; 
-            height: 95vw; 
-            font-size:2.15vw;
-            background-image: url("../resources/window_info_mobile.png");
+            height: 45vw; 
+            
+            background-image: url("../resources/window_info.png");
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
             position: absolute;
             
             left: 50%;
-            transform: translateY(-50%) translateX(-50%) scale(1.5); 
+            transform: translateY(-12%) translateX(-50%) scale(1.5);
             overflow: hidden;
             z-index:1;
         
         }
 
         #container_bar_aboutme{
-            margin-top:-0.3%;
-            font-size:2.15vw;
+            margin-top:0.5%;
            
-        }
-
-        #rectangle_contact{
-            font-size:2.15vw;
-        }
-
-        #title_name{
-            font-size:2.15vw;
         }
 
         #info_content_container {
     
             display:flex;
-            width: 61.8vw;
-            height: 90vw;
-            margin-left: 2.25%;
+            width: 62.8vw;
+            height: 38.3vw;
+            margin-left: 1.6%;
             margin-right: 2%;
             overflow-y: none; 
-            background: url("");
+            background: url(" ");
             background-color:#dbf6fe;
-            margin-top:0.7%;
+            margin-top:1.66%;
             z-index:2;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            font-size:2.15vw;
+            
             overflow: hidden; 
             
              
@@ -278,57 +254,20 @@ a{
 
         #text_info_content{
             color:black;
-            font-size:2.15vw;
-            margin-top:10%;
+            font-size:1.2vw;
+            margin-top:2%;
             margin-bottom:20%;
             text-align: justify;
             padding:2%;
             height: 70%;
             overflow: hidden;
             font-family: 'Times New Roman';
-            margin-left:-15%;
         }
 
         #foto_aboutme {
         
-            margin-left: -37%;
+            margin-left: -30%;
             
-        }
-
-        #list_resources p {
-            font-size:2.15vw;
-            display:block;
-            margin-bottom: 25%; 
-            margin-left:7%;
-            margin-top:-25%;
-            width:120%;
-        }
-
-        #rectangle_resources{
-            border: 0.2vw solid black;
-            width: 97%;
-            height: 15vw;
-            margin-right:4%;
-            margin-top:2%;
-            margin-left:1%;
-            font-size:2vw;
-            border-radius:1%;
-        }
-
-
-        a{
-            font-size:2.15vw;
-        }
-
-        #title_name_daniel{
-            font-family: 'Times New Roman'; 
-            color: black; 
-            white-space: nowrap; 
-            font-size:2vw; 
-            margin-left:2%; 
-            height: 10%; 
-            margin-top: 1%; 
-            text-align: center;
         }
 
 }
