@@ -259,6 +259,10 @@ div#container_window_info{
         div#text_info_content{
             color:pink;
             font-size:0.5vw !important; 
+
+            transform: scale(0.1); /* Escala el contenido */
+            transform-origin: top left;
+            
             -webkit-text-size-adjust: none; 
             text-size-adjust: none;       
             /* margin-top:2%;
