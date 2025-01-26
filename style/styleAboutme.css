@@ -237,7 +237,7 @@ div#container_window_info{
         
         }
 
-        div#container_bar_aboutme{
+        /* div#container_bar_aboutme{
             -webkit-text-size-adjust: none;
             margin-top:0.5%;
            
@@ -280,7 +280,7 @@ div#container_window_info{
                 padding:2%;
                 height: 70%;
                 overflow: hidden;
-                font-family: 'Arial'; */
+                font-family: 'Arial'; 
             }
         }
         
@@ -291,7 +291,7 @@ div#container_window_info{
 
             margin-left: -35%;
             
-        } 
+        }  */
 
 }
 
