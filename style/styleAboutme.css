@@ -226,20 +226,19 @@ div#container_window_info{
         
         }
 
-         #container_bar_aboutme{
+        div#container_bar_aboutme{
             margin-top:0.5%;
            
         }
 
-        /* #info_content_container {
+        div#info_content_container {
     
             display:flex;
-            width: 62.8vw;
+            width: 92.8vw;
             height: 38.3vw;
             margin-left: 1.6%;
             margin-right: 2%;
-            overflow-y: none; 
-            background: url(" ");
+            overflow-y: none;
             background-color:#dbf6fe;
             margin-top:1.66%;
             z-index:2;
@@ -251,8 +250,8 @@ div#container_window_info{
             
              
         }
-
-        #text_info_content{
+/* 
+        div#text_info_content{
             color:black;
             font-size:0.5vw;
             margin-top:2%;
