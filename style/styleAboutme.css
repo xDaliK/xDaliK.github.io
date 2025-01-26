@@ -241,11 +241,11 @@ div#container_window_info{
             -webkit-text-size-adjust: none;
             margin-top:0.5%;
            
-        }
+        } */
 
         div#info_content_container {
             -webkit-text-size-adjust: none;
-    
+            transform: translateY(-12%) translateX(-50%) scale(1.5);
             display:flex;
             width: 62.8vw;
             height: 38.3vw;
@@ -264,7 +264,7 @@ div#container_window_info{
              
         }
 
-        @supports (-webkit-touch-callout: none) {
+        /*@supports (-webkit-touch-callout: none) {
             div#text_info_content{
                 -webkit-text-size-adjust: none; 
                 text-size-adjust: none;    
