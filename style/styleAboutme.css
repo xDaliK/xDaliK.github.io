@@ -204,8 +204,8 @@ div#container_window_info{
 }
 
 /* For Vertical Mobile/Tablet */
-@media only screen and (max-width: 900px) and (max-height: 900px) and (orientation: portrait), 
-       only screen and (max-width: 900px) and  (orientation: portrait) {
+@media all and (max-width: 900px) and (max-height: 900px) and (orientation: portrait), 
+       all and (max-width: 900px) and  (orientation: portrait) {
 
 
         div#container_window_info{
@@ -252,8 +252,8 @@ div#container_window_info{
         }
 
         div#text_info_content{
-            color:blue;
-            font-size:1vw; 
+            color:yellow;
+            font-size:0.5vw; 
             margin-top:2%;
             margin-bottom:20%;
             text-align: justify;
