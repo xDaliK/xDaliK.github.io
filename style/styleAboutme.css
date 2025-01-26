@@ -207,6 +207,11 @@ div#container_window_info{
 @media all and (max-width: 900px) and (max-height: 900px) and (orientation: portrait), 
        all and (max-width: 900px) and  (orientation: portrait) {
 
+        html {
+            -webkit-text-size-adjust: none; /* Evita que el navegador ajuste automáticamente el tamaño del texto */
+            text-size-adjust: none;        /* Evita el ajuste en otros navegadores compatibles */
+        }
+
 
         div#container_window_info{
             display: block;
