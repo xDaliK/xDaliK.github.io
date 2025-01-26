@@ -258,7 +258,9 @@ div#container_window_info{
 
         div#text_info_content{
             color:pink;
-            font-size:0.05vw !important; 
+            font-size:1px !important; 
+            -webkit-text-size-adjust: none; 
+            text-size-adjust: none;       
             /* margin-top:2%;
             margin-bottom:20%;
             text-align: justify;
