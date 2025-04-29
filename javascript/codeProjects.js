@@ -409,6 +409,18 @@ var dl_maquina_pinguinazo= document.getElementById("dl_maquina_pinguinazo");
 
 
 //Event Listeners
+const isMobile  = window.matchMedia("(max-width: 768px)").matches;
+const isLandscape = window.matchMedia("(min-width: 600px) and (max-width: 950px) and (orientation: landscape)").matches;
+
+
+document.querySelectorAll("details").forEach((details) => {
+    details.addEventListener("toggle", function () {
+        if (this.open) {
+            this.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        }
+    });
+});
+
 
 if(dockerlabs){
     dockerlabs.addEventListener("click", function () {
@@ -423,503 +435,861 @@ if(dockerlabs){
 
 }
 
+
+
 if(dl_maquina_trust){
+
+    const pdfUrlTrust = "../resources/writeups/wupdl_maquina_trust.pdf"; 
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_trust.innerHTML = `<a href="${pdfUrlTrust}" download>
+            <button id="button_download_pdf">Máquina Trust <br>Descargar PDF Móviles <br> ⬇️</button>
+        </a>`;
+        div_dl_maquina_trust.style = "text-align:center;"
+    } 
+
     dl_maquina_trust.addEventListener("click", function () {
         if (div_dl_maquina_trust.style.display === 'none' || div_dl_maquina_trust.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_trust);
             div_dl_maquina_trust.style.display = 'block'; 
+            if (!(isMobile || isLandscape))
             button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_trust.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            //div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_trust.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)){
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
     
 }
 
-if(dl_maquina_injection){
+if (dl_maquina_injection) {
+    const pdfUrlInjection = "../resources/writeups/wupdl_maquina_injection.pdf"; 
+
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_injection.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlInjection}" download>
+                    <button id="button_download_pdf">Máquina Injection <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    } 
+
     dl_maquina_injection.addEventListener("click", function () {
         if (div_dl_maquina_injection.style.display === 'none' || div_dl_maquina_injection.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_injection);
             div_dl_maquina_injection.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_injection.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_injection.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
-if(dl_maquina_upload){
+if (dl_maquina_upload) {
+    const pdfUrlUpload = "../resources/writeups/wupdl_maquina_upload.pdf"; 
+
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_upload.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlUpload}" download>
+                    <button id="button_download_pdf">Máquina Upload <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    } 
+
     dl_maquina_upload.addEventListener("click", function () {
         if (div_dl_maquina_upload.style.display === 'none' || div_dl_maquina_upload.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_upload);
             div_dl_maquina_upload.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_upload.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_upload.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
 
-if(dl_maquina_vacaciones){
+
+if (dl_maquina_vacaciones) {
+    const pdfUrlVacaciones = "../resources/writeups/wupdl_maquina_vacaciones.pdf"; 
+
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_vacaciones.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlVacaciones}" download>
+                    <button id="button_download_pdf">Máquina Vacaciones <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_vacaciones.addEventListener("click", function () {
         if (div_dl_maquina_vacaciones.style.display === 'none' || div_dl_maquina_vacaciones.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_vacaciones);
             div_dl_maquina_vacaciones.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_vacaciones.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_vacaciones.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_breakmyssh) {
+    const pdfUrlBreakmyssh = "../resources/writeups/wupdl_maquina_breakmyssh.pdf"; 
 
-if(dl_maquina_breakmyssh){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_breakmyssh.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlBreakmyssh}" download>
+                    <button id="button_download_pdf">Máquina Break My SSH <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_breakmyssh.addEventListener("click", function () {
         if (div_dl_maquina_breakmyssh.style.display === 'none' || div_dl_maquina_breakmyssh.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_breakmyssh);
             div_dl_maquina_breakmyssh.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_breakmyssh.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_breakmyssh.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
-if(dl_maquina_borazuwarahctf){
+if (dl_maquina_borazuwarahctf) {
+    const pdfUrlBorazuwarahctf = "../resources/writeups/wupdl_maquina_borazuwarahctf.pdf"; 
+     
+
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_borazuwarahctf.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlBorazuwarahctf}" download>
+                    <button id="button_download_pdf">Máquina Borazuwarah CTF <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_borazuwarahctf.addEventListener("click", function () {
         if (div_dl_maquina_borazuwarahctf.style.display === 'none' || div_dl_maquina_borazuwarahctf.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_borazuwarahctf);
             div_dl_maquina_borazuwarahctf.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_borazuwarahctf.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_borazuwarahctf.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
-if(dl_maquina_firsthacking){
+
+if (dl_maquina_firsthacking) {
+    const pdfUrlFirsthacking = "../resources/writeups/wupdl_maquina_firsthacking.pdf"; 
+     
+
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_firsthacking.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlFirsthacking}" download>
+                    <button id="button_download_pdf">Máquina First Hacking <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_firsthacking.addEventListener("click", function () {
         if (div_dl_maquina_firsthacking.style.display === 'none' || div_dl_maquina_firsthacking.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_firsthacking);
             div_dl_maquina_firsthacking.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_firsthacking.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_firsthacking.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_obsession) {
+    const pdfUrlObsession = "../resources/writeups/wupdl_maquina_obsession.pdf"; 
+     
 
-if(dl_maquina_obsession){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_obsession.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlObsession}" download>
+                    <button id="button_download_pdf">Máquina Obsession <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_obsession.addEventListener("click", function () {
         if (div_dl_maquina_obsession.style.display === 'none' || div_dl_maquina_obsession.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_obsession);
             div_dl_maquina_obsession.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_obsession.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_obsession.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_walkingcms) {
+    const pdfUrlWalkingcms = "../resources/writeups/wupdl_maquina_walkingcms.pdf"; 
+     
 
-if(dl_maquina_walkingcms){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_walkingcms.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlWalkingcms}" download>
+                    <button id="button_download_pdf">Máquina Walking CMS <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_walkingcms.addEventListener("click", function () {
         if (div_dl_maquina_walkingcms.style.display === 'none' || div_dl_maquina_walkingcms.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_walkingcms);
             div_dl_maquina_walkingcms.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_walkingcms.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_walkingcms.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_capypenguin) {
+    const pdfUrlCapypenguin = "../resources/writeups/wupdl_maquina_capypenguin.pdf"; 
+     
 
-if(dl_maquina_capypenguin){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_capypenguin.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlCapypenguin}" download>
+                    <button id="button_download_pdf">Máquina Capy Penguin <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_capypenguin.addEventListener("click", function () {
         if (div_dl_maquina_capypenguin.style.display === 'none' || div_dl_maquina_capypenguin.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_capypenguin);
             div_dl_maquina_capypenguin.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_capypenguin.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_capypenguin.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
 
-if(dl_maquina_pn){
+if (dl_maquina_pn) {
+    const pdfUrlPn = "../resources/writeups/wupdl_maquina_pn.pdf"; 
+     
+
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_pn.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlPn}" download>
+                    <button id="button_download_pdf">Máquina PN <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_pn.addEventListener("click", function () {
         if (div_dl_maquina_pn.style.display === 'none' || div_dl_maquina_pn.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_pn);
             div_dl_maquina_pn.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_pn.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_pn.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_anonymouspingu) {
+    const pdfUrlAnonymouspingu = "../resources/writeups/wupdl_maquina_anonymouspingu.pdf"; 
+     
 
-if(dl_maquina_anonymouspingu){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_anonymouspingu.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlAnonymouspingu}" download>
+                    <button id="button_download_pdf">Máquina Anonymous Pingu <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_anonymouspingu.addEventListener("click", function () {
         if (div_dl_maquina_anonymouspingu.style.display === 'none' || div_dl_maquina_anonymouspingu.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_anonymouspingu);
             div_dl_maquina_anonymouspingu.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_anonymouspingu.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_anonymouspingu.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_library) {
+    const pdfUrlLibrary = "../resources/writeups/wupdl_maquina_library.pdf"; 
+     
 
-if(dl_maquina_library){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_library.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlLibrary}" download>
+                    <button id="button_download_pdf">Máquina Library <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_library.addEventListener("click", function () {
         if (div_dl_maquina_library.style.display === 'none' || div_dl_maquina_library.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_library);
             div_dl_maquina_library.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_library.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_library.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_hiddencat) {
+    const pdfUrlHiddencat = "../resources/writeups/wupdl_maquina_hiddencat.pdf"; 
 
-if(dl_maquina_hiddencat){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_hiddencat.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlHiddencat}" download>
+                    <button id="button_download_pdf">Máquina Hidden Cat <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_hiddencat.addEventListener("click", function () {
         if (div_dl_maquina_hiddencat.style.display === 'none' || div_dl_maquina_hiddencat.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_hiddencat);
             div_dl_maquina_hiddencat.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_hiddencat.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_hiddencat.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
 
-if(dl_maquina_dockerlabs){
+if (dl_maquina_dockerlabs) {
+    const pdfUrlDockerlabs = "../resources/writeups/wupdl_maquina_dockerlabs.pdf"; 
+
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_dockerlabs.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlDockerlabs}" download>
+                    <button id="button_download_pdf">Máquina Dockerlabs <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_dockerlabs.addEventListener("click", function () {
         if (div_dl_maquina_dockerlabs.style.display === 'none' || div_dl_maquina_dockerlabs.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_dockerlabs);
             div_dl_maquina_dockerlabs.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_dockerlabs.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_dockerlabs.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_whereismywebshell) {
+    const pdfUrlWhereismywebshell = "../resources/writeups/wupdl_maquina_whereismywebshell.pdf"; 
 
-if(dl_maquina_whereismywebshell){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_whereismywebshell.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlWhereismywebshell}" download>
+                    <button id="button_download_pdf">Máquina Where is My Webshell <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_whereismywebshell.addEventListener("click", function () {
         if (div_dl_maquina_whereismywebshell.style.display === 'none' || div_dl_maquina_whereismywebshell.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_whereismywebshell);
             div_dl_maquina_whereismywebshell.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_whereismywebshell.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_whereismywebshell.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_amor) {
+    const pdfUrlAmor = "../resources/writeups/wupdl_maquina_amor.pdf"; 
 
-if(dl_maquina_amor){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_amor.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlAmor}" download>
+                    <button id="button_download_pdf">Máquina Amor <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_amor.addEventListener("click", function () {
         if (div_dl_maquina_amor.style.display === 'none' || div_dl_maquina_amor.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_amor);
             div_dl_maquina_amor.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_amor.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_amor.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
 
-if(dl_maquina_chocolatelovers){
+if (dl_maquina_chocolatelovers) {
+    const pdfUrlChocolatelovers = "../resources/writeups/wupdl_maquina_chocolatelovers.pdf"; 
+
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_chocolatelovers.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlChocolatelovers}" download>
+                    <button id="button_download_pdf">Máquina Chocolate Lovers <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_chocolatelovers.addEventListener("click", function () {
         if (div_dl_maquina_chocolatelovers.style.display === 'none' || div_dl_maquina_chocolatelovers.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_chocolatelovers);
             div_dl_maquina_chocolatelovers.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_chocolatelovers.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_chocolatelovers.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_secretjenkins) {
+    const pdfUrlSecretjenkins = "../resources/writeups/wupdl_maquina_secretjenkins.pdf"; 
 
-if(dl_maquina_secretjenkins){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_secretjenkins.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlSecretjenkins}" download>
+                    <button id="button_download_pdf">Máquina Secret Jenkins <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_secretjenkins.addEventListener("click", function () {
         if (div_dl_maquina_secretjenkins.style.display === 'none' || div_dl_maquina_secretjenkins.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_secretjenkins);
             div_dl_maquina_secretjenkins.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_secretjenkins.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_secretjenkins.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_aguademayo) {
+    const pdfUrlAguademayo = "../resources/writeups/wupdl_maquina_aguademayo.pdf"; 
 
-if(dl_maquina_aguademayo){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_aguademayo.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlAguademayo}" download>
+                    <button id="button_download_pdf">Máquina Agua de Mayo <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_aguademayo.addEventListener("click", function () {
         if (div_dl_maquina_aguademayo.style.display === 'none' || div_dl_maquina_aguademayo.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_aguademayo);
             div_dl_maquina_aguademayo.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_aguademayo.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_aguademayo.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_buscalove) {
+    const pdfUrlBuscalove = "../resources/writeups/wupdl_maquina_buscalove.pdf"; 
 
-if(dl_maquina_buscalove){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_buscalove.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlBuscalove}" download>
+                    <button id="button_download_pdf">Máquina Busca Love <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_buscalove.addEventListener("click", function () {
         if (div_dl_maquina_buscalove.style.display === 'none' || div_dl_maquina_buscalove.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_buscalove);
             div_dl_maquina_buscalove.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_buscalove.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_buscalove.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
 
-if(dl_maquina_consolelog){
+if (dl_maquina_consolelog) {
+    const pdfUrlConsolelog = "../resources/writeups/wupdl_maquina_consolelog.pdf"; 
+
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_consolelog.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlConsolelog}" download>
+                    <button id="button_download_pdf">Máquina Console Log <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_consolelog.addEventListener("click", function () {
         if (div_dl_maquina_consolelog.style.display === 'none' || div_dl_maquina_consolelog.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_consolelog);
             div_dl_maquina_consolelog.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_consolelog.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_consolelog.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_escolares) {
+    const pdfUrlEscolares = "../resources/writeups/wupdl_maquina_escolares.pdf"; 
 
-if(dl_maquina_escolares){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_escolares.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlEscolares}" download>
+                    <button id="button_download_pdf">Máquina Escolares <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_escolares.addEventListener("click", function () {
         if (div_dl_maquina_escolares.style.display === 'none' || div_dl_maquina_escolares.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_escolares);
             div_dl_maquina_escolares.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_escolares.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_escolares.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_los40ladrones) {
+    const pdfUrlLos40ladrones = "../resources/writeups/wupdl_maquina_los40ladrones.pdf"; 
 
-if(dl_maquina_los40ladrones){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_los40ladrones.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlLos40ladrones}" download>
+                    <button id="button_download_pdf">Máquina Los 40 Ladrones <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_los40ladrones.addEventListener("click", function () {
         if (div_dl_maquina_los40ladrones.style.display === 'none' || div_dl_maquina_los40ladrones.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_los40ladrones);
             div_dl_maquina_los40ladrones.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_los40ladrones.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_los40ladrones.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_move) {
+    const pdfUrlMove = "../resources/writeups/wupdl_maquina_move.pdf"; 
 
-if(dl_maquina_move){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_move.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlMove}" download>
+                    <button id="button_download_pdf">Máquina Move <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_move.addEventListener("click", function () {
         if (div_dl_maquina_move.style.display === 'none' || div_dl_maquina_move.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_move);
             div_dl_maquina_move.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_move.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_move.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
 
-if(dl_maquina_nodeclimb){
+if (dl_maquina_nodeclimb) {
+    const pdfUrlNodeclimb = "../resources/writeups/wupdl_maquina_nodeclimb.pdf"; 
+
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_nodeclimb.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlNodeclimb}" download>
+                    <button id="button_download_pdf">Máquina Nodeclimb <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_nodeclimb.addEventListener("click", function () {
         if (div_dl_maquina_nodeclimb.style.display === 'none' || div_dl_maquina_nodeclimb.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_nodeclimb);
             div_dl_maquina_nodeclimb.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_nodeclimb.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_nodeclimb.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_picadilly) {
+    const pdfUrlPicadilly = "../resources/writeups/wupdl_maquina_picadilly.pdf"; 
 
-if(dl_maquina_picadilly){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_picadilly.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlPicadilly}" download>
+                    <button id="button_download_pdf">Máquina Picadilly <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_picadilly.addEventListener("click", function () {
         if (div_dl_maquina_picadilly.style.display === 'none' || div_dl_maquina_picadilly.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_picadilly);
             div_dl_maquina_picadilly.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_picadilly.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_picadilly.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
+if (dl_maquina_pinguinazo) {
+    const pdfUrlPinguinazo = "../resources/writeups/wupdl_maquina_pinguinazo.pdf"; 
 
-if(dl_maquina_pinguinazo){
+    if ((isMobile || isLandscape)) {
+        div_dl_maquina_pinguinazo.innerHTML = `
+            <div style="text-align:center;">
+                <a href="${pdfUrlPinguinazo}" download>
+                    <button id="button_download_pdf">Máquina Pinguinazo <br>Descargar PDF Móviles <br> ⬇️</button>
+                </a>
+            </div>
+        `;
+    }
+
     dl_maquina_pinguinazo.addEventListener("click", function () {
         if (div_dl_maquina_pinguinazo.style.display === 'none' || div_dl_maquina_pinguinazo.style.display === '') {
             hideAllDivsExcept(div_dl_maquina_pinguinazo);
             div_dl_maquina_pinguinazo.style.display = 'block'; 
-            button_exit_pdf.style.visibility = 'visible'; 
+            if (!(isMobile || isLandscape)) button_exit_pdf.style.visibility = 'visible'; 
             div_dl_maquina_pinguinazo.style.zIndex = zIndexUpdate++;
-            div_content.style.marginLeft = "0%";
+            // div_content.style.marginLeft = "0%";
         } else {
             div_dl_maquina_pinguinazo.style.display = 'none'; 
-            button_exit_pdf.style.visibility = 'hidden'; 
-            div_content.style.marginLeft = "30%";
+            if (!(isMobile || isLandscape)) {
+                button_exit_pdf.style.visibility = 'hidden'; 
+                div_content.style.marginLeft = "30%";
+            }
         }
     });
-    
 }
 
 
