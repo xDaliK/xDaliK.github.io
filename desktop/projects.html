@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta https-equiv="refresh" content="" />
+    <meta http-equiv="refresh" content="" />
     <link rel="icon" href="../resources/favicon.ico" type="image/x-icon">
 
     <title>Projects | DanieLizarTec</title>
@@ -70,11 +70,11 @@
             <button id="button_exit_pdf" style="background-color: #e8e8e8; font-weight: bold; font-family: 'MS Sans Serif', Tahoma, sans-serif;">Close PDF</button>
             <div id="barSearch">
                 <img  id="icon_file_search" src="../resources/projects.png">        
-                <input type="text" id="searchInput" onkeydown="checkForEnter(event)"  placeholder="Escribe aquí para buscar...">
+                <input type="text" id="searchInput" onkeydown="checkForEnter(event)"  placeholder="Buscar...">
                 
             </div>
             
-            <button id="button_back" style="background-color: #e8e8e8; color: #000000; font-weight: bold; font-family: 'MS Sans Serif', Tahoma, sans-serif;">X</button>
+            <button id="button_back" >X</button>
         </div>
         <div id="info_content_container_1">
             
@@ -85,16 +85,37 @@
                             <ul style="margin:0;">
 
                                 <li><span id="ing_soft_web">Ingeniería de Software para Aplicaciones Web</span></li> 
+                                <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
+                                
                                 <li><span id="redes_in">Redes de Sensores Inalámbricos</span></li> 
+                                <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
+
                                 <li><span id="gest_proy">Gestión de Proyectos - Chatbot</span></li> 
+                                <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
+
                                 <li><span id="iot"><b style="color: #deb239;">(MH)</b> Internet of Things</span></li>
+                                <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
+                                
                                 <li><span id="aiw">Aplicaciones Inteligentes para la Web</span></li> 
+                                <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
+                                
                                 <li><span id="intel_art">Inteligencia Artificial</span></li> 
+                                <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
+                                
                                 <li><span id="ent_com_virt"><b style="color: #deb239;">(MH)</b> Entornos de Comunicación Virtual</span></li>
+                                <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
+                                
                                 <li><span id="gest_cares">Análisis de Gestos y Caras</span></li>
+                                <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
+                                
                                 <li><span id="cybersec">Seguridad en Computadores</span></li>
+                                <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
+                                
                                 <li><span id="sist_int">Sistemas Interactivos</span></li>
+                                <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
+                                
                                 <li><span id="tall_tec_music">Taller de Tecnología Músical</span></li>
+                                <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
 
                               
                                
@@ -108,47 +129,47 @@
                             <ul style="margin:0;">
                                 
                                 <details>
-                                    <summary style="color: rgb(223, 47, 47); width:14.5vw; font-size: 1.4vw;">DockerLabs WriteUps</summary>
+                                    <summary id="bar_dockerlabs" >DockerLabs WriteUps</summary>
                                     
-                                    <span style="font-size: 1.3vw; font-weight:bold; cursor: pointer;" id="dockerlabs">📍 Qué es DockerLabs?</span>
+                                    <span id="dockerlabs">📍 Qué es DockerLabs?</span>
                                     
                                         <ul>
                                             <!-- Muy Facil -->
-                                            <span style="font-size: 1.5vw; font-weight:bold;"> Muy Fácil </span>
-                                            <li><span id="dl_maquina_trust"> 1. Trust</span></li>
-                                            <li><span id="dl_maquina_injection"> 2. Injection</span></li>
-                                            <li><span id="dl_maquina_upload"> 3. Upload</span></li>
-                                            <li><span id="dl_maquina_vacaciones"> 4. Vacaciones</span></li>
-                                            <li><span id="dl_maquina_breakmyssh"> 5. BreakMySsh</span></li>
-                                            <li><span id="dl_maquina_borazuwarahctf"> 6. Borazuwarctf</span></li>
-                                            <li><span id="dl_maquina_firsthacking"> 7. FirstHacking</span></li>
-                                            <li><span id="dl_maquina_obsession"> 8. Obsession</span></li>
+                                            <span id="dockerlabs_muyfacil" > Muy Fácil </span>
+                                            <li><span id="dl_maquina_trust"> 1. <br>Trust</span></li>
+                                            <li><span id="dl_maquina_injection"> 2. <br>Injection</span></li>
+                                            <li><span id="dl_maquina_upload"> 3. <br>Upload</span></li>
+                                            <li><span id="dl_maquina_vacaciones"> 4. <br>Vacaciones</span></li>
+                                            <li><span id="dl_maquina_breakmyssh"> 5. <br>BreakMySsh</span></li>
+                                            <li><span id="dl_maquina_borazuwarahctf"> 6. <br>Borazuwarctf</span></li>
+                                            <li><span id="dl_maquina_firsthacking"> 7. <br>FirstHacking</span></li>
+                                            <li><span id="dl_maquina_obsession"> 8. <br>Obsession</span></li>
                                         </ul>
     
                                         
                                         <ul style="padding-top: 0vw;">
                                             <!-- Facil -->
-                                            <span style="font-size: 1.5vw; font-weight:bold; "> Fácil </span>
-                                            <li><span id="dl_maquina_walkingcms"> 9. WalkingCMS</span></li>
-                                            <li><span id="dl_maquina_capypenguin"> 10. Capypenguin</span></li>
-                                            <li><span id="dl_maquina_pn"> 11. Pn</span></li>
-                                            <li><span id="dl_maquina_anonymouspingu"> 12. AnonymousPingu</span></li>
-                                            <li><span id="dl_maquina_library"> 13. Library</span></li>
-                                            <li><span id="dl_maquina_hiddencat"> 14. Hiddencat</span></li>
-                                            <li><span id="dl_maquina_dockerlabs"> 15. Dockerlabs</span></li>
-                                            <li><span id="dl_maquina_whereismywebshell" style="font-size: 1.125vw;"> 16. WhereIsMyWebshell</span></li>
-                                            <li><span id="dl_maquina_amor"> 17. Amor</span></li>
-                                            <li><span id="dl_maquina_chocolatelovers"> 18. ChocolateLovers</span></li>
-                                            <li><span id="dl_maquina_secretjenkins"> 19. SecretJenkins</span></li>
-                                            <li><span id="dl_maquina_aguademayo"> 20. AguaDeMayo</span></li>
-                                            <li><span id="dl_maquina_buscalove"> 21. BuscaLove</span></li>
-                                            <li><span id="dl_maquina_consolelog"> 22. ConsoleLog</span></li>
-                                            <li><span id="dl_maquina_escolares"> 23. Escolares</span></li>
-                                            <li><span id="dl_maquina_los40ladrones"> 24. Los40Ladrones</span></li>
-                                            <li><span id="dl_maquina_move"> 25. Move</span></li>
-                                            <li><span id="dl_maquina_nodeclimb"> 26. NodeClimb</span></li>
-                                            <li><span id="dl_maquina_picadilly"> 27. Picadilly</span></li>
-                                            <li><span id="dl_maquina_pinguinazo"> 28. Pinguinazo</span></li>
+                                            <span id="dockerlabs_facil" > <br>Fácil </span>
+                                            <li><span id="dl_maquina_walkingcms"> 9. <br>WalkingCMS</span></li>
+                                            <li><span id="dl_maquina_capypenguin"> 10. <br>Capypenguin</span></li>
+                                            <li><span id="dl_maquina_pn"> 11. <br>Pn</span></li>
+                                            <li><span id="dl_maquina_anonymouspingu"> 12. <br>Anonymous<br>Pingu</span></li>
+                                            <li><span id="dl_maquina_library"> 13. <br>Library</span></li>
+                                            <li><span id="dl_maquina_hiddencat"> 14. <br>Hiddencat</span></li>
+                                            <li><span id="dl_maquina_dockerlabs"> 15. <br>Dockerlabs</span></li>
+                                            <li><span id="dl_maquina_whereismywebshell"> 16. <br>WhereIsMy <br>Webshell</span></li>
+                                            <li><span id="dl_maquina_amor"> 17. <br>Amor</span></li>
+                                            <li><span id="dl_maquina_chocolatelovers"> 18. <br>Chocolate<br>Lovers</span></li>
+                                            <li><span id="dl_maquina_secretjenkins"> 19. <br>SecretJenkins</span></li>
+                                            <li><span id="dl_maquina_aguademayo"> 20. <br>AguaDeMayo</span></li>
+                                            <li><span id="dl_maquina_buscalove"> 21. <br>BuscaLove</span></li>
+                                            <li><span id="dl_maquina_consolelog"> 22. <br>ConsoleLog</span></li>
+                                            <li><span id="dl_maquina_escolares"> 23. <br>Escolares</span></li>
+                                            <li><span id="dl_maquina_los40ladrones"> 24. <br>Los40Ladrones</span></li>
+                                            <li><span id="dl_maquina_move"> 25. <br>Move</span></li>
+                                            <li><span id="dl_maquina_nodeclimb"> 26. <br>NodeClimb</span></li>
+                                            <li><span id="dl_maquina_picadilly"> 27. <br>Picadilly</span></li>
+                                            <li><span id="dl_maquina_pinguinazo"> 28. <br>Pinguinazo</span></li>
                                         </ul>
                                     
                                 
@@ -166,14 +187,14 @@
                 <div id = "init_projects">
 
                     <div id="title_projects_area">
-                        <h2 style="text-align: center; font-size:5vw; margin:0;">/Projects</h2>
-                        <h2 style="text-align: center; font-size:5vw; margin:0; ">Area</h2>
-                        <img style="width: 10vw; height: 10vw;"src="../resources/projects.png">    
-                        <h3 style="text-align: center; font-size:1.5vw; margin:0; color: rgb(72, 226, 1); font-style: italic;"><b>Más Información:</b></h2>
+                        <h2 id="init_text_projects">/Projects</h2>
+                        <h2 id="init_text_projects">Area</h2>
+                        <img id="img_projects_web" src="../resources/projects.png">    
+                        <h3 id="mas_info"><b>Más Información:</b></h2>
                             
-                        <div style="margin-top:-20%;">
+                        <div id="div_info_github">
                                 
-                            <a href="https://github.com/xDaliK" target="_blank" style="text-align: center; font-size:2vw; margin:0; color: blue; font-style: italic;"><b><u>GitHub xDaliK</u></b></a>
+                            <a href="https://github.com/xDaliK" target="_blank" id="info_github"><b><u>GitHub xDaliK</u></b></a>
     
                         </div>
                     </div>
@@ -190,7 +211,7 @@
 
                        <div id="ent_com_virt_contrato_title">
                            
-                         <p style="margin:0; width:8vw;">Grupo Matrícula de Honor</p>
+                         <p style="margin:0; width:12vw;">Grupo Matrícula de Honor</p>
                         </div>
                        
                     </div>
@@ -402,7 +423,7 @@
 
 
                     <p id="p_redes_in_tareas">
-                        En la asignatura de <b>Redes de Sensores Inalámbricos</b>, se llevaron a cabo diversos proyectos prácticos que involucraron el uso de tecnologías y plataformas avanzadas para la implementación y gestión de redes de sensores:<br><br>                        
+                        En la asignatura de <b>Redes de Sensores Inalámbricos</b>, se llevaron a cabo diversos proyectos prácticos que involucraron el uso de tecnologías y plataformas avanzadas para la implementación y gestión de redes de sensores:<br>                     
                         <b style="text-decoration: underline;font-style: italic;">1. Lab1 - Introducción a Arduino, Sensores y Actuadores:</b><br>
                         • Familiarización con el entorno de desarrollo de Arduino y la programación básica de sensores y actuadores.<br>
                         
@@ -537,7 +558,7 @@
                        <h1 id="iot_title" >Internet of Things</h1>
                        <div id="iot_contrato_title">
                            
-                         <p style="margin:0; width:8vw;">Matrícula de Honor</p>
+                         <p style="margin:0; width:12vw;">Matrícula de Honor</p>
                         </div>
                        
                     </div>
@@ -601,11 +622,11 @@
 
                     
                     
-                        <a href="https://dockerlabs.es" target="_blank" style="display: inline-block; margin-left: 45%; margin-top: -15%; width: 6.5vw; height: 6.5vw; border-radius: 50%; overflow: hidden;">
+                        <a href="https://dockerlabs.es" target="_blank" id="img_dockerlabs">
                             <img style="width: 100%; height: 100%;" src="../resources/dockerlabs_i.png" alt="Docker Labs">
                         </a>
                         
-                        <a href="https://www.youtube.com/@ElPinguinoDeMario" target="_blank" style="display: block; margin-left: 73%; margin-top: -17.7%; width: 7vw; height: 7vw; border-radius: 50%; overflow: hidden;">
+                        <a href="https://www.youtube.com/@ElPinguinoDeMario" target="_blank" id="img_mario">
                             <img style="width: 100%; height: 100%;" src="../resources/dockerlabs_ii.png" alt="El Pinguino de Mario">
                         </a>
                                                  

@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta https-equiv="refresh" content="" />
+    <meta http-equiv="refresh" content="" />
     <link rel="icon" href="../resources/favicon.ico" type="image/x-icon">
 
     <title>Learning | DanieLizarTec</title>
@@ -71,7 +71,7 @@
             <h1 id="title_learning"><b>/Learning</b></h1>
             <div id="barSearch">
                 <img  id="icon_file_search" src="../resources/projects.png">        
-                <input type="text" id="searchInput" onkeydown="checkForEnter(event)"  placeholder="Escribe aquí para buscar...">
+                <input type="text" id="searchInput" onkeydown="checkForEnter(event)"  placeholder="Buscar...">
                 
             </div>
             
@@ -82,89 +82,125 @@
             <div id="bar_menu_info">
                 <div id="bar_menu_explorer">
                         <details>
-                            <summary style="width:10vw;">Estudios</summary>
+                            <summary id="estudios_folder">Estudios</summary>
                             <ul style="margin:0;">
-                                <li><span id="bachillerato" style="font-size:1.2vw;">Bachillerato</span></li>
-                                <li><span id="upf_info" style="font-size:1.2vw;">Grado Universitario</span></li>
+                                <li><span id="bachillerato" >Bachillerato</span></li>
+                                <li><span id="upf_info">Grado Universitario</span></li>
                                 <details>
-                                    <summary style="width:16vw; font-size:1.3vw;">Asignaturas Grado</summary>
+                                    <summary id="asignaturas_folder">Asignaturas Grado</summary>
 
                                     <details>
                                         
-                                        <summary style="width:10vw;  color: rgb(42, 88, 244); font-size:1.2vw;"> Matemáticas</summary>
+                                        <summary id="mat_folder"> Matemáticas</summary>
                                         <ul>
                                             <li><span id="calculo_i">Cálculo I</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="calculo_ii">Cálculo II</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="mat_discreta">Matemática Discreta</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="alg_lineal">Álgebra Lineal</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="met_num">Métodos Numéricos</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="fisica">Física</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="prob">Probabilidad</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="est">Estadística</span></li>
                                         </ul>
                                     </details>
                                     <details>
-                                        <summary style="color: rgb(193, 187, 12); font-size:1.2vw;"> Programación y Algoritmos</summary>
+                                        <summary id="prog_folder"> Programación y Algoritmos</summary>
                                         <ul>
                                             <li><span id="intro_prog">Introducción a la Programación</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="eda_i">Estructuras de Datos y Algoritmos I</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="eda_ii">Estructuras de Datos y Algoritmos II</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="prog_obj">Programación Orientada a Objetos</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="dis_fun_prog">Diseño Funcional de Programas</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="dis_alg">Diseño de Algoritmos</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="prog_paral">Introducción a la Programación Paralela y Distribuida</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="ing_soft_web"><b style="color: rgb(65, 205, 0);">(O)</b> Ingeniería de Software para Aplicaciones Web</span></li>
                                         </ul>
                                     </details>
                                     <details>
-                                        <summary style="color: rgb(0, 147, 196); font-size:1.2vw;"> Sistemas y Teoría</summary>
+                                        <summary id="sist_folder"> Sistemas y Teoría</summary>
                                         <ul>
                                             <li><span id="org_comp">Organización de Computadores</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="sys_i">Señales y Sistemas I</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="so">Sistemas Operativos</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="ing_soft">Ingeniería de Software</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="teoria_comp">Teoría de la Computación</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="sis_dist">Sistemas Distribuidos de Gran Escala</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="compila">Compiladores</span></li>
                                         </ul>
                                     </details>
                                     <details>
-                                        <summary style="color: rgb(55, 170, 1); font-size:1.2vw;"> Ciencia de Datos</summary>
+                                        <summary id="datos_folder"> Ciencia de Datos</summary>
                                         <ul>
                                             <li><span id="apr_auto">Aprendizaje Automático</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="bases_datos">Bases de Datos</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="intel_art">Inteligencia Artificial</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="aiw"><b style="color: rgb(65, 205, 0);">(O)</b> Aplicaciones Inteligentes para la Web</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="gest_cares"><b style="color: rgb(65, 205, 0);">(O)</b> Análisis de Gestos y Caras</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="tnlp"><b style="color: rgb(65, 205, 0);">(O)</b>Técnicas de Procesamiento de Lenguaje Natural</span></li>
                                         </ul>
                                     </details>
                                     <details>
-                                        <summary style="color: rgb(209, 76, 191); font-size:1.2vw;"> Visualización, Interfaces y Entornos</summary>
+                                        <summary id="inter_folder"> Visualización, Interfaces y Entornos</summary>
                                         <ul>
                                             <li><span id="graf_ord">Gráficos por Ordenador</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="ing_inter">Ingeniería de Interacción</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="videojuegos"><b style="color: rgb(65, 205, 0);">(O)</b> Narrativa y Videojuegos</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="ent_com_virt"><b style="color: rgb(65, 205, 0);">(O)</b> <b style="color: #deb239;">(MH)</b> Entornos de Comunicación Virtual</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="sist_int"><b style="color: rgb(65, 205, 0);">(O)</b> Sistemas Interactivos</span></li>
                                         </ul>
                                     </details>
                                     <details>
-                                        <summary style="color: rgb(223, 47, 47); font-size:1.2vw;"> Redes y Seguridad</summary>
+                                        <summary id="redes_folder"> Redes y Seguridad</summary>
                                         <ul>
                                             <li><span id="redes">Redes</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="cripto">Criptografía y Seguridad</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="redes_in"><b style="color: rgb(65, 205, 0);">(O)</b> Redes de Sensores Inalámbricos</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="iot"><b style="color: rgb(65, 205, 0);">(O)</b> <b style="color: #deb239;">(MH)</b> Internet of Things</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="cybersec"><b style="color: rgb(65, 205, 0);">(O)</b> Seguridad en Computadores</span></li>
                                         </ul>
                                     </details>
                                     <details>
-                                        <summary style="color: rgb(110, 31, 200); font-size:1.2vw;"> Comunicación, Ética y Gestión</summary>
+                                        <summary id="etic_folder"> Comunicación, Ética y Gestión</summary>
                                         <ul>
                                             <li><span id="intro_tic">Introducción a las TIC</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="com_ingles">Comunicación Técnica en Inglés</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="gest_proy"><b style="color: rgb(65, 205, 0);">(O)</b> Gestión de Proyectos</span></li>
+                                            <hr style="border:0.01vw solid rgba(0, 0, 0, 0.368); margin:0; width:92.5%;"></hr>
                                             <li><span id="tall_tec_music"><b style="color: rgb(65, 205, 0);">(O)</b> Taller de Tecnología Músical</span></li>
                                         </ul>
                                 </details>
@@ -173,9 +209,9 @@
                         </details>
                         
                             <details>
-                                <summary style="width:14vw;">Certificaciones</summary>
+                                <summary id="certificaciones_folder" style="width:14vw;">Certificaciones</summary>
                                 <ul>
-                                    <li><span id="google_cybersecurity" style="font-size:1.2vw;"> Google Cybersecurity</span></li>
+                                    <li><span id="google_cybersecurity" > Google Cybersecurity</span></li>
                                     
                                 </ul>
                             </details >
@@ -189,11 +225,11 @@
                 <div id = "init_learning">
 
                     <div id="title_learning_area">
-                        <h2 style="text-align: center; font-size:5vw; margin:0;">/Learning</h2>
-                        <h2 style="text-align: center; font-size:5vw; margin:0; ">Area</h2>
-                        <img style="width: 10vw; height: 10vw;"src="../resources/learning.png">    
-                        <h3 style="text-align: center; font-size:1.25vw; margin:0; color: rgb(72, 226, 1); font-style: italic;"><b>(O): Optativa</b></h2>
-                        <h3 style="text-align: center; font-size:1.25vw; margin:0; color: #d2a836; font-style: italic;"><b>(MH): Matrícula de Honor</b></h2>
+                        <h2 id="init_text_learning" >/Learning</h2>
+                        <h2 id="init_text_learning" >Area</h2>
+                        <img id="img_learning_web" src="../resources/learning.png">    
+                        <h3 id="init_text_learning_optativa" ><b>(O): Optativa</b></h2>
+                        <h3 id="init_text_learning_honor" ><b>(MH): Matrícula de Honor</b></h2>
                     </div>
 
                 </div>
@@ -303,7 +339,7 @@
                    
                     <p id="p_calculo_i_habs">
                     
-                        <img style="margin-left: 72%; margin-top:-8%; width: 12vw; height: 8vw; " src="../resources/calculo_i.png">
+                        <img id="img_calculo_i_1" src="../resources/calculo_i.png">
                    
 
                     </p>
@@ -353,7 +389,7 @@
                     <p id="p_mat_discreta_habs">
                     
                     
-                        <img style="margin-left: 70%; margin-top:-30%; width: 11vw; height: 10vw; " src="../resources/mat_discreta.png">
+                        <img id="img_mat_discreta_1"  src="../resources/mat_discreta.png">
                    
 
                     </p>
@@ -390,7 +426,7 @@
                    
                     <p id="p_intro_prog_habs">
                      
-                        <img style="margin-left: 67%; margin-top:-8%; width: 13vw; height: 7vw; " src="../resources/intro_prog.png">
+                        <img id="img_intro_prog_1" src="../resources/intro_prog.png">
                    
                         
                     </p>
@@ -437,7 +473,7 @@
                    
                     <p id="p_intro_tic_habs">
                                        
-                        <img style="margin-left: 30%; margin-top:-1.5%; width: 30vw; height: 4vw; " src="../resources/intro_tic.png">
+                        <img id="img_intro_tic_1" src="../resources/intro_tic.png">
 
                         
                     </p>
@@ -492,7 +528,7 @@
                     
                     
                     
-                        <img style="margin-left: 76%; margin-top:-30%; width: 10vw; height: 8vw; " src="../resources/calculo_ii.png">
+                        <img id="img_calculo_ii_1" src="../resources/calculo_ii.png">
                         
                     
 
@@ -544,7 +580,7 @@
                    
                     <p id="p_alg_lineal_habs">
                        
-                        <img style="margin-left: 74%; margin-top:-27%; width: 11vw; height: 10vw; " src="../resources/alg_lineal.png">
+                        <img id="img_alg_lineal_1"  src="../resources/alg_lineal.png">
                         
                     </p>
                     
@@ -588,7 +624,7 @@
                    
                     <p id="p_eda_i_habs">
                        
-                        <img style="margin-left: 76%; margin-top:-27%; width: 9vw; height: 9vw; " src="../resources/eda_i.png">
+                        <img id="img_eda_i_1"  src="../resources/eda_i.png">
                     </p>
                     
                 </div>
@@ -627,7 +663,7 @@
                    
                     <p id="p_org_comp_habs">
                     
-                        <img style="margin-left: 79%; margin-top:-20%; width: 9vw; height: 9vw; " src="../resources/org_comp.png">
+                        <img id="img_org_comp_1" src="../resources/org_comp.png">
                     </p>
                     
 
@@ -675,7 +711,7 @@
                    
                     <p id="p_redes_habs">
                     
-                        <img style="margin-left: 75%; margin-top:-32%; width: 9vw; height: 9vw; " src="../resources/redes.png">
+                        <img id="img_redes_1" src="../resources/redes.png">
                     </p>
 
                 </div>
@@ -716,7 +752,7 @@
                    
                     <p id="p_met_num_habs">
                         
-                        <img style="margin-left: 68%; margin-top:-17%; width: 14vw; height: 8vw; " src="../resources/met_num.png">
+                        <img id="img_met_num_1" src="../resources/met_num.png">
 
 
                     </p>
@@ -761,7 +797,7 @@
                     <p id="p_eda_ii_habs">
                      
                     
-                        <img style="margin-left: 74%; margin-top:-14%; width: 11vw; height: 9vw; " src="../resources/eda_ii.png">
+                        <img id="img_eda_ii_1"  src="../resources/eda_ii.png">
                     </p>
 
                     
@@ -806,8 +842,8 @@
                     <p id="p_fisica_habs">
                       
                     
-                        <img style="margin-left: 80%; margin-top:-16%; width: 9vw; height: 7vw; " src="../resources/fisica_1.png">
-                        <img style="margin-left: 67%; margin-top:-40%; width: 7vw; height: 5vw; " src="../resources/fisica_2.png">
+                        <img id="img_fisica_1"  src="../resources/fisica_1.png">
+                        <img id="img_fisica_2"  src="../resources/fisica_2.png">
 
                        
                         
@@ -854,7 +890,7 @@
                     <p id="p_prob_habs">
                      
                     
-                        <img style="margin-left: 75%; margin-top:-19%; width: 8vw; height: 7vw; " src="../resources/prob.png">
+                        <img id="img_prob_1" src="../resources/prob.png">
                         
                       
                        
@@ -902,7 +938,7 @@
                    
                     <p id="p_prog_obj_habs">
                        
-                        <img style="margin-left: 75%; margin-top:-32%; width: 6vw; height: 10vw; " src="../resources/prog_obj.png">
+                        <img id="img_prog_obj_1" src="../resources/prog_obj.png">
                    
                     </p>
                     
@@ -950,7 +986,7 @@
                    
                     <p id="p_sys_i_habs">
                      
-                        <img style="margin-left: 68%; margin-top:-28%; width: 13vw; height: 9vw; " src="../resources/sys_i.png">
+                        <img id="img_sys_i_1"  src="../resources/sys_i.png">
                     </p>
 
                 </div>
@@ -986,7 +1022,7 @@
                    
                     <p id="p_dis_fun_prog_habs">
                        
-                        <img style="margin-left: 65%;margin-top: -8%;width: 12vw;height: 12vw;" src="../resources/dis_fun_prog_i.png">
+                        <img id="img_dis_fun_prog_1" src="../resources/dis_fun_prog_i.png">
                    
                     </p>
                     
@@ -1033,7 +1069,7 @@
                    
                     <p id="p_est_habs">
                      
-                        <img style="margin-left: 72%;margin-top: -22%;width: 13vw;height: 8vw;" src="../resources/est.png">
+                        <img id="img_est_1"  src="../resources/est.png">
                       
                        
                         
@@ -1075,7 +1111,7 @@
                     
                     <p id="p_so_habs">
                     
-                        <img style="margin-left: 71%;margin-top: -18.5%;width: 12vw;height: 11.5vw;" src="../resources/so.png">
+                        <img id="img_so_1" src="../resources/so.png">
                     </p>
                     
 
@@ -1124,7 +1160,7 @@
                     </p>
                     <p id="p_graf_ord_habs">
                      
-                        <img style="margin-left: 71%;margin-top: -26%;width: 12.5vw;height: 7.5vw;" src="../resources/graf_ord.png">
+                        <img id="img_graf_ord_1"  src="../resources/graf_ord.png">
                     </p>
                     
 
@@ -1162,8 +1198,8 @@
                    
                     <p id="p_dis_alg_habs">
                     
-                        <img style="margin-left: 60%;margin-top: -38%;width: 10vw;height: 9vw;" src="../resources/dis_alg_i.png">  
-                        <img style="margin-left: 81%;margin-top: -59%;width: 9vw;height: 5.5vw;" src="../resources/dis_alg_ii.png">
+                        <img id="img_dis_alg_1"  src="../resources/dis_alg_i.png">  
+                        <img id="img_dis_alg_2" src="../resources/dis_alg_ii.png">
                     </p>
 
                     
@@ -1214,7 +1250,7 @@
                    
                     <p id="p_apr_auto_habs">
                      
-                        <img style="margin-left: 75%;margin-top: -20%;width: 12vw;height: 6vw;" src="../resources/apr_auto.png">
+                        <img id="img_apr_auto_1" src="../resources/apr_auto.png">
 
                     </p>
 
@@ -1252,14 +1288,14 @@
                         • Se presentan los roles de usuario, los casos de uso, el contenido y el mapa de navegación.<br>
                         
                         <b style="text-decoration: underline; font-style: italic;">6. Prototipado y Evaluación de Usabilidad:</b><br>
-                        • Se introduce el prototipo, el modelo de nivel de pulsación <br>de tecla, las herramientas de prototipado y <br>se realiza una prueba de usabilidad.<br>
+                        • Se introduce el prototipo, el modelo de nivel de pulsación de tecla, las herramientas de prototipado y se realiza una prueba de usabilidad.<br>
                     </p>
                     
 
 
                     <p id="p_ing_inter_habs">
                      
-                        <img style="margin-left: 58%;margin-top: -16%;width: 18vw;height: 8vw;" src="../resources/ing_inter.png">
+                        <img id="img_ing_inter_1" src="../resources/ing_inter.png">
                     </p>
                     
 
@@ -1306,7 +1342,7 @@
                    
                     <p id="p_prog_paral_habs">
                       
-                        <img style="margin-left: 70%;margin-top: -22%;width: 10vw;height: 7vw;" src="../resources/prog_paral.png">
+                        <img id="img_prog_paral_1" src="../resources/prog_paral.png">
 
                     </p>
 
@@ -1350,7 +1386,7 @@
                     
                     <p id="p_ing_soft_habs">
                       
-                        <img style="margin-left: 68%;margin-top: -23%;width: 14vw;height: 8vw;" src="../resources/ing_soft.png">
+                        <img id="img_ing_soft_1"  src="../resources/ing_soft.png">
                     </p>
                     
 
@@ -1396,8 +1432,8 @@
                     
                     <p id="p_bases_datos_habs">
                     
-                        <img style="margin-left: 69%;margin-top: -18%;width: 14vw;height: 8vw;" src="../resources/bases_datos_i.png">
-                        <img style="margin-left: 60%;margin-top: -30%;width: 11vw;height: 7vw;" src="../resources/bases_datos_ii.png">
+                        <img id="img_bases_datos_1" src="../resources/bases_datos_i.png">
+                        <img id="img_bases_datos_2" src="../resources/bases_datos_ii.png">
                     </p>
                     
 
@@ -1441,7 +1477,7 @@
                     
                     <p id="p_intel_art_habs">
                      
-                        <img style="margin-left: 78%;margin-top: -150%;width: 8vw;height: 6.5vw;" src="../resources/intel_art.png">
+                        <img id="img_intel_art_1" src="../resources/intel_art.png">
                     </p>
                     
 
@@ -1475,8 +1511,8 @@
                     
                     <p id="p_teoria_comp_habs">
                        
-                        <img style="margin-left: 55%;margin-top: -4%;width: 19vw;height: 10vw;" src="../resources/teoria_comp_i.png">
-                        <img style="margin-left: 10%;margin-top: -28%;width: 15vw;height: 8vw;" src="../resources/teoria_comp_ii.png">
+                        <img id="img_teoria_comp_1"  src="../resources/teoria_comp_i.png">
+                        <img id="img_teoria_comp_2"  src="../resources/teoria_comp_ii.png">
                     </p>
                     
 
@@ -1518,7 +1554,7 @@
                    
                     <p id="p_com_ingles_habs">
                        
-                        <img style="margin-left: 67%;margin-top: -20%;width: 11vw;height: 5.5vw;" src="../resources/com_ingles.png">
+                        <img id="img_com_ingles_1" src="../resources/com_ingles.png">
 
                         
                     </p>
@@ -1562,7 +1598,7 @@
                     
                     <p id="p_sis_dist_habs">
                        
-                        <img style="margin-left: 67%;margin-top: -12.5%;width: 13vw;height: 6.5vw; background: rgb(0, 176, 196); padding: 0.15vw;" src="../resources/sis_dist.png">
+                        <img id="img_sis_dist_1" src="../resources/sis_dist.png">
                     </p>
                     
 
@@ -1599,7 +1635,7 @@
                    
                     <p id="p_cripto_habs">
                       
-                        <img style="margin-left: 63%;margin-top: -23%;width: 13vw;height: 8.5vw;" src="../resources/cripto_ii.png">
+                        <img id="img_cripto_1" src="../resources/cripto_ii.png">
                     </p>
 
                 </div>
@@ -1637,7 +1673,7 @@
                     
                     <p id="p_compila_habs">
                      
-                        <img style="margin-left: 65%;margin-top: -30%;width: 16vw;height: 12vw;" src="../resources/compila.png">
+                        <img id="img_compila_1" src="../resources/compila.png">
                        
                     </p>
                     
@@ -1685,7 +1721,7 @@
                    
                     <p id="p_ing_soft_web_habs">
                      
-                        <img style="margin-left: 77%;margin-top: -19%;width: 9.5vw;height: 5vw;" src="../resources/ing_soft_web.png">
+                        <img id="img_ing_soft_web_1" src="../resources/ing_soft_web.png">
 
                     </p>
 
@@ -1742,8 +1778,8 @@
                    
                     <p id="p_redes_in_habs">
                      
-                        <img style="margin-left: 70%;margin-top: -69%;width: 11vw;height: 7vw; background: rgb(255, 52, 52); padding: 0.15vw;" src="../resources/redes_in_i.png">
-                        <img style="margin-left: 84%;margin-top: -116%;width: 5vw;height: 8vw;background: rgb(255, 52, 52);padding: 0.15vw;" src="../resources/redes_in_ii.png">
+                        <img id="img_redes_in_1"  src="../resources/redes_in_i.png">
+                        <img id="img_redes_in_2"  src="../resources/redes_in_ii.png">
                     </p>
 
                 </div>
@@ -1755,7 +1791,7 @@
                        <h1 id="iot_title" >Internet of Things</h1>
                        <div id="iot_contrato_title">
                            
-                         <p style="margin:0; width:8vw;">Matrícula de Honor</p>
+                         <p style="margin:0; width:12vw;">Matrícula de Honor</p>
                         </div>
                        
                     </div>
@@ -1792,8 +1828,8 @@
                    
                     <p id="p_iot_habs">
                      
-                        <img style="margin-left: 71%;margin-top: -31%;width: 12vw;height: 7vw;background: rgb(255, 52, 52);padding: 0.15vw;" src="../resources/iot_i.JPG">
-                        <img style="margin-left: 60%;margin-top: -147%;width: 16vw;height: 4vw;background: rgb(255, 52, 52);padding: 0.15vw;" src="../resources/iot_ii.JPG">
+                        <img id="img_iot_1" src="../resources/iot_i.JPG">
+                        <img id="img_iot_2" src="../resources/iot_ii.JPG">
                     </p>
 
                 </div>
@@ -1830,7 +1866,7 @@
                    
                     <p id="p_gest_proy_habs">
                      
-                        <img style="margin-left: 80%;margin-top: -9%;width: 6vw;height: 6vw;" src="../resources/gest_proy.png">
+                        <img id="img_gest_proy_1" src="../resources/gest_proy.png">
 
                         
                     </p>
@@ -1870,7 +1906,7 @@
                     
                     <p id="p_aiw_habs">
                      
-                        <img style="margin-left: 64%;margin-top: -37%;width: 14vw;height: 12vw;" src="../resources/aiw.png">
+                        <img id="img_aiw_1" src="../resources/aiw.png">
                     </p>
                     
 
@@ -1920,7 +1956,7 @@
                     
                     <p id="p_gest_cares_habs">
                        
-                        <img style="margin-left: 58%;margin-top: -37%;width: 24vw;height: 11vw;" src="../resources/gest_cares.png">
+                        <img id="img_gest_cares_1" src="../resources/gest_cares.png">
                     </p>
                     
 
@@ -1962,7 +1998,7 @@
 
                     <p id="p_videojuegos_habs">
                      
-                        <img style="margin-left: 60%;margin-top: -15.6%;width: 17.4vw;height: 8.8vw;background: rgb(209, 76, 191);padding: 0.15vw;" src="../resources/videojuegos.png">
+                        <img id="img_videojuegos_1" src="../resources/videojuegos.png">
                     </p>
                     
 
@@ -1975,7 +2011,7 @@
 
                        <div id="ent_com_virt_contrato_title">
                            
-                         <p style="margin:0; width:8vw;">Grupo Matrícula de Honor</p>
+                         <p style="margin:0; width:12vw;">Grupo Matrícula de Honor</p>
                         </div>
                        
                     </div>
@@ -2008,8 +2044,8 @@
                     <p id="p_ent_com_virt_habs">
                       
 
-                        <img style="margin-left: 47%;margin-top: -25%;width: 15vw;height: 7.5vw;background: rgb(209, 76, 191);padding: 0.15vw;" src="../resources/ent_com_virt_i.png">
-                        <img style="margin-left: 86%;margin-top: -33.5%;width: 5vw;height: 8vw;background: rgb(209, 76, 191);padding: 0.15vw;" src="../resources/ent_com_virt_ii.png">
+                        <img id="img_ent_com_virt_1"  src="../resources/ent_com_virt_i.png">
+                        <img id="img_ent_com_virt_2" src="../resources/ent_com_virt_ii.png">
                     </p>
 
                 </div>
@@ -2052,8 +2088,8 @@
                     <p id="p_sist_int_habs">
                       
 
-                        <img style="margin-left: 3%;margin-top: -1%;width: 14vw;height: 5vw;" src="../resources/sist_int_i.png">
-                        <img style="margin-left: 42%;margin-top: -17%;width: 25vw;height: 8vw;background: rgb(209, 76, 191);padding: 0.15vw;" src="../resources/sist_int_ii.png">
+                        <img id="img_sist_int_1" src="../resources/sist_int_i.png">
+                        <img id="img_sist_int_2" src="../resources/sist_int_ii.png">
                     </p>
 
                 </div>
@@ -2098,8 +2134,8 @@
                    
                     <p id="p_cybersec_habs">
                       
-                        <img style="margin-left: 65%;margin-top: -31%;width: 5vw;height: 6.4vw;" src="../resources/cybersec_i.png">
-                        <img style="margin-left: 78%;margin-top: -32%;width: 10vw;height: 5vw;" src="../resources/cybersec_ii.png">
+                        <img id="img_cybersec_1"  src="../resources/cybersec_i.png">
+                        <img id="img_cybersec_2"  src="../resources/cybersec_ii.png">
                     </p>
 
                 </div>
@@ -2142,9 +2178,9 @@
                       
                     
                     
-                        <img style="margin-left: 77%;margin-top: -15%;width: 11vw;height: 6vw;" src="../resources/tall_tec_music_i.png">                       
-                        <img style="margin-left: 55%;margin-top: -23%;width: 10vw;height: 5vw;" src="../resources/tall_tec_music_ii.png">
-                        <img style="margin-left: 80%;margin-top: -55%;width: 5vw;height: 5vw;" src="../resources/tall_tec_music_iii.png">                   
+                        <img id="img_tall_tec_music_1" src="../resources/tall_tec_music_i.png">                       
+                        <img id="img_tall_tec_music_2" src="../resources/tall_tec_music_ii.png">
+                        <img id="img_tall_tec_music_3" src="../resources/tall_tec_music_iii.png">                   
                     </p>
                     
                 </div>
@@ -2179,9 +2215,7 @@
                     
                     <p id="p_tnlp_habs">
                      
-                    
-                    
-                        <img style="margin-left: 47%;margin-top: -32%;width: 27vw; height: 15vw;" src="../resources/tnlp.png">
+                        <img id="img_tnlp_1" src="../resources/tnlp.png">
                     </p>
                     
 
@@ -2195,7 +2229,7 @@
                         <h1 id="google_cybersecurity_title">Google Cybersecurity</h1>
                         <div id="google_cybersecurity_contrato_title">
                            
-                            <p style="margin:0; width:9vw;">Coursera Noviembre 2023</p>
+                            <p id="google_cybersecurity_contrato_title_text" >Coursera Noviembre 2023</p>
                            </div>
                        
                     </div>
@@ -2229,8 +2263,8 @@
                     
                     
                     
-                        <img style="margin-left: 76%; margin-top:-65%; width: 12vw; height: 10vw; " src="../resources/google_cyber_ii.png">
-                        <img style="margin-left: 73%; margin-top:-34%; width: 7vw; height: 7vw;" src="../resources/google_cyber_iii.png">
+                        <img id="img_google_cybersecurity_1"  src="../resources/google_cyber_ii.png">
+                        <img id="img_google_cybersecurity_2"  src="../resources/google_cyber_iii.png">
                    
 
                     </p>
