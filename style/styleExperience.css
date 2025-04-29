@@ -11,7 +11,7 @@ h1{
     color:yellow;
 }
 
-/* Body Learning */
+/* Body Experience */
 body#initExperience {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -42,7 +42,7 @@ div#container_window_info{
 
 }
 
-#container_bar_learning {
+#container_bar_experience {
     display: flex;
     align-items: flex-start;
     width: 80vw; 
@@ -51,7 +51,7 @@ div#container_window_info{
     margin-top:15.8%;
 }
 
-#title_learning {
+#title_experience {
     width: 20vw; 
     height: 2vw;
     font-size: 2vw; 
@@ -185,7 +185,7 @@ details > summary::before {
 }
 
 
-#title_learning_area{
+#title_experience_area{
     text-align: center; 
     font-size:5vw; 
     margin:0;
@@ -199,6 +199,14 @@ details > summary::before {
     font-size:5vw; 
     margin:0;
 }
+
+#img_laptop_web{
+    width: 10vw; 
+    height: 10vw;
+
+}
+
+
 
 #div_prodat{
     position: absolute;
@@ -260,6 +268,27 @@ details > summary::before {
     padding:2%; 
     font-size: 2vw; 
     padding-top: 10%;
+}
+
+#img_prodat_1{
+    margin-left: 83.1%;
+    margin-top: -58%;
+    width: 6.5vw;
+    height: 6vw;
+}
+
+#img_prodat_2{
+    margin-left: 61%;
+    margin-top: -30%;
+    width: 9vw;
+    height: 5vw;
+}
+
+#img_prodat_3{
+    margin-left: 84%;
+    margin-top: -39%; 
+    width: 6vw; 
+    height: 6vw;
 }
 
 
@@ -345,6 +374,22 @@ details > summary::before {
     padding:2%; 
     font-size: 2vw; 
     margin-top:30%;
+    cursor: pointer;
+}
+
+#img_appia_1{
+    margin-left: 80%; 
+    margin-top:-55%; 
+    width: 6vw; 
+    height: 6vw; 
+
+}
+
+#img_appia_2{
+    margin-left: 65%; 
+    margin-top:-30%; 
+    width: 6vw; 
+    height: 6vw;
 }
 
 #button_fisco_text{
@@ -402,39 +447,352 @@ details > summary::before {
 }
 
 
+#img_fisco_1{
+    margin-left: 77%; 
+    margin-top:-65%; 
+    width: 9vw; 
+    height: 6vw; 
+}
+
+#img_fisco_2{
+    margin-left: 77%; margin-top:-35%; width: 7vw; height: 6vw;
+}
+
+
+
  
 /* For Vertical Mobile/Tablet */
 @media only screen and (max-width: 900px) and (max-height: 900px) and (orientation: portrait), 
        only screen and (max-width: 900px) and  (orientation: portrait) {
 
 
-
         div#container_window_info{
             display: block;
             width: 65vw; 
-            height: 45vw; 
-            
-            background-image: url("../resources/window_info.png");
+            height: 95vw; 
+            font-size:2.15vw;
+            background-image: url("../resources/window_info_mobile.png");
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
             position: absolute;
             
-            
             left: 50%;
-            transform: translateY(-12%) translateX(-50%) scale(1.5);
+            transform: translateY(-50%) translateX(-50%) scale(1.5); 
             overflow: hidden;
             z-index:1;
         
         }
 
-        #container_bar_learning{
-            margin-top:0.5%;
+        #init_experience {
+            
+            padding-top:0%;
+            margin-top: 37%;
+
            
         }
 
+        #container_bar_experience{
+            margin-top:-0.3%;
+            font-size:2.15vw;
+           
+        }
+
+        #img_laptop_web{
+            width: 15vw; 
+            height: 15vw;
+            margin-left:-5%;
+        
+        }
+
+  
+
+        #button_back {
+            width: 10vw;
+            height: 4.2vw;
+            font-size: 2.15vw;
+            font-style: italic;
+            color: black;
+            margin-top: 0.2%;
+            margin-left: 37.67%;
+            padding: 0%;
+            display: none;
+            border: 0.3vw solid rgb(0, 128, 105);
+        }
+
+
+        #info_content_container_1 {
+    
+            display:flex;
+            width: 61.8vw;
+            height: 90vw;
+            margin-left: 2.25%;
+            margin-right: 2%;
+            overflow-y: scroll; 
+            background-color:#dbf6fe;
+            margin-top:0.7%;
+            z-index:2;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-size:2.15vw;
+            overflow: hidden; 
+            
+             
+        }
+        
+        #div_content{
+            background-color: #e2fdfd;
+            margin-left:0%;
+            width: 70%;
+            height: 100%;
+            margin-top:0%;
+        
+        }
+
+
+        #title_experience_area{
+            margin-left:-30%;
+        }
+
+        #init_text_experience{
+            font-size:6vw;
+        }
+
+        ::-webkit-scrollbar {
+            -webkit-appearance: none;
+        }
+
+        #div_prodat,
+        #div_appia,
+        #div_fisco{
+            height: 59%;
+            overflow-y: scroll;
+            font-size:2.2vw;  
+            -webkit-overflow-scrolling: touch; 
+        } 
+
+        
+        #div_prodat::-webkit-scrollbar,
+        #div_appia::-webkit-scrollbar,
+        #div_fisco::-webkit-scrollbar{
+            width: 4px;
+            background-color: rgba(255, 0, 0, 0.1);
+        }
+
+        #div_prodat::-webkit-scrollbar-thumb,
+        #div_appia::-webkit-scrollbar-thumb,
+        #div_fisco::-webkit-scrollbar-thumb{
+            background-color: rgba(0, 0, 0, 0.4); 
+            border-radius: 4px;
+        }
+
+        /* PRODAT MOBILE */
+
+        #prodat_title{
+            font-size:3vw; 
+            color: rgb(68, 131, 248); 
+            font-weight: bold; 
+            font-family: 'Times New Roman', Times, serif; 
+            margin:0; 
+            padding-left:3%; 
+            width: 30vw;
+            margin-top:3%;
+        }
+        
+
+        #p_prodat_tareas{
+            font-size:2.2vw;
+            padding-right: 4%;
+            
+        }
+
+        #div_prodat{
+            position: absolute;
+            margin-top:0%;
+            display: none;
+            background-color: #e2fdfd;
+            width: 44.15vw;
+            height:95%;
+            z-index: 1;
+
+        }
+
+        #p_prodat_habs{
+            padding-top:2%; 
+            padding-left:2%; 
+            padding-right: 4%; 
+            text-align: justify; 
+            font-size:2.15vw; 
+            line-height: 3vw; 
+            margin:0; 
+        }
+
+        #img_prodat_1 {
+            margin-left: 31.1%;
+            margin-top: -1%;
+            width: 15.5vw;
+            height: 15vw;
+        }
+
+        #img_prodat_2 {
+            margin-left: 6%;
+            margin-top: 10%;
+            width: 20vw;
+            height: 11vw;
+        }
+
+        #img_prodat_3 {
+            margin-left: 66%;
+            margin-top: -39%;
+            width: 12vw;
+            height: 12vw;
+        }
+
+        #prodat_contrato_title {
+            color: rgb(68, 131, 248);
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            padding-right: 4%;
+            width: 150%;
+            height: 5%;
+            margin: 0; 
+            text-align: right;
+            font-size:2.15vw;
+        }
+
+        /* APPIA MOBILE */
+
+        #appia_title{
+            font-size:3vw; 
+            color: rgb(129, 189, 107); 
+            font-weight: bold; 
+            font-family: 'Times New Roman', Times, serif; 
+            margin:0; 
+            padding-left:6%; 
+            width: 40vw;
+        }
+
+        #appia_contrato_title {
+            color: rgb(129, 189, 107); 
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            padding-right: 4%;
+            width: 150%;
+            height: 5%;
+            margin: 0; 
+            font-size:2.15vw;
+            text-align: right;
+        }
+
+        #div_appia{
+            position: absolute;
+            margin-top:0%;
+            display: none;
+            background-color: #e2fdfd;
+            width: 44.15vw;
+            height:95%;
+            z-index: 1;
+        }
+
+
+        #p_appia_tareas{
+            font-size:2.2vw;
+            padding-right: 4%;
+        }
+
+        #p_appia_habs{
+            padding-top:2%; 
+            padding-left:2%; 
+            padding-right: 4%;
+            text-align: justify; 
+            font-size:2.15vw; 
+            line-height: 3vw; 
+            margin:0; 
+        }
+
+        #img_appia_1 {
+            margin-left: 58.1%;
+            margin-top: 4%;
+            width: 15.5vw;
+            height: 15vw;
+        }
+    
+        #img_appia_2 {
+            margin-left: 6%;
+            margin-top: -40%;
+            width: 18vw;
+            height: 15vw;
+        }
+    
+        #img_appia_3 {
+            margin-left: 66%;
+            margin-top: -39%;
+            width: 12vw;
+            height: 12vw;
+        }
+
+
+
+        /* FISCO MOBILE */
+
+        #fisco_title {
+            font-size: 3.5vw;
+            color: rgb(36, 91, 193);
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 1%;
+            padding-left: 3%;
+            width: 25vw;
+            margin-top: 3.25%;
+        }
+
+        #p_fisco_tareas{
+            font-size:2.2vw;
+            line-height: 2.7vw;
+            padding-right: 4%;
+        }
+
+        #div_fisco{
+            position: absolute;
+            margin-top:0%;
+            display: none;
+            background-color: #e2fdfd;
+            width: 44.15vw;
+            height:95%;
+            z-index: 1;
+        }
+
+        #p_fisco_habs{
+            padding-top:2%; 
+            padding-left:2%; 
+            padding-right: 4%;
+            text-align: justify; 
+            font-size:2.15vw; 
+            line-height: 3vw; 
+            margin:0; 
+        }
+
+        #img_fisco_1 {
+            margin-left: 6%;
+            margin-top: 11%;
+            width: 19vw;
+            height: 12vw;
+        }
+
+        #img_fisco_2 {
+            margin-left: 60%;
+            margin-top: -44%;
+            width: 12vw;
+            height: 10vw;
+        }
+
+
+
         #button_fisco{
-            font-size: 1.75vw; 
+            font-size: 2.2vw;
+            margin-left:-10%; 
+            cursor: pointer;
             
         }
 
@@ -444,17 +802,27 @@ details > summary::before {
             font-weight: bold; 
             color:blue; 
             font-style: italic; 
-            font-size: 1.65vw; 
-            margin-left:16%;
+            font-size: 2.2vw; 
+            margin-left:10%;
             cursor: pointer; 
 
             
         }
 
-        #prodat_contrato_title{
-            font-size:1.25vw;
-            
+        #fisco_contrato_title {
+            color: rgb(68, 131, 248);
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            padding-right: 4%;
+            width: 200%;
+            height: 5%;
+            margin: 0; 
+            text-align: right;
+            font-size:2.2vw;
         }
+
+       
+
 
 
      
@@ -471,7 +839,7 @@ details > summary::before {
 
     #button_fisco{
         font-size: 1.75vw; 
-        
+        cursor: pointer;
     }
 
     #button_fisco_text{
@@ -492,6 +860,46 @@ details > summary::before {
         
     }
 
+    #p_prodat_tareas {
+        
+        font-size: 1.1vw;
+       
+    }
+
+    #p_prodat_habs {
+        padding-top:0.5%;
+        font-size: 1.1vw;
+    }
+
+    #img_prodat_2 {
+
+        margin-top: -39%;
+    }
+
+    #appia_title {
+        font-size: 3.25vw;
+    }
+
+    #appia_contrato_title{
+        font-size:1.2vw;
+        
+    }
+
+    #p_appia_tareas {
+        padding-top:0.25%;
+        font-size: 1.1vw;
+    }
+
+    #p_appia_habs {
+        padding-top:0.25%;
+        font-size: 1.1vw;
+    }
+
+    #img_appia_1 {
+      margin-top: -52%;
+
+    }
+
 }
 
 /* For Horizontal Tablet */
@@ -499,6 +907,8 @@ details > summary::before {
 
     #button_fisco{
         font-size: 1.75vw; 
+        cursor: pointer;
+    
         
     }
 

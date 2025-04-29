@@ -809,7 +809,7 @@ h3#text_contact:hover {
 
     #experience_file {
         position: relative;
-        margin-top: -25%;
+        margin-top: -18%;
         margin-left:2.75%;
         width:6.7em;
         transform: scale(0.6);
@@ -826,7 +826,7 @@ h3#text_contact:hover {
         position:absolute;
         margin-left: 61%;
         margin-right:200%;
-        margin-top: -23%; 
+        margin-top: -15%; 
         transform: scale(0.6); 
         float: right;
         
@@ -836,7 +836,7 @@ h3#text_contact:hover {
     #aboutme_file {
       
         position: relative;
-        margin-top: -25%;
+        margin-top: -19%;
         margin-left:2.5%;
         transform: scale(0.6);
         float: left;
@@ -847,7 +847,7 @@ h3#text_contact:hover {
         position: absolute;
         margin-left: 61%;
         margin-right:200%;
-        margin-top: -23.7%;
+        margin-top: -17.7%;
         transform: scale(0.6);
         float: right;
     }

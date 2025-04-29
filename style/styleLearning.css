@@ -118,6 +118,33 @@ div#container_window_info{
     padding: 0.1vw;
 }
 
+#init_text_learning{
+    text-align: center; 
+    font-size:5vw;
+    margin:0;
+}
+
+#init_text_learning_optativa{
+    text-align: center;
+    font-size:1.25vw; 
+    margin:0; 
+    color: rgb(72, 226, 1); 
+    font-style: italic;
+}
+
+#init_text_learning_honor{
+    text-align: center; 
+    font-size:1.25vw;
+    margin:0; 
+    color: #d2a836; 
+    font-style: italic;
+}
+
+#img_learning_web{
+    width: 10vw;
+    height: 10vw;
+}
+
 
 
 #info_content_container_1 {
@@ -242,10 +269,71 @@ details > summary::before {
     font-weight: bolder;
 }
 
+/* Folders */
+
+#estudios_folder{
+    width:10vw;
+}
+
+#certificaciones_folder{
+    width:14vw;
+}
+
+#asignaturas_folder{
+    width:16vw; 
+    font-size:1.3vw;
+}
+
+#mat_folder{
+    width:10vw;  
+    color: rgb(42, 88, 244); 
+    font-size:1.2vw;
+}
+
+#prog_folder{
+    color: rgb(193, 187, 12); 
+    font-size:1.2vw;
+}
+
+#sist_folder{
+    color: rgb(0, 147, 196); 
+    font-size:1.2vw;
+
+}
+
+#datos_folder{
+
+    color: rgb(55, 170, 1); 
+    font-size:1.2vw;
+}
+
+#inter_folder{
+    color: rgb(209, 76, 191); 
+    font-size:1.2vw;
+
+}
+
+#redes_folder{
+    color: rgb(223, 47, 47); 
+    font-size:1.2vw;
+
+}
+
+#etic_folder{
+    color: rgb(110, 31, 200); 
+    font-size:1.2vw;
+
+}
 
 /*Courses*/
 
+
 /*Bachillerato*/
+
+#bachillerato{
+    font-size: 1.2vw;
+}
+
 #div_bachillerato{
     position: absolute;
     margin-top:0%;
@@ -299,6 +387,13 @@ details > summary::before {
 }
 
 /*UPF Informática*/
+
+#upf_info{
+    font-size:1.2vw;
+
+}
+
+
 #div_upf_info{
     position: absolute;
     margin-top:0%;
@@ -406,6 +501,10 @@ details > summary::before {
     margin:0; 
 }
 
+#img_calculo_i_1{
+    margin-left: 72%; margin-top:-8%; width: 12vw; height: 8vw;
+}
+
 /*Matemática Discreta*/
 #div_mat_discreta{
     position: absolute;
@@ -457,6 +556,10 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+#img_mat_discreta_1{
+    margin-left: 70%; margin-top:-30%; width: 11vw; height: 10vw;
 }
 
 
@@ -515,6 +618,10 @@ details > summary::before {
     margin:0; 
 }
 
+#img_intro_prog_1{
+    margin-left: 67%; margin-top:-8%; width: 13vw; height: 7vw;
+}
+
 
 /*Introducción TIC*/
 #div_intro_tic{
@@ -569,6 +676,10 @@ details > summary::before {
     margin:0; 
 }
 
+#img_intro_tic_1{
+    margin-left: 30%; margin-top:-1.5%; width: 30vw; height: 4vw;
+}
+
 /*Calculo II*/
 #div_calculo_ii{
     position: absolute;
@@ -620,6 +731,10 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+#img_calculo_ii_1{
+    margin-left: 76%; margin-top:-30%; width: 10vw; height: 8vw;
 }
 
 
@@ -676,6 +791,9 @@ details > summary::before {
     margin:0; 
 }
 
+#img_alg_lineal_1{
+    margin-left: 74%; margin-top:-27%; width: 11vw; height: 10vw;
+}
 
 
 /*EDA I*/
@@ -733,6 +851,10 @@ details > summary::before {
     margin:0; 
 }
 
+#img_eda_i_1{
+    margin-left: 76%; margin-top:-27%; width: 9vw; height: 9vw;
+}
+
 
 /*Organización de Computadores*/
 #div_org_comp{
@@ -787,6 +909,10 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+#img_org_comp_1{
+    margin-left: 79%; margin-top:-20%; width: 9vw; height: 9vw;
 }
 
 
@@ -846,6 +972,13 @@ details > summary::before {
 }
 
 
+#img_redes_1{
+    margin-left: 75%; margin-top:-32%; width: 9vw; height: 9vw; 
+}
+
+
+
+
 /*Métodos Numéricos*/
 #div_met_num{
     position: absolute;
@@ -897,6 +1030,10 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+#img_met_num_1{
+    margin-left: 68%; margin-top:-17%; width: 14vw; height: 8vw;
 }
 
 
@@ -956,6 +1093,10 @@ details > summary::before {
     margin:0; 
 }
 
+#img_eda_ii_1{
+    margin-left: 74%; margin-top:-14%; width: 11vw; height: 9vw;
+}
+
 /*Física*/
 #div_fisica{
     position: absolute;
@@ -1007,6 +1148,14 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+#img_fisica_1{
+   margin-left: 80%; margin-top:-16%; width: 9vw; height: 7vw;
+}
+
+#img_fisica_2{
+    margin-left: 67%; margin-top:-40%; width: 7vw; height: 5vw;
 }
 
 
@@ -1061,6 +1210,10 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+#img_prob_1{
+    margin-left: 75%; margin-top:-19%; width: 8vw; height: 7vw;
 }
 
 
@@ -1120,6 +1273,10 @@ details > summary::before {
     margin:0; 
 }
 
+#img_prog_obj_1{
+    margin-left: 75%; margin-top:-32%; width: 6vw; height: 10vw;
+}
+
 
 /*Señales y Sistemas I*/
 #div_sys_i{
@@ -1176,6 +1333,9 @@ details > summary::before {
     margin:0; 
 }
 
+#img_sys_i_1{
+    margin-left: 68%; margin-top:-28%; width: 13vw; height: 9vw;
+}
 
 /*Diseño Funcional de Programas*/
 #div_dis_fun_prog{
@@ -1232,6 +1392,10 @@ details > summary::before {
     margin:0; 
 }
 
+#img_dis_fun_prog_1{
+    margin-left: 65%;margin-top: -8%;width: 12vw;height: 12vw;
+}
+
 
 /*Estadística*/
 #div_est{
@@ -1284,6 +1448,10 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+#img_est_1{
+    margin-left: 72%;margin-top: -22%;width: 13vw;height: 8vw;
 }
 
 
@@ -1342,6 +1510,10 @@ details > summary::before {
     margin:0; 
 }
 
+#img_so_1{
+    margin-left: 71%;margin-top: -18.5%;width: 12vw;height: 11.5vw;
+}
+
 
 
 /*Gráficos por Ordenador*/
@@ -1395,6 +1567,11 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+#img_graf_ord_1{
+    margin-left: 71%;margin-top: -26%;width: 12.5vw;height: 7.5vw;
+
 }
 
 
@@ -1453,6 +1630,14 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+#img_dis_alg_1{
+    margin-left: 60%;margin-top: -38%;width: 10vw;height: 9vw;
+}
+
+#img_dis_alg_2{
+    margin-left: 81%;margin-top: -59%;width: 9vw;height: 5.5vw;
 }
 
 
@@ -1515,6 +1700,10 @@ details > summary::before {
     margin:0; 
 }
 
+#img_apr_auto_1{
+    margin-left: 75%;margin-top: -20%;width: 12vw;height: 6vw;
+}
+
 
 /*Ingeniería de Interacción*/
 #div_ing_inter{
@@ -1567,6 +1756,10 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+#img_ing_inter_1{
+    margin-left: 58%;margin-top: -16%;width: 18vw;height: 8vw;
 }
 
 
@@ -1630,6 +1823,10 @@ details > summary::before {
     margin:0; 
 }
 
+#img_prog_paral_1{
+    margin-left: 70%;margin-top: -22%;width: 10vw;height: 7vw;
+}
+
 
 /*Ingeniería de Software*/
 #div_ing_soft{
@@ -1686,6 +1883,10 @@ details > summary::before {
     margin:0; 
 }
 
+
+#img_ing_soft_1{
+    margin-left: 68%;margin-top: -23%;width: 14vw;height: 8vw;
+}
 
 
 
@@ -1744,6 +1945,17 @@ details > summary::before {
     margin:0; 
 }
 
+#img_bases_datos_1{
+    margin-left: 69%;margin-top: -18%;width: 14vw;height: 8vw;
+}
+
+#img_bases_datos_2{
+    margin-left: 60%;margin-top: -30%;width: 11vw;height: 7vw;
+}
+
+
+
+
 
 /*Inteligencia Artificial*/
 #div_intel_art{
@@ -1798,6 +2010,10 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+#img_intel_art_1{
+    margin-left: 78%;margin-top: -150%;width: 8vw;height: 6.5vw;
 }
 
 
@@ -1858,6 +2074,15 @@ details > summary::before {
     margin:0; 
 }
 
+#img_teoria_comp_1{
+    margin-left: 55%;margin-top: -4%;width: 19vw;height: 10vw;
+}
+
+#img_teoria_comp_2{
+    margin-left: 10%;margin-top: -28%;width: 15vw;height: 8vw;
+}
+
+
 
 /*Comunicación Técnica en Inglés*/
 #div_com_ingles{
@@ -1910,6 +2135,11 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+
+#img_com_ingles_1{
+    margin-left: 67%;margin-top: -20%;width: 11vw;height: 5.5vw;
 }
 
 
@@ -1969,6 +2199,9 @@ details > summary::before {
     margin:0; 
 }
 
+#img_sis_dist_1{
+    margin-left: 67%;margin-top: -12.5%;width: 13vw;height: 6.5vw; background: rgb(0, 176, 196); padding: 0.15vw;
+}
 
 /*Criptografía y Seguridad*/
 #cripto{
@@ -2029,6 +2262,10 @@ details > summary::before {
     margin:0; 
 }
 
+#img_cripto_1{
+    margin-left: 63%;margin-top: -23%;width: 13vw;height: 8.5vw;
+}
+
 
 
 
@@ -2085,6 +2322,10 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+#img_compila_1{
+    margin-left: 65%;margin-top: -30%;width: 16vw;height: 12vw;
 }
 
 
@@ -2149,6 +2390,11 @@ details > summary::before {
     margin:0; 
 }
 
+#img_ing_soft_web_1{
+    margin-left: 77%;margin-top: -19%;width: 9.5vw;height: 5vw;
+}
+
+
 
 /*Redes de Sensores Inalámbricos*/
 #div_redes_in{
@@ -2205,60 +2451,13 @@ details > summary::before {
     margin:0; 
 }
 
-
-/*Redes de Sensores Inalámbricos*/
-#div_redes_in{
-    position: absolute;
-    margin-top:0%;
-    display: none;
-    background-color: #e2fdfd;
-    width: 44.15vw;
-    height:38.3vw;
-    z-index: 1;
-}
-
-
-
-#redes_in_title{
-    font-size:3vw; 
-    color: rgb(255, 52, 52);
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif; 
-    margin:0; 
-    width: 60vw;
-   
-}
-
-#redes_in_contrato_title{
-    font-size:1.5vw; 
-    color: rgb(129, 189, 107); 
-    font-weight: bold; 
-    font-family: 'Times New Roman', Times, serif;  
-    padding-right:2%; 
-    height: 5%; 
-    margin:0; 
-    text-align: right;
+#img_redes_in_1{
+    margin-left: 70%;margin-top: -69%;width: 11vw;height: 7vw; background: rgb(255, 52, 52); padding: 0.15vw;
 
 }
 
-#p_redes_in_tareas{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    margin:0;
-    
-}
-
-#p_redes_in_habs{
-    padding-top:2%; 
-    padding-left:2%; 
-    padding-right:2%; 
-    text-align: justify; 
-    font-size:1vw; 
-    line-height: 1.7vw; 
-    margin:0; 
+#img_redes_in_2{
+    margin-left: 84%;margin-top: -116%;width: 5vw;height: 8vw;background: rgb(255, 52, 52);padding: 0.15vw;
 }
 
 
@@ -2318,6 +2517,16 @@ details > summary::before {
 }
 
 
+#img_iot_1{
+    margin-left: 71%;margin-top: -31%;width: 12vw;height: 7vw;background: rgb(255, 52, 52);padding: 0.15vw;
+}
+
+#img_iot_2{
+    margin-left: 60%;margin-top: -147%;width: 16vw;height: 4vw;background: rgb(255, 52, 52);padding: 0.15vw;
+}
+
+
+
 
 /*Gestión de Proyectos*/
 #div_gest_proy{
@@ -2370,6 +2579,11 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+#img_gest_proy_1{
+    margin-left: 80%;margin-top: -9%;width: 6vw;height: 6vw;
+
 }
 
 
@@ -2427,6 +2641,10 @@ details > summary::before {
     font-size:1vw; 
     line-height: 1.7vw; 
     margin:0; 
+}
+
+#img_aiw_1{
+    margin-left: 64%;margin-top: -37%;width: 14vw;height: 12vw;
 }
 
 
@@ -2487,6 +2705,10 @@ details > summary::before {
     margin:0; 
 }
 
+#img_gest_cares_1{
+    margin-left: 58%;margin-top: -37%;width: 24vw;height: 11vw;
+}
+
 
 
 /*Narrativa y Videojuegos*/
@@ -2543,6 +2765,11 @@ details > summary::before {
 }
 
 
+#img_videojuegos_1{
+    margin-left: 60%;margin-top: -15.6%;width: 17.4vw;height: 8.8vw;background: rgb(209, 76, 191);padding: 0.15vw;
+}
+
+
 /*Entornos de Comunicación Virtual*/
 #div_ent_com_virt{
     position: absolute;
@@ -2594,6 +2821,18 @@ details > summary::before {
     line-height: 1.7vw; 
     margin:0; 
 }
+
+#img_ent_com_virt_1{
+    margin-left: 47%;margin-top: -25%;width: 15vw;height: 7.5vw;background: rgb(209, 76, 191);padding: 0.15vw;
+
+}
+
+
+#img_ent_com_virt_2{
+    margin-left: 86%;margin-top: -33.5%;width: 5vw;height: 8vw;background: rgb(209, 76, 191);padding: 0.15vw;
+
+}
+
 
 
 /*Sistemas Interactivos*/
@@ -2647,6 +2886,17 @@ details > summary::before {
     line-height: 1.7vw; 
     margin:0; 
 }
+
+#img_sist_int_1{
+    margin-left: 3%;margin-top: -1%;width: 14vw;height: 5vw;
+
+}
+
+
+#img_sist_int_2{
+    margin-left: 42%;margin-top: -17%;width: 25vw;height: 8vw;background: rgb(209, 76, 191);padding: 0.15vw;
+}
+
 
 
 
@@ -2705,6 +2955,19 @@ details > summary::before {
 }
 
 
+#img_cybersec_1{
+    margin-left: 65%;margin-top: -31%;width: 5vw;height: 6.4vw;
+
+}
+
+#img_cybersec_2{
+    margin-left: 78%;margin-top: -32%;width: 10vw;height: 5vw;
+
+}
+
+
+
+
 /*Taller de Tecnología Musical*/
 #div_tall_tec_music{
     position: absolute;
@@ -2757,6 +3020,23 @@ details > summary::before {
     line-height: 1.7vw; 
     margin:0; 
 }
+
+#img_tall_tec_music_1{
+    margin-left: 77%;margin-top: -15%;width: 11vw;height: 6vw;
+
+}
+
+#img_tall_tec_music_2{
+    margin-left: 55%;margin-top: -23%;width: 10vw;height: 5vw;
+
+}
+
+#img_tall_tec_music_3{
+    margin-left: 80%;margin-top: -55%;width: 5vw;height: 5vw;
+
+}
+
+
 
 
 /*Técnicas de Procesamiento de Lenguaje Natural*/
@@ -2815,7 +3095,17 @@ details > summary::before {
 }
 
 
+#img_tnlp_1{
+    margin-left: 47%;margin-top: -32%;width: 27vw; height: 15vw;
+}
+
+
 /*Certificaciones*/
+
+#google_cybersecurity{
+    font-size:1.2vw;
+}
+
 #div_google_cybersecurity {
     position: absolute;
     margin-top:0%;
@@ -2829,6 +3119,9 @@ details > summary::before {
 #div_google_cybersecurity::after {
     content: "";
     background: url("../resources/google_cyber_i.png");
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;
     opacity: 10;
     top: 0;
     left: 0;
@@ -2861,6 +3154,13 @@ details > summary::before {
 
 }
 
+
+#google_cybersecurity_contrato_title_text{
+    margin:0; 
+    width:13vw;
+
+}
+
 #p_google_cybersecurity_tareas{
     
     padding-top:1%; 
@@ -2883,6 +3183,17 @@ details > summary::before {
     margin:0; 
 }
 
+#img_google_cybersecurity_1{
+
+    margin-left: 76%; margin-top:-65%; width: 12vw; height: 10vw;
+}
+
+#img_google_cybersecurity_2{
+
+    margin-left: 73%; margin-top:-34%; width: 7vw; height: 7vw;
+}
+
+
 
 
 /* For Vertical Mobile/Tablet */
@@ -2893,24 +3204,76 @@ details > summary::before {
         div#container_window_info{
             display: block;
             width: 65vw; 
-            height: 45vw; 
-            
-            background-image: url("../resources/window_info.png");
+            height: 95vw; 
+            font-size:2.15vw;
+            background-image: url("../resources/window_info_mobile.png");
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
             position: absolute;
             
             left: 50%;
-            transform: translateY(-12%) translateX(-50%) scale(1.5);
+            transform: translateY(-50%) translateX(-50%) scale(1.5); 
             overflow: hidden;
             z-index:1;
         
         }
 
         #container_bar_learning{
-            margin-top:0.5%;
+            margin-top:-0.3%;
+            font-size:2.15vw;
            
+        }
+
+        #info_content_container_1 {
+    
+            display:flex;
+            width: 61.8vw;
+            height: 90vw;
+            margin-left: 2.25%;
+            margin-right: 2%;
+            overflow-y:scroll; 
+            background: url("");
+            background-color:#dbf6fe;
+            margin-top:0.7%;
+            z-index:2;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-size:2.15vw;
+            overflow: hidden; 
+            
+             
+        }
+
+        #button_back {
+            width: 10vw;
+            height: 4.2vw;
+            font-size: 2.15vw;
+            font-style: italic;
+            color: black;
+            margin-top: 0.2%;
+            margin-left: -8.8%;
+            padding: 0%;
+            display: none;
+            border: 0.3vw solid rgb(0, 128, 105);
+        }
+
+        #searchInput {
+            width: 79%;
+            height: 8.5px;
+            margin-left: -19%;
+            margin-top: 1%;
+            font-size:2.2vw;
+        }
+
+        #div_content{
+            background-color: #e2fdfd;
+            margin-left:0%;
+            width: 70%;
+            height: 100%;
+            margin-top:0%;
+        
         }
 
         
@@ -2925,51 +3288,57 @@ details > summary::before {
             display: none;
         }
 
-    #mat_discreta_title, 
-    #alg_lineal_title, 
-    #met_num_title, 
-    #intro_prog_title, 
-    #dis_fun_prog_title,
-    #org_comp_title, 
-    #ing_inter_title, 
-    #ent_com_virt_title, 
-    #redes_in_title, 
-    #com_ingles_title, 
-    #google_cybersecurity_title {
-        margin-left: 0%;
-        text-align: center;
-        width: 200vw;
-        font-size:2.5vw; 
-    }
+        #mat_discreta_title, 
+        #alg_lineal_title, 
+        #met_num_title, 
+        #intro_prog_title, 
+        #dis_fun_prog_title,
+        #org_comp_title, 
+        #ing_inter_title, 
+        #ent_com_virt_title, 
+        #redes_in_title, 
+        #com_ingles_title, 
+        #google_cybersecurity_title {
+            margin-left: 0%;
+            text-align: center;
+            width: 200vw;
+            font-size:2.5vw; 
+        }
+        
     
-   
-    #prog_obj_title,  
-    #eda_i_title, 
-    #eda_ii_title,
-    #sis_dist_title, 
-    #aiw_title, 
-    #iot_title, 
-    #cybersec_title{
-        margin-left: 0%;
-        text-align: center;
-        width: 200vw;
-        font-size:2vw; 
-        margin-bottom: 1%;
-    }
+        #prog_obj_title,  
+        #eda_i_title, 
+        #eda_ii_title,
+        #sis_dist_title, 
+        #aiw_title, 
+        #iot_title, 
+        #cybersec_title{
+            margin-left: 0%;
+            text-align: center;
+            width: 200vw;
+            font-size:2vw; 
+            margin-bottom: 1%;
+        }
 
-    #iot_contrato_title{
-        font-size: 1vw;
-        margin-bottom: 1%;
-    }
+        #iot_contrato_title{
+            font-size: 1vw;
+            margin-bottom: 1%;
+        }
 
-    #upf_info_title{
-        font-size: 2vw;
-    }
+        #upf_info_title{
+            font-size: 2vw;
+        }
 
-    #google_cybersecurity_contrato_title{
-        font-size: 1vw;
-        margin-bottom: 1%;
-    }
+        #google_cybersecurity_contrato_title{
+            font-size: 1vw;
+            margin-bottom: 1%;
+        }
+
+        #google_cybersecurity_contrato_title_text{
+            margin:0; 
+            width:17vw;
+        
+        }
         
         
 
@@ -2978,11 +3347,351 @@ details > summary::before {
 /* For Vertical Mobile */
 @media only screen and (max-width: 500px) and (orientation: portrait){
 
-    #searchInput {
-        width: 100%;
-        height: 7.75px;
-        margin-left:-20%;
+    
+    #title_learning{
+        font-size:2.15vw;
+        margin-top:1.5%;
     }
+
+    #title_learning_area {
+        margin-left: -30%;
+        margin-top: 41%;
+    }
+
+    #init_text_learning{
+        text-align: center; 
+        font-size:7vw;
+        margin:0;
+    }
+    
+    #init_text_learning_optativa{
+        text-align: center;
+        font-size:2.75vw; 
+        margin:0; 
+        color: rgb(72, 226, 1); 
+        font-style: italic;
+    }
+    
+    #init_text_learning_honor{
+        text-align: center; 
+        font-size:2.75vw;
+        margin:0; 
+        color: #d2a836; 
+        font-style: italic;
+    }
+    
+    #img_learning_web{
+        width: 15vw;
+        height: 15vw;
+    }
+
+
+    #estudios_folder,
+    #certificaciones_folder{
+        font-size:2.25vw;
+    }
+
+    #asignaturas_folder{
+        font-size:2.225vw;
+    }
+
+    #mat_folder{
+        font-size:2.2vw;
+    }
+    
+    #prog_folder{
+        font-size:2.2vw;
+    }
+
+    #sist_folder{
+        font-size:2.2vw;
+    
+    }
+    
+    #datos_folder{
+        font-size:2.2vw;
+    }
+
+    #inter_folder{
+        font-size:2.2vw;
+    
+    }
+    
+    #redes_folder{
+        font-size:2.2vw;
+    
+    }
+    
+    #etic_folder{
+        font-size:2.2vw;
+    
+    }
+    
+
+    #bachillerato,
+    #upf_info,
+    #calculo_i,
+    #calculo_ii,
+    #mat_discreta,
+    #alg_lineal,
+    #met_num,
+    #fisica,
+    #prob,
+    #est,
+    #intro_prog,
+    #eda_i,
+    #eda_ii,
+    #prog_obj,
+    #dis_fun_prog,
+    #dis_alg,
+    #prog_paral,
+    #ing_soft_web,
+    #org_comp,
+    #sys_i,
+    #so,
+    #ing_soft,
+    #teoria_comp,
+    #sis_dist,
+    #compila,
+    #apr_auto,
+    #bases_datos,
+    #intel_art,
+    #aiw,
+    #gest_cares,
+    #tnlp,
+    #graf_ord,
+    #ing_inter,
+    #videojuegos,
+    #ent_com_virt,
+    #sist_int,
+    #redes,
+    #cripto,
+    #redes_in,
+    #iot,
+    #cybersec,
+    #intro_tic,
+    #com_ingles,
+    #gest_proy,
+    #tall_tec_music,
+    #google_cybersecurity {
+        font-size: 2.2vw;
+    }
+
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+
+    #bar_menu_info{
+
+        overflow-y:scroll;
+        font-size:2.2vw;  
+        -webkit-overflow-scrolling: touch; 
+        overflow-x:scroll;
+
+    }
+
+    #div_bachillerato, #div_upf_info, #div_calculo_i, #div_mat_discreta, 
+    #div_intro_prog, #div_intro_tic, #div_calculo_ii, #div_alg_lineal, 
+    #div_eda_i, #div_org_comp, #div_redes, #div_met_num, #div_eda_ii, 
+    #div_fisica, #div_prob, #div_prog_obj, #div_sys_i, #div_dis_fun_prog, 
+    #div_est, #div_so, #div_graf_ord, #div_dis_alg, #div_apr_auto, 
+    #div_ing_inter, #div_prog_paral, #div_ing_soft, #div_bases_datos, 
+    #div_intel_art, #div_teoria_comp, #div_com_ingles, #div_sis_dist, 
+    #div_cripto, #div_compila, #div_ing_soft_web, #div_redes_in, #div_iot, 
+    #div_gest_proy, #div_aiw, #div_gest_cares, #div_videojuegos, 
+    #div_ent_com_virt, #div_sist_int, #div_cybersec, #div_tall_tec_music, 
+    #div_tnlp  {
+        height: 95%;
+        overflow-y: scroll;
+        overflow-x:hidden;
+        font-size: 2.2vw;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #div_google_cybersecurity{
+        height: 94.7%;
+        overflow-y: hidden; /*no scroll*/
+        overflow-x:hidden;
+        font-size: 2.2vw;
+        -webkit-overflow-scrolling: touch;
+    }
+
+
+
+    #div_google_cybersecurity::after {
+        content: "";
+        background: url("../resources/google_cyber_i.png");
+        background-size: cover;  
+        background-position: center;  
+        background-repeat: no-repeat; 
+        opacity: 10;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    #div_bachillerato::-webkit-scrollbar, #div_upf_info::-webkit-scrollbar, 
+    #div_calculo_i::-webkit-scrollbar, #div_mat_discreta::-webkit-scrollbar, 
+    #div_intro_prog::-webkit-scrollbar, #div_intro_tic::-webkit-scrollbar, 
+    #div_calculo_ii::-webkit-scrollbar, #div_alg_lineal::-webkit-scrollbar, 
+    #div_eda_i::-webkit-scrollbar, #div_org_comp::-webkit-scrollbar, 
+    #div_redes::-webkit-scrollbar, #div_met_num::-webkit-scrollbar, 
+    #div_eda_ii::-webkit-scrollbar, #div_fisica::-webkit-scrollbar, 
+    #div_prob::-webkit-scrollbar, #div_prog_obj::-webkit-scrollbar, 
+    #div_sys_i::-webkit-scrollbar, #div_dis_fun_prog::-webkit-scrollbar, 
+    #div_est::-webkit-scrollbar, #div_so::-webkit-scrollbar, 
+    #div_graf_ord::-webkit-scrollbar, #div_dis_alg::-webkit-scrollbar, 
+    #div_apr_auto::-webkit-scrollbar, #div_ing_inter::-webkit-scrollbar, 
+    #div_prog_paral::-webkit-scrollbar, #div_ing_soft::-webkit-scrollbar, 
+    #div_bases_datos::-webkit-scrollbar, #div_intel_art::-webkit-scrollbar, 
+    #div_teoria_comp::-webkit-scrollbar, #div_com_ingles::-webkit-scrollbar, 
+    #div_sis_dist::-webkit-scrollbar, #div_cripto::-webkit-scrollbar, 
+    #div_compila::-webkit-scrollbar, #div_ing_soft_web::-webkit-scrollbar, 
+    #div_redes_in::-webkit-scrollbar, #div_iot::-webkit-scrollbar, 
+    #div_gest_proy::-webkit-scrollbar, #div_aiw::-webkit-scrollbar, 
+    #div_gest_cares::-webkit-scrollbar, #div_videojuegos::-webkit-scrollbar, 
+    #div_ent_com_virt::-webkit-scrollbar, #div_sist_int::-webkit-scrollbar, 
+    #div_cybersec::-webkit-scrollbar, #div_tall_tec_music::-webkit-scrollbar, 
+    #div_tnlp::-webkit-scrollbar, #div_google_cybersecurity::-webkit-scrollbar, 
+    #bar_menu_info::-webkit-scrollbar  {
+        width: 4px;
+        background-color: rgba(255, 0, 0, 0.1);
+    }
+
+    #div_bachillerato::-webkit-scrollbar-thumb, #div_upf_info::-webkit-scrollbar-thumb, 
+    #div_calculo_i::-webkit-scrollbar-thumb, #div_mat_discreta::-webkit-scrollbar-thumb, 
+    #div_intro_prog::-webkit-scrollbar-thumb, #div_intro_tic::-webkit-scrollbar-thumb, 
+    #div_calculo_ii::-webkit-scrollbar-thumb, #div_alg_lineal::-webkit-scrollbar-thumb, 
+    #div_eda_i::-webkit-scrollbar-thumb, #div_org_comp::-webkit-scrollbar-thumb, 
+    #div_redes::-webkit-scrollbar-thumb, #div_met_num::-webkit-scrollbar-thumb, 
+    #div_eda_ii::-webkit-scrollbar-thumb, #div_fisica::-webkit-scrollbar-thumb, 
+    #div_prob::-webkit-scrollbar-thumb, #div_prog_obj::-webkit-scrollbar-thumb, 
+    #div_sys_i::-webkit-scrollbar-thumb, #div_dis_fun_prog::-webkit-scrollbar-thumb, 
+    #div_est::-webkit-scrollbar-thumb, #div_so::-webkit-scrollbar-thumb, 
+    #div_graf_ord::-webkit-scrollbar-thumb, #div_dis_alg::-webkit-scrollbar-thumb, 
+    #div_apr_auto::-webkit-scrollbar-thumb, #div_ing_inter::-webkit-scrollbar-thumb, 
+    #div_prog_paral::-webkit-scrollbar-thumb, #div_ing_soft::-webkit-scrollbar-thumb, 
+    #div_bases_datos::-webkit-scrollbar-thumb, #div_intel_art::-webkit-scrollbar-thumb, 
+    #div_teoria_comp::-webkit-scrollbar-thumb, #div_com_ingles::-webkit-scrollbar-thumb, 
+    #div_sis_dist::-webkit-scrollbar-thumb, #div_cripto::-webkit-scrollbar-thumb, 
+    #div_compila::-webkit-scrollbar-thumb, #div_ing_soft_web::-webkit-scrollbar-thumb, 
+    #div_redes_in::-webkit-scrollbar-thumb, #div_iot::-webkit-scrollbar-thumb, 
+    #div_gest_proy::-webkit-scrollbar-thumb, #div_aiw::-webkit-scrollbar-thumb, 
+    #div_gest_cares::-webkit-scrollbar-thumb, #div_videojuegos::-webkit-scrollbar-thumb, 
+    #div_ent_com_virt::-webkit-scrollbar-thumb, #div_sist_int::-webkit-scrollbar-thumb, 
+    #div_cybersec::-webkit-scrollbar-thumb, #div_tall_tec_music::-webkit-scrollbar-thumb, 
+    #div_tnlp::-webkit-scrollbar-thumb, #div_google_cybersecurity::-webkit-scrollbar-thumb,
+    #bar_menu_info::-webkit-scrollbar-thumb  {
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 4px;
+    }
+
+    #p_bachillerato_tareas,
+    #p_bachillerato_habs,
+    #p_upf_info_tareas,
+    #p_upf_info_habs,
+    #p_calculo_i_tareas,
+    #p_calculo_i_habs,
+    #p_mat_discreta_tareas,
+    #p_mat_discreta_habs,
+    #p_intro_prog_tareas,
+    #p_intro_prog_habs,
+    #p_intro_tic_tareas,
+    #p_intro_tic_habs,
+    #p_calculo_ii_tareas,
+    #p_calculo_ii_habs,
+    #p_alg_lineal_tareas,
+    #p_alg_lineal_habs,
+    #p_eda_i_tareas,
+    #p_eda_i_habs,
+    #p_org_comp_tareas,
+    #p_org_comp_habs,
+    #p_redes_tareas,
+    #p_redes_habs,
+    #p_met_num_tareas,
+    #p_met_num_habs,
+    #p_eda_ii_tareas,
+    #p_eda_ii_habs,
+    #p_fisica_tareas,
+    #p_fisica_habs,
+    #p_prob_tareas,
+    #p_prob_habs,
+    #p_prog_obj_tareas,
+    #p_prog_obj_habs,
+    #p_sys_i_tareas,
+    #p_sys_i_habs,
+    #p_dis_fun_prog_tareas,
+    #p_dis_fun_prog_habs,
+    #p_est_tareas,
+    #p_est_habs,
+    #p_so_tareas,
+    #p_so_habs,
+    #p_graf_ord_tareas,
+    #p_graf_ord_habs,
+    #p_dis_alg_tareas,
+    #p_dis_alg_habs,
+    #p_apr_auto_tareas,
+    #p_apr_auto_habs,
+    #p_ing_inter_tareas,
+    #p_ing_inter_habs,
+    #p_prog_paral_tareas,
+    #p_prog_paral_habs,
+    #p_ing_soft_tareas,
+    #p_ing_soft_habs,
+    #p_bases_datos_tareas,
+    #p_bases_datos_habs,
+    #p_intel_art_tareas,
+    #p_intel_art_habs,
+    #p_teoria_comp_tareas,
+    #p_teoria_comp_habs,
+    #p_com_ingles_tareas,
+    #p_com_ingles_habs,
+    #p_sis_dist_tareas,
+    #p_sis_dist_habs,
+    #p_cripto_tareas,
+    #p_cripto_habs,
+    #p_compila_tareas,
+    #p_compila_habs,
+    #p_ing_soft_web_tareas,
+    #p_ing_soft_web_habs,
+    #p_redes_in_tareas,
+    #p_redes_in_habs,
+    #p_iot_tareas,
+    #p_iot_habs,
+    #p_gest_proy_tareas,
+    #p_gest_proy_habs,
+    #p_aiw_tareas,
+    #p_aiw_habs,
+    #p_gest_cares_tareas,
+    #p_gest_cares_habs,
+    #p_videojuegos_tareas,
+    #p_videojuegos_habs,
+    #p_ent_com_virt_tareas,
+    #p_ent_com_virt_habs,
+    #p_sist_int_tareas,
+    #p_sist_int_habs,
+    #p_cybersec_tareas,
+    #p_cybersec_habs,
+    #p_tall_tec_music_tareas,
+    #p_tall_tec_music_habs,
+    #p_tnlp_tareas,
+    #p_tnlp_habs{
+        font-size: 2.2vw;
+    }
+
+
+    #p_google_cybersecurity_tareas,
+    #p_google_cybersecurity_habs{
+
+        font-size: 2.4vw;
+        line-height: 2.83vw;
+
+    }
+
+
 
     #mat_discreta_title, 
     #alg_lineal_title, 
@@ -2999,6 +3708,7 @@ details > summary::before {
         text-align: center;
         width: 200vw;
         font-size:2.5vw; 
+        margin-top:2%;
     }
     
    
@@ -3023,7 +3733,7 @@ details > summary::before {
     }
 
     #iot_contrato_title{
-        font-size: 1vw;
+        font-size: 1.5vw;
         margin-bottom: 1%;
     }
 
@@ -3035,7 +3745,431 @@ details > summary::before {
         font-size: 1vw;
         margin-bottom: 1%;
     }
+
+    #img_calculo_i_1 {
+        margin-left: 61%;
+        margin-top: -10%;
+        width: 18vw;
+        height: 12vw;
+    }
+
+    #img_calculo_ii_1 {
+        margin-left: 56%;
+        margin-top: -11%;
+        width: 15vw;
+        height: 12vw;
+    }
+
+    #img_mat_discreta_1 {
+        margin-left: 64%;
+        margin-top: -3%;
+        width: 13vw;
+        height: 11vw;
+    }
+
+    #img_alg_lineal_1 {
+        margin-left: 64%;
+        margin-top: -9%;
+        width: 14vw;
+        height: 11vw;
+    }
+
+    #img_met_num_1 {
+        margin-left: 60%;
+        margin-top: -10%;
+        width: 17vw;
+        height: 12vw;
+    }
+
+    #img_fisica_1 {
+        margin-left: 67%;
+        margin-top: -13%;
+        width: 13vw;
+        height: 9vw;
+    }
+
+    #img_fisica_2 {
+        margin-left: 32%;
+        margin-top: -24%;
+        width: 12vw;
+        height: 7vw;
+    }
+
+    #img_prob_1 {
+        margin-left: 73%;
+        margin-top: -19%;
+        width: 11vw;
+        height: 10vw;
+    }
+
+    #img_est_1 {
+        margin-left: 56%;
+        margin-top: -6%;
+        width: 16vw;
+        height: 10vw;
+    }
+
+    #img_intro_prog_1 {
+        margin-left: 59%;
+        margin-top: -17%;
+        width: 17vw;
+        height: 10vw;
+    }
+
+    #img_eda_i_1 {
+        margin-left: 66%;
+        margin-top: -10%;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #img_eda_ii_1 {
+        margin-left: 62%;
+        margin-top: -10%;
+        width: 14vw;
+        height: 11vw;
+    }
+
+    #img_prog_obj_1 {
+        margin-left: 80%;
+        margin-top: -20%;
+        width: 7vw;
+        height: 12vw;
+    }
+
+    #img_dis_fun_prog_1 {
+        margin-left: 56%;
+        margin-top: -17%;
+        width: 15vw;
+        height: 14vw;
+    }
+
+    #img_dis_alg_1 {
+        margin-left: 50%;
+        margin-top: -10%;
+        width: 12vw;
+        height: 11vw;
+    }
+
+    #img_dis_alg_2 {
+        margin-left: 78%;
+        margin-top: -40%;
+        width: 9vw;
+        height: 5.5vw;
+    }
+
+    #img_prog_paral_1 {
+        margin-left: 68%;
+        margin-top: -3%;
+        width: 13vw;
+        height: 9vw;
+    }
+
+    #img_ing_soft_web_1 {
+        margin-left: 61%;
+        margin-top: -12%;
+        width: 15.5vw;
+        height: 8vw;
+    }
+
     
+    #img_org_comp_1{
+        margin-left: 79%; margin-top:-20%; width: 9vw; height: 9vw;
+    }
+
+    #img_sys_i_1{
+        margin-left: 68%; margin-top:-8%; width: 13vw; height: 9vw;
+    }
+
+    #img_so_1{
+        margin-left: 71%;margin-top: -18.5%;width: 12vw;height: 11.5vw;
+    }
+    
+    #img_ing_soft_1 {
+        margin-left: 54%;
+        margin-top: -10%;
+        width: 20vw;
+        height: 11vw;
+    }
+
+    #img_teoria_comp_1 {
+        margin-left: 50%;
+        margin-top: -8%;
+        width: 19vw;
+        height: 10vw;
+    }
+    
+    #img_teoria_comp_2 {
+        margin-left: 5%;
+        margin-top: -30%;
+        width: 16vw;
+        height: 9vw;
+    }
+
+    #img_sis_dist_1 {
+        margin-left: 55%;
+        margin-top: -8.5%;
+        width: 17vw;
+        height: 8.5vw;
+        background: rgb(0, 176, 196);
+        padding: 0.15vw;
+    }
+
+    #img_compila_1 {
+        margin-left: 60%;
+        margin-top: -11%;
+        width: 16vw;
+        height: 12vw;
+    }
+
+    
+    #img_apr_auto_1 {
+        margin-left: 70%;
+        margin-top: -13%;
+        width: 15vw;
+        height: 8vw;
+    }
+
+    #img_bases_datos_1 {
+        margin-left: 49%;
+        margin-top: -2%;
+        width: 17vw;
+        height: 11vw;
+    }
+    
+    #img_bases_datos_2 {
+        margin-left: 14%;
+        margin-top: -28%;
+        width: 17vw;
+        height: 11vw;
+    }
+
+
+    #img_intel_art_1 {
+        margin-left: 71%;
+        margin-top: -11%;
+        width: 9vw;
+        height: 7.5vw;
+    }
+
+    #img_aiw_1 {
+        margin-left: 38%;
+        margin-top: -10%;
+        width: 16vw;
+        height: 14vw;
+    }
+
+    #img_gest_cares_1 {
+        margin-left: 53%;
+        margin-top: -21%;
+        width: 25vw;
+        height: 12vw;
+    }
+
+    #img_tnlp_1 {
+        margin-left: 41%;
+        margin-top: -11%;
+        width: 30vw;
+        height: 16vw;
+    }
+
+
+    #img_graf_ord_1 {
+        margin-left: 73%;
+        margin-top: -20%;
+        width: 15.5vw;
+        height: 9.5vw;
+    }
+
+    #img_ing_inter_1 {
+        margin-left: 50%;
+        margin-top: -11%;
+        width: 25vw;
+        height: 9vw;
+    }
+
+    #img_videojuegos_1 {
+        margin-left: 41%;
+        margin-top: -8.6%;
+        width: 20.4vw;
+        height: 9.8vw;
+        background: rgb(209, 76, 191);
+        padding: 0.15vw;
+    }
+
+    #img_ent_com_virt_1 {
+        margin-left: 16%;
+        margin-top: 4%;
+        width: 15vw;
+        height: 7.5vw;
+        background: rgb(209, 76, 191);
+        padding: 0.15vw;
+    }
+    
+    
+    #img_ent_com_virt_2 {
+        margin-left: 67%;
+        margin-top: -23.5%;
+        width: 6vw;
+        height: 12vw;
+        background: rgb(209, 76, 191);
+        padding: 0.15vw;
+    }
+
+    #img_sist_int_1 {
+        margin-left: 1%;
+        margin-top: 7%;
+        width: 14vw;
+        height: 5vw;
+    }
+    
+    
+    #img_sist_int_2 {
+        margin-left: 39%;
+        margin-top: -17%;
+        width: 25vw;
+        height: 8vw;
+        background: rgb(209, 76, 191);
+        padding: 0.15vw;
+    }
+
+
+    #img_redes_1 {
+        margin-left: 66%;
+        margin-top: -11%;
+        width: 11vw;
+        height: 11vw;
+    }
+
+    #img_cripto_1 {
+        margin-left: 44%;
+        margin-top: -9%;
+        width: 16vw;
+        height: 10.5vw;
+    }
+
+    #img_redes_in_1 {
+        margin-left: 40%;
+        margin-top: -5%;
+        width: 14vw;
+        height: 9vw;
+        background: rgb(255, 52, 52);
+        padding: 0.15vw;
+    }
+    
+    #img_redes_in_2 {
+        margin-left: 81%;
+        margin-top: -28%;
+        width: 7vw;
+        height: 11vw;
+        background: rgb(255, 52, 52);
+        padding: 0.15vw;
+    }
+
+    #img_iot_1 {
+        margin-left: 57%;
+        margin-top: 1%;
+        width: 15vw;
+        height: 9vw;
+        background: rgb(255, 52, 52);
+        padding: 0.15vw;
+    }
+    
+    #img_iot_2 {
+        margin-left: 6%;
+        margin-top: -27%;
+        width: 18vw;
+        height: 4vw;
+        background: rgb(255, 52, 52);
+        padding: 0.15vw;
+    }
+
+    #img_cybersec_1 {
+        margin-left: 47%;
+        margin-top: -10%;
+        width: 7vw;
+        height: 8.4vw;
+    }
+    
+    #img_cybersec_2 {
+        margin-left: 70%;
+        margin-top: -26%;
+        width: 12vw;
+        height: 7vw;
+    }
+
+
+    #img_intro_tic_1 {
+        margin-left: 8%;
+        margin-top: 0.5%;
+        width: 36vw;
+        height: 5vw;
+    }
+
+    #img_com_ingles_1 {
+        margin-left: 72%;
+        margin-top: -15%;
+        width: 11vw;
+        height: 5.5vw;
+    }
+
+    #img_gest_proy_1 {
+        margin-left: 74%;
+        margin-top: -9%;
+        width: 8vw;
+        height: 8vw;
+    }
+
+    #img_tall_tec_music_1 {
+        margin-left: 1%;
+        margin-top: 0%;
+        width: 14vw;
+        height: 8vw;
+    }
+    
+    #img_tall_tec_music_2 {
+        margin-left: 36%;
+        margin-top: -23%;
+        width: 13vw;
+        height: 7vw;
+    }
+    
+    #img_tall_tec_music_3 {
+        margin-left: 74%;
+        margin-top: -34%;
+        width: 7vw;
+        height: 7vw;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+    #img_google_cybersecurity_1 {
+        margin-left: 74%;
+        margin-top: -7.7%;
+        width: 10vw;
+        height: 10vw;
+    }
+
+    #img_google_cybersecurity_2 {
+        margin-left: 50%;
+        margin-top: -31%;
+        width: 9vw;
+        height: 9vw;
+    }
+
+    #google_cybersecurity_contrato_title{
+        font-size:2.2vw;
+
+    }
+
 
 }
 
@@ -3046,8 +4180,432 @@ details > summary::before {
         transform: translate(-50%, -50%) scale(0.83);
     }
 
-    
+    #p_bachillerato_tareas,
+    #p_bachillerato_habs,
+    #p_upf_info_tareas,
+    #p_upf_info_habs,
+    #p_calculo_i_tareas,
+    #p_calculo_i_habs,
+    #p_mat_discreta_tareas,
+    #p_mat_discreta_habs,
+    #p_intro_prog_tareas,
+    #p_intro_prog_habs,
+    #p_intro_tic_tareas,
+    #p_intro_tic_habs,
+    #p_calculo_ii_tareas,
+    #p_calculo_ii_habs,
+    #p_alg_lineal_tareas,
+    #p_alg_lineal_habs,
+    #p_eda_i_tareas,
+    #p_eda_i_habs,
+    #p_org_comp_tareas,
+    #p_org_comp_habs,
+    #p_redes_tareas,
+    #p_redes_habs,
+    #p_met_num_tareas,
+    #p_met_num_habs,
+    #p_eda_ii_tareas,
+    #p_eda_ii_habs,
+    #p_fisica_tareas,
+    #p_fisica_habs,
+    #p_prob_tareas,
+    #p_prob_habs,
+    #p_prog_obj_tareas,
+    #p_prog_obj_habs,
+    #p_sys_i_tareas,
+    #p_sys_i_habs,
+    #p_dis_fun_prog_tareas,
+    #p_dis_fun_prog_habs,
+    #p_est_tareas,
+    #p_est_habs,
+    #p_so_tareas,
+    #p_so_habs,
+    #p_graf_ord_tareas,
+    #p_graf_ord_habs,
+    #p_dis_alg_tareas,
+    #p_dis_alg_habs,
+    #p_apr_auto_tareas,
+    #p_apr_auto_habs,
+    #p_ing_inter_tareas,
+    #p_ing_inter_habs,
+    #p_prog_paral_tareas,
+    #p_prog_paral_habs,
+    #p_ing_soft_tareas,
+    #p_ing_soft_habs,
+    #p_bases_datos_tareas,
+    #p_bases_datos_habs,
+    #p_intel_art_tareas,
+    #p_intel_art_habs,
+    #p_teoria_comp_tareas,
+    #p_teoria_comp_habs,
+    #p_com_ingles_tareas,
+    #p_com_ingles_habs,
+    #p_sis_dist_tareas,
+    #p_sis_dist_habs,
+    #p_cripto_tareas,
+    #p_cripto_habs,
+    #p_compila_tareas,
+    #p_compila_habs,
+    #p_ing_soft_web_tareas,
+    #p_ing_soft_web_habs,
+    #p_redes_in_tareas,
+    #p_redes_in_habs,
+    #p_iot_tareas,
+    #p_iot_habs,
+    #p_gest_proy_tareas,
+    #p_gest_proy_habs,
+    #p_aiw_tareas,
+    #p_aiw_habs,
+    #p_gest_cares_tareas,
+    #p_gest_cares_habs,
+    #p_videojuegos_tareas,
+    #p_videojuegos_habs,
+    #p_ent_com_virt_tareas,
+    #p_ent_com_virt_habs,
+    #p_sist_int_tareas,
+    #p_sist_int_habs,
+    #p_cybersec_tareas,
+    #p_cybersec_habs,
+    #p_tall_tec_music_tareas,
+    #p_tall_tec_music_habs,
+    #p_tnlp_tareas,
+    #p_tnlp_habs{
+        font-size: 1.1vw;
+    }
 
+    #img_calculo_i_1 {
+        margin-left: 76%;
+        margin-top: -8%;
+        width: 12vw;
+        height: 8vw;
+    }
+    
+    #img_alg_lineal_1 {
+        margin-left: 75%;
+        margin-top: -37%;
+        width: 11vw;
+        height: 10vw;
+    }
+
+    #img_fisica_1 {
+        margin-left: 78%;
+        margin-top: -9%;
+        width: 9vw;
+        height: 7vw;
+    }
+
+    #img_fisica_2 {
+        margin-left: 80%;
+        margin-top: -49%;
+        width: 7vw;
+        height: 5vw;
+    }
+
+    #img_prob_1 {
+        margin-left: 81%;
+        margin-top: -19%;
+        width: 8vw;
+        height: 7vw;
+    }
+
+    #img_est_1 {
+        margin-left: 80%;
+        margin-top: -36%;
+        width: 10vw;
+        height: 6vw;
+    }
+
+    #img_eda_i_1 {
+        margin-left: 76%;
+        margin-top: -17%;
+        width: 9vw;
+        height: 9vw;
+    }
+
+    #img_eda_ii_1 {
+        margin-left: 74%;
+        margin-top: -6%;
+        width: 11vw;
+        height: 9vw;
+    }
+
+    #img_dis_alg_1 {
+        margin-left: 69%;
+        margin-top: -46%;
+        width: 10vw;
+        height: 9vw;
+    }
+
+    #img_dis_alg_2 {
+        margin-left: 81%;
+        margin-top: -15%;
+        width: 9vw;
+        height: 5.5vw;
+    }
+
+    #img_prog_paral_1 {
+        margin-left: 70%;
+        margin-top: -15%;
+        width: 10vw;
+        height: 7vw;
+    }
+
+    #img_ing_soft_web_1 {
+        margin-left: 81%;
+        margin-top: -16%;
+        width: 9.5vw;
+        height: 5vw;
+    }
+
+    #img_org_comp_1 {
+        margin-left: 79%;
+        margin-top: -12%;
+        width: 9vw;
+        height: 9vw;
+    }
+
+    #img_sys_i_1 {
+        margin-left: 71%;
+        margin-top: -42%;
+        width: 12vw;
+        height: 8vw;
+    }
+
+    #img_so_1 {
+        margin-left: 74%;
+        margin-top: -10.5%;
+        width: 11vw;
+        height: 10.5vw;
+    }
+
+    #img_ing_soft_1 {
+        margin-left: 71%;
+        margin-top: -23%;
+        width: 14vw;
+        height: 8vw;
+    }
+
+    #img_sis_dist_1 {
+        margin-left: 71%;
+        margin-top: -11.5%;
+        width: 12vw;
+        height: 5.5vw;
+        background: rgb(0, 176, 196);
+        padding: 0.15vw;
+    }
+
+    #img_compila_1 {
+        margin-left: 65%;
+        margin-top: -39%;
+        width: 16vw;
+        height: 12vw;
+    }
+
+    #img_apr_auto_1 {
+        margin-left: 77%;
+        margin-top: -22%;
+        width: 12vw;
+        height: 6vw;
+    }
+
+    #img_bases_datos_1 {
+        margin-left: 69%;
+        margin-top: -7%;
+        width: 14vw;
+        height: 8vw;
+    }
+
+    
+    #img_bases_datos_2 {
+        margin-left: 67%;
+        margin-top: -57%;
+        width: 11vw;
+        height: 7vw;
+    }
+
+    #img_intel_art_1 {
+        margin-left: 73%;
+        margin-top: -6%;
+        width: 8vw;
+        height: 6.5vw;
+    }
+
+    #img_aiw_1 {
+        margin-left: 65%;
+        margin-top: -31%;
+        width: 14vw;
+        height: 12vw;
+    }
+
+    #img_gest_cares_1 {
+        margin-left: 55%;
+        margin-top: -26%;
+        width: 24vw;
+        height: 11vw;
+    }
+
+    #img_tnlp_1 {
+        margin-left: 47%;
+        margin-top: -32%;
+        width: 28vw;
+        height: 15vw;
+    }
+
+    #img_graf_ord_1 {
+        margin-left: 77%;
+        margin-top: -26%;
+        width: 12.5vw;
+        height: 7.5vw;
+    }
+
+    #img_ing_inter_1 {
+        margin-left: 63%;
+        margin-top: -5%;
+        width: 18vw;
+        height: 8vw;
+    }
+
+    #img_videojuegos_1 {
+        margin-left: 66%;
+        margin-top: -20.6%;
+        width: 14.4vw;
+        height: 7.8vw;
+        background: rgb(209, 76, 191);
+        padding: 0.15vw;
+    }
+
+    #img_ent_com_virt_1 {
+        margin-left: 50%;
+        margin-top: -21%;
+        width: 15vw;
+        height: 7.5vw;
+        background: rgb(209, 76, 191);
+        padding: 0.15vw;
+    }
+
+    #img_ent_com_virt_2 {
+        margin-left: 88%;
+        margin-top: -28.5%;
+        width: 5vw;
+        height: 8vw;
+        background: rgb(209, 76, 191);
+        padding: 0.15vw;
+    }
+    
+    #img_sist_int_1 {
+        margin-left: 3%;
+        margin-top: 1%;
+        width: 14vw;
+        height: 5vw;
+    }
+
+    #img_sist_int_2 {
+        margin-left: 42%;
+        margin-top: -15%;
+        width: 25vw;
+        height: 8vw;
+        background: rgb(209, 76, 191);
+        padding: 0.15vw;
+    }
+
+    #img_redes_1 {
+        margin-left: 75%;
+        margin-top: -32%;
+        width: 9vw;
+        height: 9vw;
+    }
+
+    #img_cripto_1 {
+        margin-left: 63%;
+        margin-top: -23%;
+        width: 14vw;
+        height: 9.5vw;
+    }
+
+    #img_redes_in_1 {
+        margin-left: 70%;
+        margin-top: -6%;
+        width: 11vw;
+        height: 7vw;
+        background: rgb(255, 52, 52);
+        padding: 0.15vw;
+    }
+
+    #img_redes_in_2 {
+        margin-left: 86%;
+        margin-top: -158%;
+        width: 5vw;
+        height: 8vw;
+        background: rgb(255, 52, 52);
+        padding: 0.15vw;
+    }
+
+    #img_iot_1 {
+        margin-left: 71%;
+        margin-top: -33%;
+        width: 12vw;
+        height: 7vw;
+        background: rgb(255, 52, 52);
+        padding: 0.15vw;
+    }
+
+    #img_iot_2 {
+        margin-left: 62%;
+        margin-top: -164%;
+        width: 16vw;
+        height: 4vw;
+        background: rgb(255, 52, 52);
+        padding: 0.15vw;
+    }
+
+    #img_cybersec_1 {
+        margin-left: 65%;
+        margin-top: -27%;
+        width: 5vw;
+        height: 6.4vw;
+    }
+
+    #img_cybersec_2 {
+        margin-left: 74%;
+        margin-top: -19%;
+        width: 11.5vw;
+        height: 6vw;
+    }
+
+    #img_com_ingles_1 {
+        margin-left: 67%;
+        margin-top: -20%;
+        width: 11vw;
+        height: 6.5vw;
+    }
+
+    #img_tall_tec_music_1 {
+        margin-left: 77%;
+        margin-top: -11%;
+        width: 11vw;
+        height: 6vw;
+    }
+
+    #img_tall_tec_music_2 {
+        margin-left: 55%;
+        margin-top: -18%;
+        width: 10vw;
+        height: 5vw;
+    }
+
+    #img_tall_tec_music_3 {
+        margin-left: 86%;
+        margin-top: -49%;
+        width: 5vw;
+        height: 5vw;
+    }
+
+    #img_google_cybersecurity_2 {
+        margin-left: 82%;
+        margin-top: -28%;
+        width: 7vw;
+        height: 7vw;
+    }
 
     #mat_discreta_title, 
     #alg_lineal_title, 
@@ -3100,6 +4658,188 @@ details > summary::before {
         font-size: 1vw;
         margin-bottom: 1%;
     }
+
+    #bar_menu_info{
+
+        overflow-y:scroll;
+        font-size:2.2vw;  
+        -webkit-overflow-scrolling: touch; 
+        overflow-x:scroll;
+
+    }
+
+    #div_bachillerato, #div_upf_info, #div_calculo_i, #div_mat_discreta, 
+    #div_intro_prog, #div_intro_tic, #div_calculo_ii, #div_alg_lineal, 
+    #div_eda_i, #div_org_comp, #div_redes, #div_met_num, #div_eda_ii, 
+    #div_fisica, #div_prob, #div_prog_obj, #div_sys_i, #div_dis_fun_prog, 
+    #div_est, #div_so, #div_graf_ord, #div_dis_alg, #div_apr_auto, 
+    #div_ing_inter, #div_prog_paral, #div_ing_soft, #div_bases_datos, 
+    #div_intel_art, #div_teoria_comp, #div_com_ingles, #div_sis_dist, 
+    #div_cripto, #div_compila, #div_ing_soft_web, #div_redes_in, #div_iot, 
+    #div_gest_proy, #div_aiw, #div_gest_cares, #div_videojuegos, 
+    #div_ent_com_virt, #div_sist_int, #div_cybersec, #div_tall_tec_music, 
+    #div_tnlp  {
+        height: 59%;
+        overflow-y: scroll;
+        overflow-x:hidden;
+        font-size: 2.2vw;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #div_bachillerato::-webkit-scrollbar, #div_upf_info::-webkit-scrollbar, 
+    #div_calculo_i::-webkit-scrollbar, #div_mat_discreta::-webkit-scrollbar, 
+    #div_intro_prog::-webkit-scrollbar, #div_intro_tic::-webkit-scrollbar, 
+    #div_calculo_ii::-webkit-scrollbar, #div_alg_lineal::-webkit-scrollbar, 
+    #div_eda_i::-webkit-scrollbar, #div_org_comp::-webkit-scrollbar, 
+    #div_redes::-webkit-scrollbar, #div_met_num::-webkit-scrollbar, 
+    #div_eda_ii::-webkit-scrollbar, #div_fisica::-webkit-scrollbar, 
+    #div_prob::-webkit-scrollbar, #div_prog_obj::-webkit-scrollbar, 
+    #div_sys_i::-webkit-scrollbar, #div_dis_fun_prog::-webkit-scrollbar, 
+    #div_est::-webkit-scrollbar, #div_so::-webkit-scrollbar, 
+    #div_graf_ord::-webkit-scrollbar, #div_dis_alg::-webkit-scrollbar, 
+    #div_apr_auto::-webkit-scrollbar, #div_ing_inter::-webkit-scrollbar, 
+    #div_prog_paral::-webkit-scrollbar, #div_ing_soft::-webkit-scrollbar, 
+    #div_bases_datos::-webkit-scrollbar, #div_intel_art::-webkit-scrollbar, 
+    #div_teoria_comp::-webkit-scrollbar, #div_com_ingles::-webkit-scrollbar, 
+    #div_sis_dist::-webkit-scrollbar, #div_cripto::-webkit-scrollbar, 
+    #div_compila::-webkit-scrollbar, #div_ing_soft_web::-webkit-scrollbar, 
+    #div_redes_in::-webkit-scrollbar, #div_iot::-webkit-scrollbar, 
+    #div_gest_proy::-webkit-scrollbar, #div_aiw::-webkit-scrollbar, 
+    #div_gest_cares::-webkit-scrollbar, #div_videojuegos::-webkit-scrollbar, 
+    #div_ent_com_virt::-webkit-scrollbar, #div_sist_int::-webkit-scrollbar, 
+    #div_cybersec::-webkit-scrollbar, #div_tall_tec_music::-webkit-scrollbar, 
+    #div_tnlp::-webkit-scrollbar, #div_google_cybersecurity::-webkit-scrollbar, 
+    #bar_menu_info::-webkit-scrollbar  {
+        width: 4px;
+        background-color: rgba(255, 0, 0, 0.1);
+    }
+
+    #div_bachillerato::-webkit-scrollbar-thumb, #div_upf_info::-webkit-scrollbar-thumb, 
+    #div_calculo_i::-webkit-scrollbar-thumb, #div_mat_discreta::-webkit-scrollbar-thumb, 
+    #div_intro_prog::-webkit-scrollbar-thumb, #div_intro_tic::-webkit-scrollbar-thumb, 
+    #div_calculo_ii::-webkit-scrollbar-thumb, #div_alg_lineal::-webkit-scrollbar-thumb, 
+    #div_eda_i::-webkit-scrollbar-thumb, #div_org_comp::-webkit-scrollbar-thumb, 
+    #div_redes::-webkit-scrollbar-thumb, #div_met_num::-webkit-scrollbar-thumb, 
+    #div_eda_ii::-webkit-scrollbar-thumb, #div_fisica::-webkit-scrollbar-thumb, 
+    #div_prob::-webkit-scrollbar-thumb, #div_prog_obj::-webkit-scrollbar-thumb, 
+    #div_sys_i::-webkit-scrollbar-thumb, #div_dis_fun_prog::-webkit-scrollbar-thumb, 
+    #div_est::-webkit-scrollbar-thumb, #div_so::-webkit-scrollbar-thumb, 
+    #div_graf_ord::-webkit-scrollbar-thumb, #div_dis_alg::-webkit-scrollbar-thumb, 
+    #div_apr_auto::-webkit-scrollbar-thumb, #div_ing_inter::-webkit-scrollbar-thumb, 
+    #div_prog_paral::-webkit-scrollbar-thumb, #div_ing_soft::-webkit-scrollbar-thumb, 
+    #div_bases_datos::-webkit-scrollbar-thumb, #div_intel_art::-webkit-scrollbar-thumb, 
+    #div_teoria_comp::-webkit-scrollbar-thumb, #div_com_ingles::-webkit-scrollbar-thumb, 
+    #div_sis_dist::-webkit-scrollbar-thumb, #div_cripto::-webkit-scrollbar-thumb, 
+    #div_compila::-webkit-scrollbar-thumb, #div_ing_soft_web::-webkit-scrollbar-thumb, 
+    #div_redes_in::-webkit-scrollbar-thumb, #div_iot::-webkit-scrollbar-thumb, 
+    #div_gest_proy::-webkit-scrollbar-thumb, #div_aiw::-webkit-scrollbar-thumb, 
+    #div_gest_cares::-webkit-scrollbar-thumb, #div_videojuegos::-webkit-scrollbar-thumb, 
+    #div_ent_com_virt::-webkit-scrollbar-thumb, #div_sist_int::-webkit-scrollbar-thumb, 
+    #div_cybersec::-webkit-scrollbar-thumb, #div_tall_tec_music::-webkit-scrollbar-thumb, 
+    #div_tnlp::-webkit-scrollbar-thumb, #div_google_cybersecurity::-webkit-scrollbar-thumb,
+    #bar_menu_info::-webkit-scrollbar-thumb  {
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 4px;
+    }
+
+    details > summary {
+        display: block;
+        cursor: pointer;
+        color: blue;
+        padding-top:5%;
+        border-left: 0.3vw solid #000;
+        font-size:1.8vw;
+        padding-left: 1vw;
+        height:1%;
+        font-style: italic;
+        font-weight: bold ;
+        
+    }
+
+    details ul li {
+        font-size:1.4vw;
+        padding-top:3%;
+    }
+
+    #asignaturas_folder{
+        width:16vw; 
+        font-size:1.7vw;
+    }
+    
+    #mat_folder{
+        width:10vw;  
+        color: rgb(42, 88, 244); 
+        font-size:1.6vw;
+    }
+    
+    #prog_folder{
+        color: rgb(193, 187, 12); 
+        font-size:1.6vw;
+    }
+    
+    #sist_folder{
+        color: rgb(0, 147, 196); 
+         font-size:1.6vw;
+    
+    }
+    
+    #datos_folder{
+    
+        color: rgb(55, 170, 1); 
+         font-size:1.6vw;
+    }
+    
+    #inter_folder{
+        color: rgb(209, 76, 191); 
+         font-size:1.6vw;
+    
+    }
+    
+    #redes_folder{
+        color: rgb(223, 47, 47); 
+         font-size:1.6vw;
+    
+    }
+    
+    #etic_folder{
+        color: rgb(110, 31, 200); 
+         font-size:1.6vw;
+    
+    }
+
+    #bachillerato{
+        font-size: 1.4vw;
+    }
+
+    #upf_info{
+        font-size:1.4vw;
+    
+    }
+
+    #google_cybersecurity{
+        font-size:1.4vw;
+    }
+
+    #apr_auto{
+        font-size: 1.4vw;
+    }
+
+    #prog_paral{
+        font-size: 1.4vw;
+    }
+
+    
+    #cripto{
+        font-size: 1.4vw;
+    }
+
+    #ing_soft_web{
+        font-size: 1.4vw;
+    }
+    
+
+
+    
 
     
 }
@@ -3116,12 +4856,19 @@ details > summary::before {
     #ent_com_virt_title, 
     #redes_in_title, 
     #com_ingles_title, 
-    #tall_tec_music_title,
-    #google_cybersecurity_title {
+    #tall_tec_music_title {
         margin-left: 0%;
         text-align: center;
         width: 200vw;
         font-size:2.5vw; 
+    }
+
+    #google_cybersecurity_title {
+        margin-left: 0%;
+        text-align: center;
+        width: 200vw;
+        font-size: 2.5vw;
+        margin-top: 2.5%;
     }
 
     #tall_tec_music_title{
@@ -3162,8 +4909,8 @@ details > summary::before {
         font-size: 2vw;
     }
 
-    #google_cybersecurity_contrato_title{
-        font-size: 1vw;
+    #google_cybersecurity_contrato_title {
+        font-size: 1.5vw;
         margin-bottom: 1%;
     }
 
