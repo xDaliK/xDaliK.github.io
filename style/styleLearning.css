@@ -16,7 +16,7 @@ body#initLearning {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background:url("../resources/wallpaper_draw_maffhu2.jpg"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
+    background:url("../resources/wallpaper_tech.png"),  linear-gradient(to top,#0a1b2a 15%, #0f2e46 40%,#1e3f66 60%, #3a5d7e 80%,#58a7c7 100% );
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body#initLearning {
 div#container_window_info{
     display: block;
     width: 65vw; 
-    height: 65vw; 
+    height: 45vw; 
     background-image: url("../resources/window_info.png");
     background-size: contain;
     background-position: center;
@@ -92,7 +92,7 @@ div#container_window_info{
     width: 80vw; 
     height: 4vw; 
     
-    margin-top:15.8%;
+    margin-top:0.35%;
 }
 
 #title_learning {

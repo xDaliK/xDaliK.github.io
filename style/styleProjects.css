@@ -16,7 +16,7 @@ body#initprojects {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background:url("../resources/wallpaper_draw_maffhu2.jpg"),  linear-gradient(to bottom, #88e0f8 20%, #a1d9b0 50%, #95d261 80%);
+    background:url("../resources/wallpaper_tech.png"),  linear-gradient(to top,#0a1b2a 15%, #0f2e46 40%,#1e3f66 60%, #3a5d7e 80%,#58a7c7 100% );
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body#initprojects {
 div#container_window_info{
     display: block;
     width: 65vw; 
-    height: 65vw; 
+    height: 45vw; 
     background-image: url("../resources/window_info.png");
     background-size: contain;
     background-position: center;
@@ -92,7 +92,7 @@ div#container_window_info{
     width: 80vw; 
     height: 4vw; 
     
-    margin-top:15.8%;
+    margin-top:0.35%;
 }
 
 #title_projects {
@@ -225,7 +225,7 @@ details > summary {
     color: blue;
     padding-top:5%;
     border-left: 0.3vw solid #000;
-    font-size:1.8vw;
+    font-size:1.5vw;
     padding-left: 1vw;
     height:1%;
     font-style: italic;
@@ -246,7 +246,7 @@ details > ul {
 }
 
 details ul li {
-    font-size:1.5vw;
+    font-size:1.3vw;
     padding-top:3%;
 }
 
@@ -353,10 +353,6 @@ details > summary::before {
     margin:0; 
 }
 
-/* Ingeniería de Software para Aplicaciones Web*/
-#ing_soft_web{
-    font-size: 1.5vw;
-}
 
 
 #div_ing_soft_web{
@@ -990,11 +986,11 @@ details > summary::before {
 #bar_dockerlabs{
     color: rgb(223, 47, 47); 
     width:14.5vw; 
-    font-size: 1.7vw;
+    font-size: 1.4vw;
 }
 
 #dockerlabs{
-    font-size: 1.6vw; 
+    font-size: 1.35vw; 
     font-weight:bold; 
     cursor: pointer;
 }
@@ -1052,12 +1048,12 @@ details > summary::before {
 }
 
 #dockerlabs_muyfacil{
-    font-size: 2vw; 
+    font-size: 1.5vw; 
     font-weight:bold;
 }
 
 #dockerlabs_facil{
-    font-size: 2vw; 
+    font-size: 1.5vw; 
     font-weight:bold;
 }
 
