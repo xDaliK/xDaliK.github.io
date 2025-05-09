@@ -1335,6 +1335,16 @@ details > summary::before {
             padding-top:3%;
         }
 
+        #dockerlabs_muyfacil{
+            font-size: 2.5vw; 
+            font-weight:bold;
+        }
+        
+        #dockerlabs_facil{
+            font-size: 2.5vw; 
+            font-weight:bold;
+        }
+
         .maquinas_cyber {
             position: absolute;
             margin-top:0%;
