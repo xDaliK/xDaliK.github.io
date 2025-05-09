@@ -4679,7 +4679,7 @@ details > summary::before {
     #div_gest_proy, #div_aiw, #div_gest_cares, #div_videojuegos, 
     #div_ent_com_virt, #div_sist_int, #div_cybersec, #div_tall_tec_music, 
     #div_tnlp  {
-        height: 59%;
+        height: 85%;
         overflow-y: scroll;
         overflow-x:hidden;
         font-size: 2.2vw;

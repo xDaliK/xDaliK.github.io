@@ -1585,7 +1585,7 @@ details > summary::before {
     #div_cybersec, #div_aiw, #div_redes_in, 
     #div_ing_soft_web, #div_gest_proy, 
     #div_intel_art, #div_iot, #div_dockerlabs{
-        height: 59%;
+        height: 85%;
         overflow-y: scroll;
         font-size:2.2vw;  
         -webkit-overflow-scrolling: touch; 
