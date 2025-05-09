@@ -185,7 +185,7 @@ div#container_window_info{
 @media only screen and (min-width: 600px) and (max-width: 950px) and (orientation: landscape) {
     
     div#container_window_info{
-        transform: translate(-50%, -50%) scale(0.83);
+        transform: translate(-50%, -50%) scale(1);
     }
 
     #cv_mobile{
