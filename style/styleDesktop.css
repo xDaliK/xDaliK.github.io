@@ -44,7 +44,7 @@ body#initIndex {
     margin-left: 10%;
     font-size: 2vw; 
     font-family: consolas;
-    color: rgb(0, 116, 104);
+    color: #317f98;
     font-weight: bold;
    
 }
@@ -53,7 +53,7 @@ body#initIndex {
 
     width: 20vw;
     height: 1vw;
-    margin-top:10%;
+    margin-top:11%;
     margin-left: 16%;
     font-size: 2vw;
 }
