@@ -4269,8 +4269,13 @@ details > summary::before {
     #p_tall_tec_music_tareas,
     #p_tall_tec_music_habs,
     #p_tnlp_tareas,
-    #p_tnlp_habs{
+    #p_tnlp_habs,
+    #p_google_cybersecurity_tareas{
         font-size: 1.8vw;
+    }
+
+    #p_google_cybersecurity_habs{
+        line-height: 2.7vw;
     }
 
     #img_calculo_i_1 {
@@ -4329,6 +4334,13 @@ details > summary::before {
         height: 7vw;
     }
 
+    #img_intro_prog_1 {
+        margin-left: 67%;
+        margin-top: -12%;
+        width: 13vw;
+        height: 7vw;
+    }
+
     #img_est_1 {
         margin-left: 71%;
         margin-top: 0%;
@@ -4338,7 +4350,7 @@ details > summary::before {
 
     #img_eda_i_1 {
         margin-left: 76%;
-        margin-top: -12%;
+        margin-top: -2%;
         width: 9vw;
         height: 9vw;
     }
@@ -4350,32 +4362,39 @@ details > summary::before {
         height: 9vw;
     }
 
+    #img_prog_obj_1 {
+        margin-left: 85%;
+        margin-top: -18%;
+        width: 6vw;
+        height: 10vw;
+    }
+
     #img_dis_alg_1 {
-        margin-left: 69%;
-        margin-top: -46%;
+        margin-left: 46%;
+        margin-top: -8%;
         width: 10vw;
         height: 9vw;
     }
 
     #img_dis_alg_2 {
-        margin-left: 81%;
-        margin-top: -15%;
+        margin-left: 76%;
+        margin-top: -27%;
         width: 9vw;
         height: 5.5vw;
     }
 
     #img_prog_paral_1 {
-        margin-left: 70%;
+        margin-left: 77%;
         margin-top: -15%;
         width: 10vw;
         height: 7vw;
     }
 
     #img_ing_soft_web_1 {
-        margin-left: 81%;
-        margin-top: -16%;
-        width: 9.5vw;
-        height: 5vw;
+        margin-left: 74%;
+        margin-top: -11%;
+        width: 11.5vw;
+        height: 6vw;
     }
 
     #img_org_comp_1 {
@@ -4386,29 +4405,43 @@ details > summary::before {
     }
 
     #img_sys_i_1 {
-        margin-left: 71%;
-        margin-top: -42%;
+        margin-left: 66%;
+        margin-top: -7%;
         width: 12vw;
         height: 8vw;
     }
 
     #img_so_1 {
-        margin-left: 74%;
-        margin-top: -10.5%;
+        margin-left: 68%;
+        margin-top: -7.5%;
         width: 11vw;
         height: 10.5vw;
     }
 
     #img_ing_soft_1 {
-        margin-left: 71%;
-        margin-top: -23%;
+        margin-left: 62%;
+        margin-top: -9%;
         width: 14vw;
         height: 8vw;
     }
 
+    #img_teoria_comp_1 {
+        margin-left: 51%;
+        margin-top: -4%;
+        width: 19vw;
+        height: 10vw;
+    }
+
+    #img_teoria_comp_2 {
+        margin-left: 5%;
+        margin-top: -28%;
+        width: 15vw;
+        height: 8vw;
+    }
+
     #img_sis_dist_1 {
-        margin-left: 71%;
-        margin-top: -11.5%;
+        margin-left: 63%;
+        margin-top: -7.5%;
         width: 12vw;
         height: 5.5vw;
         background: rgb(0, 176, 196);
@@ -4416,29 +4449,29 @@ details > summary::before {
     }
 
     #img_compila_1 {
-        margin-left: 65%;
-        margin-top: -39%;
+        margin-left: 55%;
+        margin-top: -9%;
         width: 16vw;
         height: 12vw;
     }
 
     #img_apr_auto_1 {
         margin-left: 77%;
-        margin-top: -22%;
+        margin-top: -10%;
         width: 12vw;
         height: 6vw;
     }
 
     #img_bases_datos_1 {
-        margin-left: 69%;
-        margin-top: -7%;
+        margin-left: 65%;
+        margin-top: 0%;
         width: 14vw;
         height: 8vw;
     }
 
     
     #img_bases_datos_2 {
-        margin-left: 67%;
+        margin-left: 61%;
         margin-top: -57%;
         width: 11vw;
         height: 7vw;
@@ -4452,29 +4485,30 @@ details > summary::before {
     }
 
     #img_aiw_1 {
-        margin-left: 65%;
-        margin-top: -31%;
+        margin-left: 60%;
+        margin-top: -6%;
         width: 14vw;
         height: 12vw;
     }
 
     #img_gest_cares_1 {
         margin-left: 55%;
-        margin-top: -26%;
+        margin-top: -11%;
         width: 24vw;
         height: 11vw;
     }
 
     #img_tnlp_1 {
-        margin-left: 47%;
-        margin-top: -32%;
+        margin-left: 42%;
+        margin-top: -8%;
         width: 28vw;
         height: 15vw;
     }
 
+
     #img_graf_ord_1 {
-        margin-left: 77%;
-        margin-top: -26%;
+        margin-left: 64%;
+        margin-top: -17%;
         width: 12.5vw;
         height: 7.5vw;
     }
@@ -4487,8 +4521,8 @@ details > summary::before {
     }
 
     #img_videojuegos_1 {
-        margin-left: 66%;
-        margin-top: -20.6%;
+        margin-left: 59%;
+        margin-top: -0.6%;
         width: 14.4vw;
         height: 7.8vw;
         background: rgb(209, 76, 191);
@@ -4496,8 +4530,8 @@ details > summary::before {
     }
 
     #img_ent_com_virt_1 {
-        margin-left: 50%;
-        margin-top: -21%;
+        margin-left: 19%;
+        margin-top: 0%;
         width: 15vw;
         height: 7.5vw;
         background: rgb(209, 76, 191);
@@ -4505,8 +4539,8 @@ details > summary::before {
     }
 
     #img_ent_com_virt_2 {
-        margin-left: 88%;
-        margin-top: -28.5%;
+        margin-left: 64%;
+        margin-top: -22.5%;
         width: 5vw;
         height: 8vw;
         background: rgb(209, 76, 191);
@@ -4521,7 +4555,7 @@ details > summary::before {
     }
 
     #img_sist_int_2 {
-        margin-left: 42%;
+        margin-left: 40%;
         margin-top: -15%;
         width: 25vw;
         height: 8vw;
@@ -4531,21 +4565,21 @@ details > summary::before {
 
     #img_redes_1 {
         margin-left: 75%;
-        margin-top: -32%;
+        margin-top: -7%;
         width: 9vw;
         height: 9vw;
     }
 
     #img_cripto_1 {
-        margin-left: 63%;
-        margin-top: -23%;
+        margin-left: 60%;
+        margin-top: -2%;
         width: 14vw;
         height: 9.5vw;
     }
 
     #img_redes_in_1 {
-        margin-left: 70%;
-        margin-top: -6%;
+        margin-left: 22%;
+        margin-top: -1%;
         width: 11vw;
         height: 7vw;
         background: rgb(255, 52, 52);
@@ -4553,8 +4587,8 @@ details > summary::before {
     }
 
     #img_redes_in_2 {
-        margin-left: 86%;
-        margin-top: -158%;
+        margin-left: 73%;
+        margin-top: -23%;
         width: 5vw;
         height: 8vw;
         background: rgb(255, 52, 52);
@@ -4562,8 +4596,8 @@ details > summary::before {
     }
 
     #img_iot_1 {
-        margin-left: 71%;
-        margin-top: -33%;
+        margin-left: 62%;
+        margin-top: -6%;
         width: 12vw;
         height: 7vw;
         background: rgb(255, 52, 52);
@@ -4571,8 +4605,8 @@ details > summary::before {
     }
 
     #img_iot_2 {
-        margin-left: 62%;
-        margin-top: -164%;
+        margin-left: 60%;
+        margin-top: -264%;
         width: 16vw;
         height: 4vw;
         background: rgb(255, 52, 52);
@@ -4580,49 +4614,56 @@ details > summary::before {
     }
 
     #img_cybersec_1 {
-        margin-left: 65%;
-        margin-top: -27%;
+        margin-left: 48%;
+        margin-top: -10%;
         width: 5vw;
         height: 6.4vw;
     }
 
     #img_cybersec_2 {
-        margin-left: 74%;
-        margin-top: -19%;
+        margin-left: 69%;
+        margin-top: -21%;
         width: 11.5vw;
         height: 6vw;
     }
 
     #img_com_ingles_1 {
         margin-left: 67%;
-        margin-top: -20%;
+        margin-top: -7%;
         width: 11vw;
         height: 6.5vw;
     }
 
     #img_tall_tec_music_1 {
         margin-left: 77%;
-        margin-top: -11%;
+        margin-top: -1%;
         width: 11vw;
         height: 6vw;
     }
 
     #img_tall_tec_music_2 {
         margin-left: 55%;
-        margin-top: -18%;
+        margin-top: -21%;
         width: 10vw;
         height: 5vw;
     }
 
     #img_tall_tec_music_3 {
         margin-left: 86%;
-        margin-top: -49%;
+        margin-top: -46%;
         width: 5vw;
         height: 5vw;
     }
 
+    #img_google_cybersecurity_1 {
+        margin-left: 40%;
+        margin-top: -2%;
+        width: 12vw;
+        height: 10vw;
+    }
+
     #img_google_cybersecurity_2 {
-        margin-left: 82%;
+        margin-left: 78%;
         margin-top: -28%;
         width: 7vw;
         height: 7vw;
@@ -4699,7 +4740,7 @@ details > summary::before {
     #div_cripto, #div_compila, #div_ing_soft_web, #div_redes_in, #div_iot, 
     #div_gest_proy, #div_aiw, #div_gest_cares, #div_videojuegos, 
     #div_ent_com_virt, #div_sist_int, #div_cybersec, #div_tall_tec_music, 
-    #div_tnlp  {
+    #div_tnlp, #div_google_cybersecurity  {
         height: 85%;
         overflow-y: scroll;
         overflow-x:hidden;
@@ -4779,7 +4820,7 @@ details > summary::before {
 
     details ul li {
         font-size:1.5vw;
-        padding-top:3%;
+        margin-top:12%;
     }
 
     #asignaturas_folder{
@@ -4791,40 +4832,47 @@ details > summary::before {
         width:10vw;  
         color: rgb(42, 88, 244); 
         font-size:1.6vw;
+        margin-top:10%;
     }
     
     #prog_folder{
         color: rgb(193, 187, 12); 
         font-size:1.6vw;
+        margin-top:10%;
+        
     }
     
     #sist_folder{
         color: rgb(0, 147, 196); 
          font-size:1.6vw;
-    
+        margin-top:10%;
     }
     
     #datos_folder{
     
         color: rgb(55, 170, 1); 
-         font-size:1.6vw;
+        font-size:1.6vw;
+        margin-top:10%;
     }
     
     #inter_folder{
         color: rgb(209, 76, 191); 
-         font-size:1.6vw;
+        font-size:1.6vw;
+        margin-top:10%;
     
     }
     
     #redes_folder{
         color: rgb(223, 47, 47); 
-         font-size:1.6vw;
+        font-size:1.6vw;
+        margin-top:10%;
     
     }
     
     #etic_folder{
         color: rgb(110, 31, 200); 
-         font-size:1.6vw;
+        font-size:1.6vw;
+        margin-top:10%;
     
     }
 
