@@ -4270,7 +4270,7 @@ details > summary::before {
     #p_tall_tec_music_habs,
     #p_tnlp_tareas,
     #p_tnlp_habs{
-        font-size: 1.5vw;
+        font-size: 1.8vw;
     }
 
     #img_calculo_i_1 {
@@ -4279,45 +4279,66 @@ details > summary::before {
         width: 12vw;
         height: 8vw;
     }
+
+    #img_calculo_ii_1 {
+        margin-left: 76%;
+        margin-top: -9%;
+        width: 10vw;
+        height: 8vw;
+    }
+
+    #img_mat_discreta_1 {
+        margin-left: 74%;
+        margin-top: -30%;
+        width: 11vw;
+        height: 10vw;
+    }
     
     #img_alg_lineal_1 {
         margin-left: 75%;
-        margin-top: -37%;
+        margin-top: -10%;
         width: 11vw;
         height: 10vw;
     }
 
+    #img_met_num_1 {
+        margin-left: 68%;
+        margin-top: -9%;
+        width: 14vw;
+        height: 8vw;
+    }
+
     #img_fisica_1 {
         margin-left: 78%;
-        margin-top: -9%;
+        margin-top: -4%;
         width: 9vw;
         height: 7vw;
     }
 
     #img_fisica_2 {
-        margin-left: 80%;
-        margin-top: -49%;
+        margin-left: 54%;
+        margin-top: -21%;
         width: 7vw;
         height: 5vw;
     }
 
     #img_prob_1 {
         margin-left: 81%;
-        margin-top: -19%;
+        margin-top: -16%;
         width: 8vw;
         height: 7vw;
     }
 
     #img_est_1 {
-        margin-left: 80%;
-        margin-top: -36%;
-        width: 10vw;
-        height: 6vw;
+        margin-left: 71%;
+        margin-top: 0%;
+        width: 14vw;
+        height: 9vw;
     }
 
     #img_eda_i_1 {
         margin-left: 76%;
-        margin-top: -17%;
+        margin-top: -12%;
         width: 9vw;
         height: 9vw;
     }
