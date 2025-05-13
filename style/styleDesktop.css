@@ -37,6 +37,7 @@ body#initIndex {
 }
 
 #centeredContainerSesionTitle {
+    position: fixed;
     width: 1000px;
     height: 50px;
     
@@ -50,10 +51,10 @@ body#initIndex {
 }
 
 #progressBlockBarContent {
-
+    position: fixed;
     width: 20vw;
     height: 1vw;
-    margin-top:11%;
+    margin-top:67%;
     margin-left: 16%;
     font-size: 2vw;
 }
@@ -319,7 +320,8 @@ h3#text_contact {
         margin-top:40%;
         margin-left: 23%;
         font-size: 5vw; 
-        color: black;
+        font-family: consolas;
+        color: #317f98;
         font-weight: bold;
     
     }
@@ -554,17 +556,22 @@ h3#text_contact {
         z-index:1;
     }
 
+    
+
     #centeredContainerSesionTitle {
+        position:fixed;
         width: 1000px;
         height: 50px;
         
         margin-top:40%;
         margin-left: 18%;
         font-size: 4vw; 
-        color: black;
+        font-family: consolas;
+        color: #317f98;
         font-weight: bold;
     
-    }
+    } 
+
 
     #progressBlockBarContent {
 

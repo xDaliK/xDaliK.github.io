@@ -4141,14 +4141,6 @@ details > summary::before {
         height: 7vw;
     }
 
-    
-
-
-
-
-
-
-
 
 
     #img_google_cybersecurity_1 {
@@ -4275,7 +4267,8 @@ details > summary::before {
     }
 
     #p_google_cybersecurity_habs{
-        line-height: 2.7vw;
+        line-height: 2.8vw;
+        font-size:1.8vw;
     }
 
     #img_calculo_i_1 {
@@ -4392,7 +4385,7 @@ details > summary::before {
 
     #img_ing_soft_web_1 {
         margin-left: 74%;
-        margin-top: -11%;
+        margin-top: 0%;
         width: 11.5vw;
         height: 6vw;
     }
@@ -4905,6 +4898,23 @@ details > summary::before {
     #ing_soft_web{
         font-size: 1.5vw;
     }
+
+    #div_google_cybersecurity::after {
+        content: "";
+        background: url("../resources/google_cyber_i.png");
+        background-size: cover;  
+        background-position: center;  
+        background-repeat: no-repeat; 
+        opacity: 10;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 210%;
+        position: absolute;
+        z-index: -1;
+    }
     
 
 
@@ -4982,6 +4992,8 @@ details > summary::before {
         font-size: 1.5vw;
         margin-bottom: 1%;
     }
+
+   
 
 
 
