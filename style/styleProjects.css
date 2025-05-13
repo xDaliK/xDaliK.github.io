@@ -1609,6 +1609,49 @@ details > summary::before {
         overflow-x:hidden;
 
     }
+
+    #p_intel_art_tareas,
+    #p_ing_soft_web_tareas,
+    #p_redes_in_tareas,
+    #p_iot_tareas,
+    #p_gest_proy_tareas,
+    #p_aiw_tareas,
+    #p_gest_cares_tareas,
+    #p_ent_com_virt_tareas,
+    #p_sist_int_tareas,
+    #p_cybersec_tareas,
+    #p_tall_tec_music_tareas,
+    #p_google_cybersecurity_tareas,
+    #p_dockerlabs_tareas,
+    #p_ing_soft_web_tareas,
+    #p_dockerlabs_tareas{
+        font-size:1.8vw;
+    }
+
+    #p_dockerlabs_habs {
+        font-size: 1.8vw;
+        line-height: 2.7vw;
+    }
+
+    #img_dockerlabs {
+        display: inline-block;
+        margin-left: 60%;
+        margin-top: -15%;
+        width: 6.5vw;
+        height: 6.5vw;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    #img_mario {
+        display: block;
+        margin-left: 80%;
+        margin-top: -17.7%;
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        overflow: hidden;
+    }
     
     #div_ent_com_virt::-webkit-scrollbar, 
     #div_tall_tec_music::-webkit-scrollbar, 

@@ -862,18 +862,34 @@ details > summary::before {
 
     #p_prodat_tareas {
         
-        font-size: 1.1vw;
+        font-size: 1.8vw;
        
     }
 
     #p_prodat_habs {
         padding-top:0.5%;
-        font-size: 1.1vw;
+        font-size: 1.8vw;
+        line-height: 2.7vw;
+    }
+
+
+    #img_prodat_1 {
+        margin-left: 84.1%;
+        margin-top: -15%;
+        width: 6.5vw;
+        height: 6vw;
     }
 
     #img_prodat_2 {
+        margin-top: -18%;
+    }
 
-        margin-top: -39%;
+
+    #img_prodat_3 {
+        margin-left: 85%;
+        margin-top: -9%;
+        width: 6vw;
+        height: 6vw;
     }
 
     #appia_title {
@@ -887,18 +903,76 @@ details > summary::before {
 
     #p_appia_tareas {
         padding-top:0.25%;
-        font-size: 1.1vw;
+        font-size: 1.8vw;
     }
 
     #p_appia_habs {
-        padding-top:0.25%;
-        font-size: 1.1vw;
+        padding-top:0.5%;
+        font-size: 1.8vw;
+        line-height: 2.7vw;
     }
 
     #img_appia_1 {
-      margin-top: -52%;
-
+        margin-top: -33%;
+        margin-left: 85%;
     }
+
+    #img_appia_2 {
+        margin-left: 70%;
+        margin-top: -30%;
+        width: 6vw;
+        height: 6vw;
+    }
+
+    #p_fisco_tareas {
+        padding-top:0.25%;
+        font-size: 1.8vw;
+        line-height: 2.7vw;
+    }
+
+    #p_fisco_habs {
+        padding-top:0.5%;
+        font-size: 1.8vw;
+        line-height: 2.7vw;
+    }
+
+    #img_fisco_1 {
+        margin-left: 78%;
+        margin-top: -83%;
+        width: 9vw;
+        height: 6vw;
+    }
+
+    #img_fisco_2 {
+        margin-left: 82%;
+        margin-top: -44%;
+        width: 7vw;
+        height: 6vw;
+    }
+
+    #div_fisco,  #div_appia, 
+    #div_prodat{
+        height: 85%;
+        overflow-y: scroll;
+        font-size:2.2vw;  
+        -webkit-overflow-scrolling: touch; 
+    } 
+
+    #div_fisco::-webkit-scrollbar, 
+    #div_appia::-webkit-scrollbar, 
+    #div_prodat::-webkit-scrollbar {
+        width: 4px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    #div_fisco::-webkit-scrollbar-thumb, 
+    #div_appia::-webkit-scrollbar-thumb, 
+    #div_prodat::-webkit-scrollbar-thumb{
+        background-color: rgba(0, 0, 0, 0.4); 
+        border-radius: 4px;
+    }
+
+
 
 }
 
