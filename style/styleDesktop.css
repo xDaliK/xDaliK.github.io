@@ -314,12 +314,13 @@ h3#text_contact {
     }
 
     #centeredContainerSesionTitle {
+        position:fixed;
         width: 1000px;
         height: 50px;
         
         margin-top:40%;
         margin-left: 23%;
-        font-size: 8vw; 
+        font-size: 6vw; 
         font-family: consolas;
         color: #317f98;
         font-weight: bold;
@@ -329,10 +330,10 @@ h3#text_contact {
     
 
     #progressBlockBarContent {
-
+        position:fixed;
         width: 160px;
         height: 15px;
-        margin-top:30%;
+        margin-top:67%;
         margin-left: 26%;
     } 
     
@@ -574,7 +575,7 @@ h3#text_contact {
 
 
     #progressBlockBarContent {
-
+        position:fixed;
         width: 265px;
         height: 17px;
         margin-top:67%;
