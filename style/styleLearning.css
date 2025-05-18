@@ -1759,7 +1759,10 @@ details > summary::before {
 }
 
 #img_ing_inter_1{
-    margin-left: 58%;margin-top: -16%;width: 18vw;height: 8vw;
+    margin-left: 58%;
+    margin-top: -6%;
+    width: 18vw;
+    height: 8vw;
 }
 
 

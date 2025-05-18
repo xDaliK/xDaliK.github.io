@@ -229,7 +229,7 @@ h3#text_contact {
         display: block;
         width: 90vw; 
         height: 90vw; 
-        background-image: url("../resources/pruebaventana3.png");
+        background-image: url("../resources/init_window.png");
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -471,7 +471,7 @@ h3#text_contact {
         display: block;
         width: 60vw; 
         height: 60vw; 
-        background-image: url("../resources/pruebaventana3.png");
+        background-image: url("../resources/init_window.png");
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
