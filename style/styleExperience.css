@@ -207,7 +207,6 @@ details > summary::before {
 }
 
 
-
 #div_prodat{
     position: absolute;
     margin-top:0%;
@@ -216,6 +215,20 @@ details > summary::before {
     width: 44.15vw;
     height:38.3vw;
     z-index: 1;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch; 
+}
+
+
+#div_prodat::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+
+#div_prodat::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.4); 
+    border-radius: 4px;
 }
 
 #prodat_title{
@@ -270,27 +283,26 @@ details > summary::before {
     padding-top: 10%;
 }
 
-#img_prodat_1{
+#img_prodat_1 {
     margin-left: 83.1%;
-    margin-top: -58%;
+    margin-top: -83%;
     width: 6.5vw;
     height: 6vw;
 }
 
-#img_prodat_2{
-    margin-left: 61%;
+#img_prodat_2 {
+    margin-left: 76%;
     margin-top: -30%;
     width: 9vw;
     height: 5vw;
 }
 
-#img_prodat_3{
-    margin-left: 84%;
-    margin-top: -39%; 
-    width: 6vw; 
+#img_prodat_3 {
+    margin-left: 83.5%;
+    margin-top: -66%;
+    width: 6vw;
     height: 6vw;
 }
-
 
 #div_appia{
     position: absolute;
