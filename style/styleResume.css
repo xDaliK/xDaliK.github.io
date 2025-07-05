@@ -101,6 +101,10 @@ div#container_window_info{
     display:none;
 }
 
+#cv_mobile_portrait{
+    display:none;
+}
+
 #button_download_pdf_cv{
     display: none;
 }
@@ -157,7 +161,6 @@ div#container_window_info{
             margin-left: 2.25%;
             margin-right: 2%;
             overflow-y: none; 
-            background: url("../resources/DanielLizarteCaceres_Curriculum2024_mobile.png");
             background-color:#dbf6fe;
             margin-top:0.7%;
             z-index:2;
@@ -166,15 +169,39 @@ div#container_window_info{
             background-repeat: no-repeat;
             font-size:2.15vw;
             overflow: hidden; 
+            overflow-y: scroll;
+            -webkit-overflow-scrolling: touch; 
             
              
+        }
+
+        
+        #info_content_container::-webkit-scrollbar{
+            width: 8px;
+            background-color: rgba(255, 0, 0, 0.1);
+        }
+
+
+        #info_content_container::-webkit-scrollbar-thumb{
+            background-color: rgba(0, 0, 0, 0.4); 
+            border-radius: 4px;
         }
 
         #cv_pdf_file{
             display: none;
         }
 
+        #cv_mobile_portrait{
+            display:block;
+        }
+
+        .cv_mobile_page {
+            width: 61.8vw;
+            height: 90vw;
+        }
         
+
+
 
 
 }
@@ -190,6 +217,10 @@ div#container_window_info{
 
     #cv_mobile{
         display:block;
+    }
+
+    #cv_mobile_portrait{
+        display:none;
     }
 
     #button_download_pdf_cv {
