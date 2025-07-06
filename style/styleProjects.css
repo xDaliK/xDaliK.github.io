@@ -908,6 +908,71 @@ details > summary::before {
 }
 
 
+/* Trabajo Final de Grado  */
+
+#tfg{
+
+    font-size: 1.2vw;
+    font-weight: bold;
+    padding-left: 0vw;
+    padding-top: 0%;
+}
+
+
+#div_tfg{
+    position: absolute;
+    margin-top:0%;
+    display: none;
+    background-color: #e2fdfd;
+    width: 44.15vw;
+    height:38.3vw;
+    z-index: 1;
+}
+
+#tfg_title{
+    font-size:2.238vw; 
+    color: #ff8100;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin:0; 
+    width: 35vw;
+    margin-left:10%;
+}
+
+#tfg_contrato_title{
+    font-size:1.5vw; 
+    color: #ff8100;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;  
+    padding-right:2%; 
+    height: 5%; 
+    margin:0; 
+    text-align: right;
+
+}
+
+#p_tfg_tareas{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: justify;
+    font-size: 1vw;
+    margin: 0;
+    line-height: 1.4vw;
+    
+}
+
+#p_tfg_habs{
+    padding-top:2%; 
+    padding-left:2%; 
+    padding-right:2%; 
+    text-align: justify; 
+    font-size:1vw; 
+    line-height: 1.7vw; 
+    margin:0; 
+}
+
+
 /*Certificaciones*/
 #div_google_cybersecurity {
     position: absolute;
@@ -1230,7 +1295,7 @@ details > summary::before {
         #div_sist_int, #div_gest_cares, 
         #div_cybersec, #div_aiw, #div_redes_in, 
         #div_ing_soft_web, #div_gest_proy, 
-        #div_intel_art, #div_iot, #div_dockerlabs{
+        #div_intel_art, #div_iot, #div_tfg, #div_dockerlabs{
             height: 95%;
             overflow-y: scroll;
             font-size:2.2vw;  
@@ -1257,6 +1322,7 @@ details > summary::before {
         #div_gest_proy::-webkit-scrollbar, 
         #div_intel_art::-webkit-scrollbar, 
         #div_iot::-webkit-scrollbar, 
+        #div_tfg::-webkit-scrollbar, 
         #div_dockerlabs::-webkit-scrollbar,
         #bar_menu_info::-webkit-scrollbar {
             width: 4px;
@@ -1274,6 +1340,7 @@ details > summary::before {
         #div_gest_proy::-webkit-scrollbar-thumb, 
         #div_intel_art::-webkit-scrollbar-thumb, 
         #div_iot::-webkit-scrollbar-thumb, 
+        #div_tfg::-webkit-scrollbar-thumb, 
         #div_dockerlabs::-webkit-scrollbar-thumb,
         #bar_menu_info::-webkit-scrollbar-thumb {
             background-color: rgba(0, 0, 0, 0.4); 
@@ -1295,11 +1362,14 @@ details > summary::before {
         #p_google_cybersecurity_tareas,
         #p_dockerlabs_tareas,
         #p_ing_soft_web_tareas,
+        #p_tfg_tareas,
         #p_dockerlabs_tareas{
             font-size:2.2vw;
         }
 
-
+        #p_tfg_tareas {
+                line-height: 3vw;
+        }
 
         
         #redes_in_title,
@@ -1436,7 +1506,8 @@ details > summary::before {
     #gest_cares,
     #cybersec,
     #sist_int,
-    #tall_tec_music {
+    #tall_tec_music,
+    #tfg {
         font-size: 2.15vw;
     }
     
@@ -1586,7 +1657,8 @@ details > summary::before {
     #gest_cares,
     #cybersec,
     #sist_int,
-    #tall_tec_music {
+    #tall_tec_music,
+    #tfg {
         font-size: 1.5vw;
     }
 
@@ -1594,7 +1666,7 @@ details > summary::before {
     #div_sist_int, #div_gest_cares, 
     #div_cybersec, #div_aiw, #div_redes_in, 
     #div_ing_soft_web, #div_gest_proy, 
-    #div_intel_art, #div_iot, #div_dockerlabs{
+    #div_intel_art, #div_iot, #div_tfg,  #div_dockerlabs{
         height: 85%;
         overflow-y: scroll;
         font-size:2.2vw;  
@@ -1621,11 +1693,16 @@ details > summary::before {
     #p_sist_int_tareas,
     #p_cybersec_tareas,
     #p_tall_tec_music_tareas,
+    #p_tfg_tareas,
     #p_google_cybersecurity_tareas,
     #p_dockerlabs_tareas,
     #p_ing_soft_web_tareas,
     #p_dockerlabs_tareas{
         font-size:1.8vw;
+    }
+
+    #p_tfg_tareas {
+        line-height: 3vw;
     }
 
     #p_dockerlabs_habs {
@@ -1664,6 +1741,7 @@ details > summary::before {
     #div_gest_proy::-webkit-scrollbar, 
     #div_intel_art::-webkit-scrollbar, 
     #div_iot::-webkit-scrollbar, 
+    #div_tfg::-webkit-scrollbar, 
     #div_dockerlabs::-webkit-scrollbar,
     #bar_menu_info::-webkit-scrollbar {
         width: 4px;
@@ -1681,6 +1759,7 @@ details > summary::before {
     #div_gest_proy::-webkit-scrollbar-thumb, 
     #div_intel_art::-webkit-scrollbar-thumb, 
     #div_iot::-webkit-scrollbar-thumb, 
+    #div_tfg::-webkit-scrollbar-thumb, 
     #div_dockerlabs::-webkit-scrollbar-thumb,
     #bar_menu_info::-webkit-scrollbar-thumb {
         background-color: rgba(0, 0, 0, 0.4); 
