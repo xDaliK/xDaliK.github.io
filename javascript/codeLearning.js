@@ -54,6 +54,7 @@ var sist_int = document.getElementById("sist_int");
 var cybersec = document.getElementById("cybersec");
 var tall_tec_music = document.getElementById("tall_tec_music");
 var tnlp = document.getElementById("tnlp");
+var tfg = document.getElementById("tfg");
 
 //Certificaciones
 var google_cybersecurity = document.getElementById("google_cybersecurity");
@@ -106,6 +107,7 @@ var div_sist_int = document.getElementById("div_sist_int");
 var div_cybersec= document.getElementById("div_cybersec");
 var div_tall_tec_music= document.getElementById("div_tall_tec_music");
 var div_tnlp = document.getElementById("div_tnlp");
+var div_tfg = document.getElementById("div_tfg");
 
 //Certificaciones
 var div_google_cybersecurity= document.getElementById("div_google_cybersecurity");
@@ -118,14 +120,14 @@ var divs = [div_bachillerato, div_upf_info, div_calculo_i, div_mat_discreta, div
     div_redes, div_met_num, div_eda_ii, div_fisica, div_prob, div_prog_obj, div_sys_i, div_dis_fun_prog, div_est, div_so, div_graf_ord, 
     div_dis_alg, div_apr_auto, div_ing_inter, div_prog_paral, div_ing_soft, div_bases_datos, div_intel_art, div_teoria_comp, div_com_ingles, 
     div_sis_dist, div_cripto, div_compila, div_ing_soft_web, div_redes_in, div_iot, div_gest_proy, div_aiw, div_gest_cares, div_videojuegos,
-    div_ent_com_virt, div_sist_int, div_cybersec, div_google_cybersecurity, div_tall_tec_music, div_tnlp]; 
+    div_ent_com_virt, div_sist_int, div_cybersec, div_google_cybersecurity, div_tall_tec_music, div_tnlp, div_tfg]; 
 
     // Añadir divs learnings en string a lista
 var divs_text = ["div_bachillerato", "div_upf_info", "div_calculo_i", "div_mat_discreta", "div_intro_prog", "div_intro_tic", "div_calculo_ii", "div_alg_lineal", "div_eda_i", "div_org_comp", 
     "div_redes", "div_met_num", "div_eda_ii", "div_fisica", "div_prob", "div_prog_obj", "div_sys_i", "div_dis_fun_prog", "div_est", "div_so", "div_graf_ord", 
     "div_dis_alg", "div_apr_auto", "div_ing_inter", "div_prog_paral", "div_ing_soft", "div_bases_datos", "div_intel_art", "div_teoria_comp", "div_com_ingles", 
     "div_sis_dist", "div_cripto", "div_compila", "div_ing_soft_web", "div_redes_in", "div_iot", "div_gest_proy", "div_aiw", "div_gest_cares", "div_videojuegos",
-    "div_ent_com_virt", "div_sist_int", "div_cybersec", "div_tall_tec_music", "div_google_cybersecurity", "div_tnlp"]; 
+    "div_ent_com_virt", "div_sist_int", "div_cybersec", "div_tall_tec_music", "div_google_cybersecurity", "div_tnlp", "div_tfg"]; 
 
 function hideAllDivsExcept(div) {
     
@@ -901,6 +903,18 @@ if(tnlp){
         }
     });
 
+}
+
+if (tfg) {
+    tfg.addEventListener("click", function () {
+        if (div_tfg.style.display === 'none' || div_tfg.style.display === '') {
+            hideAllDivsExcept(div_tfg);
+            div_tfg.style.display = 'block'; 
+            div_tfg.style.zIndex = zIndexUpdate++;
+        } else {
+            div_tfg.style.display = 'none'; 
+        }
+    });
 }
 
 

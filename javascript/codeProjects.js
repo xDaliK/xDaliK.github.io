@@ -19,6 +19,7 @@ var ing_soft_web = document.getElementById("ing_soft_web");
 var gest_proy = document.getElementById("gest_proy");
 var intel_art = document.getElementById("intel_art");
 var iot = document.getElementById("iot");
+var tfg = document.getElementById("tfg");
 
 
 //Asignaturas
@@ -33,6 +34,7 @@ var div_ing_soft_web =  document.getElementById("div_ing_soft_web");
 var div_gest_proy =  document.getElementById("div_gest_proy");
 var div_intel_art =  document.getElementById("div_intel_art");
 var div_iot =  document.getElementById("div_iot");
+var div_tfg= document.getElementById("div_tfg");
 
 
 //Maquinas
@@ -46,11 +48,11 @@ var zIndexUpdate = 1;
 
 // Añade divs projectos a lista
 var divs = [ div_ent_com_virt,  div_tall_tec_music, div_sist_int, div_gest_cares, 
-    div_cybersec, div_aiw, div_redes_in, div_ing_soft_web, div_gest_proy, div_intel_art, div_iot, div_dockerlabs]; 
+    div_cybersec, div_aiw, div_redes_in, div_ing_soft_web, div_gest_proy, div_intel_art, div_iot, div_tfg, div_dockerlabs]; 
 
 // Añade divs projectos en string a lista
 var divs_text = ["div_ent_com_virt", "div_tall_tec_music", "div_sist_int", "div_gest_cares", 
-    "div_cybersec", "div_aiw", "div_redes_in", "div_ing_soft_web", "div_gest_proy", "div_intel_art", "div_iot", "div_dockerlabs"]; 
+    "div_cybersec", "div_aiw", "div_redes_in", "div_ing_soft_web", "div_gest_proy", "div_intel_art", "div_iot", "div_tfg", "div_dockerlabs"]; 
 
 function hideAllDivsExcept(div) {
    
@@ -313,6 +315,19 @@ if(iot){
             div_iot.style.zIndex = zIndexUpdate++;
         } else {
             div_iot.style.display = 'none'; 
+        }
+    });
+
+}
+
+if(tfg){
+    tfg.addEventListener("click", function () {
+        if (div_tfg.style.display === 'none' || div_tfg.style.display === '') {
+            hideAllDivsExcept(div_tfg);
+            div_tfg.style.display = 'block'; 
+            div_tfg.style.zIndex = zIndexUpdate++;
+        } else {
+            div_tfg.style.display = 'none'; 
         }
     });
 
